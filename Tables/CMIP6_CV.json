@@ -1584,7 +1584,6 @@
         "piControl-withism": {
                                "experiment":                "to be filled",
                                "sub_experiment_id":         "none",
-                               "sub_experiment_id":         "s1968",
                                "activity_id":               "ISMIP6",
                                "mip_era":                   "CMIP6",
                                "source_type":               "AOGCM ISM",
