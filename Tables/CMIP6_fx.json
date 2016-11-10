@@ -5,7 +5,7 @@
         "realm": "atmos land", 
         "frequency": "fx", 
         "cmor_version": "3.1", 
-        "table_date": "01 November 2016", 
+        "table_date": "10 November 2016", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "0.00000", 
