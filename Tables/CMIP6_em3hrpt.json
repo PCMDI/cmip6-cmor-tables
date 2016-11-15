@@ -1,11 +1,11 @@
 {
     "Header": {
-        "data_specs_version": "01.beta.38", 
+        "data_specs_version": "01.beta.42", 
         "table_id": "Table em3hrpt", 
-        "realm": "", 
+        "realm": "atmos", 
         "frequency": "3hr", 
         "cmor_version": "3.1", 
-        "table_date": "01 November 2016", 
+        "table_date": "15 November 2016", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "0.125000", 
@@ -2494,24 +2494,24 @@
             "comment": "Near-surface (usually, 2 meter) specific humidity.", 
             "dimensions": "longitude latitude time1", 
             "out_name": "huss", 
-            "type": "", 
+            "type": "real", 
             "positive": "", 
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
             "ok_max_mean_abs": ""
         }, 
-        "hus7h": {
-            "modeling_realm": "", 
-            "standard_name": "specific_humidity", 
-            "units": "1.0", 
+        "psl": {
+            "modeling_realm": "atmos", 
+            "standard_name": "air_pressure_at_sea_level", 
+            "units": "Pa", 
             "cell_methods": "time: point", 
             "cell_measures": "area: areacella", 
-            "long_name": "Specific Humidity", 
-            "comment": "", 
-            "dimensions": "longitude latitude plev7h time1", 
-            "out_name": "hus7h", 
-            "type": "", 
+            "long_name": "Sea Level Pressure", 
+            "comment": "Sea Level Pressure", 
+            "dimensions": "longitude latitude time1", 
+            "out_name": "psl", 
+            "type": "real", 
             "positive": "", 
             "valid_min": "", 
             "valid_max": "", 
@@ -2519,7 +2519,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wap7h": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "lagrangian_tendency_of_air_pressure", 
             "units": "Pa s-1", 
             "cell_methods": "time: point", 
@@ -2528,7 +2528,7 @@
             "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)", 
             "dimensions": "longitude latitude plev7h time1", 
             "out_name": "wap7h", 
-            "type": "", 
+            "type": "real", 
             "positive": "", 
             "valid_min": "", 
             "valid_max": "", 
@@ -2536,7 +2536,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ta7h": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "air_temperature", 
             "units": "K", 
             "cell_methods": "time: point", 
@@ -2553,7 +2553,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ua7h": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "eastward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: point", 
@@ -2570,7 +2570,7 @@
             "ok_max_mean_abs": ""
         }, 
         "va7h": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "northward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: point", 
@@ -2579,6 +2579,23 @@
             "comment": "", 
             "dimensions": "longitude latitude plev7h time1", 
             "out_name": "va7h", 
+            "type": "", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        }, 
+        "hus7h": {
+            "modeling_realm": "atmos", 
+            "standard_name": "specific_humidity", 
+            "units": "1.0", 
+            "cell_methods": "time: point", 
+            "cell_measures": "area: areacella", 
+            "long_name": "Specific Humidity", 
+            "comment": "", 
+            "dimensions": "longitude latitude plev7h time1", 
+            "out_name": "hus7h", 
             "type": "", 
             "positive": "", 
             "valid_min": "", 
