@@ -13,12 +13,12 @@
             "further_info_url",
             "grid",
             "grid_label",
-            "nominal_resolution",
             "initialization_index",
             "institution",
             "institution_id",
             "license",
             "mip_era",
+            "nominal_resolution",
             "physics_index",
             "product",
             "realization_index",
@@ -35,12 +35,12 @@
             "variant_label"
         ],
         "version_metadata":{
-            "note":"source_id cleanup, particularly for IITM-ESM",
-            "previous_commit":"2e3de4a805099e112f4b827ec38ef57aac524f5f",
+            "note":"Revise numerous NorESM source_ids",
+            "previous_commit":"ca78327949157ae912c0bfaaf5df5c832ce4c39a",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Mon Nov 21 15:18:39 2016 -0800",
+            "creation_date":"Wed Nov 30 10:27:43 2016 -0800",
             "institution_id":"PCMDI",
-            "latest_tag_point":"None"
+            "latest_tag_point":"3.2.0 (38; gd2e08a0)"
         },
         "activity_id":[
             "AerChemMIP",
@@ -171,6 +171,26 @@
                 "ocean":"BlueMarble1.0-warming (360x180; 50 levels; top grid cell 0-10m)",
                 "land_ice":"None"
             },
+            "NorESM2-LMEC":{
+                "label_extended":"NorESM2-LMEC (low atmosphere-medium ocean resolution, GHG emission driven, complex atmospheric chemistry)",
+                "atmospheric_chemistry":"OsloChemComp",
+                "atmosphere":"CAM-OSLO (2 degree resolution; 144 x 96; 32 levels; top level 3 mb)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE",
+                "label":"NorESM2-LMEC",
+                "institution_id":[
+                    "NCC"
+                ],
+                "land_surface":"CLM",
+                "aerosol":"OsloAero",
+                "source_id":"NorESM2-LMEC",
+                "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
+                "land_ice":"CISM"
+            },
             "ACCESS-1-0":{
                 "label_extended":"ACCESS 1.0 (This entry is free text for users to contribute verbose information)",
                 "atmospheric_chemistry":"None",
@@ -230,6 +250,106 @@
                 "source_id":"IITM-ESM",
                 "ocean":"MOM4p1 (tripolar, 360x200; 50 levels; top grid cell 5m)",
                 "land_ice":"None"
+            },
+            "NorESM2-HH":{
+                "label_extended":"NorESM2-HH (high atmosphere-high ocean resolution, GHG concentration driven)",
+                "atmospheric_chemistry":"OsloChemSimp",
+                "atmosphere":"CAM-OSLO (0.25 degree resolution; 1152 x 768; 32 levels; top level 3 mb)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2018",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE",
+                "label":"NorESM2-HH",
+                "institution_id":[
+                    "NCC"
+                ],
+                "land_surface":"CLM",
+                "aerosol":"OsloAero",
+                "source_id":"NorESM2-HH",
+                "ocean":"MICOM (0.25 degree resolution; 1440 x 1152; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
+                "land_ice":"CISM"
+            },
+            "NorESM2-LM":{
+                "label_extended":"NorESM2-LM (low atmosphere-medium ocean resolution, GHG concentration driven)",
+                "atmospheric_chemistry":"OsloChemSimp",
+                "atmosphere":"CAM-OSLO (2 degree resolution; 144 x 96; 32 levels; top level 3 mb)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE",
+                "label":"NorESM2-LM",
+                "institution_id":[
+                    "NCC"
+                ],
+                "land_surface":"CLM",
+                "aerosol":"OsloAero",
+                "source_id":"NorESM2-LM",
+                "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
+                "land_ice":"CISM"
+            },
+            "NorESM2-MH":{
+                "label_extended":"NorESM2-MH",
+                "atmospheric_chemistry":"OsloChemSimp",
+                "atmosphere":"CAM-OSLO (1 degree resolution; 288 x 192; 32 levels; top level 3 mb)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE",
+                "label":"NorESM2-MH",
+                "institution_id":[
+                    "NCC"
+                ],
+                "land_surface":"CLM",
+                "aerosol":"OsloAero",
+                "source_id":"NorESM2-MH",
+                "ocean":"MICOM (0.25 degree resolution; 1440 x 1152; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
+                "land_ice":"CISM"
+            },
+            "NorESM2-MM":{
+                "label_extended":"NorESM2-MM (medium atmosphere-medium ocean resolution, GHG concentration driven)",
+                "atmospheric_chemistry":"OsloChemSimp",
+                "atmosphere":"CAM-OSLO (1 degree resolution; 288 x 192; 32 levels; top level 3 mb)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE",
+                "label":"NorESM2-MM",
+                "institution_id":[
+                    "NCC"
+                ],
+                "land_surface":"CLM",
+                "aerosol":"OsloAero",
+                "source_id":"NorESM2-MM",
+                "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
+                "land_ice":"CISM"
+            },
+            "NorESM2-LME":{
+                "label_extended":"NorESM2-LME (low atmosphere-medium ocean resolution, GHG emission driven)",
+                "atmospheric_chemistry":"OsloChemSimp",
+                "atmosphere":"CAM-OSLO (2 degree resolution; 144 x 96; 32 levels; top level 3 mb)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE",
+                "label":"NorESM2-LME",
+                "institution_id":[
+                    "NCC"
+                ],
+                "land_surface":"CLM",
+                "aerosol":"OsloAero",
+                "source_id":"NorESM2-LME",
+                "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
+                "land_ice":"CISM"
             },
             "EC-Earth-3-LR":{
                 "label_extended":"EC-Earth v3.2.x at low resolution",
