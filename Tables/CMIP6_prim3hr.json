@@ -1,0 +1,16 @@
+{
+    "Header": {
+        "product": "output", 
+        "approx_interval": "0.125000", 
+        "realm": "atmos", 
+        "cmor_version": "3.2", 
+        "Conventions": "CF-1.6 CMIP-6.0", 
+        "frequency": "3hr", 
+        "table_id": "Table prim3hr", 
+        "data_specs_version": "01.beta.45", 
+        "mip_era": "CMIP6", 
+        "generic_levels": "", 
+        "missing_value": "1e20", 
+        "table_date": "19 December 2016"
+    }
+}
