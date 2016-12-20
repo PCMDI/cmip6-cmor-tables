@@ -11,6 +11,7 @@ REQUIREMENTS
 
     Requires the openpyxl Python library. Tested with openpyxl version 2.4.1
 """
+from collections import OrderedDict
 import json
 import os
 
@@ -29,10 +30,10 @@ HEADER_COMMON = {
     'generic_levels': '',
     'mip_era': 'CMIP6',
     'Conventions': 'CF-1.6 CMIP-6.0'
-    }
+}
 
 
-def generate_header(header, table_name):
+def generate_header(table_name):
     """
     Populate the `Header` section of the output dictionary with the
     variables in the PRIMAVERA mip table passed in to `req_sheet`.
@@ -42,6 +43,8 @@ def generate_header(header, table_name):
     """
     table_name_parts = table_name
     table_name_parts.strip('prim')
+
+    header = {}
 
     # copy the standard header items into the header
     header.update(HEADER_COMMON)
@@ -57,7 +60,6 @@ def generate_header(header, table_name):
     for freq in frequencies:
         if freq in table_name.lower():
             header['frequency'] = freq
-            table_name_parts.strip(freq)
             break
 
     if 'frequency' not in header:
@@ -78,6 +80,15 @@ def generate_header(header, table_name):
     # set the approx_interval
     header['approx_interval'] = frequencies[header['frequency']]
 
+    ordered_keys = ['data_specs_version', 'table_id', 'realm', 'frequency',
+                    'cmor_version', 'table_date', 'missing_value', 'product',
+                    'approx_interval', 'generic_levels', 'mip_era',
+                    'Conventions']
+    key_order = {key: index for index, key in enumerate(ordered_keys)}
+
+    return OrderedDict(sorted(header.items(),
+                              key=lambda i: key_order.get(i[0])))
+
 
 def generate_variable_entry(req_sheet, output):
     """
@@ -89,6 +100,53 @@ def generate_variable_entry(req_sheet, output):
     :param dict output: The `variable_entry` dictionary from the output
         dictionary that will be converted to a JSON file
     """
+    ordered_keys = ['modeling_realm', 'standard_name', 'units', 'cell_methods',
+                    'cell_measures', 'long_name', 'comment', 'dimensions',
+                    'out_name', 'type', 'positive', 'valid_min', 'valid_max',
+                    'ok_min_mean_abs', 'ok_max_mean_abs']
+    key_order = {key: index for index, key in enumerate(ordered_keys)}
+
+    for row in req_sheet.iter_rows(min_row=2):
+        var_name = _get_cell(row, 'var_name')
+        if not var_name:
+            # blank row so skip to next
+            continue
+
+        # create a blank dict for this variable
+        var_dict = {}
+
+        # get the CMOR name and if not defined use var_name
+        cmor_name = _get_cell(row, 'cmor_name')
+        if not cmor_name:
+            cmor_name = var_name
+
+        # these are the components that can be obtained directly from the
+        # data request
+        direct_components = ['modeling_realm', 'standard_name', 'units',
+                      'cell_methods', 'cell_measures', 'long_name', 'comment',
+                      'dimensions', 'type', 'positive']
+
+        # add these components
+        for cmpt in direct_components:
+            cmpt_value = _get_cell(row, cmpt)
+            if not cmpt_value:
+                cmpt_value = ''
+            var_dict[cmpt] = cmpt_value
+
+        # fix positive
+        if var_dict['positive'] == 'None':
+            var_dict['positive'] = ''
+
+        # add the remaining additional components
+        var_dict['out_name'] = cmor_name
+        var_dict['valid_min'] = ''
+        var_dict['valid_max'] = ''
+        var_dict['ok_min_mean_abs'] = ''
+        var_dict['ok_max_mean_abs'] = ''
+
+        # apply an order to this variable's dictionary and add it to the output
+        output[cmor_name] = OrderedDict(
+            sorted(var_dict.items(), key=lambda i: key_order.get(i[0])))
 
 
 def main():
@@ -110,8 +168,7 @@ def main():
         req_sheet = data_req[table['name']]
 
         # add the Header dictionary
-        output['Header'] = {}
-        generate_header(output['Header'], table['name'])
+        output['Header'] = generate_header(table['name'])
 
         # add the variables
         output['variable_entry'] = {}
@@ -125,6 +182,22 @@ def main():
             json.dump(output, dest_file, indent=4)
 
 
+def _get_cell(row, column_name):
+    """
+
+    :param tuple row: a row (a tuple of cell objects) as returned by
+        Worksheet.iter_rows()
+    :param str column_name: the name of the column
+    :returns: cell.value
+    """
+    column_names = {'long_name': 1, 'units': 2, 'comment': 3,
+                    'var_name': 5, 'standard_name': 6, 'cell_methods': 7,
+                    'positive': 8, 'type': 9, 'dimensions': 10,
+                    'cmor_name': 11, 'modeling_realm': 12, 'frequency': 13,
+                    'cell_measures': 14}
+
+    return row[column_names[column_name]].value
+
+
 if __name__ == '__main__':
     main()
-
