@@ -36,7 +36,7 @@
             "standard_name": "wind_speed", 
             "units": "m s-1", 
             "cell_methods": "time: mean", 
-            "cell_measures": "", 
+            "cell_measures": "None", 
             "long_name": "Near-Surface Wind Speed", 
             "comment": "near-surface (usually, 10 meters) wind speed.", 
             "dimensions": "longitude latitude time  height10m", 

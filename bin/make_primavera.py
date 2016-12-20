@@ -5,11 +5,14 @@ SYNOPSIS
 
 DESCRIPTION
 
-    Generate the additional PRIMAVERA mip tables for CMOR version 3.
+    Generate the additional PRIMAVERA mip tables for CMOR version 3. The tables
+    are based on the data request, which has been saved as an Excel spreadsheet
+    and is included in the Github repository:
+    https://github.com/jonseddon/cmip6-cmor-tables
 
 REQUIREMENTS
 
-    Requires the openpyxl Python library. Tested with openpyxl version 2.4.1
+    Requires the openpyxl Python library. Tested with openpyxl version 2.4.1.
 """
 from collections import OrderedDict
 import json
@@ -26,7 +29,6 @@ HEADER_COMMON = {
     'table_date': '19 December 2016',
     'missing_value': '1e20',
     'product': 'output',
-    'approx_interval': '0.125000',
     'generic_levels': '',
     'mip_era': 'CMIP6',
     'Conventions': 'CF-1.6 CMIP-6.0'
@@ -38,12 +40,9 @@ def generate_header(table_name):
     Populate the `Header` section of the output dictionary with the
     variables in the PRIMAVERA mip table passed in to `req_sheet`.
 
-    :param dict header: The dictionary that is the value `Header` key
     :param str table_name: The name of table being generated
     """
-    table_name_parts = table_name
-    table_name_parts.strip('prim')
-
+    # create a dict to hold the header
     header = {}
 
     # copy the standard header items into the header
@@ -67,15 +66,8 @@ def generate_header(table_name):
                format(table_name))
         raise ValueError(msg)
 
-    # set the realm
-    if table_name_parts.startswith('O'):
-        realm = 'ocean'
-    elif table_name_parts.startswith('SI'):
-        realm = 'seaIce'
-    else:
-        realm = 'atmos'
-
-    header['realm'] = realm
+    # create a blank realm, which will be populated later
+    header['realm'] = ''
 
     # set the approx_interval
     header['approx_interval'] = frequencies[header['frequency']]
@@ -120,20 +112,20 @@ def generate_variable_entry(req_sheet, output):
         if not cmor_name:
             cmor_name = var_name
 
-        # these are the components that can be obtained directly from the
-        # data request
+        # these are the standard components that can be obtained directly from
+        # the data request
         direct_components = ['modeling_realm', 'standard_name', 'units',
-                      'cell_methods', 'cell_measures', 'long_name', 'comment',
-                      'dimensions', 'type', 'positive']
+                             'cell_methods', 'cell_measures', 'long_name',
+                             'comment', 'dimensions', 'type', 'positive']
 
-        # add these components
+        # add these standard components
         for cmpt in direct_components:
-            cmpt_value = _get_cell(row, cmpt)
+            cmpt_value = str(_get_cell(row, cmpt))
             if not cmpt_value:
                 cmpt_value = ''
             var_dict[cmpt] = cmpt_value
 
-        # fix positive
+        # fix the positive attribute
         if var_dict['positive'] == 'None':
             var_dict['positive'] = ''
 
@@ -158,24 +150,31 @@ def main():
                                               'etc', EXCEL_FILE))
     data_req = load_workbook(excel_path)
 
-    tables = [{'name': 'prim3hr', 'src_json': 'CMIP6_3hr.json'}]
+    tables = ['primMon', 'primOmon', 'primDay', 'primOday', 'primSIday',
+              'primO6hr', 'prim6hr', 'prim6hrpt', 'prim3hr', 'prim3hrpt',
+              'prim1hrpt']
 
     for table in tables:
         # create a blank output dictionary
         output = {}
 
         # choose the corresponding worksheet from the Excel data request
-        req_sheet = data_req[table['name']]
+        req_sheet = data_req[table]
 
         # add the Header dictionary
-        output['Header'] = generate_header(table['name'])
+        output['Header'] = generate_header(table)
 
         # add the variables
         output['variable_entry'] = {}
         generate_variable_entry(req_sheet, output['variable_entry'])
 
+        # update the header with the realms from the variables
+        unique_realms = {output['variable_entry'][var]['modeling_realm']: 1
+                         for var in output['variable_entry']}
+        output['Header']['realm'] = ' '.join(unique_realms.keys())
+
         # write the new JSON file for the PRIMAVERA table
-        output_json_name = 'CMIP6_{}.json'.format(table['name'])
+        output_json_name = 'CMIP6_{}.json'.format(table)
         output_path = os.path.abspath(
             os.path.join(current_dir, '..', 'Tables', output_json_name))
         with open(output_path, 'w') as dest_file:
@@ -184,6 +183,7 @@ def main():
 
 def _get_cell(row, column_name):
     """
+    Return the contents of the specified column from the row passed in.
 
     :param tuple row: a row (a tuple of cell objects) as returned by
         Worksheet.iter_rows()
