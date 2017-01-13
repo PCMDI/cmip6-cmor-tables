@@ -1,11 +1,11 @@
 {
     "Header": {
-        "data_specs_version": "01.beta.45", 
+        "data_specs_version": "01.00.00", 
         "table_id": "Table Odec", 
         "realm": "ocean", 
         "frequency": "dec", 
         "cmor_version": "3.2", 
-        "table_date": "19 December 2016", 
+        "table_date": "13 January 2017", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "", 
@@ -310,7 +310,7 @@
             "cell_methods": "time: mean", 
             "cell_measures": "area: areacello", 
             "long_name": "Sea Surface Temperature", 
-            "comment": "this may differ from 'surface temperature' in regions of sea ice.", 
+            "comment": "temperature of liquid ocean.  Note that the correct standard_name for this variable is 'sea_surface_temperature', not 'surface_temperature', but this was discovered too late to correct.  To maintain consistency across CMIP5 models, the wrong standard_name will continue to be used.", 
             "dimensions": "longitude latitude time", 
             "out_name": "tos", 
             "type": "real", 
