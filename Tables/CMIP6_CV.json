@@ -35,12 +35,12 @@
             "variant_label"
         ],
         "version_metadata":{
-            "note":"Add GISS-E2-1 variants",
-            "previous_commit":"c401abb0f2616dec58a20d62a5b781d05595b4cf",
+            "note":"Register source_id AWI-CM",
+            "previous_commit":"aa4059c406dbc6247a400adf94bcb941bb586f52",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Wed Dec 14 15:49:55 2016 -0800",
+            "creation_date":"Mon Feb 6 20:06:51 2017 +1100",
             "institution_id":"PCMDI",
-            "latest_tag_point":"3.2.0 (44; gb2f427b)"
+            "latest_tag_point":"3.2.1 (41; g7e87708)"
         },
         "activity_id":[
             "AerChemMIP",
@@ -74,6 +74,7 @@
             "CSIRO-BOM":"Commonwealth Scientific and Industrial Research Organisation and Bureau of Meteorology, Melbourne, Victoria 3208, Australia",
             "COLA-CFS":"Center for Ocean-Land-Atmosphere Studies, Fairfax, VA 22030, USA",
             "MPI-M":"Max Planck Institute for Meteorology, Hamburg 20146, Germany",
+            "AWI":"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Am Handelshafen 12, 27570 Bremerhaven, Germany",
             "NCAR":"National Center for Atmospheric Research, Boulder, CO 80307, USA",
             "NIMS-KMA":"National Institute of Meteorological Sciences/Korea Meteorological Administration, Climate Research Division, Seoho-bukro 33, Seogwipo-si, Jejudo 63568, Republic of Korea",
             "CCCR-IITM":"Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India",
@@ -83,14 +84,55 @@
             "MRI":"Meteorological Research Institute, Tsukuba, Ibaraki 305-0052, Japan",
             "NASA-GISS":"Goddard Institute for Space Studies, New York, NY 10025, USA",
             "PCMDI":"Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA",
-            "FIO":"The First Institution of Oceanography (SOA), Qingdao, China",
+            "NERC":"Natural Environment Research Council, STFC-RAL, Harwell, Oxford, OX11 0QX, UK",
             "NOAA-GFDL":"National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA",
             "LASG-IAP":"Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing 100029, China",
             "INM":"Institute for Numerical Mathematics, Moscow 119991, Russia",
             "NCC":"NorESM Climate modeling Consortium consisting of CICERO (Center for International Climate and Environmental Research, Oslo 0349),MET-Norway (Norwegian Meteorological Institute, Oslo 0313),NERSC (Nansen Environmental and Remote Sensing Center, Bergen 5006),NILU (Norwegian Institute for Air Research, Kjeller 2027),UiB (University of Bergen, Bergen 5007),UiO (University of Oslo, Oslo 0313) and UNI (Uni Research, Bergen 5008), Norway",
-            "NUIST":"Nanjing University of Information Science & Technology, Nanjing, 210044, China"
+            "NUIST":"Nanjing University of Information Science & Technology, Nanjing, 210044, China",
+            "FIO-RONM":"FIO (First Institute of Oceanography, State Oceanic Administration, Qingdao 266061, China), RONM (Laboratory for Regional Oceanography and Numerical Modeling, Qingdao National Laboratory for Marine Science and Technology, Qingdao 266237, China)"
         },
         "source_id":{
+            "HadGEM3-GC31-HM":{
+                "label_extended":"HadGEM3-GC3.1-N512ORCA025",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"MetUM-HadGEM3-GA7.1 (1024 x 768 N512; 85 levels; top level 85km)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE-HadGEM3-GSI8 (ORCA025 tripolar primarily 0.25 deg latitude/longitude)",
+                "label":"HadGEM3-GC31-HM",
+                "institution_id":[
+                    "MOHC"
+                ],
+                "land_surface":"JULES-HadGEM3-GL7.1",
+                "aerosol":"UKCA-GLOMAP-mode",
+                "source_id":"HadGEM3-GC31-HM",
+                "ocean":"NEMO-HadGEM3-GO6.0 (ORCA025 tripolar primarily 0.25 deg latitude/longitude; 75 levels; top grid cell 0-1m)",
+                "land_ice":"None"
+            },
+            "HadGEM3-GC31-HH":{
+                "label_extended":"HadGEM3-GC3.1-N512ORCA12",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"MetUM-HadGEM3-GA7.1 (1024 x 768 N512; 85 levels; top level 85km)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE-HadGEM3-GSI8 (ORCA12 tripolar primarily 1/12 deg latitude/longitude)",
+                "label":"HadGEM3-GC31-HH",
+                "institution_id":[
+                    "MOHC"
+                ],
+                "land_surface":"JULES-HadGEM3-GL7.1",
+                "aerosol":"UKCA-GLOMAP-mode",
+                "source_id":"HadGEM3-GC31-HH",
+                "ocean":"NEMO-HadGEM3-GO6.0 (ORCA12 tripolar primarily 1/12 deg latitude/longitude; 75 levels; top grid cell 0-1m)",
+                "land_ice":"None"
+            },
             "GISS-E2-1G":{
                 "label_extended":"GISS-E2.1G",
                 "atmospheric_chemistry":"varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)",
@@ -111,25 +153,46 @@
                 "ocean":"GISS Ocean (1 deg latitude/longitude; 32 levels; top grid cell 0-10m)",
                 "land_ice":"Fixed"
             },
-            "EC-Earth-3":{
-                "label_extended":"EC-Earth v3.2.x",
-                "atmospheric_chemistry":"None",
-                "atmosphere":"IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256; 91 levels; top level 1 Pa)",
+            "CNRM-CM6-1-HR":{
+                "label_extended":"CNRM-CM6-1-HR",
+                "atmospheric_chemistry":"OZL_v2",
+                "atmosphere":"Arpege 6.2 (Tl359; 91 levels; top level 78.4 km)",
                 "ocean_biogeochemistry":"None",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"Gelato 6.1",
+                "label":"CNRM-CM6-1-HR",
+                "institution_id":[
+                    "CNRM-CERFACS"
+                ],
+                "land_surface":"Surfex 8.0c",
+                "aerosol":"climatological fields computed by TACTIC (v2.0)",
+                "source_id":"CNRM-CM6-1-HR",
+                "ocean":"Nemo 3.6 (eORCA025; tripolar primarily 1/4deg latitude/longitude; 75 levels; top grid cell 0-1 m)",
+                "land_ice":"None"
+            },
+            "UKESM1-0-LL":{
+                "label_extended":"UKESM1.0-N96ORCA1",
+                "atmospheric_chemistry":"UKCA-StratTrop",
+                "atmosphere":"MetUM-HadGEM3-GA7.1 (192 x 144 N96; 85 levels; top level 85km)",
+                "ocean_biogeochemistry":"MEDUSA2",
                 "release_year":"2017",
                 "cohort":[
                     ""
                 ],
-                "sea_ice":"LIM3 (same version as ocean)",
-                "label":"EC-Earth 3",
+                "sea_ice":"CICE-HadGEM3-GSI8 (ORCA1 tripolar primarily 1 deg latitude/longitude)",
+                "label":"UKESM1.0-LL",
                 "institution_id":[
-                    "EC-Earth-Consortium"
+                    "MOHC",
+                    "NERC"
                 ],
-                "land_surface":"H-TESSEL (same version as atmosphere)",
-                "aerosol":"None",
-                "source_id":"EC-Earth-3",
-                "ocean":"NEMO3.6 (ORCA1: tripolar, 360x200; 75 levels; top grid cell 5m)",
-                "land_ice":"None"
+                "land_surface":"JULES-HadGEM3-GL7.1",
+                "aerosol":"UKCA-GLOMAP-mode",
+                "source_id":"UKESM1-0-LL",
+                "ocean":"NEMO-HadGEM3-GO6.0 (ORCA1 tripolar primarily 1 deg latitude/longitude with meridional refinement down to 1/3 degree in the tropics; 75 levels; top grid cell 0-1m)",
+                "land_ice":"BISICLES (only active in ISMIP experiments)"
             },
             "GISS-E2-1H":{
                 "label_extended":"GISS-E2.1H",
@@ -150,6 +213,306 @@
                 "source_id":"GISS-E2-1H",
                 "ocean":"HYCOM Ocean (tripolar grid; ~1 deg latitude/longitude; 26 levels; top grid cell 0-10m)",
                 "land_ice":"Fixed"
+            },
+            "HadGEM3-GC31-LL":{
+                "label_extended":"HadGEM3-GC3.1-N96ORCA1",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"MetUM-HadGEM3-GA7.1 (192 x 144 N96; 85 levels; top level 85km)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE-HadGEM3-GSI8 (ORCA1 tripolar primarily 1 deg latitude/longitude)",
+                "label":"HadGEM3-GC31-LL",
+                "institution_id":[
+                    "MOHC"
+                ],
+                "land_surface":"JULES-HadGEM3-GL7.1",
+                "aerosol":"UKCA-GLOMAP-mode",
+                "source_id":"HadGEM3-GC31-LL",
+                "ocean":"NEMO-HadGEM3-GO6.0 (ORCA1 tripolar primarily 1 deg latitude/longitude with meridional refinement down to 1/3 degree in the tropics; 75 levels; top grid cell 0-1m)",
+                "land_ice":"None"
+            },
+            "EC-Earth-3-AerChem":{
+                "label_extended":"EC-Earth 3.2 - AerChem",
+                "atmospheric_chemistry":"TM5",
+                "atmosphere":"IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256; 91 levels; top level 1 Pa)",
+                "ocean_biogeochemistry":"PISCES (#which version#)",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM3 (same version as ocean)",
+                "label":"EC-Earth 3.2 - AerChem",
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "land_surface":"LPJ-GUESS (same version as atmosphere)",
+                "aerosol":"None",
+                "source_id":"EC-Earth-3-AerChem",
+                "ocean":"NEMO3.6 (ORCA1 tripolar primarily 1 deg latitude/longitude with meridional refinement down to 1/3 degree in the tropics; 75 levels; top grid cell 5 m)",
+                "land_ice":"None"
+            },
+            "NorESM2-HH":{
+                "label_extended":"NorESM2-HH (high atmosphere-high ocean resolution, GHG concentration driven)",
+                "atmospheric_chemistry":"OsloChemSimp",
+                "atmosphere":"CAM-OSLO (0.25 degree resolution; 1152 x 768; 32 levels; top level 3 mb)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2018",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE",
+                "label":"NorESM2-HH",
+                "institution_id":[
+                    "NCC"
+                ],
+                "land_surface":"CLM",
+                "aerosol":"OsloAero",
+                "source_id":"NorESM2-HH",
+                "ocean":"MICOM (0.25 degree resolution; 1440 x 1152; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
+                "land_ice":"CISM"
+            },
+            "MRI-ESM2-0":{
+                "label_extended":"MRI-ESM2.0",
+                "atmospheric_chemistry":"MRI-CCM2.1",
+                "atmosphere":"MRI-AGCM3.5 (320 x 160 TL159; 80 levels; top level 0.01 hPa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"MRI.COM4.2",
+                "label":"MRI-ESM2.0",
+                "institution_id":[
+                    "MRI"
+                ],
+                "land_surface":"HAL 1.0",
+                "aerosol":"MASINGAR mk2r4",
+                "source_id":"MRI-ESM2-0",
+                "ocean":"MRI.COM4.2 (tripolar primarily 0.5 deg latitude/1 deg longitude with meridional refinement down to 0.3 deg within 10 degrees north and south of the equator; 61 levels; top grid cell 0-2 m)",
+                "land_ice":"None"
+            },
+            "MPIESM-1-2-HR":{
+                "label_extended":"dynamic vegetation and nitrogen cycle switched off",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"ECHAM6.3 (spectral T127; 384 x 192 longitude/latitude; 95 levels; top level 0.01 hPa)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model",
+                "label":"MPIESM1.2-HR",
+                "institution_id":[
+                    "MPI-M"
+                ],
+                "land_surface":"JSBACH3.2",
+                "aerosol":"None, prescribed MACv2-SP",
+                "source_id":"MPIESM-1-2-HR",
+                "ocean":"MPIOM1.63 (tripolar TP04; approximately 0.4deg latitude/longitude; 40 levels; top grid cell 0-12 m)",
+                "land_ice":"None/prescribed"
+            },
+            "NorESM2-LM":{
+                "label_extended":"NorESM2-LM (low atmosphere-medium ocean resolution, GHG concentration driven)",
+                "atmospheric_chemistry":"OsloChemSimp",
+                "atmosphere":"CAM-OSLO (2 degree resolution; 144 x 96; 32 levels; top level 3 mb)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE",
+                "label":"NorESM2-LM",
+                "institution_id":[
+                    "NCC"
+                ],
+                "land_surface":"CLM",
+                "aerosol":"OsloAero",
+                "source_id":"NorESM2-LM",
+                "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
+                "land_ice":"CISM"
+            },
+            "EC-Earth-3-CC":{
+                "label_extended":"EC-Earth-3-CC",
+                "atmospheric_chemistry":"TM5",
+                "atmosphere":"IFS cy36r4 (TL255 (N128); 91 levels; top level 1 Pa)",
+                "ocean_biogeochemistry":"PISCES",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM3 (same version as ocean)",
+                "label":"EC-Earth-3-CC",
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "land_surface":"LPJ-Guess",
+                "aerosol":"None",
+                "source_id":"EC-Earth-3-CC",
+                "ocean":"NEMO3.6 (ORCA1: tripolar, 360x200; 75 levels; top grid cell 5m)",
+                "land_ice":"None"
+            },
+            "EC-Earth-3-Veg":{
+                "label_extended":"EC-Earth 3.2 - LPJ-GUESS",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256; 91 levels; top level 1 Pa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM3 (same version as ocean)",
+                "label":"EC-Earth 3.2 - Veg",
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "land_surface":"LPJ-GUESS (same version as atmosphere)",
+                "aerosol":"None",
+                "source_id":"EC-Earth-3-Veg",
+                "ocean":"NEMO3.6 (ORCA1 tripolar primarily 1 deg latitude/longitude with meridional refinement down to 1/3 degree in the tropics; 75 levels; top grid cell 5 m)",
+                "land_ice":"None"
+            },
+            "EMAC-2-53-AerChem":{
+                "label_extended":"EMAC-2-53-x-AerChem",
+                "atmospheric_chemistry":"MECCA 3.8.x",
+                "atmosphere":"ECHAM5.3.02 (modified; spectral T42; 128 x 64 longitude/latitude; 90 levels; top level 0.001 hPa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model",
+                "label":"EMAC-2-53-AerChem",
+                "institution_id":[
+                    "MESSy-Consortium"
+                ],
+                "land_surface":"same as Atmosphere",
+                "aerosol":"gmxe 2.2.x",
+                "source_id":"EMAC-2-53-AerChem",
+                "ocean":"MPIOM 1.3.0-beta (bipolar GR1.5; approximately 1.5deg latitude/longitude; 40 levels; top grid cell 0-12 m)",
+                "land_ice":"None"
+            },
+            "EC-Earth-3-Veg-LR":{
+                "label_extended":"EC-Earth 3.2 - LPJ-GUESS at low resolution",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"IFS cy36r4 (TL159, linearly reduced Gaussian grid equivalent to 320 x 160; 62 levels; top level 5 hPa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM3 (same version as ocean)",
+                "label":"EC-Earth 3.2 Veg LR",
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "land_surface":"LPJ-GUESS (same version as atmosphere)",
+                "aerosol":"None",
+                "source_id":"EC-Earth-3-Veg-LR",
+                "ocean":"NEMO3.6 (ORCA1 tripolar primarily 1 deg latitude/longitude with meridional refinement down to 1/3 degree in the tropics; 75 levels; top grid cell 5 m)",
+                "land_ice":"None"
+            },
+            "MPIESM-1-2-LR":{
+                "label_extended":"MPIESM1.2-LR",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model",
+                "label":"MPIESM1.2-LR",
+                "institution_id":[
+                    "MPI-M"
+                ],
+                "land_surface":"JSBACH3.2",
+                "aerosol":"None, prescribed MACv2-SP",
+                "source_id":"MPIESM-1-2-LR",
+                "ocean":"MPIOM1.63 (bipolar GR1.5; approximately 1.5deg latitude/longitude; 40 levels; top grid cell 0-12 m)",
+                "land_ice":"None/prescribed"
+            },
+            "AWI-CM-1-0":{
+                "label_extended":"AWI-CM 1.0",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"ECHAM6.3.02p4 (384 x 192 T127L95; 95 levels; top level 80000 m)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"FESOM 1.4",
+                "label":"AWI-CM 1.0",
+                "institution_id":[
+                    "AWI"
+                ],
+                "land_surface":"JSBACH 3.10",
+                "aerosol":"None",
+                "source_id":"AWI-CM-1-0",
+                "ocean":"FESOM 1.4 (unstructured grid in the horizontal with 830305 wet nodes; 46 levels; top grid cell 0-5 m)",
+                "land_ice":"None"
+            },
+            "CNRM-ESM2-1":{
+                "label_extended":"CNRM-ESM2-1",
+                "atmospheric_chemistry":"REPROBUS-C (v2.0)",
+                "atmosphere":"Arpege 6.2 (Tl127; 91 levels; top level 78.4 km)",
+                "ocean_biogeochemistry":"Pisces 2.s",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"Gelato 6.1",
+                "label":"CNRM-ESM2-1",
+                "institution_id":[
+                    "CNRM-CERFACS"
+                ],
+                "land_surface":"Surfex 8.0c",
+                "aerosol":"TACTIC (v2.0)",
+                "source_id":"CNRM-ESM2-1",
+                "ocean":"Nemo 3.6 (eORCA1; tripolar primarily 1deg latitude/longitude; 75 levels; top grid cell 0-1 m)",
+                "land_ice":"None"
+            },
+            "CNRM-CM6-1":{
+                "label_extended":"CNRM-CM6-1",
+                "atmospheric_chemistry":"OZL_v2",
+                "atmosphere":"Arpege 6.2 (Tl127; 91 levels; top level 78.4 km)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"Gelato 6.1",
+                "label":"CNRM-CM6-1",
+                "institution_id":[
+                    "CNRM-CERFACS"
+                ],
+                "land_surface":"Surfex 8.0c",
+                "aerosol":"climatological fields computed by TACTIC (v2.0)",
+                "source_id":"CNRM-CM6-1",
+                "ocean":"Nemo 3.6 (eORCA1; tripolar primarily 1deg latitude/longitude; 75 levels; top grid cell 0-1 m)",
+                "land_ice":"None (except for some FAFMIP experiments)"
+            },
+            "EC-Earth-3-GrIS":{
+                "label_extended":"EC-Earth 3.2 - PISM",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256; 91 levels; top level 1 Pa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM3 (same version as ocean)",
+                "label":"EC-Earth 3.2 - GrIS",
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "land_surface":"H-TESSEL (same version as atmosphere)",
+                "aerosol":"None",
+                "source_id":"EC-Earth-3-GrIS",
+                "ocean":"NEMO3.6 (ORCA1 tripolar primarily 1 deg latitude/longitude with meridional refinement down to 1/3 degree in the tropics; 75 levels; top grid cell 5 m)",
+                "land_ice":"PISM 0.7 (5 km x 5 km, L442)"
             },
             "BNU-ESM-1-1":{
                 "label_extended":"BNU-ESM 1.1",
@@ -191,6 +554,26 @@
                 "ocean":"BlueMarble1.0-warming (360x180; 50 levels; top grid cell 0-10m)",
                 "land_ice":"None"
             },
+            "HadGEM3-GC31-MM":{
+                "label_extended":"HadGEM3-GC3.1-N216ORCA025",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"MetUM-HadGEM3-GA7.1 (432 x 324 N216; 85 levels; top level 85km)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE-HadGEM3-GSI8 (ORCA025 tripolar primarily 0.25 deg latitude/longitude)",
+                "label":"HadGEM3-GC31-MM",
+                "institution_id":[
+                    "MOHC"
+                ],
+                "land_surface":"JULES-HadGEM3-GL7.1",
+                "aerosol":"UKCA-GLOMAP-mode",
+                "source_id":"HadGEM3-GC31-MM",
+                "ocean":"NEMO-HadGEM3-GO6.0 (ORCA025 tripolar primarily 0.25 deg latitude/longitude; 75 levels; top grid cell 0-1m)",
+                "land_ice":"None"
+            },
             "NorESM2-LMEC":{
                 "label_extended":"NorESM2-LMEC (low atmosphere-medium ocean resolution, GHG emission driven, complex atmospheric chemistry)",
                 "atmospheric_chemistry":"OsloChemComp",
@@ -211,26 +594,6 @@
                 "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
                 "land_ice":"CISM"
             },
-            "ACCESS-1-0":{
-                "label_extended":"ACCESS 1.0 (This entry is free text for users to contribute verbose information)",
-                "atmospheric_chemistry":"None",
-                "atmosphere":"HadGAM2 (r1.1; 192 x 145 N96; 38 levels; top level 39255m)",
-                "ocean_biogeochemistry":"None",
-                "release_year":"2011",
-                "cohort":[
-                    "CMIP5"
-                ],
-                "sea_ice":"CICE4.1",
-                "label":"ACCESS 1.0",
-                "institution_id":[
-                    "CSIRO-BOM"
-                ],
-                "land_surface":"MOSES2.2",
-                "aerosol":"CLASSIC (v1.0)",
-                "source_id":"ACCESS-1-0",
-                "ocean":"ACCESS-OM (MOM4p1; tripolar primarily 1deg latitude/longitude; 50 levels; top grid cell 0-10m)",
-                "land_ice":"None"
-            },
             "EC-Earth-3-HR":{
                 "label_extended":"EC-Earth v3.2.x at high resolution",
                 "atmospheric_chemistry":"None",
@@ -250,86 +613,6 @@
                 "source_id":"EC-Earth-3-HR",
                 "ocean":"NEMO3.6 (tripolar, 1442x1921; 75 levels; top grid cell 5m)",
                 "land_ice":"None"
-            },
-            "IITM-ESM":{
-                "label_extended":"IITM-ESM",
-                "atmospheric_chemistry":"None",
-                "atmosphere":"GFS (192 x 94 T62; 64 levels; top level 0.2 mb)",
-                "ocean_biogeochemistry":"TOPAZ",
-                "release_year":"2015",
-                "cohort":[
-                    ""
-                ],
-                "sea_ice":"SIS",
-                "label":"IITM-ESM",
-                "institution_id":[
-                    "CCCR-IITM"
-                ],
-                "land_surface":"NOAH LSM",
-                "aerosol":"unnamed (prescribed MAC-v2)",
-                "source_id":"IITM-ESM",
-                "ocean":"MOM4p1 (tripolar, 360x200; 50 levels; top grid cell 5m)",
-                "land_ice":"None"
-            },
-            "VRESM-1-0":{
-                "label_extended":"VRESM 1.0 (Variable-resolution Earth System Model 1.0)",
-                "atmospheric_chemistry":"None",
-                "atmosphere":"VCAM-1.0 (192 x 192 x 6 C192; 35 levels; top level 35km)",
-                "ocean_biogeochemistry":"PISCES v3.4socco",
-                "release_year":"2016",
-                "cohort":[
-                    ""
-                ],
-                "sea_ice":"CSIR-ICE (visco-plastic)",
-                "label":"VRESM 1.0",
-                "institution_id":[
-                    "CSIR-CSIRO"
-                ],
-                "land_surface":"CABLE v2.2.3",
-                "aerosol":"Rotstayn-1.0",
-                "source_id":"VRESM-1-0",
-                "ocean":"VCOM-1.0 (192 x 192 x 6 C192; 35 levels; top grid cell 0-10m)",
-                "land_ice":"None"
-            },
-            "NorESM2-HH":{
-                "label_extended":"NorESM2-HH (high atmosphere-high ocean resolution, GHG concentration driven)",
-                "atmospheric_chemistry":"OsloChemSimp",
-                "atmosphere":"CAM-OSLO (0.25 degree resolution; 1152 x 768; 32 levels; top level 3 mb)",
-                "ocean_biogeochemistry":"HAMOCC",
-                "release_year":"2018",
-                "cohort":[
-                    ""
-                ],
-                "sea_ice":"CICE",
-                "label":"NorESM2-HH",
-                "institution_id":[
-                    "NCC"
-                ],
-                "land_surface":"CLM",
-                "aerosol":"OsloAero",
-                "source_id":"NorESM2-HH",
-                "ocean":"MICOM (0.25 degree resolution; 1440 x 1152; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
-                "land_ice":"CISM"
-            },
-            "NorESM2-LM":{
-                "label_extended":"NorESM2-LM (low atmosphere-medium ocean resolution, GHG concentration driven)",
-                "atmospheric_chemistry":"OsloChemSimp",
-                "atmosphere":"CAM-OSLO (2 degree resolution; 144 x 96; 32 levels; top level 3 mb)",
-                "ocean_biogeochemistry":"HAMOCC",
-                "release_year":"2017",
-                "cohort":[
-                    ""
-                ],
-                "sea_ice":"CICE",
-                "label":"NorESM2-LM",
-                "institution_id":[
-                    "NCC"
-                ],
-                "land_surface":"CLM",
-                "aerosol":"OsloAero",
-                "source_id":"NorESM2-LM",
-                "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
-                "land_ice":"CISM"
             },
             "NorESM2-MH":{
                 "label_extended":"NorESM2-MH",
@@ -371,6 +654,167 @@
                 "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
                 "land_ice":"CISM"
             },
+            "EC-Earth-3-LR":{
+                "label_extended":"EC-Earth v3.2.x at low resolution",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"IFS cy36r4 (TL159, linearly reduced Gaussian grid equivalent to 320 x 160; 62 levels; top level 5 hPa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM3 (same version as ocean)",
+                "label":"EC-Earth 3-LR",
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "land_surface":"H-TESSEL (same version as atmosphere)",
+                "aerosol":"None",
+                "source_id":"EC-Earth-3-LR",
+                "ocean":"NEMO3.6 (ORCA1: tripolar, 360x200; 75 levels; top grid cell 5m)",
+                "land_ice":"None"
+            },
+            "VRESM-1-0":{
+                "label_extended":"VRESM 1.0 (Variable-resolution Earth System Model 1.0)",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"VCAM-1.0 (192 x 192 x 6 C192; 35 levels; top level 35km)",
+                "ocean_biogeochemistry":"PISCES v3.4socco",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CSIR-ICE (visco-plastic)",
+                "label":"VRESM 1.0",
+                "institution_id":[
+                    "CSIR-CSIRO"
+                ],
+                "land_surface":"CABLE v2.2.3",
+                "aerosol":"Rotstayn-1.0",
+                "source_id":"VRESM-1-0",
+                "ocean":"VCOM-1.0 (192 x 192 x 6 C192; 35 levels; top grid cell 0-10m)",
+                "land_ice":"None"
+            },
+            "ACCESS-1-0":{
+                "label_extended":"ACCESS 1.0 (This entry is free text for users to contribute verbose information)",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"HadGAM2 (r1.1; 192 x 145 N96; 38 levels; top level 39255m)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2011",
+                "cohort":[
+                    "CMIP5"
+                ],
+                "sea_ice":"CICE4.1",
+                "label":"ACCESS 1.0",
+                "institution_id":[
+                    "CSIRO-BOM"
+                ],
+                "land_surface":"MOSES2.2",
+                "aerosol":"CLASSIC (v1.0)",
+                "source_id":"ACCESS-1-0",
+                "ocean":"ACCESS-OM (MOM4p1; tripolar primarily 1deg latitude/longitude; 50 levels; top grid cell 0-10m)",
+                "land_ice":"None"
+            },
+            "EC-Earth-3":{
+                "label_extended":"EC-Earth v3.2.x",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256; 91 levels; top level 1 Pa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM3 (same version as ocean)",
+                "label":"EC-Earth 3",
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "land_surface":"H-TESSEL (same version as atmosphere)",
+                "aerosol":"None",
+                "source_id":"EC-Earth-3",
+                "ocean":"NEMO3.6 (ORCA1: tripolar, 360x200; 75 levels; top grid cell 5m)",
+                "land_ice":"None"
+            },
+            "CNRM-ESM2-1-HR":{
+                "label_extended":"CNRM-ESM2-1-HR",
+                "atmospheric_chemistry":"OZL_v2",
+                "atmosphere":"Arpege 6.2 (Tl359; 91 levels; top level 78.4 km)",
+                "ocean_biogeochemistry":"Pisces 2.s",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"Gelato 6.1",
+                "label":"CNRM-ESM2-1-HR",
+                "institution_id":[
+                    "CNRM-CERFACS"
+                ],
+                "land_surface":"Surfex 8.0c",
+                "aerosol":"TACTIC (v2.0)",
+                "source_id":"CNRM-ESM2-1-HR",
+                "ocean":"Nemo 3.6 (eORCA025; tripolar primarily 1/4deg latitude/longitude; 75 levels; top grid cell 0-1 m)",
+                "land_ice":"None"
+            },
+            "UKESM1-0-MMh":{
+                "label_extended":"UKESM1.0-N216ORCA025hybrid",
+                "atmospheric_chemistry":"UKCA-StratTrop (horizontal resolution degraded relative to that used for atmosphere physics)",
+                "atmosphere":"MetUM-HadGEM3-GA7.1 (432 x 324 N216; 85 levels; top level 85km)",
+                "ocean_biogeochemistry":"MEDUSA2 (horizontal resolution degraded relative to that used for ocean physics)",
+                "release_year":"2018",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE-HadGEM3-GSI8 (ORCA025 tripolar primarily 0.25 deg latitude/longitude)",
+                "label":"UKESM1.0-MMh",
+                "institution_id":[
+                    "MOHC",
+                    "NERC"
+                ],
+                "land_surface":"JULES-HadGEM3-GL7.1",
+                "aerosol":"UKCA-GLOMAP-mode (horizontal resolution degraded relative to that used for atmosphere physics)",
+                "source_id":"UKESM1-0-MMh",
+                "ocean":"NEMO-HadGEM3-GO6.0 (ORCA025 tripolar primarily 0.25 deg latitude/longitude; 75 levels; top grid cell 0-1m)",
+                "land_ice":"BISICLES (only active in ISMIP experiments)"
+            },
+            "IITM-ESM":{
+                "label_extended":"IITM-ESM",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"GFS (192 x 94 T62; 64 levels; top level 0.2 mb)",
+                "ocean_biogeochemistry":"TOPAZ",
+                "release_year":"2015",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"SIS",
+                "label":"IITM-ESM",
+                "institution_id":[
+                    "CCCR-IITM"
+                ],
+                "land_surface":"NOAH LSM",
+                "aerosol":"unnamed (prescribed MAC-v2)",
+                "source_id":"IITM-ESM",
+                "ocean":"MOM4p1 (tripolar, 360x200; 50 levels; top grid cell 5m)",
+                "land_ice":"None"
+            },
+            "MPIESM-2-LR":{
+                "label_extended":"MPIESM2",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"ICON-AES (icosahedral/triangles; 160 km; 47 levels; top level 80 km)",
+                "ocean_biogeochemistry":"HAMOCC",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model",
+                "label":"MPIESM2",
+                "institution_id":[
+                    "MPI-M"
+                ],
+                "land_surface":"JSBACH4.2",
+                "aerosol":"None, prescribed MACv2-SP",
+                "source_id":"MPIESM-2-LR",
+                "ocean":"ICON-OES (icosahedral/triangles; 40 km; 40 levels; top grid cell 0-12 m)",
+                "land_ice":"None/prescribed"
+            },
             "NorESM2-LME":{
                 "label_extended":"NorESM2-LME (low atmosphere-medium ocean resolution, GHG emission driven)",
                 "atmospheric_chemistry":"OsloChemSimp",
@@ -390,26 +834,6 @@
                 "source_id":"NorESM2-LME",
                 "ocean":"MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
                 "land_ice":"CISM"
-            },
-            "EC-Earth-3-LR":{
-                "label_extended":"EC-Earth v3.2.x at low resolution",
-                "atmospheric_chemistry":"None",
-                "atmosphere":"IFS cy36r4 (TL159, linearly reduced Gaussian grid equivalent to 320 x 160; 62 levels; top level 5 Pa)",
-                "ocean_biogeochemistry":"None",
-                "release_year":"2017",
-                "cohort":[
-                    ""
-                ],
-                "sea_ice":"LIM3 (same version as ocean)",
-                "label":"EC-Earth 3-LR",
-                "institution_id":[
-                    "EC-Earth-Consortium"
-                ],
-                "land_surface":"H-TESSEL (same version as atmosphere)",
-                "aerosol":"None",
-                "source_id":"EC-Earth-3-LR",
-                "ocean":"NEMO3.6 (ORCA1: tripolar, 360x200; 75 levels; top grid cell 5m)",
-                "land_ice":"None"
             }
         },
         "source_type":[
@@ -511,27 +935,55 @@
         ],
         "table_id":[
             "3hr",
-            "3hrpt",
-            "6hr",
-            "6hrpt",
-            "Aday",
+            "6hrLev",
+            "6hrPlev",
+            "6hrPlevPt",
+            "AERday",
+            "AERfx",
+            "AERhr",
+            "AERmon",
+            "AERmonZ",
             "Amon",
+            "CF3hr",
+            "CFday",
+            "CFmon",
+            "CFsubhr",
+            "CFsubhrOff",
+            "E1hr",
+            "E1hrClimMon",
+            "E3hr",
+            "E3hrPt",
+            "E6hrZ",
+            "Eday",
+            "EdayZ",
+            "Efx",
+            "Emon",
+            "EmonZ",
+            "Esubhr",
+            "Eyr",
+            "IfxAnt",
+            "IfxGre",
+            "ImonAnt",
+            "ImonGre",
+            "IyrAnt",
+            "IyrGre",
             "LImon",
             "Lmon",
-            "OImon",
             "Oclim",
             "Oday",
             "Odec",
+            "Ofx",
             "Omon",
             "Oyr",
-            "aero",
-            "cfOff",
-            "cfSites",
-            "fx"
+            "SIday",
+            "SImon",
+            "day",
+            "fx",
+            "grids"
         ],
         "license":[
             [
-                "CMIP6 model data produced by .* is licensed under a Creative Commons Attribution \"Share Alike\" 4.0 International License (http://creativecommons.org/licenses/by/4.0/). Use of the data should be acknowledged following guidelines found at.*Permissions beyond the scope of this license may be available at.* Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in data files). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law."
+                "CMIP6 model data produced by .* is licensed under a Creative Commons Attribution \"Share Alike\" 4.0 International License (http://creativecommons.org/licenses/by/4.0/). Use of the data must be acknowledged following guidelines found at.* Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in data files). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law."
             ]
         ],
         "mip_era":[
@@ -592,33 +1044,6 @@
                 "tier":"4",
                 "min_number_yrs_per_sim":"300",
                 "sub_experiment_id":"of form: \"sYYYY\""
-            },
-            "ssp370-lowNTCF":{
-                "activity_id":[
-                    "AerChemMIP"
-                ],
-                "description":"Future SSP3-7.0 with reduced NTCF emissions",
-                "start_year":"2015",
-                "end_year":"2055",
-                "sub_experiment":"none",
-                "parent_experiment_id":[
-                    "historical"
-                ],
-                "parent_activity_id":[
-                    "CMIP"
-                ],
-                "experiment":"SSP3-7.0, with low NTCF emissions",
-                "additional_allowed_model_components":[
-                    "CHEM",
-                    "BGC"
-                ],
-                "required_model_components":[
-                    "AOGCM",
-                    "AER"
-                ],
-                "tier":"1",
-                "min_number_yrs_per_sim":"41",
-                "sub_experiment_id":"none"
             },
             "piClim-NH3":{
                 "activity_id":"AerChemMIP",
@@ -711,24 +1136,51 @@
                 "min_number_yrs_per_sim":"86",
                 "sub_experiment_id":"none"
             },
-            "land-cCO2":{
+            "dcppC-ipv-pos":{
                 "activity_id":[
-                    "LUMIP"
+                    "DCPP"
                 ],
-                "description":"Same as land-hist except with CO2 held constant",
-                "start_year":"1850 or 1700",
-                "end_year":"2014",
-                "sub_experiment":"none",
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"control",
+                "end_year":"",
+                "sub_experiment":"initialized near end of year YYYY",
                 "parent_experiment_id":"",
                 "parent_activity_id":"",
-                "experiment":"historical land-only constant CO2",
-                "additional_allowed_model_components":"",
+                "experiment":"idealized positive IPV anomaly pattern",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
                 "required_model_components":[
-                    "LAND"
+                    "AOGCM"
+                ],
+                "tier":"1",
+                "min_number_yrs_per_sim":"25",
+                "sub_experiment_id":"of form: \"sYYYY\""
+            },
+            "dcppC-ipv-NexTrop-pos":{
+                "activity_id":[
+                    "DCPP"
+                ],
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"",
+                "end_year":"",
+                "sub_experiment":"initialized near end of year YYYY",
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"idealized positive northern extratropical IPV anomaly pattern",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
                 ],
                 "tier":"2",
-                "min_number_yrs_per_sim":"165",
-                "sub_experiment_id":"none"
+                "min_number_yrs_per_sim":"",
+                "sub_experiment_id":"of form: \"sYYYY\""
             },
             "piClim-2xDMS":{
                 "activity_id":[
@@ -774,6 +1226,33 @@
                 "min_number_yrs_per_sim":"144",
                 "sub_experiment_id":"none"
             },
+            "spinup-1950":{
+                "activity_id":[
+                    "HighResMIP"
+                ],
+                "description":"Coupled integration from ocean rest state using recommended HighResMIP protocol spinup with 1950 ocean temperature and salinity, using constant 1950s forcing",
+                "start_year":"",
+                "end_year":"",
+                "sub_experiment":"none",
+                "parent_experiment_id":[
+                    "None"
+                ],
+                "parent_activity_id":[
+                    "HighResMIP"
+                ],
+                "experiment":"coupled spinup with fixed 1950s forcings from 1950 initial conditions (with ocean at rest) to provide initial condition for control-1950 and hist-1950",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"2",
+                "min_number_yrs_per_sim":"30",
+                "sub_experiment_id":"none"
+            },
             "piSST-4xCO2-solar":{
                 "activity_id":[
                     "GeoMIP"
@@ -794,28 +1273,6 @@
                 ],
                 "tier":"2",
                 "min_number_yrs_per_sim":"10",
-                "sub_experiment_id":"none"
-            },
-            "piSST-4xCO2":{
-                "activity_id":[
-                    "CFMIP"
-                ],
-                "description":"Same as piSST but CO2 is quadrupled. The increase in CO2 is seen by both the radiation scheme and vegetation",
-                "start_year":"",
-                "end_year":"",
-                "sub_experiment":"none",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"as piSST with radiation and vegetation seeing 4xCO2",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM"
-                ],
-                "required_model_components":[
-                    "AGCM"
-                ],
-                "tier":"2",
-                "min_number_yrs_per_sim":"30",
                 "sub_experiment_id":"none"
             },
             "faf-all":{
@@ -906,7 +1363,7 @@
                     "ISM"
                 ],
                 "tier":"1",
-                "min_number_yrs_per_sim":"451",
+                "min_number_yrs_per_sim":"500",
                 "sub_experiment_id":"none"
             },
             "rad-irf":{
@@ -928,21 +1385,17 @@
                 "min_number_yrs_per_sim":"",
                 "sub_experiment_id":"none"
             },
-            "volc-pinatubo-surf":{
+            "dcppC-pac-control":{
                 "activity_id":[
-                    "VolMIP"
+                    "DCPP"
                 ],
-                "description":"As volc-pinatubo-full, but with prescribed perturbation to the shortwave flux to mimic the attenuation of solar radiation by volcanic aerosols",
-                "start_year":"",
-                "end_year":"",
-                "sub_experiment":"none",
-                "parent_experiment_id":[
-                    "piControl"
-                ],
-                "parent_activity_id":[
-                    "CMIP"
-                ],
-                "experiment":"Pinatubo experiment with partial radiative forcing, solar radiation scattering only",
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"1950",
+                "end_year":"1949",
+                "sub_experiment":"initialized near end of year YYYY",
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"idealized Pacific control",
                 "additional_allowed_model_components":[
                     "AER",
                     "CHEM",
@@ -952,8 +1405,8 @@
                     "AOGCM"
                 ],
                 "tier":"1",
-                "min_number_yrs_per_sim":"3",
-                "sub_experiment_id":"none"
+                "min_number_yrs_per_sim":"30",
+                "sub_experiment_id":"of form: \"sYYYY\""
             },
             "piClim-histall":{
                 "activity_id":[
@@ -1106,7 +1559,7 @@
                 "min_number_yrs_per_sim":"70",
                 "sub_experiment_id":"none"
             },
-            "dcppC-amv-plus":{
+            "dcppC-amv-pos":{
                 "activity_id":[
                     "DCPP"
                 ],
@@ -1150,29 +1603,6 @@
                 "tier":"2",
                 "min_number_yrs_per_sim":"121",
                 "sub_experiment_id":"none"
-            },
-            "dcppC-amv-extrop-plus":{
-                "activity_id":[
-                    "DCPP"
-                ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"control",
-                "end_year":"",
-                "sub_experiment":"initialized near end of year YYYY",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"idealized positive extratropical AMV anomaly pattern",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM",
-                    "BGC"
-                ],
-                "required_model_components":[
-                    "AOGCM"
-                ],
-                "tier":"2",
-                "min_number_yrs_per_sim":"25",
-                "sub_experiment_id":"of form: \"sYYYY\""
             },
             "land-crop-grass":{
                 "activity_id":[
@@ -1273,7 +1703,7 @@
                 "end_year":"2014",
                 "sub_experiment":"none",
                 "parent_experiment_id":[
-                    "control-1950"
+                    "spinup-1950"
                 ],
                 "parent_activity_id":[
                     "HighResMIP"
@@ -1362,29 +1792,6 @@
                 "min_number_yrs_per_sim":"144",
                 "sub_experiment_id":"none"
             },
-            "dcppC-amv-trop-minus":{
-                "activity_id":[
-                    "DCPP"
-                ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"1992",
-                "end_year":"1999",
-                "sub_experiment":"initialized near end of year YYYY",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"idealized negative tropical AMV anomaly pattern",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM",
-                    "BGC"
-                ],
-                "required_model_components":[
-                    "AOGCM"
-                ],
-                "tier":"2",
-                "min_number_yrs_per_sim":"5",
-                "sub_experiment_id":"of form: \"sYYYY\""
-            },
             "hist-all-aer2":{
                 "activity_id":[
                     "DAMIP"
@@ -1412,28 +1819,27 @@
                 "min_number_yrs_per_sim":"171",
                 "sub_experiment_id":"none"
             },
-            "dcppC-amv-extrop-minus":{
+            "piSST-4xCO2":{
                 "activity_id":[
-                    "DCPP"
+                    "CFMIP"
                 ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"1993",
-                "end_year":"1996",
-                "sub_experiment":"initialized near end of year YYYY",
+                "description":"Same as piSST but CO2 is quadrupled. The increase in CO2 is seen by both the radiation scheme and vegetation",
+                "start_year":"",
+                "end_year":"",
+                "sub_experiment":"none",
                 "parent_experiment_id":"",
                 "parent_activity_id":"",
-                "experiment":"idealized negative extratropical AMV anomaly pattern",
+                "experiment":"as piSST with radiation and vegetation seeing 4xCO2",
                 "additional_allowed_model_components":[
                     "AER",
-                    "CHEM",
-                    "BGC"
+                    "CHEM"
                 ],
                 "required_model_components":[
-                    "AOGCM"
+                    "AGCM"
                 ],
                 "tier":"2",
-                "min_number_yrs_per_sim":"5",
-                "sub_experiment_id":"of form: \"sYYYY\""
+                "min_number_yrs_per_sim":"30",
+                "sub_experiment_id":"none"
             },
             "lfmip-pdLC":{
                 "activity_id":[
@@ -1575,7 +1981,9 @@
                 "start_year":"",
                 "end_year":"",
                 "sub_experiment":"none",
-                "parent_experiment_id":"",
+                "parent_experiment_id":[
+                    "spinup-1950"
+                ],
                 "parent_activity_id":"",
                 "experiment":"coupled control with fixed 1950's forcing (HighResMIP equivalent of pre-industrial control)",
                 "additional_allowed_model_components":[
@@ -1590,28 +1998,32 @@
                 "min_number_yrs_per_sim":"100",
                 "sub_experiment_id":"none"
             },
-            "dcppC-ipv-nextrop-plus":{
+            "ssp370-lowNTCF":{
                 "activity_id":[
-                    "DCPP"
+                    "AerChemMIP"
                 ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"",
-                "end_year":"",
-                "sub_experiment":"initialized near end of year YYYY",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"idealized positive northern extratropical IPV anomaly pattern",
+                "description":"Future SSP3-7.0 with reduced NTCF emissions",
+                "start_year":"2015",
+                "end_year":"2055",
+                "sub_experiment":"none",
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "experiment":"SSP3-7.0, with low NTCF emissions",
                 "additional_allowed_model_components":[
-                    "AER",
                     "CHEM",
                     "BGC"
                 ],
                 "required_model_components":[
-                    "AOGCM"
+                    "AOGCM",
+                    "AER"
                 ],
-                "tier":"2",
-                "min_number_yrs_per_sim":"",
-                "sub_experiment_id":"of form: \"sYYYY\""
+                "tier":"1",
+                "min_number_yrs_per_sim":"41",
+                "sub_experiment_id":"none"
             },
             "piSST-4xCO2-rad":{
                 "activity_id":[
@@ -2012,7 +2424,7 @@
                     "ISM"
                 ],
                 "tier":"2",
-                "min_number_yrs_per_sim":"286",
+                "min_number_yrs_per_sim":"85",
                 "sub_experiment_id":"none"
             },
             "piClim-2xVOC":{
@@ -2052,7 +2464,7 @@
                     "ISM"
                 ],
                 "tier":"3",
-                "min_number_yrs_per_sim":"",
+                "min_number_yrs_per_sim":"20000",
                 "sub_experiment_id":"none"
             },
             "ism-amip-std":{
@@ -2280,44 +2692,17 @@
                 "min_number_yrs_per_sim":"5",
                 "sub_experiment_id":"of form: \"sYYYY\""
             },
-            "hist-CO2":{
-                "activity_id":[
-                    "DAMIP"
-                ],
-                "description":"Historical CO2-only run",
-                "start_year":"1850",
-                "end_year":"2020",
-                "sub_experiment":"none",
-                "parent_experiment_id":[
-                    "piControl"
-                ],
-                "parent_activity_id":[
-                    "CMIP"
-                ],
-                "experiment":"historical CO2-only run",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM",
-                    "BGC"
-                ],
-                "required_model_components":[
-                    "AOGCM"
-                ],
-                "tier":"3",
-                "min_number_yrs_per_sim":"171",
-                "sub_experiment_id":"none"
-            },
-            "dcppC-amv-trop-plus":{
+            "dcppC-amv-ExTrop-neg":{
                 "activity_id":[
                     "DCPP"
                 ],
                 "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"1992",
-                "end_year":"1999",
+                "start_year":"1993",
+                "end_year":"1996",
                 "sub_experiment":"initialized near end of year YYYY",
                 "parent_experiment_id":"",
                 "parent_activity_id":"",
-                "experiment":"idealized positive tropical AMV anomaly pattern",
+                "experiment":"idealized negative extratropical AMV anomaly pattern",
                 "additional_allowed_model_components":[
                     "AER",
                     "CHEM",
@@ -2522,28 +2907,27 @@
                 "min_number_yrs_per_sim":"41",
                 "sub_experiment_id":"none"
             },
-            "dcppC-ipv-minus":{
+            "amip-lwoff":{
                 "activity_id":[
-                    "DCPP"
+                    "CFMIP"
                 ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"control",
-                "end_year":"",
-                "sub_experiment":"initialized near end of year YYYY",
+                "description":"As amip experiment, but with cloud-radiative effects switched off in the LW radiation code",
+                "start_year":"1979",
+                "end_year":"2014",
+                "sub_experiment":"none",
                 "parent_experiment_id":"",
                 "parent_activity_id":"",
-                "experiment":"idealized negative IPV anomaly pattern",
+                "experiment":"AMIP experiment with longwave cloud-radiative effects off",
                 "additional_allowed_model_components":[
                     "AER",
-                    "CHEM",
-                    "BGC"
+                    "CHEM"
                 ],
                 "required_model_components":[
-                    "AOGCM"
+                    "AGCM"
                 ],
-                "tier":"1",
-                "min_number_yrs_per_sim":"25",
-                "sub_experiment_id":"of form: \"sYYYY\""
+                "tier":"2",
+                "min_number_yrs_per_sim":"36",
+                "sub_experiment_id":"none"
             },
             "ssp245-nat":{
                 "activity_id":[
@@ -2620,6 +3004,29 @@
                 "tier":"1",
                 "min_number_yrs_per_sim":"150",
                 "sub_experiment_id":"none"
+            },
+            "dcppC-amv-Trop-neg":{
+                "activity_id":[
+                    "DCPP"
+                ],
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"1992",
+                "end_year":"1999",
+                "sub_experiment":"initialized near end of year YYYY",
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"idealized negative tropical AMV anomaly pattern",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"2",
+                "min_number_yrs_per_sim":"5",
+                "sub_experiment_id":"of form: \"sYYYY\""
             },
             "piClim-spAer-aer":{
                 "activity_id":[
@@ -2833,29 +3240,6 @@
                 "min_number_yrs_per_sim":"100",
                 "sub_experiment_id":"none"
             },
-            "dcppC-amv-minus":{
-                "activity_id":[
-                    "DCPP"
-                ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"1950",
-                "end_year":"1949",
-                "sub_experiment":"initialized near end of year YYYY",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"idealized negative AMV anomaly pattern",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM",
-                    "BGC"
-                ],
-                "required_model_components":[
-                    "AOGCM"
-                ],
-                "tier":"1",
-                "min_number_yrs_per_sim":"30",
-                "sub_experiment_id":"of form: \"sYYYY\""
-            },
             "land-noShiftCultivate":{
                 "activity_id":[
                     "LUMIP"
@@ -2891,7 +3275,7 @@
                     "ISM"
                 ],
                 "tier":"1",
-                "min_number_yrs_per_sim":"451",
+                "min_number_yrs_per_sim":"100",
                 "sub_experiment_id":"none"
             },
             "abrupt-4xCO2":{
@@ -2946,6 +3330,33 @@
                 ],
                 "tier":"2",
                 "min_number_yrs_per_sim":"85",
+                "sub_experiment_id":"none"
+            },
+            "sspxy":{
+                "activity_id":[
+                    "ScenarioMIP"
+                ],
+                "description":"Future scenario with low radiative forcing by the end of century. Following a forcing pathway below RCP2.6. Specific SSP and 2100 forcing level to be finalized with IAM groups within next few months. Concentration-driven",
+                "start_year":"2015",
+                "end_year":"2100",
+                "sub_experiment":"none",
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "experiment":"low-end scenario informing 1.5C goal",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"2",
+                "min_number_yrs_per_sim":"86",
                 "sub_experiment_id":"none"
             },
             "faf-stress":{
@@ -3046,29 +3457,6 @@
                 "min_number_yrs_per_sim":"41",
                 "sub_experiment_id":"none"
             },
-            "piClim-control":{
-                "activity_id":[
-                    "RFMIP",
-                    "AerChemMIP"
-                ],
-                "description":"30-year atmosphere only integration using preindustrial sea-surface temperature and sea-ice climatology. Interactive vegetation",
-                "start_year":"",
-                "end_year":"",
-                "sub_experiment":"none",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"effective radiative forcing in present-day",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM"
-                ],
-                "required_model_components":[
-                    "AGCM"
-                ],
-                "tier":"1",
-                "min_number_yrs_per_sim":"30",
-                "sub_experiment_id":"none"
-            },
             "historical":{
                 "activity_id":[
                     "CMIP"
@@ -3119,29 +3507,6 @@
                 "min_number_yrs_per_sim":"200",
                 "sub_experiment_id":"none"
             },
-            "dcppC-pac":{
-                "activity_id":[
-                    "DCPP"
-                ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"1950",
-                "end_year":"1949",
-                "sub_experiment":"initialized near end of year YYYY",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"idealized Pacific control",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM",
-                    "BGC"
-                ],
-                "required_model_components":[
-                    "AOGCM"
-                ],
-                "tier":"1",
-                "min_number_yrs_per_sim":"30",
-                "sub_experiment_id":"of form: \"sYYYY\""
-            },
             "amip-TIP":{
                 "activity_id":[
                     "GMMIP"
@@ -3164,31 +3529,23 @@
                 "min_number_yrs_per_sim":"35",
                 "sub_experiment_id":"none"
             },
-            "sspxy":{
+            "land-cCO2":{
                 "activity_id":[
-                    "ScenarioMIP"
+                    "LUMIP"
                 ],
-                "description":"Future scenario with low radiative forcing by the end of century. Following a forcing pathway below RCP2.6. Specific SSP and 2100 forcing level to be finalized with IAM groups within next few months. Concentration-driven",
-                "start_year":"2015",
-                "end_year":"2100",
+                "description":"Same as land-hist except with CO2 held constant",
+                "start_year":"1850 or 1700",
+                "end_year":"2014",
                 "sub_experiment":"none",
-                "parent_experiment_id":[
-                    "historical"
-                ],
-                "parent_activity_id":[
-                    "CMIP"
-                ],
-                "experiment":"low-end scenario informing 1.5C goal",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM",
-                    "BGC"
-                ],
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"historical land-only constant CO2",
+                "additional_allowed_model_components":"",
                 "required_model_components":[
-                    "AOGCM"
+                    "LAND"
                 ],
                 "tier":"2",
-                "min_number_yrs_per_sim":"86",
+                "min_number_yrs_per_sim":"165",
                 "sub_experiment_id":"none"
             },
             "highresSST-LAI":{
@@ -3378,6 +3735,33 @@
                 "min_number_yrs_per_sim":"165",
                 "sub_experiment_id":"none"
             },
+            "ssp245":{
+                "activity_id":[
+                    "ScenarioMIP"
+                ],
+                "description":"Future scenario with medium radiative forcing by the end of century. Following approximately RCP4.5 global forcing pathway but with new forcing based on SSP2. Concentration-driven",
+                "start_year":"2015",
+                "end_year":"2100",
+                "sub_experiment":"none",
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "experiment":"update of RCP4.5 based on SSP2",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"1",
+                "min_number_yrs_per_sim":"86",
+                "sub_experiment_id":"none"
+            },
             "dcppA-hindcast-niff":{
                 "activity_id":[
                     "DCPP"
@@ -3460,24 +3844,24 @@
                 "min_number_yrs_per_sim":"500",
                 "sub_experiment_id":"none"
             },
-            "piClim-NTCF":{
+            "piClim-control":{
                 "activity_id":[
+                    "RFMIP",
                     "AerChemMIP"
                 ],
-                "description":"Perturbation from 1850 control using 2014 aerosol and ozone precursor emissions",
+                "description":"30-year atmosphere only integration using preindustrial sea-surface temperature and sea-ice climatology. Interactive vegetation",
                 "start_year":"",
                 "end_year":"",
                 "sub_experiment":"none",
                 "parent_experiment_id":"",
                 "parent_activity_id":"",
-                "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 NTCF emissions",
+                "experiment":"effective radiative forcing in present-day",
                 "additional_allowed_model_components":[
-                    "CHEM",
-                    "BGC"
+                    "AER",
+                    "CHEM"
                 ],
                 "required_model_components":[
-                    "AGCM",
-                    "AER"
+                    "AGCM"
                 ],
                 "tier":"1",
                 "min_number_yrs_per_sim":"30",
@@ -3627,6 +4011,29 @@
                 "tier":"2",
                 "min_number_yrs_per_sim":"20",
                 "sub_experiment_id":"none"
+            },
+            "dcppC-ipv-neg":{
+                "activity_id":[
+                    "DCPP"
+                ],
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"control",
+                "end_year":"",
+                "sub_experiment":"initialized near end of year YYYY",
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"idealized negative IPV anomaly pattern",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"1",
+                "min_number_yrs_per_sim":"25",
+                "sub_experiment_id":"of form: \"sYYYY\""
             },
             "amip-4xCO2":{
                 "activity_id":[
@@ -4092,6 +4499,29 @@
                 "min_number_yrs_per_sim":"150",
                 "sub_experiment_id":"none"
             },
+            "dcppC-atl-pacemaker":{
+                "activity_id":[
+                    "DCPP"
+                ],
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"",
+                "end_year":"",
+                "sub_experiment":"initialized near end of year YYYY",
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"pacemaker atlantic experiment",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"3",
+                "min_number_yrs_per_sim":"",
+                "sub_experiment_id":"of form: \"sYYYY\""
+            },
             "highresSST-smoothed":{
                 "activity_id":[
                     "HighResMIP"
@@ -4169,21 +4599,21 @@
                 "min_number_yrs_per_sim":"165",
                 "sub_experiment_id":"none"
             },
-            "ssp245":{
+            "hist-CO2":{
                 "activity_id":[
-                    "ScenarioMIP"
+                    "DAMIP"
                 ],
-                "description":"Future scenario with medium radiative forcing by the end of century. Following approximately RCP4.5 global forcing pathway but with new forcing based on SSP2. Concentration-driven",
-                "start_year":"2015",
-                "end_year":"2100",
+                "description":"Historical CO2-only run",
+                "start_year":"1850",
+                "end_year":"2020",
                 "sub_experiment":"none",
                 "parent_experiment_id":[
-                    "historical"
+                    "piControl"
                 ],
                 "parent_activity_id":[
                     "CMIP"
                 ],
-                "experiment":"update of RCP4.5 based on SSP2",
+                "experiment":"historical CO2-only run",
                 "additional_allowed_model_components":[
                     "AER",
                     "CHEM",
@@ -4192,8 +4622,8 @@
                 "required_model_components":[
                     "AOGCM"
                 ],
-                "tier":"1",
-                "min_number_yrs_per_sim":"86",
+                "tier":"3",
+                "min_number_yrs_per_sim":"171",
                 "sub_experiment_id":"none"
             },
             "piClim-spAer-anthro":{
@@ -4215,7 +4645,7 @@
                 "min_number_yrs_per_sim":"",
                 "sub_experiment_id":"none"
             },
-            "dcppC-atl-pacemaker":{
+            "dcppC-ipv-NexTrop-neg":{
                 "activity_id":[
                     "DCPP"
                 ],
@@ -4225,7 +4655,7 @@
                 "sub_experiment":"initialized near end of year YYYY",
                 "parent_experiment_id":"",
                 "parent_activity_id":"",
-                "experiment":"pacemaker atlantic experiment",
+                "experiment":"idealized negative northern extratropical IPV anomaly pattern",
                 "additional_allowed_model_components":[
                     "AER",
                     "CHEM",
@@ -4234,7 +4664,7 @@
                 "required_model_components":[
                     "AOGCM"
                 ],
-                "tier":"3",
+                "tier":"2",
                 "min_number_yrs_per_sim":"",
                 "sub_experiment_id":"of form: \"sYYYY\""
             },
@@ -4748,6 +5178,29 @@
                 "min_number_yrs_per_sim":"5",
                 "sub_experiment_id":"of form: \"sYYYY\""
             },
+            "dcppC-amv-ExTrop-pos":{
+                "activity_id":[
+                    "DCPP"
+                ],
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"control",
+                "end_year":"",
+                "sub_experiment":"initialized near end of year YYYY",
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"idealized positive extratropical AMV anomaly pattern",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"2",
+                "min_number_yrs_per_sim":"25",
+                "sub_experiment_id":"of form: \"sYYYY\""
+            },
             "1pctCO2Ndep":{
                 "activity_id":[
                     "C4MIP"
@@ -4819,7 +5272,7 @@
                     "ISM"
                 ],
                 "tier":"1",
-                "min_number_yrs_per_sim":"451",
+                "min_number_yrs_per_sim":"500",
                 "sub_experiment_id":"none"
             },
             "aqua-control-lwoff":{
@@ -4849,7 +5302,7 @@
                     "HighResMIP"
                 ],
                 "description":"Coupled integrations, at least one with constant 1950\"s forcing (CTL) and one or more with historic and then RCP4.5 (as in Forced_Atmos_Land, EXP)",
-                "start_year":"1951",
+                "start_year":"2015",
                 "end_year":"2050",
                 "sub_experiment":"none",
                 "parent_experiment_id":[
@@ -5016,7 +5469,7 @@
                     "ISM"
                 ],
                 "tier":"2",
-                "min_number_yrs_per_sim":"286",
+                "min_number_yrs_per_sim":"85",
                 "sub_experiment_id":"none"
             },
             "ism-ctrl-std":{
@@ -5091,28 +5544,6 @@
                 ],
                 "tier":"2",
                 "min_number_yrs_per_sim":"50",
-                "sub_experiment_id":"none"
-            },
-            "amip-lwoff":{
-                "activity_id":[
-                    "CFMIP"
-                ],
-                "description":"As amip experiment, but with cloud-radiative effects switched off in the LW radiation code",
-                "start_year":"1979",
-                "end_year":"2014",
-                "sub_experiment":"none",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"AMIP experiment with longwave cloud-radiative effects off",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM"
-                ],
-                "required_model_components":[
-                    "AGCM"
-                ],
-                "tier":"2",
-                "min_number_yrs_per_sim":"36",
                 "sub_experiment_id":"none"
             },
             "land-future":{
@@ -5257,27 +5688,28 @@
                 "min_number_yrs_per_sim":"5",
                 "sub_experiment_id":"of form: \"sYYYY\""
             },
-            "piClim-BC":{
+            "dcppC-amv-neg":{
                 "activity_id":[
-                    "AerChemMIP"
+                    "DCPP"
                 ],
-                "description":"Perturbation from 1850 control using 2014 BC emissions",
-                "start_year":"",
-                "end_year":"",
-                "sub_experiment":"none",
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"1950",
+                "end_year":"1949",
+                "sub_experiment":"initialized near end of year YYYY",
                 "parent_experiment_id":"",
                 "parent_activity_id":"",
-                "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 black carbon emissions",
+                "experiment":"idealized negative AMV anomaly pattern",
                 "additional_allowed_model_components":[
-                    "CHEM"
+                    "AER",
+                    "CHEM",
+                    "BGC"
                 ],
                 "required_model_components":[
-                    "AGCM",
-                    "AER"
+                    "AOGCM"
                 ],
-                "tier":"2",
+                "tier":"1",
                 "min_number_yrs_per_sim":"30",
-                "sub_experiment_id":"none"
+                "sub_experiment_id":"of form: \"sYYYY\""
             },
             "dcppC-pac-pacemaker":{
                 "activity_id":[
@@ -5327,7 +5759,7 @@
                     "ISM"
                 ],
                 "tier":"2",
-                "min_number_yrs_per_sim":"286",
+                "min_number_yrs_per_sim":"85",
                 "sub_experiment_id":"none"
             },
             "highresSST-p4K":{
@@ -5384,28 +5816,50 @@
                 "min_number_yrs_per_sim":"5",
                 "sub_experiment_id":"of form: \"sYYYY\""
             },
-            "dcppC-ipv-nextrop-minus":{
+            "piClim-BC":{
                 "activity_id":[
-                    "DCPP"
+                    "AerChemMIP"
                 ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "description":"Perturbation from 1850 control using 2014 BC emissions",
                 "start_year":"",
                 "end_year":"",
-                "sub_experiment":"initialized near end of year YYYY",
+                "sub_experiment":"none",
                 "parent_experiment_id":"",
                 "parent_activity_id":"",
-                "experiment":"idealized negative northern extratropical IPV anomaly pattern",
+                "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 black carbon emissions",
                 "additional_allowed_model_components":[
-                    "AER",
+                    "CHEM"
+                ],
+                "required_model_components":[
+                    "AGCM",
+                    "AER"
+                ],
+                "tier":"2",
+                "min_number_yrs_per_sim":"30",
+                "sub_experiment_id":"none"
+            },
+            "piClim-NTCF":{
+                "activity_id":[
+                    "AerChemMIP"
+                ],
+                "description":"Perturbation from 1850 control using 2014 aerosol and ozone precursor emissions",
+                "start_year":"",
+                "end_year":"",
+                "sub_experiment":"none",
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 NTCF emissions",
+                "additional_allowed_model_components":[
                     "CHEM",
                     "BGC"
                 ],
                 "required_model_components":[
-                    "AOGCM"
+                    "AGCM",
+                    "AER"
                 ],
-                "tier":"2",
-                "min_number_yrs_per_sim":"",
-                "sub_experiment_id":"of form: \"sYYYY\""
+                "tier":"1",
+                "min_number_yrs_per_sim":"30",
+                "sub_experiment_id":"none"
             },
             "lfmip-initLC":{
                 "activity_id":[
@@ -5733,6 +6187,33 @@
                 "min_number_yrs_per_sim":"165",
                 "sub_experiment_id":"none"
             },
+            "volc-pinatubo-surf":{
+                "activity_id":[
+                    "VolMIP"
+                ],
+                "description":"As volc-pinatubo-full, but with prescribed perturbation to the shortwave flux to mimic the attenuation of solar radiation by volcanic aerosols",
+                "start_year":"",
+                "end_year":"",
+                "sub_experiment":"none",
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "experiment":"Pinatubo experiment with partial radiative forcing, solar radiation scattering only",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"1",
+                "min_number_yrs_per_sim":"3",
+                "sub_experiment_id":"none"
+            },
             "ssp370SST-lowO3":{
                 "activity_id":[
                     "AerChemMIP"
@@ -5890,6 +6371,29 @@
                 "min_number_yrs_per_sim":"5",
                 "sub_experiment_id":"of form: \"sYYYY\""
             },
+            "dcppC-amv-Trop-pos":{
+                "activity_id":[
+                    "DCPP"
+                ],
+                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+                "start_year":"1992",
+                "end_year":"1999",
+                "sub_experiment":"initialized near end of year YYYY",
+                "parent_experiment_id":"",
+                "parent_activity_id":"",
+                "experiment":"idealized positive tropical AMV anomaly pattern",
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "tier":"2",
+                "min_number_yrs_per_sim":"5",
+                "sub_experiment_id":"of form: \"sYYYY\""
+            },
             "ssp534-over":{
                 "activity_id":[
                     "ScenarioMIP"
@@ -5994,29 +6498,6 @@
                 "tier":"2",
                 "min_number_yrs_per_sim":"165",
                 "sub_experiment_id":"none"
-            },
-            "dcppC-ipv-plus":{
-                "activity_id":[
-                    "DCPP"
-                ],
-                "description":"Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
-                "start_year":"control",
-                "end_year":"",
-                "sub_experiment":"initialized near end of year YYYY",
-                "parent_experiment_id":"",
-                "parent_activity_id":"",
-                "experiment":"idealized positive IPV anomaly pattern",
-                "additional_allowed_model_components":[
-                    "AER",
-                    "CHEM",
-                    "BGC"
-                ],
-                "required_model_components":[
-                    "AOGCM"
-                ],
-                "tier":"1",
-                "min_number_yrs_per_sim":"25",
-                "sub_experiment_id":"of form: \"sYYYY\""
             },
             "piClim-O3":{
                 "activity_id":[
