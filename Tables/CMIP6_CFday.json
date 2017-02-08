@@ -9,7 +9,7 @@
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "", 
-        "generic_levels": "", 
+        "generic_levels": "alevel alevhalf",
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.6 CMIP-6.0"
     }, 
