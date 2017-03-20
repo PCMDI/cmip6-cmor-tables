@@ -1,11 +1,11 @@
 {
     "Header": {
-        "data_specs_version": "01.00.03", 
+        "data_specs_version": "01.00.04", 
         "table_id": "Table LImon", 
         "realm": "landIce land", 
         "frequency": "mon", 
         "cmor_version": "3.2", 
-        "table_date": "24 February 2017", 
+        "table_date": "20 March 2017", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "30.00000", 
@@ -157,7 +157,7 @@
             "cell_methods": "area: mean where land time: mean", 
             "cell_measures": "area: areacella", 
             "long_name": "Liquid Water Content of Snow Layer", 
-            "comment": "where land over land: this is computed as the total mass of liquid water contained interstitially within the snow layer of the land portion of a grid cell divided by the area of the land portion of the cell.", 
+            "comment": "The total mass of liquid water contained interstitially within the whole depth of the snow layer of the land portion of a grid cell divided by the area of the land portion of the cell.", 
             "dimensions": "longitude latitude time", 
             "out_name": "lwsnl", 
             "type": "real", 
