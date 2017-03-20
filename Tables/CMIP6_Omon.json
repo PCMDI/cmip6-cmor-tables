@@ -1,15 +1,15 @@
 {
     "Header": {
-        "data_specs_version": "01.00.03", 
+        "data_specs_version": "01.00.04", 
         "table_id": "Table Omon", 
         "realm": "ocnBgchem", 
         "frequency": "mon", 
         "cmor_version": "3.2", 
-        "table_date": "24 February 2017", 
+        "table_date": "20 March 2017", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "30.00000", 
-        "generic_levels": "olevel olevelh", 
+        "generic_levels": "olevel", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.6 CMIP-6.0"
     }, 
@@ -2789,7 +2789,7 @@
             "modeling_realm": "ocean", 
             "standard_name": "", 
             "units": "m", 
-            "cell_methods": "time: point", 
+            "cell_methods": "time: minimum", 
             "cell_measures": "area: areacello", 
             "long_name": "Minimum Ocean Mixed Layer Thickness Defined by Sigma T", 
             "comment": "Sigma T is potential density referenced to ocean surface.", 
