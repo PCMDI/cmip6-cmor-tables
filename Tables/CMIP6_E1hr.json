@@ -1,11 +1,11 @@
 {
     "Header": {
-        "data_specs_version": "01.00.04", 
+        "data_specs_version": "01.00.05", 
         "table_id": "Table E1hr", 
         "realm": "atmos", 
         "frequency": "1hr", 
         "cmor_version": "3.2", 
-        "table_date": "20 March 2017", 
+        "table_date": "31 March 2017", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "0.017361", 
@@ -174,7 +174,7 @@
             "cell_methods": "time: point", 
             "cell_measures": "area: areacella", 
             "long_name": "u-tendency nonorographic gravity wave drag", 
-            "comment": "Tendency of the eastward wind by parameterized nonorographic gravity waves.  ", 
+            "comment": "Tendency of the eastward wind by parameterized nonorographic gravity waves.", 
             "dimensions": "longitude latitude plev27 time1", 
             "out_name": "utendnogw27", 
             "type": "", 
