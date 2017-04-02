@@ -1,11 +1,11 @@
 {
     "Header": {
-        "data_specs_version": "01.00.04", 
+        "data_specs_version": "01.00.05", 
         "table_id": "Table CFmon", 
         "realm": "atmos", 
         "frequency": "mon", 
         "cmor_version": "3.2", 
-        "table_date": "20 March 2017", 
+        "table_date": "31 March 2017", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "30.00000", 
@@ -118,7 +118,7 @@
         }, 
         "clisccp": {
             "modeling_realm": "atmos", 
-            "standard_name": "isccp_cloud_area_fraction", 
+            "standard_name": "cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
             "cell_methods": "time: mean", 
             "cell_measures": "area: areacella", 
