@@ -1,11 +1,11 @@
 {
     "Header": {
-        "data_specs_version": "01.00.03", 
+        "data_specs_version": "01.00.04", 
         "table_id": "Table SIday", 
         "realm": "seaIce", 
         "frequency": "day", 
         "cmor_version": "3.2", 
-        "table_date": "24 February 2017", 
+        "table_date": "20 March 2017", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "1.00000", 
@@ -15,16 +15,16 @@
     }, 
     "variable_entry": {
         "siconc": {
-            "modeling_realm": "seaIce", 
+            "modeling_realm": "aerosol", 
             "standard_name": "sea_ice_area_fraction", 
             "units": "1.0", 
             "cell_methods": "time: mean", 
             "cell_measures": "area: areacella", 
-            "long_name": "Sea-ice area fraction", 
+            "long_name": "Sea Ice Area Fraction", 
             "comment": "Area fraction of grid cell covered by sea ice", 
             "dimensions": "longitude latitude time", 
             "out_name": "siconc", 
-            "type": "", 
+            "type": "float", 
             "positive": "", 
             "valid_min": "", 
             "valid_max": "", 
