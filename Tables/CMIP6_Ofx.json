@@ -109,7 +109,7 @@
             "cell_measures": "area: areacello", 
             "long_name": "Sea Area Fraction", 
             "comment": "This is the area fraction at the ocean surface.", 
-            "dimensions": "longitude latitude  typesea", 
+            "dimensions": "longitude latitude typesea", 
             "out_name": "sftof", 
             "type": "real", 
             "positive": "", 
