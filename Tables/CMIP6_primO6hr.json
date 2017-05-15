@@ -1,0 +1,52 @@
+{
+    "Header": {
+        "data_specs_version": "01.beta.45", 
+        "table_id": "Table primO6hr", 
+        "realm": "ocean", 
+        "frequency": "6hr", 
+        "cmor_version": "3.2", 
+        "table_date": "19 December 2016", 
+        "missing_value": "1e20", 
+        "product": "output", 
+        "approx_interval": "0.250000", 
+        "generic_levels": "", 
+        "mip_era": "CMIP6", 
+        "Conventions": "CF-1.6 CMIP-6.0"
+    }, 
+    "variable_entry": {
+        "uo": {
+            "modeling_realm": "ocean", 
+            "standard_name": "sea_water_x_velocity", 
+            "units": "m s-1", 
+            "cell_methods": "time: point", 
+            "cell_measures": "None", 
+            "long_name": "Sea Water X Velocity", 
+            "comment": "Prognostic x-ward velocity component resolved by the model.", 
+            "dimensions": "longitude latitude olev100m time", 
+            "out_name": "uo", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        }, 
+        "vo": {
+            "modeling_realm": "ocean", 
+            "standard_name": "sea_water_y_velocity", 
+            "units": "m s-1", 
+            "cell_methods": "time: point", 
+            "cell_measures": "None", 
+            "long_name": "Sea Water Y Velocity", 
+            "comment": "Prognostic x-ward velocity component resolved by the model.", 
+            "dimensions": "longitude latitude olev100m time", 
+            "out_name": "vo", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        }
+    }
+}

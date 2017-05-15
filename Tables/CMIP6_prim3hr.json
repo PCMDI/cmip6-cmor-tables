@@ -1,0 +1,52 @@
+{
+    "Header": {
+        "data_specs_version": "01.beta.45", 
+        "table_id": "Table prim3hr", 
+        "realm": "atmos", 
+        "frequency": "3hr", 
+        "cmor_version": "3.2", 
+        "table_date": "19 December 2016", 
+        "missing_value": "1e20", 
+        "product": "output", 
+        "approx_interval": "0.125000", 
+        "generic_levels": "", 
+        "mip_era": "CMIP6", 
+        "Conventions": "CF-1.6 CMIP-6.0"
+    }, 
+    "variable_entry": {
+        "evspsbl": {
+            "modeling_realm": "atmos", 
+            "standard_name": "water_evaporation_flux", 
+            "units": "kg m-2 s-1", 
+            "cell_methods": "time: mean", 
+            "cell_measures": "area: areacella", 
+            "long_name": "Evaporation", 
+            "comment": "at surface; flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)", 
+            "dimensions": "longitude latitude time", 
+            "out_name": "evspsbl", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        }, 
+        "sfcWind": {
+            "modeling_realm": "atmos", 
+            "standard_name": "wind_speed", 
+            "units": "m s-1", 
+            "cell_methods": "time: mean", 
+            "cell_measures": "None", 
+            "long_name": "Near-Surface Wind Speed", 
+            "comment": "near-surface (usually, 10 meters) wind speed.", 
+            "dimensions": "longitude latitude time  height10m", 
+            "out_name": "sfcWind", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        }
+    }
+}
