@@ -2,7 +2,7 @@
 
 Note:
 ----
-Only CMOR and PrePARE should use the JSON file of concatenated CMIP6 Control Vocabulary [CMIP6_CV.json](https://github.com/PCMDI/cmip6-cmor-tables/blob/master/Tables/CMIP6_CV.json) found in this repository.  
+Only `CMOR` and `PrePARE` should use the `JSON` file of concatenated `CMIP6` Control Vocabulary [CMIP6_CV.json](https://github.com/PCMDI/cmip6-cmor-tables/blob/master/Tables/CMIP6_CV.json) found in this repository.  
 
 All other software should get the CV's directly from the [WCRP](https://github.com/WCRP-CMIP/CMIP6_CVs) repository. 
 
