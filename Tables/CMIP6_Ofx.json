@@ -9,7 +9,7 @@
         "missing_value": "1e20", 
         "product": "model-output", 
         "approx_interval": "", 
-        "generic_levels": "", 
+        "generic_levels": "olevel",
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.0"
     }, 
@@ -109,7 +109,7 @@
             "cell_measures": "area: areacello", 
             "long_name": "Sea Area Fraction", 
             "comment": "This is the area fraction at the ocean surface.", 
-            "dimensions": "longitude latitude  typesea", 
+            "dimensions": "longitude latitude typesea", 
             "out_name": "sftof", 
             "type": "real", 
             "positive": "", 
