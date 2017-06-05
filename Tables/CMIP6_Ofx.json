@@ -1,20 +1,20 @@
 {
     "Header": {
-        "data_specs_version": "01.00.10", 
+        "data_specs_version": "01.00.11", 
         "table_id": "Table Ofx", 
         "realm": "ocean", 
-        "frequency": "fx", 
         "cmor_version": "3.2", 
-        "table_date": "10 May 2017", 
+        "table_date": "05 June 2017", 
         "missing_value": "1e20", 
         "product": "model-output", 
-        "approx_interval": "", 
-        "generic_levels": "olevel",
+        "approx_interval": "0.00000", 
+        "generic_levels": "olevel", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.0"
     }, 
     "variable_entry": {
         "areacello": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "cell_area", 
             "units": "m2", 
@@ -32,6 +32,7 @@
             "ok_max_mean_abs": ""
         }, 
         "basin": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "region", 
             "units": "1.0", 
@@ -51,6 +52,7 @@
             "ok_max_mean_abs": ""
         }, 
         "deptho": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_floor_depth_below_geoid", 
             "units": "m", 
@@ -68,6 +70,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hfgeou": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "upward_geothermal_heat_flux_at_sea_floor", 
             "units": "W m-2", 
@@ -85,6 +88,7 @@
             "ok_max_mean_abs": ""
         }, 
         "masscello": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_mass_per_unit_area", 
             "units": "kg m-2", 
@@ -102,6 +106,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sftof": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_area_fraction", 
             "units": "%", 
@@ -109,7 +114,7 @@
             "cell_measures": "area: areacello", 
             "long_name": "Sea Area Fraction", 
             "comment": "This is the area fraction at the ocean surface.", 
-            "dimensions": "longitude latitude typesea", 
+            "dimensions": "longitude latitude  typesea", 
             "out_name": "sftof", 
             "type": "real", 
             "positive": "", 
@@ -119,6 +124,7 @@
             "ok_max_mean_abs": ""
         }, 
         "thkcello": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "cell_thickness", 
             "units": "m", 
@@ -136,6 +142,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ugrid": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "missing", 
             "units": "", 
@@ -153,6 +160,7 @@
             "ok_max_mean_abs": ""
         }, 
         "volcello": {
+            "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "ocean_volume", 
             "units": "m3", 

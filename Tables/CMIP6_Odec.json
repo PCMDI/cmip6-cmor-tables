@@ -1,20 +1,20 @@
 {
     "Header": {
-        "data_specs_version": "01.00.10", 
+        "data_specs_version": "01.00.11", 
         "table_id": "Table Odec", 
         "realm": "ocean", 
-        "frequency": "dec", 
         "cmor_version": "3.2", 
-        "table_date": "10 May 2017", 
+        "table_date": "05 June 2017", 
         "missing_value": "1e20", 
         "product": "model-output", 
-        "approx_interval": "", 
-        "generic_levels": "olevel",
+        "approx_interval": "3650.00000", 
+        "generic_levels": "olevel", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.0"
     }, 
     "variable_entry": {
         "agessc": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_age_since_surface_contact", 
             "units": "yr", 
@@ -32,6 +32,7 @@
             "ok_max_mean_abs": ""
         }, 
         "bigthetaoga": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_conservative_temperature", 
             "units": "degC", 
@@ -49,6 +50,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hfbasin": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "northward_ocean_heat_transport", 
             "units": "W", 
@@ -66,6 +68,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hfds": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "surface_downward_heat_flux_in_sea_water", 
             "units": "W m-2", 
@@ -83,6 +86,7 @@
             "ok_max_mean_abs": ""
         }, 
         "masso": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_mass", 
             "units": "kg", 
@@ -100,6 +104,7 @@
             "ok_max_mean_abs": ""
         }, 
         "msftmyz": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "ocean_meridional_overturning_mass_streamfunction", 
             "units": "kg s-1", 
@@ -117,6 +122,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sfdsi": {
+            "frequency": "dec", 
             "modeling_realm": "ocean seaIce", 
             "standard_name": "downward_sea_ice_basal_salt_flux", 
             "units": "kg m-2 s-1", 
@@ -134,6 +140,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sfriver": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "salt_flux_into_sea_water_from_rivers", 
             "units": "kg m-2 s-1", 
@@ -151,6 +158,7 @@
             "ok_max_mean_abs": ""
         }, 
         "so": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_salinity", 
             "units": "0.001", 
@@ -168,6 +176,7 @@
             "ok_max_mean_abs": ""
         }, 
         "soga": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_salinity", 
             "units": "0.001", 
@@ -185,6 +194,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sos": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_surface_salinity", 
             "units": "0.001", 
@@ -202,6 +212,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sosga": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_surface_salinity", 
             "units": "0.001", 
@@ -219,6 +230,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tauuo": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "surface_downward_x_stress", 
             "units": "N m-2", 
@@ -236,6 +248,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tauvo": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "surface_downward_y_stress", 
             "units": "N m-2", 
@@ -253,6 +266,7 @@
             "ok_max_mean_abs": ""
         }, 
         "thetao": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_potential_temperature", 
             "units": "degC", 
@@ -270,6 +284,7 @@
             "ok_max_mean_abs": ""
         }, 
         "thetaoga": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_potential_temperature", 
             "units": "degC", 
@@ -287,6 +302,7 @@
             "ok_max_mean_abs": ""
         }, 
         "thkcello": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "cell_thickness", 
             "units": "m", 
@@ -304,6 +320,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tos": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_surface_temperature", 
             "units": "K", 
@@ -321,6 +338,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tosga": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_surface_temperature", 
             "units": "degC", 
@@ -338,6 +356,7 @@
             "ok_max_mean_abs": ""
         }, 
         "uo": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_x_velocity", 
             "units": "m s-1", 
@@ -355,6 +374,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vo": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_y_velocity", 
             "units": "m s-1", 
@@ -372,6 +392,7 @@
             "ok_max_mean_abs": ""
         }, 
         "volo": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_volume", 
             "units": "m3", 
@@ -389,6 +410,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wfo": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "water_flux_into_sea_water", 
             "units": "kg m-2 s-1", 
@@ -406,6 +428,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wo": {
+            "frequency": "dec", 
             "modeling_realm": "ocean", 
             "standard_name": "upward_sea_water_velocity", 
             "units": "m s-1", 

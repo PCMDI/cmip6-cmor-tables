@@ -1,11 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "01.00.10", 
+        "data_specs_version": "01.00.11", 
         "table_id": "Table Emon", 
         "realm": "atmos", 
-        "frequency": "mon", 
         "cmor_version": "3.2", 
-        "table_date": "10 May 2017", 
+        "table_date": "05 June 2017", 
         "missing_value": "1e20", 
         "product": "model-output", 
         "approx_interval": "30.00000", 
@@ -15,6 +14,7 @@
     }, 
     "variable_entry": {
         "H2p": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -32,6 +32,7 @@
             "ok_max_mean_abs": ""
         }, 
         "H2s": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -49,6 +50,7 @@
             "ok_max_mean_abs": ""
         }, 
         "H2wv": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -66,6 +68,7 @@
             "ok_max_mean_abs": ""
         }, 
         "O17p": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -83,6 +86,7 @@
             "ok_max_mean_abs": ""
         }, 
         "O17s": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -100,6 +104,7 @@
             "ok_max_mean_abs": ""
         }, 
         "O17wv": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -117,6 +122,7 @@
             "ok_max_mean_abs": ""
         }, 
         "O18p": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -134,6 +140,7 @@
             "ok_max_mean_abs": ""
         }, 
         "O18s": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -151,6 +158,7 @@
             "ok_max_mean_abs": ""
         }, 
         "O18sw": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "missing", 
             "units": "", 
@@ -168,6 +176,7 @@
             "ok_max_mean_abs": ""
         }, 
         "O18wv": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "", 
@@ -185,6 +194,7 @@
             "ok_max_mean_abs": ""
         }, 
         "c13Land": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "total_land_c13", 
             "units": "kg m-2", 
@@ -202,6 +212,7 @@
             "ok_max_mean_abs": ""
         }, 
         "c13Litter": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_c13_content", 
             "units": "kg m-2", 
@@ -219,6 +230,7 @@
             "ok_max_mean_abs": ""
         }, 
         "c13Soil": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_c13_content", 
             "units": "kg m-2", 
@@ -236,6 +248,7 @@
             "ok_max_mean_abs": ""
         }, 
         "c13Veg": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "vegetation_c13_content", 
             "units": "kg m-2", 
@@ -253,6 +266,7 @@
             "ok_max_mean_abs": ""
         }, 
         "c14Land": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "total_land_c14", 
             "units": "kg m-2", 
@@ -270,6 +284,7 @@
             "ok_max_mean_abs": ""
         }, 
         "c14Litter": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_c14_content", 
             "units": "kg m-2", 
@@ -287,6 +302,7 @@
             "ok_max_mean_abs": ""
         }, 
         "c14Soil": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_c14_content", 
             "units": "kg m-2", 
@@ -304,6 +320,7 @@
             "ok_max_mean_abs": ""
         }, 
         "c14Veg": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "vegetation_c14_content", 
             "units": "kg m-2", 
@@ -321,6 +338,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cLand": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "total_land_carbon", 
             "units": "kg m-2", 
@@ -338,6 +356,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cLitterCwd": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_wood_debris_carbon_content", 
             "units": "kg m-2", 
@@ -355,6 +374,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cLitterGrass": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_carbon_content", 
             "units": "kg m-2", 
@@ -372,6 +392,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cLitterShrub": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_carbon_content", 
             "units": "kg m-2", 
@@ -389,6 +410,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cLitterSubSurf": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "subsurface_litter_carbon_content", 
             "units": "kg m-2", 
@@ -406,6 +428,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cLitterSurf": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_litter_carbon_content", 
             "units": "kg m-2", 
@@ -423,6 +446,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cLitterTree": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_carbon_content", 
             "units": "kg m-2", 
@@ -440,6 +464,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cMisc": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "miscellaneous_living_matter_carbon_content", 
             "units": "kg m-2", 
@@ -457,6 +482,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cOther": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "other_vegegtation_components_carbon_content", 
             "units": "kg m-2", 
@@ -474,6 +500,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cSoil": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_content", 
             "units": "kg m-2", 
@@ -491,6 +518,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cSoilAbove1m": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_content_above_1m_depth", 
             "units": "kg m-2", 
@@ -508,6 +536,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cSoilBelow1m": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_content_below_1m_depth", 
             "units": "kg m-2", 
@@ -525,6 +554,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cSoilGrass": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_content", 
             "units": "kg m-2", 
@@ -542,6 +572,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cSoilLevels": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_content_on_model_levels", 
             "units": "kg m-2", 
@@ -559,6 +590,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cSoilPools": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_content_by_pool", 
             "units": "kg m-2", 
@@ -576,6 +608,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cSoilShrub": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_content", 
             "units": "kg m-2", 
@@ -593,6 +626,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cSoilTree": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_content", 
             "units": "kg m-2", 
@@ -610,6 +644,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cStem": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "stem_carbon_content", 
             "units": "kg m-2", 
@@ -627,6 +662,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cTotFireLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "missing", 
             "units": "kg m-2 s-1", 
@@ -644,6 +680,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cVegGrass": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "vegetation_carbon_content", 
             "units": "kg m-2", 
@@ -661,6 +698,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cVegShrub": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "vegetation_carbon_content", 
             "units": "kg m-2", 
@@ -678,6 +716,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cVegTree": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "vegetation_carbon_content", 
             "units": "kg m-2", 
@@ -695,6 +734,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cWood": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "wood_carbon_content", 
             "units": "kg m-2", 
@@ -712,6 +752,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cfadDbze94": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid", 
             "units": "1.0", 
@@ -729,6 +770,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cfadLidarsr532": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "histogram_of_backscattering_ratio_over_height_above_reference_ellipsoid", 
             "units": "1.0", 
@@ -746,6 +788,7 @@
             "ok_max_mean_abs": ""
         }, 
         "clcalipsoice": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "ice_cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
@@ -763,6 +806,7 @@
             "ok_max_mean_abs": ""
         }, 
         "clcalipsoliq": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "liquid_cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
@@ -780,6 +824,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cldicemxrat27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "cloud_ice_mixing_ratio", 
             "units": "1.0", 
@@ -797,6 +842,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cldnci": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "number_concentration_of_ice_crystals_in_air_at_ice_cloud_top", 
             "units": "m-3", 
@@ -814,6 +860,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cldncl": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "number_concentration_of_cloud_liquid_water_particles_in_air_at_liquid_water_cloud_top", 
             "units": "m-3", 
@@ -831,6 +878,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cldnvi": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_number_content_of_cloud_droplets", 
             "units": "m-2", 
@@ -848,6 +896,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cldwatmxrat27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "cloud_liquid_water_mixing_ratio", 
             "units": "1.0", 
@@ -865,6 +914,7 @@
             "ok_max_mean_abs": ""
         }, 
         "climodis": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "ice_cloud_area_fraction", 
             "units": "%", 
@@ -882,6 +932,7 @@
             "ok_max_mean_abs": ""
         }, 
         "clmisr": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
@@ -899,6 +950,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cltmodis": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "cloud_area_fraction", 
             "units": "%", 
@@ -916,6 +968,7 @@
             "ok_max_mean_abs": ""
         }, 
         "clwmodis": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "liquid_cloud_area_fraction", 
             "units": "%", 
@@ -933,6 +986,7 @@
             "ok_max_mean_abs": ""
         }, 
         "clwvic": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_convective_cloud_condensed_water_content", 
             "units": "kg m-2", 
@@ -950,6 +1004,7 @@
             "ok_max_mean_abs": ""
         }, 
         "co23D": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "CO2_3D_tracer", 
             "units": "kg kg-1", 
@@ -967,6 +1022,7 @@
             "ok_max_mean_abs": ""
         }, 
         "co2s": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mole_fraction_of_carbon_dioxide_in_air", 
             "units": "1e-06", 
@@ -984,6 +1040,7 @@
             "ok_max_mean_abs": ""
         }, 
         "columnmassflux": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_net_upward_convective_mass_flux", 
             "units": "kg m-2 s-1", 
@@ -1001,6 +1058,7 @@
             "ok_max_mean_abs": ""
         }, 
         "conccmcn": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "number_concentration_of_coarse_mode_ambient_aerosol_in_air", 
             "units": "m-3", 
@@ -1018,6 +1076,7 @@
             "ok_max_mean_abs": ""
         }, 
         "conccn": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "number_concentration_of_ambient_aerosol_in_air", 
             "units": "m-3", 
@@ -1035,6 +1094,7 @@
             "ok_max_mean_abs": ""
         }, 
         "concdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mass_concentration_of_dust_dry_aerosol_in_air", 
             "units": "kg m-3", 
@@ -1052,6 +1112,7 @@
             "ok_max_mean_abs": ""
         }, 
         "concnmcn": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "number_concentration_of_nucleation_mode_ambient_aerosol_in_air", 
             "units": "m-3", 
@@ -1069,6 +1130,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cropFracC3": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -1086,6 +1148,7 @@
             "ok_max_mean_abs": ""
         }, 
         "cropFracC4": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -1103,6 +1166,7 @@
             "ok_max_mean_abs": ""
         }, 
         "depdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_total_deposition", 
             "units": "kg m-2 s-1", 
@@ -1120,6 +1184,7 @@
             "ok_max_mean_abs": ""
         }, 
         "diabdrag": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_eastward_wind_due_to_numerical_artefacts", 
             "units": "m s-2", 
@@ -1137,6 +1202,7 @@
             "ok_max_mean_abs": ""
         }, 
         "dissi13c": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "mole_concentration_of_dissolved_inorganic_carbon13_in_sea_water", 
             "units": "mol m-3", 
@@ -1154,6 +1220,7 @@
             "ok_max_mean_abs": ""
         }, 
         "dissi14c": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "mole_concentration_of_dissolved_inorganic_c14_in_sea_water", 
             "units": "mol m-3", 
@@ -1171,6 +1238,7 @@
             "ok_max_mean_abs": ""
         }, 
         "dissicnat": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water_natural_component", 
             "units": "mol m-3", 
@@ -1188,6 +1256,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ec550aer": {
+            "frequency": "mon", 
             "modeling_realm": "aerosol", 
             "standard_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles", 
             "units": "m-1", 
@@ -1205,6 +1274,7 @@
             "ok_max_mean_abs": ""
         }, 
         "evspsblpot": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "water_potential_evaporation_flux", 
             "units": "kg m-2 s-1", 
@@ -1222,6 +1292,7 @@
             "ok_max_mean_abs": ""
         }, 
         "exparag": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "sinking_mole_flux_of_aragonite_expressed_as_carbon_in_sea_water", 
             "units": "mol m-2 s-1", 
@@ -1239,6 +1310,7 @@
             "ok_max_mean_abs": ""
         }, 
         "expcalc": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "sinking_mole_flux_of_calcite_expressed_as_carbon_in_sea_water", 
             "units": "mol m-2 s-1", 
@@ -1256,6 +1328,7 @@
             "ok_max_mean_abs": ""
         }, 
         "expcfe": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sinking_mole_flux_of_particulate_iron_in_sea_water", 
             "units": "mol m-2 s-1", 
@@ -1273,6 +1346,7 @@
             "ok_max_mean_abs": ""
         }, 
         "expn": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "sinking_mole_flux_of_particulate_organic_nitrogen_in_sea_water", 
             "units": "mol m-2 s-1", 
@@ -1290,6 +1364,7 @@
             "ok_max_mean_abs": ""
         }, 
         "expp": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water", 
             "units": "mol m-2 s-1", 
@@ -1307,6 +1382,7 @@
             "ok_max_mean_abs": ""
         }, 
         "expsi": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "sinking_mole_flux_of_particulate_silicon_in_sea_water", 
             "units": "mol m-2 s-1", 
@@ -1324,6 +1400,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fAnthDisturb": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_anthrogpogenic_emission", 
             "units": "kg m-2 s-1", 
@@ -1341,6 +1418,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fBNF": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "biological_nitrogen_fixation", 
             "units": "kg m-2 s-1", 
@@ -1358,6 +1436,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fCLandToOcean": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "carbon_mass_flux_into_ocean_from_rivers", 
             "units": "kg m-2 s-1", 
@@ -1375,6 +1454,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fDeforestToAtmos": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change", 
             "units": "kg m-2 s-1", 
@@ -1392,6 +1472,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fDeforestToProduct": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "deforested_biomass_into_product_pool_due_to_anthorpogenic_land_use_change", 
             "units": "kg m-2 s-1", 
@@ -1409,6 +1490,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fFireAll": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "fire_CO2_emissions_from_all_sources", 
             "units": "kg m-2 s-1", 
@@ -1426,6 +1508,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fFireNat": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "fire_CO2_emissions_from_wildfire", 
             "units": "kg m-2 s-1", 
@@ -1443,6 +1526,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fHarvestToAtmos": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_crop_harvesting", 
             "units": "kg m-2 s-1", 
@@ -1460,6 +1544,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fHarvestToProduct": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "harvested_biomass_into_product_pool", 
             "units": "kg m-2 s-1", 
@@ -1477,6 +1562,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fLitterFire": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "fire_CO2_emissions_from_litter_carbon", 
             "units": "kg m-2 s-1", 
@@ -1494,6 +1580,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fLuc": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change", 
             "units": "kg m-2 s-1", 
@@ -1511,6 +1598,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fLulccAtmLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_direct_to_atmosphere_due_to_anthropogenic_land_use_land_cover_change", 
             "units": "kg s-1", 
@@ -1528,6 +1616,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fLulccProductLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "carbon_mass_flux_into_wood_and_agricultural_product_pools_due_to_anthropogenic_land_use_or_land_cover_change", 
             "units": "kg m-2 s-1", 
@@ -1545,6 +1634,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fLulccResidueLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "carbon_mass_flux_into_soil_and_litter_due_to_anthropogenic_land_use_or_land_cover_change", 
             "units": "kg m-2 s-1", 
@@ -1562,6 +1652,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fN2O": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "land_net_n2o_flux", 
             "units": "kg m-2 s-1", 
@@ -1579,6 +1670,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNAnthDisturb": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "nitrogen_flux_into_atmos_due_to_direct_human_disturbance", 
             "units": "kg m-2 s-1", 
@@ -1596,6 +1688,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNLandToOcean": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "nitrogen_mass_flux_into_ocean_from_rivers", 
             "units": "kg m-2 s-1", 
@@ -1613,6 +1706,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNLitterSoil": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "nitrogen_mass_flux_into_soil_from_litter", 
             "units": "kg m-2 s-1", 
@@ -1630,6 +1724,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNOx": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "land_net_nox_flux", 
             "units": "kg m-2 s-1", 
@@ -1647,6 +1742,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNProduct": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "nitrogen_mass_flux_to_product_pool_due_to_anthorpogenic_activity", 
             "units": "kg m-2 s-1", 
@@ -1664,6 +1760,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNVegLitter": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_nitrogen_flux", 
             "units": "kg m-2 s-1", 
@@ -1681,6 +1778,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNVegSoil": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "nitrogen_mass_flux_into_soil_from_vegetation_excluding_litter", 
             "units": "kg m-2 s-1", 
@@ -1698,6 +1796,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNdep": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "deposition_of_nitrogen_onto_land", 
             "units": "kg m-2 s-1", 
@@ -1715,6 +1814,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNfert": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "fertiliser_of_nitrogen_onto_land", 
             "units": "kg m-2 s-1", 
@@ -1732,6 +1832,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNgas": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "land_nitrogen_lost_to_atmosphere", 
             "units": "kg m-2 s-1", 
@@ -1749,6 +1850,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNgasFire": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "land_nitrogen_lost_to_atmosphere_due_to_fire", 
             "units": "kg m-2 s-1", 
@@ -1766,6 +1868,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNgasNonFire": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "land_nitrogen_lost_to_atmosphere_not_due_to_fire", 
             "units": "kg m-2 s-1", 
@@ -1783,6 +1886,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNleach": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "land_nitrogen_lost_to_leaching", 
             "units": "kg m-2 s-1", 
@@ -1800,6 +1904,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNloss": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "land_nitrogen_lost", 
             "units": "kg m-2 s-1", 
@@ -1817,6 +1922,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNnetmin": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_nitrogen_mineralisation", 
             "units": "kg m-2 s-1", 
@@ -1834,6 +1940,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fNup": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "plant_nitrogen_uptake", 
             "units": "kg m-2 s-1", 
@@ -1851,6 +1958,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fProductDecomp": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "Carbon_flux_out_of_storage_product_pools_into_atmos", 
             "units": "kg m-2 s-1", 
@@ -1868,6 +1976,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fProductDecompLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "tendency_of_atmospheric_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_wood_and_agricultural_product_pool", 
             "units": "kg s-1", 
@@ -1885,6 +1994,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fVegFire": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "fire_CO2_emissions_from_vegetation_carbon", 
             "units": "kg m-2 s-1", 
@@ -1902,6 +2012,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fVegLitterMortality": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "mortality_litter_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -1919,6 +2030,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fVegLitterSenescence": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "senescence_litter_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -1936,6 +2048,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fVegSoilMortality": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "mortality_vegtosoil_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -1953,6 +2066,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fVegSoilSenescence": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "senescence_vegtosoil_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -1970,6 +2084,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fahLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_upward_heat_flux_due_to_anthropogenic_energy_consumption", 
             "units": "W m-2", 
@@ -1987,6 +2102,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fbddtalk": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "integral_wrt_depth_of_tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent_due_to_biological_processes", 
             "units": "mol m-2 s-1", 
@@ -2004,6 +2120,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fbddtdic": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_carbon_due_to_biological_processes", 
             "units": "mol m-2 s-1", 
@@ -2021,6 +2138,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fbddtdife": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_iron_due_to_biological_processes", 
             "units": "mol m-2 s-1", 
@@ -2038,6 +2156,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fbddtdin": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_nitrogen_due_to_biological_processes", 
             "units": "mol m-2 s-1", 
@@ -2055,6 +2174,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fbddtdip": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_phosphorus_due_to_biological_processes", 
             "units": "mol m-2 s-1", 
@@ -2072,6 +2192,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fbddtdisi": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_silicon_due_to_biological_processes", 
             "units": "mol m-2 s-1", 
@@ -2089,6 +2210,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fddtalk": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "integral_wrt_depth_of_tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent", 
             "units": "mol m-2 s-1", 
@@ -2106,6 +2228,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fddtdic": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_carbon", 
             "units": "mol m-2 s-1", 
@@ -2123,6 +2246,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fddtdife": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_iron", 
             "units": "mol m-2 s-1", 
@@ -2140,6 +2264,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fddtdin": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_nitrogen", 
             "units": "mol m-2 s-1", 
@@ -2157,6 +2282,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fddtdip": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_phosphorus", 
             "units": "mol m-2 s-1", 
@@ -2174,6 +2300,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fddtdisi": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_silicon", 
             "units": "mol m-2 s-1", 
@@ -2191,6 +2318,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fg14co2": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "air_sea_flux_of_14CO2", 
             "units": "mol m-2 s-1", 
@@ -2208,6 +2336,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fg14co2abio": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "surface_downward_mass_flux_of_abiotic_14_carbon_dioxide_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -2225,6 +2354,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fgco2abio": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "surface_downward_mass_flux_of_abiotic_carbon_dioxide_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -2242,6 +2372,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fgco2nat": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "surface_downward_mass_flux_of_natural_carbon_dioxide_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -2259,6 +2390,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fgdms": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "surface_upward_mole_flux_of_dimethyl_sulfide", 
             "units": "mol m-2 s-1", 
@@ -2276,6 +2408,7 @@
             "ok_max_mean_abs": ""
         }, 
         "flandice": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "water_flux_into_sea_water_from_land_ice", 
             "units": "kg m-2 s-1", 
@@ -2293,6 +2426,7 @@
             "ok_max_mean_abs": ""
         }, 
         "flashrate": {
+            "frequency": "mon", 
             "modeling_realm": "atmosChem", 
             "standard_name": "lightning_flash_rate", 
             "units": "km-2 s-1", 
@@ -2310,6 +2444,7 @@
             "ok_max_mean_abs": ""
         }, 
         "fracLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -2327,6 +2462,7 @@
             "ok_max_mean_abs": ""
         }, 
         "gppGrass": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -2344,6 +2480,7 @@
             "ok_max_mean_abs": ""
         }, 
         "gppLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -2361,6 +2498,7 @@
             "ok_max_mean_abs": ""
         }, 
         "gppShrub": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -2378,6 +2516,7 @@
             "ok_max_mean_abs": ""
         }, 
         "gppTree": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -2395,6 +2534,7 @@
             "ok_max_mean_abs": ""
         }, 
         "gppc13": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "gross_primary_productivity_of_c13", 
             "units": "kg m-2 s-1", 
@@ -2412,6 +2552,7 @@
             "ok_max_mean_abs": ""
         }, 
         "gppc14": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "gross_primary_productivity_of_c14", 
             "units": "kg m-2 s-1", 
@@ -2429,6 +2570,7 @@
             "ok_max_mean_abs": ""
         }, 
         "grassFracC3": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -2446,6 +2588,7 @@
             "ok_max_mean_abs": ""
         }, 
         "grassFracC4": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -2463,6 +2606,7 @@
             "ok_max_mean_abs": ""
         }, 
         "grplmxrat27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mass_fraction_of_graupel_in_air", 
             "units": "1.0", 
@@ -2480,6 +2624,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hcont300": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "heat_content_of_ocean_layer", 
             "units": "m K", 
@@ -2497,6 +2642,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hflsLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_upward_latent_heat_flux", 
             "units": "W m-2", 
@@ -2514,6 +2660,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hfssLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_upward_sensible_heat_flux", 
             "units": "W m-2", 
@@ -2531,6 +2678,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hursminCrop": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "relative_humidity", 
             "units": "%", 
@@ -2548,6 +2696,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hus": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "specific_humidity", 
             "units": "1.0", 
@@ -2565,6 +2714,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hus27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "specific_humidity", 
             "units": "1.0", 
@@ -2582,6 +2732,7 @@
             "ok_max_mean_abs": ""
         }, 
         "hussLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "specific_humidity", 
             "units": "1.0", 
@@ -2599,6 +2750,7 @@
             "ok_max_mean_abs": ""
         }, 
         "intuadse": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "vertical_integral_eastward_wind_by_dry_static_energy", 
             "units": "1.e6 J m-1 s-1", 
@@ -2616,6 +2768,7 @@
             "ok_max_mean_abs": ""
         }, 
         "intuaw": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "vertical_integral_eastward_wind_by_total_water", 
             "units": "kg m-1 s-1", 
@@ -2633,6 +2786,7 @@
             "ok_max_mean_abs": ""
         }, 
         "intvadse": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "vertical_integral_northward_wind_by_dry_static_energy", 
             "units": "1.e6 J m-1 s-1", 
@@ -2650,6 +2804,7 @@
             "ok_max_mean_abs": ""
         }, 
         "intvaw": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "vertical_integral_northward_wind_by_total_water", 
             "units": "kg m-1 s-1", 
@@ -2667,6 +2822,7 @@
             "ok_max_mean_abs": ""
         }, 
         "irrLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_downward_water_flux_due_to_irrigation", 
             "units": "kg s-1", 
@@ -2684,6 +2840,7 @@
             "ok_max_mean_abs": ""
         }, 
         "jpdftaureicemodis": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
@@ -2701,6 +2858,7 @@
             "ok_max_mean_abs": ""
         }, 
         "jpdftaureliqmodis": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
@@ -2718,6 +2876,7 @@
             "ok_max_mean_abs": ""
         }, 
         "laiLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "missing", 
             "units": "1.0", 
@@ -2735,6 +2894,7 @@
             "ok_max_mean_abs": ""
         }, 
         "loaddust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_mass_content_of_dust_dry_aerosol", 
             "units": "kg m-2", 
@@ -2752,6 +2912,7 @@
             "ok_max_mean_abs": ""
         }, 
         "loadso4": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_mass_content_of_sulfate_dry_aerosol", 
             "units": "kg m-2", 
@@ -2769,6 +2930,7 @@
             "ok_max_mean_abs": ""
         }, 
         "loadss": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_mass_content_of_seasalt_dry_aerosol", 
             "units": "kg m-2", 
@@ -2786,6 +2948,7 @@
             "ok_max_mean_abs": ""
         }, 
         "lwsrfasdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_all_sky_surface_longwave_flux_to_dust_ambient_aerosol_particles", 
             "units": "W m-2", 
@@ -2803,6 +2966,7 @@
             "ok_max_mean_abs": ""
         }, 
         "lwsrfcsdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_clear_sky_surface_longwave_flux_to_dust_ambient_aerosol_particles", 
             "units": "W m-2", 
@@ -2820,6 +2984,7 @@
             "ok_max_mean_abs": ""
         }, 
         "lwtoaasdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "toa_instantaneous_longwave_forcing", 
             "units": "W m-2", 
@@ -2837,6 +3002,7 @@
             "ok_max_mean_abs": ""
         }, 
         "lwtoacs": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_clear_sky_top_of_atmosphere_longwave_flux_to_dust_ambient_aerosol_particles___2D_field_radiative_properties", 
             "units": "W m-2", 
@@ -2854,6 +3020,7 @@
             "ok_max_mean_abs": ""
         }, 
         "lwtoacsaer": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "toa_instantaneous_longwave_forcing", 
             "units": "W m-2", 
@@ -2871,6 +3038,7 @@
             "ok_max_mean_abs": ""
         }, 
         "md": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_emission", 
             "units": "kg m-2 s-1", 
@@ -2888,6 +3056,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mmraerso4": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mass_fraction_of_sulfate_dry_aerosol_in_air", 
             "units": "kg kg-1", 
@@ -2905,6 +3074,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mmrbc": {
+            "frequency": "mon", 
             "modeling_realm": "aerosol", 
             "standard_name": "mass_fraction_of_elemental_carbon_dry_aerosol_particles_in_air", 
             "units": "kg kg-1", 
@@ -2921,24 +3091,8 @@
             "ok_min_mean_abs": "", 
             "ok_max_mean_abs": ""
         }, 
-        "mmrdust": {
-            "modeling_realm": "aerosol", 
-            "standard_name": "mass_fraction_of_dust_dry_aerosol_particles_in_air", 
-            "units": "kg kg-1", 
-            "cell_methods": "area: time: mean", 
-            "cell_measures": "area: areacella", 
-            "long_name": "Dust aerosol mass mixing ratio", 
-            "comment": "", 
-            "dimensions": "longitude latitude time", 
-            "out_name": "mmrdust", 
-            "type": "float", 
-            "positive": "", 
-            "valid_min": "", 
-            "valid_max": "", 
-            "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
-        }, 
         "mmrno3": {
+            "frequency": "mon", 
             "modeling_realm": "aerosol", 
             "standard_name": "mass_fraction_of_nitrate_dry_aerosol_particles_in_air", 
             "units": "kg kg-1", 
@@ -2956,6 +3110,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mmrss": {
+            "frequency": "mon", 
             "modeling_realm": "aerosol", 
             "standard_name": "mass_fraction_of_seasalt_dry_aerosol_particles_in_air", 
             "units": "kg kg-1", 
@@ -2973,6 +3128,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrlso": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_liquid_water_content", 
             "units": "kg m-2", 
@@ -2990,6 +3146,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrroLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "runoff_flux", 
             "units": "kg m-2 s-1", 
@@ -3007,6 +3164,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrsfl": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "frozen_moisture_content_of_soil_layer", 
             "units": "kg m-2", 
@@ -3024,6 +3182,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrsll": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "liquid_moisture_content_of_soil_layer", 
             "units": "kg m-2", 
@@ -3041,6 +3200,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrsoLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_moisture_content", 
             "units": "kg m-2", 
@@ -3058,6 +3218,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrsol": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "moisture_content_of_soil_layer", 
             "units": "kg m-2", 
@@ -3075,6 +3236,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrsosLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "moisture_content_of_soil_layer", 
             "units": "kg m-2", 
@@ -3092,6 +3254,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrtws": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "total_water_storage", 
             "units": "kg m-2", 
@@ -3109,6 +3272,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nLand": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "total_land_nitrogen", 
             "units": "kg m-2", 
@@ -3126,6 +3290,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nLeaf": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "leaf_nitrogen_content", 
             "units": "kg m-2", 
@@ -3143,6 +3308,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nLitter": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_nitrogen_content", 
             "units": "kg m-2", 
@@ -3160,6 +3326,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nLitterCwd": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "litter_wood_debris_nitrogen_content", 
             "units": "kg m-2", 
@@ -3177,6 +3344,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nLitterSubSurf": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "subsurface_litter_nitrogen_content", 
             "units": "kg m-2", 
@@ -3194,6 +3362,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nLitterSurf": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_litter_nitrogen_content", 
             "units": "kg m-2", 
@@ -3211,6 +3380,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nMineral": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "mineral_soil_nitrogen_content", 
             "units": "kg m-2", 
@@ -3228,6 +3398,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nMineralNH4": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "mineral_nh4_soil_nitrogen_content", 
             "units": "kg m-2", 
@@ -3245,6 +3416,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nMineralNO3": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "mineral_no3_soil_nitrogen_content", 
             "units": "kg m-2", 
@@ -3262,6 +3434,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nOther": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "other_vegegtation_components_nitrogen_content", 
             "units": "kg m-2", 
@@ -3279,6 +3452,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nProduct": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "nitrogen_content_of_products_of_anthropogenic_land_use_change", 
             "units": "kg m-2", 
@@ -3296,6 +3470,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nRoot": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "root_nitrogen_content", 
             "units": "kg m-2", 
@@ -3313,6 +3488,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nSoil": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_nitrogen_content", 
             "units": "kg m-2", 
@@ -3330,6 +3506,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nStem": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "stem_nitrogen_content", 
             "units": "kg m-2", 
@@ -3347,6 +3524,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nVeg": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "vegetation_nitrogen_content", 
             "units": "kg m-2", 
@@ -3364,6 +3542,7 @@
             "ok_max_mean_abs": ""
         }, 
         "necbLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes", 
             "units": "kg m-2 s-1", 
@@ -3381,6 +3560,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nep": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes_excluding_anthropogenic_land_use_change", 
             "units": "kg m-2 s-1", 
@@ -3398,6 +3578,7 @@
             "ok_max_mean_abs": ""
         }, 
         "netAtmosLandC13Flux": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_atmos_to_land_C13_flux", 
             "units": "kg m-2 s-1", 
@@ -3415,6 +3596,7 @@
             "ok_max_mean_abs": ""
         }, 
         "netAtmosLandC14Flux": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_atmos_to_land_C14_flux", 
             "units": "kg m-2 s-1", 
@@ -3432,6 +3614,7 @@
             "ok_max_mean_abs": ""
         }, 
         "netAtmosLandCO2Flux": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes", 
             "units": "kg m-2 s-1", 
@@ -3449,6 +3632,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nppGrass": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -3466,6 +3650,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nppLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -3483,6 +3668,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nppOther": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_primary_production_allocated_to_other", 
             "units": "kg m-2 s-1", 
@@ -3500,6 +3686,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nppShrub": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -3517,6 +3704,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nppStem": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_primary_production_allocated_to_stem", 
             "units": "kg m-2 s-1", 
@@ -3534,6 +3722,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nppTree": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon", 
             "units": "kg m-2 s-1", 
@@ -3551,6 +3740,7 @@
             "ok_max_mean_abs": ""
         }, 
         "nwdFracLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "missing", 
             "units": "1", 
@@ -3568,6 +3758,7 @@
             "ok_max_mean_abs": ""
         }, 
         "o2sat": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_saturation", 
             "units": "mol m-3", 
@@ -3585,6 +3776,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ocontempdiff": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_dianeutral_mixing", 
             "units": "W m-2", 
@@ -3602,6 +3794,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ocontempmint": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "integral_wrt_depth_of_product_of_sea_water_density_and_conservative_temperature", 
             "units": "degC kg m-2", 
@@ -3619,6 +3812,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ocontemppadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_eddy_advection", 
             "units": "W m-2", 
@@ -3636,6 +3830,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ocontemppmdiff": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_mesoscale_diffusion", 
             "units": "W m-2", 
@@ -3653,6 +3848,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ocontemppsmadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_submesoscale_advection", 
             "units": "W m-2", 
@@ -3670,6 +3866,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ocontemprmadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_residual_mean_advection", 
             "units": "W m-2", 
@@ -3687,6 +3884,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ocontemptend": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content", 
             "units": "W m-2", 
@@ -3704,6 +3902,7 @@
             "ok_max_mean_abs": ""
         }, 
         "od443dust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles", 
             "units": "1.0", 
@@ -3721,6 +3920,7 @@
             "ok_max_mean_abs": ""
         }, 
         "od550aerso": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "1.0", 
@@ -3738,6 +3938,7 @@
             "ok_max_mean_abs": ""
         }, 
         "od550aerstrat": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "strat_aerosol_optical_depth", 
             "units": "1.0", 
@@ -3755,6 +3956,7 @@
             "ok_max_mean_abs": ""
         }, 
         "od550so4so": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "missing", 
             "units": "1.0", 
@@ -3772,6 +3974,7 @@
             "ok_max_mean_abs": ""
         }, 
         "od865dust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles", 
             "units": "1.0", 
@@ -3789,6 +3992,7 @@
             "ok_max_mean_abs": ""
         }, 
         "opottempdiff": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_dianeutral_mixing", 
             "units": "W m-2", 
@@ -3806,6 +4010,7 @@
             "ok_max_mean_abs": ""
         }, 
         "opottempmint": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "integral_wrt_depth_of_product_of_sea_water_density_and_potential_temperature", 
             "units": "degC kg m-2", 
@@ -3823,6 +4028,7 @@
             "ok_max_mean_abs": ""
         }, 
         "opottemppadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_eddy_advection", 
             "units": "W m-2", 
@@ -3840,6 +4046,7 @@
             "ok_max_mean_abs": ""
         }, 
         "opottemppmdiff": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_mesoscale_diffusion", 
             "units": "W m-2", 
@@ -3857,6 +4064,7 @@
             "ok_max_mean_abs": ""
         }, 
         "opottemppsmadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_submesoscale_advection", 
             "units": "W m-2", 
@@ -3874,6 +4082,7 @@
             "ok_max_mean_abs": ""
         }, 
         "opottemprmadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_residual_mean_advection", 
             "units": "W m-2", 
@@ -3891,6 +4100,7 @@
             "ok_max_mean_abs": ""
         }, 
         "opottemptend": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content", 
             "units": "W m-2", 
@@ -3908,6 +4118,7 @@
             "ok_max_mean_abs": ""
         }, 
         "orog": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_altitude", 
             "units": "m", 
@@ -3925,6 +4136,7 @@
             "ok_max_mean_abs": ""
         }, 
         "osaltdiff": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_dianeutral_mixing", 
             "units": "kg m-2 s-1", 
@@ -3942,6 +4154,7 @@
             "ok_max_mean_abs": ""
         }, 
         "osaltpadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_eddy_advection", 
             "units": "kg m-2 s-1", 
@@ -3959,6 +4172,7 @@
             "ok_max_mean_abs": ""
         }, 
         "osaltpmdiff": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_mesoscale_diffusion", 
             "units": "kg m-2 s-1", 
@@ -3976,6 +4190,7 @@
             "ok_max_mean_abs": ""
         }, 
         "osaltpsmadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_submesoscale_advection", 
             "units": "kg m-2 s-1", 
@@ -3993,6 +4208,7 @@
             "ok_max_mean_abs": ""
         }, 
         "osaltrmadvect": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_residual_mean_advection", 
             "units": "kg m-2 s-1", 
@@ -4010,6 +4226,7 @@
             "ok_max_mean_abs": ""
         }, 
         "osalttend": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content", 
             "units": "kg m-2 s-1", 
@@ -4027,6 +4244,7 @@
             "ok_max_mean_abs": ""
         }, 
         "pabigthetao": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_added_conservative_temperature", 
             "units": "degC", 
@@ -4044,6 +4262,7 @@
             "ok_max_mean_abs": ""
         }, 
         "parasolRefl": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "toa_bidirectional_reflectance", 
             "units": "1.0", 
@@ -4061,6 +4280,7 @@
             "ok_max_mean_abs": ""
         }, 
         "pastureFracC3": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -4078,6 +4298,7 @@
             "ok_max_mean_abs": ""
         }, 
         "pastureFracC4": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -4095,6 +4316,7 @@
             "ok_max_mean_abs": ""
         }, 
         "pathetao": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_additional_potential_temperature", 
             "units": "degC", 
@@ -4112,6 +4334,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ppcalc": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_net_primary_production_by_calcareous_phytoplankton", 
             "units": "mol m-3 s-1", 
@@ -4129,6 +4352,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ppdiat": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_net_primary_production_by_diatoms", 
             "units": "mol m-3 s-1", 
@@ -4146,6 +4370,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ppdiaz": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_net_primary_production_by_diazotrophs", 
             "units": "mol m-3 s-1", 
@@ -4163,6 +4388,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ppmisc": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_net_primary_production_by_miscellaneous_phytoplankton", 
             "units": "mol m-3 s-1", 
@@ -4180,6 +4406,7 @@
             "ok_max_mean_abs": ""
         }, 
         "pppico": {
+            "frequency": "mon", 
             "modeling_realm": "ocnBgChem", 
             "standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_net_primary_production_by_picophytoplankton", 
             "units": "mol m-3 s-1", 
@@ -4197,6 +4424,7 @@
             "ok_max_mean_abs": ""
         }, 
         "prCrop": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "precipitation_flux", 
             "units": "kg m-2 s-1", 
@@ -4214,6 +4442,7 @@
             "ok_max_mean_abs": ""
         }, 
         "prbigthetao": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_redistributed_conservative_temperature", 
             "units": "degC", 
@@ -4231,6 +4460,7 @@
             "ok_max_mean_abs": ""
         }, 
         "prhmax": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "precipitation_flux", 
             "units": "kg m-2 s-1", 
@@ -4248,6 +4478,7 @@
             "ok_max_mean_abs": ""
         }, 
         "prthetao": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_redistributed_potential_temperature", 
             "units": "degC", 
@@ -4265,6 +4496,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ps": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "surface_air_pressure", 
             "units": "Pa", 
@@ -4282,6 +4514,7 @@
             "ok_max_mean_abs": ""
         }, 
         "raGrass": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "plant_respiration_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -4299,6 +4532,7 @@
             "ok_max_mean_abs": ""
         }, 
         "raLeaf": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "autotrophic_respiration_from_leaves", 
             "units": "kg m-2 s-1", 
@@ -4316,6 +4550,7 @@
             "ok_max_mean_abs": ""
         }, 
         "raLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "plant_respiration_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -4333,6 +4568,7 @@
             "ok_max_mean_abs": ""
         }, 
         "raOther": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "autotrophic_respiration", 
             "units": "kg m-2 s-1", 
@@ -4350,6 +4586,7 @@
             "ok_max_mean_abs": ""
         }, 
         "raRoot": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "autotrophic_respiration_from_roots", 
             "units": "kg m-2 s-1", 
@@ -4367,6 +4604,7 @@
             "ok_max_mean_abs": ""
         }, 
         "raShrub": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "plant_respiration_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -4384,6 +4622,7 @@
             "ok_max_mean_abs": ""
         }, 
         "raStem": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "autotrophic_respiration_from_stem", 
             "units": "kg m-2 s-1", 
@@ -4401,6 +4640,7 @@
             "ok_max_mean_abs": ""
         }, 
         "raTree": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "plant_respiration_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -4418,6 +4658,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rac13": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "plant_respiration_c13_flux", 
             "units": "kg m-2 s-1", 
@@ -4435,6 +4676,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rac14": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "plant_respiration_c14_flux", 
             "units": "kg m-2 s-1", 
@@ -4452,6 +4694,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rainmxrat27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mass_fraction_of_rain_in_air", 
             "units": "1.0", 
@@ -4469,6 +4712,7 @@
             "ok_max_mean_abs": ""
         }, 
         "reffclic": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "effective_radius_of_convective_cloud_ice_particle", 
             "units": "m", 
@@ -4486,6 +4730,7 @@
             "ok_max_mean_abs": ""
         }, 
         "reffclis": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "effective_radius_of_stratiform_cloud_ice_particle", 
             "units": "m", 
@@ -4503,6 +4748,7 @@
             "ok_max_mean_abs": ""
         }, 
         "reffclwc": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "effective_radius_of_convective_cloud_liquid_water_particle", 
             "units": "m", 
@@ -4520,6 +4766,7 @@
             "ok_max_mean_abs": ""
         }, 
         "reffclws": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "effective_radius_of_stratiform_cloud_liquid_water_particle", 
             "units": "m", 
@@ -4537,6 +4784,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rhGrass": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "heterotrophic_respiration_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -4554,6 +4802,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rhLitter": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "heterotrophic_respiration_carbon_flux_from_litter", 
             "units": "kg m-2 s-1", 
@@ -4571,6 +4820,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rhLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "heterotrophic_respiration_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -4588,6 +4838,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rhShrub": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "heterotrophic_respiration_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -4605,6 +4856,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rhSoil": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "heterotrophic_respiration_carbon_flux_from_soil", 
             "units": "kg m-2 s-1", 
@@ -4622,6 +4874,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rhTree": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "heterotrophic_respiration_carbon_flux", 
             "units": "kg m-2 s-1", 
@@ -4639,6 +4892,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rhc13": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "heterotrophic_respiration_c13_flux", 
             "units": "kg m-2 s-1", 
@@ -4656,6 +4910,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rhc14": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "heterotrophic_respiration_c14_flux", 
             "units": "kg m-2 s-1", 
@@ -4673,6 +4928,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rls": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "surface_net_downward_longwave_flux", 
             "units": "W m-2", 
@@ -4690,6 +4946,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rlusLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_upwelling_longwave_flux_in_air", 
             "units": "W m-2", 
@@ -4707,6 +4964,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rsdoabsorb": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "net_rate_of_absorption_of_shortwave_energy_in_ocean_layer", 
             "units": "W m-2", 
@@ -4724,6 +4982,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rsdscsdiff": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "surface_diffuse_downwelling_shortwave_flux_in_air_assuming_clear_sky", 
             "units": "W m-2", 
@@ -4741,6 +5000,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rsdsdiff": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "surface_diffuse_downwelling_shortwave_flux_in_air", 
             "units": "W m-2", 
@@ -4758,6 +5018,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rss": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "surface_net_downward_shortwave_flux", 
             "units": "W m-2", 
@@ -4775,6 +5036,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rsusLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_upwelling_shortwave_flux_in_air", 
             "units": "W m-2", 
@@ -4792,6 +5054,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sconcdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mass_concentration_of_dust_dry_aerosol_in_air", 
             "units": "kg m-3", 
@@ -4809,6 +5072,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sconcso4": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mass_concentration_of_sulfate_dry_aerosol_in_air", 
             "units": "kg m-3", 
@@ -4826,6 +5090,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sconcss": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mass_concentration_of_seasalt_dry_aerosol_in_air", 
             "units": "kg m-3", 
@@ -4843,6 +5108,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sedustCI": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_sedimentation", 
             "units": "kg m-2 s-1", 
@@ -4860,6 +5126,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sfcWindmax": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "wind_speed", 
             "units": "m s-1", 
@@ -4877,6 +5144,7 @@
             "ok_max_mean_abs": ""
         }, 
         "snowmxrat27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "mass_fraction_of_snow_in_air", 
             "units": "1.0", 
@@ -4894,6 +5162,7 @@
             "ok_max_mean_abs": ""
         }, 
         "somint": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "integral_wrt_depth_of_product_of_sea_water_density_and_prognostic_salinity", 
             "units": "1e-3 kg m-2", 
@@ -4911,6 +5180,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sweLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "missing", 
             "units": "m", 
@@ -4928,6 +5198,7 @@
             "ok_max_mean_abs": ""
         }, 
         "swsrfasdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_all_sky_surface_shortwave_flux_due_to_dust_ambient_aerosol_particles", 
             "units": "W m-2", 
@@ -4945,6 +5216,7 @@
             "ok_max_mean_abs": ""
         }, 
         "swsrfcsdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_clear_sky_surface_shortwave_flux_due_to_dust_ambient_aerosol_particles", 
             "units": "W m-2", 
@@ -4962,6 +5234,7 @@
             "ok_max_mean_abs": ""
         }, 
         "swtoaasdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "toa_instantaneous_shortwave_forcing", 
             "units": "W m-2", 
@@ -4979,6 +5252,7 @@
             "ok_max_mean_abs": ""
         }, 
         "swtoacsdust": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "toa_instantaneous_shortwave_forcing", 
             "units": "W m-2", 
@@ -4996,6 +5270,7 @@
             "ok_max_mean_abs": ""
         }, 
         "t2": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "square_of_air_temperature", 
             "units": "K2", 
@@ -5013,6 +5288,7 @@
             "ok_max_mean_abs": ""
         }, 
         "t20d": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "depth_of_isosurface_of_sea_water_potential_temperature", 
             "units": "m", 
@@ -5030,6 +5306,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tSoilPools": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "soil_carbon_turnover_rate_by_pool", 
             "units": "s-1", 
@@ -5047,6 +5324,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ta27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "air_temperature", 
             "units": "K", 
@@ -5064,6 +5342,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tasLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "air_temperature", 
             "units": "K", 
@@ -5081,6 +5360,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tasmaxCrop": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "air_temperature", 
             "units": "K", 
@@ -5098,6 +5378,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tasminCrop": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "air_temperature", 
             "units": "K", 
@@ -5115,6 +5396,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tdps": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "dew_point_temperature", 
             "units": "K", 
@@ -5132,6 +5414,7 @@
             "ok_max_mean_abs": ""
         }, 
         "thetaot": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_potential_temperature", 
             "units": "degC", 
@@ -5149,6 +5432,7 @@
             "ok_max_mean_abs": ""
         }, 
         "thetaot2000": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_potential_temperature", 
             "units": "degC", 
@@ -5166,6 +5450,7 @@
             "ok_max_mean_abs": ""
         }, 
         "thetaot300": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_potential_temperature", 
             "units": "degC", 
@@ -5183,6 +5468,7 @@
             "ok_max_mean_abs": ""
         }, 
         "thetaot700": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_potential_temperature", 
             "units": "degC", 
@@ -5200,6 +5486,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tnhuspbl": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_specific_humidity_due_to_boundary_layer_mixing", 
             "units": "s-1", 
@@ -5217,6 +5504,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tnhusscp": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_specific_humidity_due_to_stratiform_clouds_and_precipitation", 
             "units": "s-1", 
@@ -5234,6 +5522,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tntd": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_air_temperature_due_to_numerical_diffusion", 
             "units": "K s-1", 
@@ -5251,6 +5540,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tntmp27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_air_temperature_due_to_model_physics", 
             "units": "K s-1", 
@@ -5268,6 +5558,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tntpbl": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_air_temperature_due_to_boundary_layer_mixing", 
             "units": "K s-1", 
@@ -5285,6 +5576,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tntrl27": {
+            "frequency": "mon", 
             "modeling_realm": "aerosol", 
             "standard_name": "tendency_of_air_temperature_due_to_longwave_heating", 
             "units": "K s-1", 
@@ -5302,6 +5594,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tntrlcs": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_air_temperature_due_to_longwave_heating_assuming_clear_sky", 
             "units": "K s-1", 
@@ -5319,6 +5612,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tntrs27": {
+            "frequency": "mon", 
             "modeling_realm": "aerosol", 
             "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating", 
             "units": "K s-1", 
@@ -5336,6 +5630,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tntrscs": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating_assuming_clear_sky", 
             "units": "K s-1", 
@@ -5353,6 +5648,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tntscp": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_air_temperature_due_to_stratiform_clouds_and_precipitation", 
             "units": "K s-1", 
@@ -5370,6 +5666,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tomint": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "integral_wrt_depth_of_product_of_sea_water_density_and_prognostic_temperature", 
             "units": "1e-3 kg m-2", 
@@ -5387,6 +5684,7 @@
             "ok_max_mean_abs": ""
         }, 
         "treeFracBdlDcd": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -5404,6 +5702,7 @@
             "ok_max_mean_abs": ""
         }, 
         "treeFracBdlEvg": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -5421,6 +5720,7 @@
             "ok_max_mean_abs": ""
         }, 
         "treeFracNdlDcd": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -5438,6 +5738,7 @@
             "ok_max_mean_abs": ""
         }, 
         "treeFracNdlEvg": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -5455,6 +5756,7 @@
             "ok_max_mean_abs": ""
         }, 
         "tslsiLut": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "surface_temperature", 
             "units": "K", 
@@ -5472,6 +5774,7 @@
             "ok_max_mean_abs": ""
         }, 
         "twap": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "product_of_omega_and_air_temperature", 
             "units": "K Pa s-1", 
@@ -5489,6 +5792,7 @@
             "ok_max_mean_abs": ""
         }, 
         "u2": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "square_of_eastward_wind", 
             "units": "m2 s-2", 
@@ -5506,6 +5810,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ua27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "eastward_wind", 
             "units": "m s-1", 
@@ -5523,6 +5828,7 @@
             "ok_max_mean_abs": ""
         }, 
         "uqint": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "integral_of_product_of_eastward_wind_and_specific_humidity_wrt_height", 
             "units": "m2 s-1", 
@@ -5540,6 +5846,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ut": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "product_of_eastward_wind_and_air_temperature", 
             "units": "K m s-1", 
@@ -5557,6 +5864,7 @@
             "ok_max_mean_abs": ""
         }, 
         "utendnogw": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_eastward_wind_due_to_nonorographic_gravity_wave_drag", 
             "units": "m s-2", 
@@ -5574,6 +5882,7 @@
             "ok_max_mean_abs": ""
         }, 
         "utendogw": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_eastward_wind_due_to_orographic_gravity_wave_drag", 
             "units": "m s-2", 
@@ -5591,6 +5900,7 @@
             "ok_max_mean_abs": ""
         }, 
         "uv": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "product_of_eastward_wind_and_northward_wind", 
             "units": "m2 s-2", 
@@ -5608,6 +5918,7 @@
             "ok_max_mean_abs": ""
         }, 
         "uwap": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "product_of_eastward_wind_and_omega", 
             "units": "Pa m s-2", 
@@ -5625,6 +5936,7 @@
             "ok_max_mean_abs": ""
         }, 
         "v2": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "square_of_northward_wind", 
             "units": "m2 s-2", 
@@ -5642,6 +5954,7 @@
             "ok_max_mean_abs": ""
         }, 
         "va27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "northward_wind", 
             "units": "m s-1", 
@@ -5659,6 +5972,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vegFrac": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "area_fraction", 
             "units": "%", 
@@ -5676,6 +5990,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vegHeight": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "canopy_height", 
             "units": "m", 
@@ -5693,6 +6008,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vegHeightCrop": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "canopy_height", 
             "units": "m", 
@@ -5710,6 +6026,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vegHeightGrass": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "canopy_height", 
             "units": "m", 
@@ -5727,6 +6044,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vegHeightPasture": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "canopy_height", 
             "units": "m", 
@@ -5744,6 +6062,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vegHeightShrub": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "canopy_height", 
             "units": "m", 
@@ -5761,6 +6080,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vegHeightTree": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "canopy_height", 
             "units": "m", 
@@ -5778,6 +6098,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vqint": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "integral_of_product_of_northward_wind_and_specific_humidity_wrt_height", 
             "units": "m2 s-1", 
@@ -5795,6 +6116,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vt": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "product_of_northward_wind_and_air_temperature", 
             "units": "K m s-1", 
@@ -5812,6 +6134,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vtendnogw": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_northward_wind_due_to_nonorographic_gravity_wave_drag", 
             "units": "m s-2", 
@@ -5829,6 +6152,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vtendogw": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "tendency_of_northward_wind_due_to_orographic_gravity_wave_drag", 
             "units": "m s-2", 
@@ -5846,6 +6170,7 @@
             "ok_max_mean_abs": ""
         }, 
         "vwap": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "product_of_northward_wind_and_omega", 
             "units": "Pa m s-2", 
@@ -5863,6 +6188,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wap": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "lagrangian_tendency_of_air_pressure", 
             "units": "Pa s-1", 
@@ -5880,6 +6206,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wap2": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "square_of_lagrangian_tendency_of_air_pressure", 
             "units": "Pa2 s-2", 
@@ -5897,6 +6224,7 @@
             "ok_max_mean_abs": ""
         }, 
         "waterDpth": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "water_table_depth", 
             "units": "m", 
@@ -5914,6 +6242,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wetlandCH4": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "wetland_methane_emissions", 
             "units": "kg m-2 s-1", 
@@ -5931,6 +6260,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wetlandCH4cons": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "wetland_methane_consumption", 
             "units": "kg m-2 s-1", 
@@ -5948,6 +6278,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wetlandCH4prod": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "wetland_methane_production", 
             "units": "kg m-2 s-1", 
@@ -5965,6 +6296,7 @@
             "ok_max_mean_abs": ""
         }, 
         "wetlandFrac": {
+            "frequency": "mon", 
             "modeling_realm": "land", 
             "standard_name": "wetland_fraction", 
             "units": "%", 
@@ -5982,6 +6314,7 @@
             "ok_max_mean_abs": ""
         }, 
         "xgwdparam": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_eastward_stress_due_to_gravity_wave_drag", 
             "units": "Pa", 
@@ -5999,6 +6332,7 @@
             "ok_max_mean_abs": ""
         }, 
         "ygwdparam": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "atmosphere_northward_stress_due_to_gravity_wave_drag", 
             "units": "Pa", 
@@ -6016,6 +6350,7 @@
             "ok_max_mean_abs": ""
         }, 
         "zg27": {
+            "frequency": "mon", 
             "modeling_realm": "atmos", 
             "standard_name": "geopotential_height", 
             "units": "m", 
@@ -6033,6 +6368,7 @@
             "ok_max_mean_abs": ""
         }, 
         "zoomeso": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "mole_concentration_of_mesozooplankton_expressed_as_carbon_in_sea_water", 
             "units": "mol m-3", 
@@ -6050,6 +6386,7 @@
             "ok_max_mean_abs": ""
         }, 
         "zoomicro": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "mole_concentration_of_microzooplankton_expressed_as_carbon_in_sea_water", 
             "units": "mol m-3", 
@@ -6067,6 +6404,7 @@
             "ok_max_mean_abs": ""
         }, 
         "zoomisc": {
+            "frequency": "mon", 
             "modeling_realm": "ocean", 
             "standard_name": "mole_concentration_of_miscellaneous_zooplankton_expressed_as_carbon_in_sea_water", 
             "units": "mol m-3", 

@@ -1,11 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "01.00.10", 
+        "data_specs_version": "01.00.11", 
         "table_id": "Table E6hrZ", 
         "realm": "atmos", 
-        "frequency": "6hr", 
         "cmor_version": "3.2", 
-        "table_date": "10 May 2017", 
+        "table_date": "05 June 2017", 
         "missing_value": "1e20", 
         "product": "model-output", 
         "approx_interval": "0.250000", 
@@ -15,6 +14,7 @@
     }, 
     "variable_entry": {
         "ps": {
+            "frequency": "6hr", 
             "modeling_realm": "atmos", 
             "standard_name": "surface_air_pressure", 
             "units": "Pa", 
@@ -32,6 +32,7 @@
             "ok_max_mean_abs": ""
         }, 
         "zmlwaero": {
+            "frequency": "6hr", 
             "modeling_realm": "atmos", 
             "standard_name": "longwave_heating_rate_due_to_volcanic_aerosols", 
             "units": "K s-1", 
@@ -49,6 +50,7 @@
             "ok_max_mean_abs": ""
         }, 
         "zmswaero": {
+            "frequency": "6hr", 
             "modeling_realm": "atmos", 
             "standard_name": "shortwave_heating_rate_due_to_volcanic_aerosols", 
             "units": "K s-1", 
