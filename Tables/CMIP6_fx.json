@@ -1,20 +1,20 @@
 {
     "Header": {
-        "data_specs_version": "01.00.10", 
+        "data_specs_version": "01.00.11", 
         "table_id": "Table fx", 
         "realm": "land", 
-        "frequency": "fx", 
         "cmor_version": "3.2", 
-        "table_date": "10 May 2017", 
+        "table_date": "16 June 2017", 
         "missing_value": "1e20", 
         "product": "model-output", 
         "approx_interval": "0.00000", 
-        "generic_levels": "alevel",
+        "generic_levels": "alevel", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.0"
     }, 
     "variable_entry": {
         "areacella": {
+            "frequency": "fx", 
             "modeling_realm": "atmos land", 
             "standard_name": "cell_area", 
             "units": "m2", 
@@ -32,6 +32,7 @@
             "ok_max_mean_abs": ""
         }, 
         "mrsofc": {
+            "frequency": "fx", 
             "modeling_realm": "land", 
             "standard_name": "soil_moisture_content_at_field_capacity", 
             "units": "kg m-2", 
@@ -49,6 +50,7 @@
             "ok_max_mean_abs": ""
         }, 
         "orog": {
+            "frequency": "fx", 
             "modeling_realm": "land", 
             "standard_name": "surface_altitude", 
             "units": "m", 
@@ -66,6 +68,7 @@
             "ok_max_mean_abs": ""
         }, 
         "rootd": {
+            "frequency": "fx", 
             "modeling_realm": "land", 
             "standard_name": "root_depth", 
             "units": "m", 
@@ -83,6 +86,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sftgif": {
+            "frequency": "fx", 
             "modeling_realm": "land", 
             "standard_name": "land_ice_area_fraction", 
             "units": "%", 
@@ -100,6 +104,7 @@
             "ok_max_mean_abs": ""
         }, 
         "sftlf": {
+            "frequency": "fx", 
             "modeling_realm": "atmos", 
             "standard_name": "land_area_fraction", 
             "units": "%", 
@@ -117,6 +122,7 @@
             "ok_max_mean_abs": ""
         }, 
         "zfull": {
+            "frequency": "fx", 
             "modeling_realm": "atmos", 
             "standard_name": "height_above_reference_ellipsoid", 
             "units": "m", 
