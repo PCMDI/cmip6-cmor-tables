@@ -1,6 +1,5 @@
 {
     "CV":{
-        "testCron":testCront",
         "required_global_attributes":[
             "Conventions",
             "activity_id",
