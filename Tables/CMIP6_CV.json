@@ -1,6 +1,5 @@
 {
     "CV":{
-        "tests":"tests",
         "required_global_attributes":[
             "Conventions",
             "activity_id",
