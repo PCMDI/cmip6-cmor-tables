@@ -34,11 +34,11 @@
         ],
         "version_metadata":{
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Wed Jul 5 10:30:00 2017 -0700",
+            "creation_date":"Mon Jul 10 04:28:05 2017 -0700",
             "institution_id":"PCMDI",
-            "latest_tag_point":"3.2.4 (56; gcc9356e)",
-            "note":"Revise source_id CNRM-CM6-1",
-            "previous_commit":"f042b9339fd1cb3f5ee39bb2b5ccf958812bbd21"
+            "latest_tag_point":"3.2.4 (29; g4fea17f)",
+            "note":"Revise multiple MPI source_id values",
+            "previous_commit":"58833d9033365373fbe71d67f004aba3247d832a"
         },
         "activity_id":[
             "AerChemMIP",
@@ -835,7 +835,7 @@
                     "MPI-M"
                 ],
                 "source_id":"MPIESM-1-2-HR",
-                "source":"MPIESM1.2-HR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T127; 384 x 192 longitude/latitude; 95 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.2\nlandIce: none/prescribed\nocean: MPIOM1.63 (tripolar TP04, approximately 0.4deg; 900 x 450 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+                "source":"MPIESM1.2-HR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T127; 384 x 192 longitude/latitude; 95 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.20\nlandIce: none/prescribed\nocean: MPIOM1.63 (tripolar TP04, approximately 0.4deg; 802 x 404 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
             "MPIESM-1-2-LR":{
                 "activity_participation":[
@@ -864,7 +864,7 @@
                     "MPI-M"
                 ],
                 "source_id":"MPIESM-1-2-LR",
-                "source":"MPIESM1.2-LR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.2\nlandIce: none/prescribed\nocean: MPIOM1.63 (bipolar GR1.5, approximately 1.5deg; 240 x 120 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+                "source":"MPIESM1.2-LR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.20\nlandIce: none/prescribed\nocean: MPIOM1.63 (bipolar GR1.5, approximately 1.5deg; 256 x 220 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
             "MPIESM-2-LR":{
                 "activity_participation":[
@@ -879,7 +879,7 @@
                     "MPI-M"
                 ],
                 "source_id":"MPIESM-2-LR",
-                "source":"MPIESM2 (2017): \naerosol: none, prescribed MACv2-SP\natmos: ICON-AES (icosahedral/triangles; 160 km; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH4.2\nlandIce: none/prescribed\nocean: ICON-OES (icosahedral/triangles; 40 km; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+                "source":"MPIESM2 (2017): \naerosol: none, prescribed MACv2-SP\natmos: ICON-AES (icosahedral/triangles; 160 km; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-OES (icosahedral/triangles; 40 km; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
             "MRI-ESM2-0":{
                 "activity_participation":[
