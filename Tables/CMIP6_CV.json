@@ -34,11 +34,11 @@
         ],
         "version_metadata":{
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Wed Jul 12 06:21:33 2017 -0700",
+            "creation_date":"Mon Jul 17 12:44:02 2017 -0700",
             "institution_id":"PCMDI",
-            "latest_tag_point":"3.2.4 (30; gd36fcc2)",
-            "note":"Revise multiple MOHC source_id values",
-            "previous_commit":"b9788bf7d6fd2e5830ec5a0ae035ebd5847ee938"
+            "latest_tag_point":"3.2.5 (113; g1691b1f)",
+            "note":"Revise EC-EARTH3-HR source_id ocean description",
+            "previous_commit":"49bc36c0bef0d77e9ae8ee6650b37324af33d104"
         },
         "activity_id":[
             "AerChemMIP",
@@ -499,7 +499,7 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3-HR",
-                "source":"EC-Earth3-HR (2017): \naerosol: none\natmos: IFS cy36r4 (TL511; linearly reduced Gaussian grid; 1024 x 512 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1; tripolar primarily 0.25 degrees; 1442 x 1921 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+                "source":"EC-Earth3-HR (2017): \naerosol: none\natmos: IFS cy36r4 (TL511; linearly reduced Gaussian grid; 1024 x 512 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA025; tripolar primarily 0.25 degrees; 1442 x 1921 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
             "EC-Earth3-LR":{
                 "activity_participation":[
