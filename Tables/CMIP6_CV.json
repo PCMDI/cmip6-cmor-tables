@@ -34,11 +34,11 @@
         ],
         "version_metadata":{
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Mon Jul 17 12:44:02 2017 -0700",
+            "creation_date":"Wed Jul 26 19:14:19 2017 -0700",
             "institution_id":"PCMDI",
-            "latest_tag_point":"3.2.5 (113; g1691b1f)",
-            "note":"Revise EC-EARTH3-HR source_id ocean description",
-            "previous_commit":"49bc36c0bef0d77e9ae8ee6650b37324af33d104"
+            "latest_tag_point":"3.2.5 (18; g19e6bbf)",
+            "note":"Register source_id SAM0-UNICON",
+            "previous_commit":"8e466e460b9a046818a686b871f81a17487f0064"
         },
         "activity_id":[
             "AerChemMIP",
@@ -92,6 +92,7 @@
             "NOAA-GFDL":"National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA",
             "NUIST":"Nanjing University of Information Science and Technology, Nanjing, 210044, China",
             "PCMDI":"Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA",
+            "SNU":"Seoul National University, Seoul 08826, Republic of Korea",
             "THU":"Department of Earth System Science, Tsinghua University, Beijing 100084, China"
         },
         "source_id":{
@@ -778,7 +779,10 @@
             },
             "MIROC-ES2H":{
                 "activity_participation":[
-                    ""
+                    "AerChemMIP",
+                    "DynVarMIP",
+                    "GeoMIP",
+                    "VIACSAB"
                 ],
                 "cohort":[
                     "Registered"
@@ -791,7 +795,15 @@
             },
             "MIROC-ES2L":{
                 "activity_participation":[
-                    ""
+                    "C4MIP",
+                    "DynVarMIP",
+                    "GeoMIP",
+                    "LUMIP",
+                    "OMIP",
+                    "PMIP",
+                    "ScenarioMIP",
+                    "VIACSAB",
+                    "VolMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -804,7 +816,19 @@
             },
             "MIROC6":{
                 "activity_participation":[
-                    ""
+                    "CFMIP",
+                    "DAMIP",
+                    "DCPP",
+                    "DynVarMIP",
+                    "FAFMIP",
+                    "GMMIP",
+                    "HighResMIP",
+                    "LS3MIP",
+                    "OMIP",
+                    "RFMIP",
+                    "SIMIP",
+                    "ScenarioMIP",
+                    "VIACSAB"
                 ],
                 "cohort":[
                     "Registered"
@@ -813,7 +837,7 @@
                     "MIROC"
                 ],
                 "source_id":"MIROC6",
-                "source":"MIROC6 (2017): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256x128; 81 levels; top level 0.004 hPa)\natmosChem: none\nland: MATSIRO6.0\nlandIce: none\nocean: COCO4.9 (360x256x63; tripolar primarily 1deg; 63 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: COCO4.9"
+                "source":"MIROC6 (2017): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: none\nland: MATSIRO6.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: COCO4.9"
             },
             "MPIESM-1-2-HR":{
                 "activity_participation":[
@@ -913,7 +937,8 @@
             },
             "NICAM16-7S":{
                 "activity_participation":[
-                    ""
+                    "DynVarMIP",
+                    "HighResMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -926,7 +951,8 @@
             },
             "NICAM16-8S":{
                 "activity_participation":[
-                    ""
+                    "DynVarMIP",
+                    "HighResMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -939,7 +965,7 @@
             },
             "NICAM16-9D-L78":{
                 "activity_participation":[
-                    ""
+                    "CFMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -952,7 +978,8 @@
             },
             "NICAM16-9S":{
                 "activity_participation":[
-                    ""
+                    "DynVarMIP",
+                    "HighResMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -1079,6 +1106,20 @@
                 ],
                 "source_id":"PCMDI-test-1-0",
                 "source":"PCMDI-test 1.0 (1989): \naerosol: none\natmos: Earth1.0-gettingHotter (360x180; 50 levels; top level 0.1 mb)\natmosChem: none\nland: Earth1.0\nlandIce: none\nocean: BlueMarble1.0-warming (360x180; 50 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: Declining1.0-warming"
+            },
+            "SAM0-UNICON":{
+                "activity_participation":[
+                    "CMIP",
+                    "ScenarioMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "SNU"
+                ],
+                "source_id":"SAM0-UNICON",
+                "source":"SAM0-UNICON (2017): \naerosol: MAM3\natmos: CAM5.3 with UNICON (1deg; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)\natmosChem: none\nland: CLM4.0\nlandIce: none\nocean: POP2 (Displaced Pole; 320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4.0"
             },
             "UKESM1-0-LL":{
                 "activity_participation":[
