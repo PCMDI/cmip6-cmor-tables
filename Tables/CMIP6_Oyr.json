@@ -1,10 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "01.00.13", 
+        "data_specs_version": "01.00.14", 
         "table_id": "Table Oyr", 
         "realm": "ocnBgChem", 
         "cmor_version": "3.2", 
-        "table_date": "12 July 2017", 
+        "table_date": "31 July 2017", 
         "missing_value": "1e20", 
         "product": "model-output", 
         "approx_interval": "365.00000", 
@@ -376,7 +376,7 @@
         "co3abio": {
             "frequency": "yr", 
             "modeling_realm": "ocnBgChem", 
-            "standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_in_sea_water_due_to_abiotic_component", 
+            "standard_name": "mole_concentration_of_carbonate_abiotic_analogue_expressed_as_carbon_in_sea_water", 
             "units": "mol m-3", 
             "cell_methods": "area: mean where sea time: mean", 
             "cell_measures": "area: areacello volume: volcello", 
@@ -394,7 +394,7 @@
         "co3nat": {
             "frequency": "yr", 
             "modeling_realm": "ocnBgChem", 
-            "standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_in_sea_water_due_to_natural_component", 
+            "standard_name": "mole_concentration_of_carbonate_natural_analogue_expressed_as_carbon_in_sea_water", 
             "units": "mol m-3", 
             "cell_methods": "area: mean where sea time: mean", 
             "cell_measures": "area: areacello volume: volcello", 
@@ -700,7 +700,7 @@
         "dissicabio": {
             "frequency": "yr", 
             "modeling_realm": "ocnBgChem", 
-            "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water_abiotic_component", 
+            "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_abiotic_analogue_in_sea_water", 
             "units": "mol m-3", 
             "cell_methods": "area: mean where sea time: mean", 
             "cell_measures": "area: areacello volume: volcello", 
@@ -718,7 +718,7 @@
         "dissicnat": {
             "frequency": "yr", 
             "modeling_realm": "ocnBgChem", 
-            "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water_natural_component", 
+            "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_natural_analogue_in_sea_water", 
             "units": "mol m-3", 
             "cell_methods": "area: mean where sea time: mean", 
             "cell_measures": "area: areacello volume: volcello", 
@@ -1636,7 +1636,7 @@
         "phabio": {
             "frequency": "yr", 
             "modeling_realm": "ocnBgChem", 
-            "standard_name": "sea_water_ph_reported_on_total_scale_due_to_abiotic_component", 
+            "standard_name": "sea_water_ph_abiotic_analogue_reported_on_total_scale", 
             "units": "1.0", 
             "cell_methods": "area: mean where sea time: mean", 
             "cell_measures": "area: areacello volume: volcello", 
@@ -1654,7 +1654,7 @@
         "phnat": {
             "frequency": "yr", 
             "modeling_realm": "ocnBgChem", 
-            "standard_name": "sea_water_ph_reported_on_total_scale_due_to_natural_component", 
+            "standard_name": "sea_water_ph_natural_analogue_reported_on_total_scale", 
             "units": "1.0", 
             "cell_methods": "area: mean where sea time: mean", 
             "cell_measures": "area: areacello volume: volcello", 
@@ -2059,7 +2059,7 @@
             "dimensions": "longitude latitude olevel time", 
             "out_name": "rsdoabsorb", 
             "type": "real", 
-            "positive": "", 
+            "positive": "down", 
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
@@ -2140,7 +2140,7 @@
         "talknat": {
             "frequency": "yr", 
             "modeling_realm": "ocnBgChem", 
-            "standard_name": "seawater_alkalinity_expressed_as_mole_equivalent_natural_component", 
+            "standard_name": "sea_water_alkalinity_natural_analogue_expressed_as_mole_equivalent", 
             "units": "mol m-3", 
             "cell_methods": "area: mean where sea time: mean", 
             "cell_measures": "area: areacello volume: volcello", 
