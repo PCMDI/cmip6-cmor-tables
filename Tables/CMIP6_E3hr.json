@@ -1,10 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "01.00.13", 
+        "data_specs_version": "01.00.14", 
         "table_id": "Table E3hr", 
         "realm": "land", 
         "cmor_version": "3.2", 
-        "table_date": "12 July 2017", 
+        "table_date": "31 July 2017", 
         "missing_value": "1e20", 
         "product": "model-output", 
         "approx_interval": "0.125000", 
@@ -70,7 +70,7 @@
         "prcsh": {
             "frequency": "3hr", 
             "modeling_realm": "atmos", 
-            "standard_name": "hallow_convective_precipitation_flux", 
+            "standard_name": "shallow_convective_precipitation_flux", 
             "units": "kg m-2 s-1", 
             "cell_methods": "area: time: mean", 
             "cell_measures": "area: areacella", 
