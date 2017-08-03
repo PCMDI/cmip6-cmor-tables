@@ -1,10 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "01.00.14", 
+        "data_specs_version": "01.00.15", 
         "table_id": "Table E3hr", 
         "realm": "land", 
         "cmor_version": "3.2", 
-        "table_date": "31 July 2017", 
+        "table_date": "03 August 2017", 
         "missing_value": "1e20", 
         "product": "model-output", 
         "approx_interval": "0.125000", 
@@ -92,7 +92,7 @@
             "units": "kg m-2 s-1", 
             "cell_methods": "area: time: mean", 
             "cell_measures": "area: areacella", 
-            "long_name": "Rainfall Flux where Ice Free Ocean over Sea", 
+            "long_name": "Rainfall Flux", 
             "comment": "", 
             "dimensions": "longitude latitude time", 
             "out_name": "prra", 
