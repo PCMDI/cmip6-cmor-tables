@@ -34,11 +34,11 @@
         ],
         "version_metadata":{
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Tue Sep 26 13:21:14 2017 -0700",
+            "creation_date":"Sun Oct 8 13:28:27 2017 -0700",
             "institution_id":"PCMDI",
-            "latest_tag_point":"note: ",
-            "note":"Issue410 durack1 register source_id MRI-AGCM-3-2 (#412)",
-            "previous_commit":"6b58df0a827f0abb5f038a1a84759fcb071ea706"
+            "latest_tag_point":"3.2.7 (208; ga545772)",
+            "note":"Revise multiple GFDL source_id values",
+            "previous_commit":"ca812d1b9009e8403ef3d56c5d1892c4a8ee873d"
         },
         "activity_id":{
             "AerChemMIP":"Aerosols and Chemistry Model Intercomparison Project",
@@ -592,8 +592,11 @@
             },
             "GFDL-CM4":{
                 "activity_participation":[
+                    "CFMIP",
                     "CMIP",
-                    "OMIP"
+                    "GMMIP",
+                    "OMIP",
+                    "RFMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -602,20 +605,31 @@
                     "NOAA-GFDL"
                 ],
                 "source_id":"GFDL-CM4",
-                "source":"GFDL-CM4 (2017): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)\natmosChem: unnamed (fast chemistry, aerosol only)\nland: GFDL-LM4.0\nlandIce: GFDL-LM4.0\nocean: GFDL-MOM6 (tripolar - nominal 0.25 deg; 1440 x 720 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: SIS2"
+                "source":"GFDL-CM4 (2017): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)\natmosChem: unnamed (fast chemistry, aerosol only)\nland: GFDL-LM4.0\nlandIce: GFDL-LM4.0\nocean: GFDL-MOM6 (tripolar - nominal 0.25 deg; 1440 x 720 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: GFDL BLING v2\nseaIce: SIS2"
+            },
+            "GFDL-ESM2M":{
+                "activity_participation":[
+                    "CMIP",
+                    "FAFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NOAA-GFDL"
+                ],
+                "source_id":"GFDL-ESM2M",
+                "source":"GFDL-ESM2M (2017): \naerosol: GFDL-AM2p14\natmos: GFDL-AM2p14 (Cubed-sphere (c48L24) - 2.5 degree lon x 2 degree lat; 144 x 90 longitude/latitude; 24 levels; top level 10 hPa)\natmosChem: GFDL-AM2p14 (full atmospheric chemistry)\nland: GFDL-LM3p7\nlandIce: GFDL-LM3p7\nocean: GFDL-MOM4p1 (tripolar - nominal 1 deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: SISp2 (Tripolar360x200L50)"
             },
             "GFDL-ESM4":{
                 "activity_participation":[
                     "AerChemMIP",
                     "C4MIP",
-                    "CFMIP",
                     "CMIP",
                     "DAMIP",
                     "DynVarMIP",
-                    "GMMIP",
                     "LUMIP",
                     "OMIP",
-                    "RFMIP",
                     "ScenarioMIP"
                 ],
                 "cohort":[
