@@ -34,11 +34,11 @@
         ],
         "version_metadata":{
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Mon Oct 30 10:24:42 2017 -0700",
+            "creation_date":"Thu Nov 2 11:58:05 2017 -0700",
             "institution_id":"PCMDI",
-            "latest_tag_point":"3.2.7 (86; g57727d0)",
-            "note":"Register institution_id NIWA and add to UKESM1-0-LL",
-            "previous_commit":"3e830521864e33d17ba6d77934371df78ad7f78f"
+            "latest_tag_point":"3.2.7 (87; g2255ad7)",
+            "note":"Register source_id HadGEM3-GC31-MH",
+            "previous_commit":"8989c32eed00fc344ec1c3fe32c5a755317b0f92"
         },
         "activity_id":{
             "AerChemMIP":"Aerosols and Chemistry Model Intercomparison Project",
@@ -774,6 +774,20 @@
                 ],
                 "source_id":"HadGEM3-GC31-LM",
                 "source":"HadGEM3-GC31-LM (2016): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (ORCA025 tripolar primarily 0.25 deg; 1440 x 720 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: CICE-HadGEM3-GSI8 (ORCA025 tripolar primarily 0.25 deg; 1440 x 720 longitude/latitude)"
+            },
+            "HadGEM3-GC31-MH":{
+                "activity_participation":[
+                    "CMIP",
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC31-MH",
+                "source":"HadGEM3-GC31-MH (2016): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N216; 432 x 324 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (ORCA12 tripolar primarily 1/12 deg; 4320 x 2160 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: CICE-HadGEM3-GSI8 (ORCA12 tripolar primarily 1/12 deg; 4320 x 2160 longitude/latitude)"
             },
             "HadGEM3-GC31-MM":{
                 "activity_participation":[
