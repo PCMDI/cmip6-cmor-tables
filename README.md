@@ -6,3 +6,4 @@ Only `CMOR` and `PrePARE` should use the `JSON` file of concatenated `CMIP6` Con
 
 All other software should get the CV's directly from the [WCRP](https://github.com/WCRP-CMIP/CMIP6_CVs) repository. 
 
+CMIP6 Data Request can be found in the following [mip tables](http://clipc-services.ceda.ac.uk/dreq/index/miptable.html).
