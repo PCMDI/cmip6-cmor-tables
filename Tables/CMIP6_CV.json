@@ -34,11 +34,11 @@
         ],
         "version_metadata":{
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Mon Nov 6 10:29:16 2017 -0800",
+            "creation_date":"Tue Nov 7 15:18:11 2017 -0800",
             "institution_id":"PCMDI",
-            "latest_tag_point":"3.2.7 (88; g64aeed3)",
-            "note":"Register institution_id CAS",
-            "previous_commit":"362fa088b25b46b5d879f227f94fb81bbe30bbd3"
+            "latest_tag_point":"3.2.7 (92; ga742588)",
+            "note":"Further minor tweaks to GFDL-ESM2M",
+            "previous_commit":"b1d3e2f650c7d4d93f59b68dfa86f2808284b958"
         },
         "activity_id":{
             "AerChemMIP":"Aerosols and Chemistry Model Intercomparison Project",
@@ -671,7 +671,7 @@
                     "NOAA-GFDL"
                 ],
                 "source_id":"GFDL-ESM2M",
-                "source":"GFDL-ESM2M (2017): \naerosol: GFDL-AM2p14\natmos: GFDL-AM2p14 (Cubed-sphere (c48L24) - 2.5 degree lon x 2 degree lat; 144 x 90 longitude/latitude; 24 levels; top level 3 hPa)\natmosChem: GFDL-AM2p14 (full atmospheric chemistry)\nland: GFDL-LM3p7\nlandIce: GFDL-LM3p7\nocean: GFDL-MOM4p1 (tripolar - nominal 1 deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: SISp2 (Tripolar360x200L50)"
+                "source":"GFDL-ESM2M (2012): \naerosol: GFDL-AM2\natmos: GFDL-AM2 (Cubed-sphere (c48L24) - 2.5 degree lon x 2 degree lat; 144 x 90 longitude/latitude; 24 levels; top level ~3 hPa)\natmosChem: GFDL-AM2 (full atmospheric chemistry)\nland: GFDL-LM3.0\nlandIce: GFDL-LM3.0\nocean: GFDL-MOM4p1 (tripolar - nominal 1 deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: SIS (Tripolar360x200L50)"
             },
             "GFDL-ESM4":{
                 "activity_participation":[
