@@ -34,11 +34,11 @@
         ],
         "version_metadata":{
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "creation_date":"Tue Nov 7 15:18:11 2017 -0800",
+            "creation_date":"Wed Nov 8 10:22:13 2017 -0800",
             "institution_id":"PCMDI",
-            "latest_tag_point":"3.2.7 (92; ga742588)",
-            "note":"Further minor tweaks to GFDL-ESM2M",
-            "previous_commit":"b1d3e2f650c7d4d93f59b68dfa86f2808284b958"
+            "latest_tag_point":"3.2.7 (93; g38a80ac)",
+            "note":"Correct model components for various LS3MIP/LUMIP experiments",
+            "previous_commit":"9849ad4dfe7a943e440e4a73a0821a8bf0a95bdd"
         },
         "activity_id":{
             "AerChemMIP":"Aerosols and Chemistry Model Intercomparison Project",
@@ -4304,7 +4304,9 @@
                 "activity_id":[
                     "RFMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical simulation with specified anthropogenic aerosols, no other forcings",
                 "experiment_id":"hist-spAer-aer",
                 "parent_activity_id":[
@@ -4324,7 +4326,9 @@
                 "activity_id":[
                     "RFMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical simulation with specified anthropogenic aerosols",
                 "experiment_id":"hist-spAer-all",
                 "parent_activity_id":[
@@ -4414,7 +4418,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical SSTs and historical forcing, but with1950 halocarbon concentrations",
                 "experiment_id":"histSST-1950HC",
                 "parent_activity_id":[
@@ -4459,7 +4465,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical SSTs and historical forcing, but with pre-industrial methane concentrations",
                 "experiment_id":"histSST-piCH4",
                 "parent_activity_id":[
@@ -4529,7 +4537,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical SSTs and historical forcing, but with pre-industrial ozone precursor emissions",
                 "experiment_id":"histSST-piO3",
                 "parent_activity_id":[
@@ -4624,7 +4634,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet model forced by ISM's own AOGCM 1pctCO2to4x output",
                 "experiment_id":"ism-1pctCO2to4x-self",
                 "parent_activity_id":[
@@ -4644,7 +4656,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet model forced by ISMIP6-specified AOGCM 1pctCO2to4x output",
                 "experiment_id":"ism-1pctCO2to4x-std",
                 "parent_activity_id":[
@@ -4664,7 +4678,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by ISMIP6-specified AGCM AMIP output",
                 "experiment_id":"ism-amip-std",
                 "parent_activity_id":[
@@ -4684,7 +4700,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by initMIP synthetic atmospheric experiment",
                 "experiment_id":"ism-asmb-std",
                 "parent_activity_id":[
@@ -4704,7 +4722,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by initMIP synthetic oceanic experiment",
                 "experiment_id":"ism-bsmb-std",
                 "parent_activity_id":[
@@ -4724,7 +4744,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet model initMIP control",
                 "experiment_id":"ism-ctrl-std",
                 "parent_activity_id":[
@@ -4744,7 +4766,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by ISM's own AOGCM historical output",
                 "experiment_id":"ism-historical-self",
                 "parent_activity_id":[
@@ -4764,7 +4788,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by ISMIP6-specified AOGCM historical output",
                 "experiment_id":"ism-historical-std",
                 "parent_activity_id":[
@@ -4784,7 +4810,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by ISMIP6-specified AGCM last interglacial output",
                 "experiment_id":"ism-lig127k-std",
                 "parent_activity_id":[
@@ -4804,7 +4832,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by ISMIP6-specified AOGCM pdControl output",
                 "experiment_id":"ism-pdControl-std",
                 "parent_activity_id":[
@@ -4824,7 +4854,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by ISM's own AOGCM piControl output",
                 "experiment_id":"ism-piControl-self",
                 "parent_activity_id":[
@@ -4844,7 +4876,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by ISM's own AOGCM ssp585 output",
                 "experiment_id":"ism-ssp585-self",
                 "parent_activity_id":[
@@ -4864,7 +4898,9 @@
                 "activity_id":[
                     "ISMIP6"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline ice sheet forced by ISMIP6-specified AOGCM ssp585 output",
                 "experiment_id":"ism-ssp585-std",
                 "parent_activity_id":[
@@ -4884,7 +4920,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only constant CO2",
                 "experiment_id":"land-cCO2",
                 "parent_activity_id":[
@@ -4894,7 +4932,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -4904,7 +4943,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only constant climate",
                 "experiment_id":"land-cClim",
                 "parent_activity_id":[
@@ -4914,7 +4955,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -4924,7 +4966,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only with cropland as natural grassland",
                 "experiment_id":"land-crop-grass",
                 "parent_activity_id":[
@@ -4934,7 +4978,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -4944,7 +4989,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only with no fertilizer",
                 "experiment_id":"land-crop-noFert",
                 "parent_activity_id":[
@@ -4954,7 +5001,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -4964,7 +5012,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only with no irrigation",
                 "experiment_id":"land-crop-noIrrig",
                 "parent_activity_id":[
@@ -4974,7 +5024,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -4984,7 +5035,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only with managed crops but with irrigation and fertilization held constant",
                 "experiment_id":"land-crop-noIrrigFert",
                 "parent_activity_id":[
@@ -4994,7 +5047,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5004,7 +5058,9 @@
                 "activity_id":[
                     "LS3MIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    "BGC"
+                ],
                 "experiment":"future land-only",
                 "experiment_id":"land-future",
                 "parent_activity_id":[
@@ -5025,7 +5081,9 @@
                     "LS3MIP",
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    "BGC"
+                ],
                 "experiment":"historical land-only",
                 "experiment_id":"land-hist",
                 "parent_activity_id":[
@@ -5045,7 +5103,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only alternate land-use history",
                 "experiment_id":"land-hist-altLu1",
                 "parent_activity_id":[
@@ -5055,7 +5115,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5065,7 +5126,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only alternate land use history",
                 "experiment_id":"land-hist-altLu2",
                 "parent_activity_id":[
@@ -5075,7 +5138,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5085,7 +5149,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only alternate start year",
                 "experiment_id":"land-hist-altStartYear",
                 "parent_activity_id":[
@@ -5095,7 +5161,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5105,7 +5172,9 @@
                 "activity_id":[
                     "LS3MIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    "BGC"
+                ],
                 "experiment":"as land-hist with CRU-NCEP forcings",
                 "experiment_id":"land-hist-cruNcep",
                 "parent_activity_id":[
@@ -5125,7 +5194,9 @@
                 "activity_id":[
                     "LS3MIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    "BGC"
+                ],
                 "experiment":"as land-hist with Princeton forcings",
                 "experiment_id":"land-hist-princeton",
                 "parent_activity_id":[
@@ -5145,7 +5216,9 @@
                 "activity_id":[
                     "LS3MIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    "BGC"
+                ],
                 "experiment":"as land-hist with WFDEI forcings",
                 "experiment_id":"land-hist-wfdei",
                 "parent_activity_id":[
@@ -5165,7 +5238,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only with no human fire management",
                 "experiment_id":"land-noFire",
                 "parent_activity_id":[
@@ -5175,7 +5250,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5185,7 +5261,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    "BGC"
+                ],
                 "experiment":"historical land-only with no land-use change",
                 "experiment_id":"land-noLu",
                 "parent_activity_id":[
@@ -5205,7 +5283,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only with constant pastureland",
                 "experiment_id":"land-noPasture",
                 "parent_activity_id":[
@@ -5215,7 +5295,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5225,7 +5306,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only with shifting cultivation turned off",
                 "experiment_id":"land-noShiftCultivate",
                 "parent_activity_id":[
@@ -5235,7 +5318,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5245,7 +5329,9 @@
                 "activity_id":[
                     "LUMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"historical land-only with no wood harvest",
                 "experiment_id":"land-noWoodHarv",
                 "parent_activity_id":[
@@ -5255,7 +5341,8 @@
                     "no parent"
                 ],
                 "required_model_components":[
-                    "LAND"
+                    "LAND",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5577,7 +5664,9 @@
                 "activity_id":[
                     "OMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"OMIP experiment forced by Large and Yeager (CORE-2, NCEP) atmospheric data set and initialized with observed physical and biogeochemical ocean data",
                 "experiment_id":"omip1",
                 "parent_activity_id":[
@@ -5597,7 +5686,9 @@
                 "activity_id":[
                     "OMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"OMIP experiment forced by Large and Yeager (CORE-2, NCEP) atmospheric data set and initialized from at least a 2000-year spin up of the coupled physical-biogeochemical model",
                 "experiment_id":"omip1-spunup",
                 "parent_activity_id":[
@@ -5617,7 +5708,9 @@
                 "activity_id":[
                     "OMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"OMIP experiment forced by JRA-55do atmospheric data set and initialized with observed physical and biogeochemical ocean data",
                 "experiment_id":"omip2",
                 "parent_activity_id":[
@@ -5637,7 +5730,9 @@
                 "activity_id":[
                     "OMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"OMIP experiment forced by JRA-55do atmospheric data set and initialized from at least a 2000-year spin up of the coupled physical-biogeochemical model",
                 "experiment_id":"omip2-spunup",
                 "parent_activity_id":[
@@ -5704,7 +5799,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"pre-industrial climatological SSTs and forcing, but with doubled production of NOx due to lightning",
                 "experiment_id":"piClim-2xNOx",
                 "parent_activity_id":[
@@ -5726,7 +5823,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"pre-industrial climatological SSTs and forcing, but with doubled emissions of biogenic VOCs",
                 "experiment_id":"piClim-2xVOC",
                 "parent_activity_id":[
@@ -5863,7 +5962,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 methane concentrations (including chemistry)",
                 "experiment_id":"piClim-CH4",
                 "parent_activity_id":[
@@ -5885,7 +5986,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 halocarbon concentrations (including chemistry)",
                 "experiment_id":"piClim-HC",
                 "parent_activity_id":[
@@ -5907,7 +6010,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 N2O concentrations (including chemistry)",
                 "experiment_id":"piClim-N2O",
                 "parent_activity_id":[
@@ -5952,7 +6057,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 NOx emissions",
                 "experiment_id":"piClim-NOx",
                 "parent_activity_id":[
@@ -5998,7 +6105,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 ozone precursor emissions",
                 "experiment_id":"piClim-O3",
                 "parent_activity_id":[
@@ -6066,7 +6175,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"pre-industrial climatological SSTs and forcing, but with 2014 VOC emissions",
                 "experiment_id":"piClim-VOC",
                 "parent_activity_id":[
@@ -6297,7 +6408,9 @@
                 "activity_id":[
                     "RFMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"effective radiative forcing at present day with specified anthropogenic aerosol optical properties, all forcings",
                 "experiment_id":"piClim-spAer-aer",
                 "parent_activity_id":[
@@ -6317,7 +6430,9 @@
                 "activity_id":[
                     "RFMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"effective radiative forcing at present day with specified anthropogenic aerosol optical properties, anthropogenic forcings",
                 "experiment_id":"piClim-spAer-anthro",
                 "parent_activity_id":[
@@ -6337,7 +6452,9 @@
                 "activity_id":[
                     "RFMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"transient effective radiative forcing with specified anthropogenic aerosol optical properties, aerosol forcing",
                 "experiment_id":"piClim-spAer-histaer",
                 "parent_activity_id":[
@@ -6357,7 +6474,9 @@
                 "activity_id":[
                     "RFMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"transient effective radiative forcing with specified anthropogenic aerosol optical properties, all forcings",
                 "experiment_id":"piClim-spAer-histall",
                 "parent_activity_id":[
@@ -6565,7 +6684,9 @@
                 "activity_id":[
                     "RFMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"offline assessment of radiative transfer parmeterizations in clear skies",
                 "experiment_id":"rad-irf",
                 "parent_activity_id":[
@@ -6940,7 +7061,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"SSP3-7.0, prescribed SSTs, with low methane concentrations",
                 "experiment_id":"ssp370SST-lowCH4",
                 "parent_activity_id":[
@@ -6986,7 +7109,9 @@
                 "activity_id":[
                     "AerChemMIP"
                 ],
-                "additional_allowed_model_components":"",
+                "additional_allowed_model_components":[
+                    ""
+                ],
                 "experiment":"SSP3-7.0, prescribed SSTs, with low ozone precursor emissions",
                 "experiment_id":"ssp370SST-lowO3",
                 "parent_activity_id":[
@@ -7445,7 +7570,7 @@
             "hdl:21.14100/.*"
         ],
         "further_info_url":[
-            "http://furtherinfo.es-doc.org/.*"
+            "https://furtherinfo.es-doc.org/.*"
         ],
         "realization_index":[
             "^\\[\\{0,\\}[[:digit:]]\\{1,\\}\\]\\{0,\\}$"
@@ -7457,7 +7582,7 @@
             "^[[:digit:]]\\{2,2\\}\\.[[:digit:]]\\{2,2\\}\\.[[:digit:]]\\{2,2\\}$"
         ],
         "Conventions":[
-            "^CF-1.7 CMIP-6.0\\( UGRID-1.0\\)\\{0,\\}$"
+            "^CF-1.7 CMIP-6.2\\( UGRID-1.0\\)\\{0,\\}$"
         ],
         "forcing_index":[
             "^\\[\\{0,\\}[[:digit:]]\\{1,\\}\\]\\{0,\\}$"
