@@ -33,17 +33,18 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Feb 27 08:55:55 2018 -0800",
-            "CV_collection_version":"6.2.2.1",
+            "CV_collection_modified":"Mon Mar  5 17:14:45 2018 -0800",
+            "CV_collection_version":"6.2.3.0",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Feb 23 20:21:26 2018 -0800",
             "experiment_id_CV_note":"\"Validate source_id entries against CVs\"",
             "institution_id":"PCMDI",
-            "previous_commit":"1fc3219fa738752b32bf50f7ca8b7c1cd571c269"
+            "previous_commit":"d76341a9f3d680015afbe2868303c37d4c352546"
         },
         "activity_id":{
             "AerChemMIP":"Aerosols and Chemistry Model Intercomparison Project",
             "C4MIP":"Coupled Climate Carbon Cycle Model Intercomparison Project",
+            "CDRMIP":"Carbon Dioxide Removal Model Intercomparison Project",
             "CFMIP":"Cloud Feedback Model Intercomparison Project",
             "CMIP":"CMIP DECK: 1pctCO2, abrupt4xCO2, amip, esm-piControl, esm-historical, historical, and piControl experiments",
             "CORDEX":"Coordinated Regional Climate Downscaling Experiment",
@@ -58,6 +59,7 @@
             "LS3MIP":"Land Surface, Snow and Soil Moisture",
             "LUMIP":"Land-Use Model Intercomparison Project",
             "OMIP":"Ocean Model Intercomparison Project",
+            "PAMIP":"Polar Amplification Model Intercomparison Project",
             "PMIP":"Palaeoclimate Modelling Intercomparison Project",
             "RFMIP":"Radiative Forcing Model Intercomparison Project",
             "SIMIP":"Sea Ice Model Intercomparison Project",
@@ -107,6 +109,7 @@
         "source_id":{
             "AWI-CM-1-0-HR":{
                 "activity_participation":[
+                    "CMIP",
                     "CORDEX",
                     "HighResMIP",
                     "OMIP",
@@ -373,6 +376,7 @@
                     "DCPP",
                     "FAFMIP",
                     "GMMIP",
+                    "HighResMIP",
                     "ISMIP6",
                     "LS3MIP",
                     "PMIP",
@@ -537,6 +541,7 @@
             },
             "EC-Earth3-HR":{
                 "activity_participation":[
+                    "CMIP",
                     "DCPP",
                     "HighResMIP"
                 ],
@@ -918,6 +923,7 @@
                 "activity_participation":[
                     "C4MIP",
                     "CFMIP",
+                    "CMIP",
                     "DCPP",
                     "FAFMIP",
                     "GMMIP",
@@ -938,6 +944,22 @@
                 ],
                 "source_id":"IPSL-CM6A-LR",
                 "source":"IPSL-CM6A-LR (2017): \naerosol: none\natmos: LMDZ (NPv6, N96; 144 x 143 longitude/latitude; 79 levels; top level 40000 m)\natmosChem: none\nland: ORCHIDEE (v2.0, Water/Carbon/Energy mode)\nlandIce: none\nocean: NEMO-OPA (eORCA1.3, tripolar primarily 1deg; 362 x 332 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: NEMO-PISCES\nseaIce: NEMO-LIM3"
+            },
+            "KIOST-ESM":{
+                "activity_participation":[
+                    "C4MIP",
+                    "CMIP",
+                    "DynVarMIP",
+                    "PMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "KIOST"
+                ],
+                "source_id":"KIOST-ESM",
+                "source":"KIOST-ESM (2018): \naerosol: none\natmos: GFDL-AM2.0 (cubed sphere (C48); 192 x 96 longitude/latitude; 32 vertical levels; top level 2 hPa)\natmosChem: Simple carbon aerosol model (emission type)\nland: NCAR-CLM4\nlandIce: NCAR-CLM4\nocean: GFDL-MOM5.0 (tripolar - nominal 1.0 deg; 360 x 200 longitude/latitude; 52 levels; top grid cell 0-2 m; NK mixed layer scheme)\nocnBgchem: TOPAZ2\nseaIce: GFDL-SIS"
             },
             "MIROC-ES2H":{
                 "activity_participation":[
@@ -1117,6 +1139,7 @@
             },
             "NICAM16-7S":{
                 "activity_participation":[
+                    "CMIP",
                     "DynVarMIP",
                     "HighResMIP"
                 ],
@@ -1131,6 +1154,7 @@
             },
             "NICAM16-8S":{
                 "activity_participation":[
+                    "CMIP",
                     "DynVarMIP",
                     "HighResMIP"
                 ],
@@ -1145,7 +1169,8 @@
             },
             "NICAM16-9D-L78":{
                 "activity_participation":[
-                    "CFMIP"
+                    "CFMIP",
+                    "CMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -1158,6 +1183,7 @@
             },
             "NICAM16-9S":{
                 "activity_participation":[
+                    "CMIP",
                     "DynVarMIP",
                     "HighResMIP"
                 ],
@@ -1172,6 +1198,7 @@
             },
             "NorESM2-HH":{
                 "activity_participation":[
+                    "CMIP",
                     "HighResMIP"
                 ],
                 "cohort":[
@@ -1225,7 +1252,8 @@
             },
             "NorESM2-LMEC":{
                 "activity_participation":[
-                    "AerChemMIP"
+                    "AerChemMIP",
+                    "CMIP"
                 ],
                 "cohort":[
                     "Registered"
