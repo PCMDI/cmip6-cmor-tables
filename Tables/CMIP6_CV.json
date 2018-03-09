@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Mar  7 09:39:31 2018 -0800",
-            "CV_collection_version":"6.2.3.1",
+            "CV_collection_modified":"Thu Mar  8 11:58:22 2018 -0800",
+            "CV_collection_version":"6.2.3.2",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Feb 23 20:21:26 2018 -0800",
             "experiment_id_CV_note":"\"Validate source_id entries against CVs\"",
             "institution_id":"PCMDI",
-            "previous_commit":"201964205cb951656a94d621dbbe8cc421bd4fe5"
+            "previous_commit":"4d63969f11a734fa23904d7ba49ef34b87152de0"
         },
         "activity_id":{
             "AerChemMIP":"Aerosols and Chemistry Model Intercomparison Project",
@@ -1402,7 +1402,11 @@
             },
             "VRESM-1-0":{
                 "activity_participation":[
-                    "CMIP"
+                    "CMIP",
+                    "DAMIP",
+                    "HighResMIP",
+                    "PMIP",
+                    "ScenarioMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -1411,7 +1415,7 @@
                     "CSIR-CSIRO"
                 ],
                 "source_id":"VRESM-1-0",
-                "source":"VRESM 1.0 (2016): \naerosol: Rotstayn-1.0\natmos: VCAM-1.0 (192 x 192 x 6 C192; 35 levels; top level 35km)\natmosChem: none\nland: CABLE v2.2.3\nlandIce: none\nocean: VCOM-1.0 (192 x 192 x 6 C192; 35 levels; top grid cell 0-10m)\nocnBgchem: PISCES v3.4socco\nseaIce: CSIR-ICE (visco-plastic)"
+                "source":"VRESM 1.0 (2016): \naerosol: Rotstayn-1.0\natmos: VCAM-1.0 (C192; 192 x 192 x 6 longitude/latitude/cubeface; 35 levels; top level 35km)\natmosChem: none\nland: CABLE v2.2.3\nlandIce: none\nocean: VCOM-1.0 (C192; 384 x 384 x 6 longitude/latitude/cubeface; 35 levels; top grid cell 0-10 m)\nocnBgchem: PISCES v3.4socco\nseaIce: CSIR-ICE (visco-plastic)"
             }
         },
         "source_type":{
