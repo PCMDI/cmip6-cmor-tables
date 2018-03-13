@@ -33,13 +33,14 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Mar  8 11:58:22 2018 -0800",
-            "CV_collection_version":"6.2.3.2",
+            "CV_collection_modified":"Mon Mar 12 23:25:12 2018 -0300",
+            "CV_collection_version":"6.2.3.5",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Feb 23 20:21:26 2018 -0800",
             "experiment_id_CV_note":"\"Validate source_id entries against CVs\"",
             "institution_id":"PCMDI",
-            "previous_commit":"4d63969f11a734fa23904d7ba49ef34b87152de0"
+            "previous_commit":"e99a005ce580cfd6f3e66d1fcd43abab36ffd9e5",
+            "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
             "AerChemMIP":"Aerosols and Chemistry Model Intercomparison Project",
@@ -107,6 +108,19 @@
             "UHH":"Universitat Hamburg, Hamburg 20148, Germany"
         },
         "source_id":{
+            "ARTS-2-3":{
+                "activity_participation":[
+                    "RFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "UHH"
+                ],
+                "source_id":"ARTS-2-3",
+                "source":"ARTS 2.3 (2015): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
             "AWI-CM-1-0-HR":{
                 "activity_participation":[
                     "CMIP",
@@ -745,6 +759,7 @@
                 "activity_participation":[
                     "AerChemMIP",
                     "C4MIP",
+                    "CDRMIP",
                     "CMIP",
                     "DAMIP",
                     "DynVarMIP",
@@ -991,6 +1006,19 @@
                 ],
                 "source_id":"KIOST-ESM",
                 "source":"KIOST-ESM (2018): \naerosol: none\natmos: GFDL-AM2.0 (cubed sphere (C48); 192 x 96 longitude/latitude; 32 vertical levels; top level 2 hPa)\natmosChem: Simple carbon aerosol model (emission type)\nland: NCAR-CLM4\nlandIce: NCAR-CLM4\nocean: GFDL-MOM5.0 (tripolar - nominal 1.0 deg; 360 x 200 longitude/latitude; 52 levels; top grid cell 0-2 m; NK mixed layer scheme)\nocnBgchem: TOPAZ2\nseaIce: GFDL-SIS"
+            },
+            "LBLRTM":{
+                "activity_participation":[
+                    "RFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AER"
+                ],
+                "source_id":"LBLRTM",
+                "source":"LBLRTM (2017): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "MIROC-ES2H":{
                 "activity_participation":[
