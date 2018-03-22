@@ -1,10 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "01.00.22", 
+        "data_specs_version": "01.00.23", 
+        "cmor_version": "3.3", 
         "table_id": "Table E3hrPt", 
         "realm": "atmos", 
-        "cmor_version": "3.2", 
-        "table_date": "07 March 2018", 
+        "table_date": "21 March 2018", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -17,7 +17,7 @@
         "aerasymbnd": {
             "frequency": "3hrPt", 
             "modeling_realm": "atmos", 
-            "standard_name": "band_aerosol_asymmetry_parameter", 
+            "standard_name": "volume_spectral_asymmetry_factor_in_air_due_to_ambient_aerosol_particles", 
             "units": "1", 
             "cell_methods": "area: mean time: point", 
             "cell_measures": "area: areacella", 
@@ -71,7 +71,7 @@
         "albdiffbnd": {
             "frequency": "3hrPt", 
             "modeling_realm": "atmos", 
-            "standard_name": "band_diffuse_albedo", 
+            "standard_name": "surface_spectral_hemispherical_reflectance_of_diffuse_shortwave_radiation", 
             "units": "1", 
             "cell_methods": "time: point", 
             "cell_measures": "area: areacella", 
@@ -89,7 +89,7 @@
         "albdirbnd": {
             "frequency": "3hrPt", 
             "modeling_realm": "atmos", 
-            "standard_name": "band_direct_albedo", 
+            "standard_name": "surface_spectral_hemispherical_reflectance_of_direct_shortwave_radiation", 
             "units": "1", 
             "cell_methods": "time: point", 
             "cell_measures": "area: areacella", 
@@ -200,7 +200,7 @@
             "standard_name": "cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
             "cell_methods": "area: mean time: point", 
-            "cell_measures": "", 
+            "cell_measures": "area: areacella", 
             "long_name": "CALIPSO High Level Cloud Fraction", 
             "comment": "Percentage cloud cover in layer centred on 220hPa", 
             "dimensions": "longitude latitude time1 p220", 
@@ -236,7 +236,7 @@
             "standard_name": "cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
             "cell_methods": "area: mean time: point", 
-            "cell_measures": "", 
+            "cell_measures": "area: areacella", 
             "long_name": "CALIPSO Percentage Low Level Cloud", 
             "comment": "Percentage cloud cover in layer centred on 840hPa", 
             "dimensions": "longitude latitude time1 p840", 
@@ -254,7 +254,7 @@
             "standard_name": "cloud_area_fraction_in_atmosphere_layer", 
             "units": "%", 
             "cell_methods": "area: mean time: point", 
-            "cell_measures": "", 
+            "cell_measures": "area: areacella", 
             "long_name": "CALIPSO Mid Level Cloud Fraction", 
             "comment": "Percentage cloud cover in layer centred on 560hPa", 
             "dimensions": "longitude latitude time1 p560", 
@@ -485,7 +485,7 @@
         "rsdcsaf": {
             "frequency": "3hrPt", 
             "modeling_realm": "aerosol", 
-            "standard_name": "downwelling_shortwave_flux_assuming_clean_clear_sky", 
+            "standard_name": "downwelling_shortwave_flux_in_air_assuming_clean_clear_sky", 
             "units": "W m-2", 
             "cell_methods": "area: mean time: point", 
             "cell_measures": "area: areacella", 
@@ -503,7 +503,7 @@
         "rsdcsafbnd": {
             "frequency": "3hrPt", 
             "modeling_realm": "aerosol", 
-            "standard_name": "band_downwelling_shortwave_flux_assuming_clean_clear_sky", 
+            "standard_name": "downwelling_shortwave_flux_in_air_assuming_clean_clear_sky", 
             "units": "W m-2", 
             "cell_methods": "area: mean time: point", 
             "cell_measures": "area: areacella", 
@@ -611,7 +611,7 @@
         "rsucsaf": {
             "frequency": "3hrPt", 
             "modeling_realm": "aerosol", 
-            "standard_name": "upwelling_shortwave_flux_assuming_clean_clear_sky", 
+            "standard_name": "upwelling_shortwave_flux_in_air_assuming_clean_clear_sky", 
             "units": "W m-2", 
             "cell_methods": "area: mean time: point", 
             "cell_measures": "area: areacella", 
@@ -629,7 +629,7 @@
         "rsucsafbnd": {
             "frequency": "3hrPt", 
             "modeling_realm": "aerosol", 
-            "standard_name": "band_upwelling_shortwave_flux_assuming_clean_clear_sky", 
+            "standard_name": "upwelling_shortwave_flux_in_air_assuming_clean_clear_sky", 
             "units": "W m-2", 
             "cell_methods": "area: mean time: point", 
             "cell_measures": "area: areacella", 
@@ -719,7 +719,7 @@
         "rsutcsaf": {
             "frequency": "3hrPt", 
             "modeling_realm": "aerosol", 
-            "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky", 
+            "standard_name": "toa_outgoing_shortwave_flux_assuming_clean_clear_sky", 
             "units": "W m-2", 
             "cell_methods": "area: mean time: point", 
             "cell_measures": "area: areacella", 
@@ -737,7 +737,7 @@
         "rsutcsafbnd": {
             "frequency": "3hrPt", 
             "modeling_realm": "atmos", 
-            "standard_name": "band_toa_outgoing_shortwave_flux_assuming_clean_clear_sky", 
+            "standard_name": "toa_outgoing_shortwave_flux_assuming_clean_clear_sky", 
             "units": "W m-2", 
             "cell_methods": "time: point", 
             "cell_measures": "area: areacella", 
