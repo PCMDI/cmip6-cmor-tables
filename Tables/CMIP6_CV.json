@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Mon Mar 12 23:25:12 2018 -0300",
-            "CV_collection_version":"6.2.3.5",
+            "CV_collection_modified":"Tue Apr  3 21:26:29 2018 -0700",
+            "CV_collection_version":"6.2.6.3",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Fri Feb 23 20:21:26 2018 -0800",
-            "experiment_id_CV_note":"\"Validate source_id entries against CVs\"",
+            "experiment_id_CV_modified":"Tue Apr  3 17:13:04 2018 -0700",
+            "experiment_id_CV_note":"Revise years in experiment_id entries",
             "institution_id":"PCMDI",
-            "previous_commit":"e99a005ce580cfd6f3e66d1fcd43abab36ffd9e5",
+            "previous_commit":"24475d26eb5f91f582b0f54a4cb5c6000cd94a30",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -85,6 +85,7 @@
             "EC-Earth-Consortium":"KNMI, The Netherlands; SMHI, Sweden; DMI, Denmark; AEMET, Spain; Met Eireann, Ireland; CNR-ISAC, Italy; Instituto de Meteorologia, Portugal; FMI, Finland; BSC, Spain; Centro de Geofisica, University of Lisbon, Portugal; ENEA, Italy; Geomar, Germany; Geophysical Institute, University of Bergen, Norway; ICHEC, Ireland; ICTP, Italy; IMAU, The Netherlands; IRV, Sweden;  Lund University, Sweden; Meteorologiska Institutionen, Stockholms University, Sweden; Niels Bohr Institute, University of Copenhagen, Denmark; NTNU, Norway; SARA, The Netherlands; Unite ASTR, Belgium; Universiteit Utrecht, The Netherlands; Universiteit Wageningen, The Netherlands; University College Dublin, Ireland; Vrije Universiteit Amsterdam, the Netherlands; University of Helsinki, Finland; KIT, Karlsruhe, Germany; USC, University of Santiago de Compostela, Spain; Uppsala Universitet, Sweden; NLeSC, Netherlands eScience Center, The Netherlands",
             "FIO-RONM":"FIO (First Institute of Oceanography, State Oceanic Administration, Qingdao 266061, China), RONM (Laboratory for Regional Oceanography and Numerical Modeling, Qingdao National Laboratory for Marine Science and Technology, Qingdao 266237, China)",
             "HAMMOZ-Consortium":"ETH Zurich, Switzerland; Max Planck Institut fur Meteorologie, Germany; Forschungszentrum Julich, Germany; University of Oxford, UK; Finnish Meteorological Institute, Finland; Leibniz Institute for Tropospheric Research, Germany; Center for Climate Systems Modeling (C2SM) at ETH Zurich, Switzerland",
+            "IIASA":"International Institute for Applied Systems Analysis (IIASA), Schlossplatz 1 - A-2361 Laxenburg, Austria",
             "INM":"Institute for Numerical Mathematics, Russian Academy of Science, Moscow 119991, Russia",
             "INPE":"National Institute for Space Research, Cachoeira Paulista, SP 12630-000, Brazil",
             "IPSL":"Institut Pierre Simon Laplace, Paris 75252, France",
@@ -271,7 +272,7 @@
                 "institution_id":[
                     "CAMS"
                 ],
-                "source_id":"CAMS_CSM1-0",
+                "source_id":"CAMS-CSM1-0",
                 "source":"CAMS_CSM 1.0 (2016): \naerosol: none\natmos: ECHAM5_CAMS (T106; 320 x 160 longitude/latitude; 31 levels; top level 10 mb)\natmosChem: none\nland: CoLM 1.0\nlandIce: none\nocean: MOM4 (tripolar; 360 x 200 longitude/latitude, primarily 1deg latitude/longitude, down to 1/3deg within 30deg of the equatorial tropics; 50 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: SIS 1.0"
             },
             "CAS-ESM1-0":{
@@ -910,7 +911,7 @@
                     "MPI-M"
                 ],
                 "source_id":"ICON-ESM-LR",
-                "source":"ICON-ESM-LR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ICON-AES (icosahedral/triangles; 160 km; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-OES (icosahedral/triangles; 40 km; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+                "source":"ICON-ESM-LR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A (icosahedral/triangles; 160 km; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles; 40 km; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
             "IITM-ESM":{
                 "activity_participation":[
@@ -1085,28 +1086,19 @@
                 "source_id":"MIROC6",
                 "source":"MIROC6 (2017): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: none\nland: MATSIRO6.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: COCO4.9"
             },
-            "MPI-ESM-1-2-HR":{
+            "MPI-ESM-1-2-HAM":{
                 "activity_participation":[
-                    "CMIP",
-                    "CORDEX",
-                    "DCPP",
-                    "DynVarMIP",
-                    "FAFMIP",
-                    "HighResMIP",
-                    "OMIP",
-                    "SIMIP",
-                    "ScenarioMIP",
-                    "VolMIP"
+                    "AerChemMIP",
+                    "CMIP"
                 ],
                 "cohort":[
                     "Registered"
                 ],
                 "institution_id":[
-                    "MPI-M",
-                    "DWD"
+                    "HAMMOZ-Consortium"
                 ],
-                "source_id":"MPI-ESM-1-2-HR",
-                "source":"MPI-ESM1.2-HR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T127; 384 x 192 longitude/latitude; 95 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.20\nlandIce: none/prescribed\nocean: MPIOM1.63 (tripolar TP04, approximately 0.4deg; 802 x 404 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+                "source_id":"MPI-ESM-1-2-HAM",
+                "source":"MPI-ESM1.2-HAM (2017): \naerosol: HAM2.3\natmos: ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)\natmosChem: sulfur chemistry (unnamed)\nland: JSBACH 3.20\nlandIce: none\nocean: MPIOM1.63 (bipolar GR1.5, approximately 1.5deg; 256 x 220 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC6\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
             "MPI-ESM-1-2-LR":{
                 "activity_participation":[
@@ -1137,19 +1129,28 @@
                 "source_id":"MPI-ESM-1-2-LR",
                 "source":"MPI-ESM1.2-LR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.20\nlandIce: none/prescribed\nocean: MPIOM1.63 (bipolar GR1.5, approximately 1.5deg; 256 x 220 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
-            "MPIESM-1-2-HAM":{
+            "MPI-ESM1-2-HR":{
                 "activity_participation":[
-                    "AerChemMIP",
-                    "CMIP"
+                    "CMIP",
+                    "CORDEX",
+                    "DCPP",
+                    "DynVarMIP",
+                    "FAFMIP",
+                    "HighResMIP",
+                    "OMIP",
+                    "SIMIP",
+                    "ScenarioMIP",
+                    "VolMIP"
                 ],
                 "cohort":[
                     "Registered"
                 ],
                 "institution_id":[
-                    "HAMMOZ-Consortium"
+                    "MPI-M",
+                    "DWD"
                 ],
-                "source_id":"MPIESM-1-2-HAM",
-                "source":"MPIESM1.2-HAM (2017): \naerosol: HAM2.3\natmos: ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)\natmosChem: sulfur chemistry (unnamed)\nland: JSBACH 3.20\nlandIce: none\nocean: MPIOM1.63 (bipolar GR1.5, approximately 1.5deg; 256 x 220 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC6\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+                "source_id":"MPI-ESM1-2-HR",
+                "source":"MPI-ESM1.2-HR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T127; 384 x 192 longitude/latitude; 95 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.20\nlandIce: none/prescribed\nocean: MPIOM1.63 (tripolar TP04, approximately 0.4deg; 802 x 404 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
             "MRI-AGCM3-2":{
                 "activity_participation":[
@@ -1195,6 +1196,26 @@
                 ],
                 "source_id":"MRI-ESM2-0",
                 "source":"MRI-ESM2.0 (2017): \naerosol: MASINGAR mk2r4 (TL95; 192 x 96 longitude/latitude; 80 levels; top level 0.01 hPa)\natmos: MRI-AGCM3.5 (TL159; 320 x 160 longitude/latitude; 80 levels; top level 0.01 hPa)\natmosChem: MRI-CCM2.1 (T42; 128 x 64 longitude/latitude; 80 levels; top level 0.01 hPa)\nland: HAL 1.0\nlandIce: none\nocean: MRI.COM4.4 (tripolar primarily 0.5 deg latitude/1 deg longitude with meridional refinement down to 0.3 deg within 10 degrees north and south of the equator; 360 x 364 longitude/latitude; 61 levels; top grid cell 0-2 m)\nocnBgchem: MRI.COM4.4\nseaIce: MRI.COM4.4"
+            },
+            "NESM3":{
+                "activity_participation":[
+                    "CMIP",
+                    "DAMIP",
+                    "DCPP",
+                    "GMMIP",
+                    "GeoMIP",
+                    "PMIP",
+                    "ScenarioMIP",
+                    "VolMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NUIST"
+                ],
+                "source_id":"NESM3",
+                "source":"NESM v3 (2016): \naerosol: none\natmos: ECHAM v6.3 (T63; 192 x 96 longitude/latitude; 47 levels; top level 1 Pa)\natmosChem: none\nland: JSBACH v3.1\nlandIce: none\nocean: NEMO v3.4 (NEMO v3.4, tripolar primarily 1deg; 384 x 362 longitude/latitude; 46 levels; top grid cell 0-6 m)\nocnBgchem: none\nseaIce: CICE4.1"
             },
             "NICAM16-7S":{
                 "activity_participation":[
@@ -5802,7 +5823,7 @@
                     "OMIP"
                 ],
                 "additional_allowed_model_components":[
-                    ""
+                    "BGC"
                 ],
                 "experiment":"OMIP experiment forced by Large and Yeager (CORE-2, NCEP) atmospheric data set and initialized with observed physical and biogeochemical ocean data",
                 "experiment_id":"omip1",
@@ -5824,7 +5845,7 @@
                     "OMIP"
                 ],
                 "additional_allowed_model_components":[
-                    ""
+                    "BGC"
                 ],
                 "experiment":"OMIP experiment forced by Large and Yeager (CORE-2, NCEP) atmospheric data set and initialized from at least a 2000-year spin up of the coupled physical-biogeochemical model",
                 "experiment_id":"omip1-spunup",
@@ -5846,9 +5867,9 @@
                     "OMIP"
                 ],
                 "additional_allowed_model_components":[
-                    ""
+                    "BGC"
                 ],
-                "experiment":"OMIP experiment forced by JRA-55do atmospheric data set and initialized with observed physical and biogeochemical ocean data",
+                "experiment":"OMIP experiment forced by JRA55-do atmospheric data set and initialized with observed physical and biogeochemical ocean data",
                 "experiment_id":"omip2",
                 "parent_activity_id":[
                     "no parent"
@@ -5868,9 +5889,9 @@
                     "OMIP"
                 ],
                 "additional_allowed_model_components":[
-                    ""
+                    "BGC"
                 ],
-                "experiment":"OMIP experiment forced by JRA-55do atmospheric data set and initialized from at least a 2000-year spin up of the coupled physical-biogeochemical model",
+                "experiment":"OMIP experiment forced by JRA55-do atmospheric data set and initialized from at least a 2000-year spin up of the coupled physical-biogeochemical model",
                 "experiment_id":"omip2-spunup",
                 "parent_activity_id":[
                     "no parent"
