@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Fri Apr  6 08:36:34 2018 -0700",
-            "CV_collection_version":"6.2.6.11",
+            "CV_collection_modified":"Fri Apr 20 20:46:44 2018 -0700",
+            "CV_collection_version":"6.2.8.0",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Tue Apr  3 17:13:04 2018 -0700",
-            "experiment_id_CV_note":"Revise years in experiment_id entries",
+            "experiment_id_CV_modified":"Fri Apr 20 18:54:17 2018 -0700",
+            "experiment_id_CV_note":"Add experiment_id values for CDRMIP and PAMIP",
             "institution_id":"PCMDI",
-            "previous_commit":"d0321d852d3d8cdb4960ff4ec54eae33053afba9",
+            "previous_commit":"3fe5a7e463e3fad12d82c4dcfaa500241a89ef6a",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -82,7 +82,7 @@
             "CSIR-CSIRO":"CSIR (Council for Scientific and Industrial Research - Natural Resources and the Environment, Pretoria, 0001, South Africa), CSIRO (Commonwealth Scientific and Industrial Research Organisation and Bureau of Meteorology, Melbourne, Victoria 3208, Australia)",
             "CSIRO-BOM":"Commonwealth Scientific and Industrial Research Organisation and Bureau of Meteorology, Melbourne, Victoria 3208, Australia",
             "DWD":"Deutscher Wetterdienst, Offenbach am Main 63067, Germany",
-            "EC-Earth-Consortium":"KNMI, The Netherlands; SMHI, Sweden; DMI, Denmark; AEMET, Spain; Met Eireann, Ireland; CNR-ISAC, Italy; Instituto de Meteorologia, Portugal; FMI, Finland; BSC, Spain; Centro de Geofisica, University of Lisbon, Portugal; ENEA, Italy; Geomar, Germany; Geophysical Institute, University of Bergen, Norway; ICHEC, Ireland; ICTP, Italy; IMAU, The Netherlands; IRV, Sweden;  Lund University, Sweden; Meteorologiska Institutionen, Stockholms University, Sweden; Niels Bohr Institute, University of Copenhagen, Denmark; NTNU, Norway; SARA, The Netherlands; Unite ASTR, Belgium; Universiteit Utrecht, The Netherlands; Universiteit Wageningen, The Netherlands; University College Dublin, Ireland; Vrije Universiteit Amsterdam, the Netherlands; University of Helsinki, Finland; KIT, Karlsruhe, Germany; USC, University of Santiago de Compostela, Spain; Uppsala Universitet, Sweden; NLeSC, Netherlands eScience Center, The Netherlands",
+            "EC-Earth-Consortium":"AEMET, Spain; BSC, Spain; CNR-ISAC, Italy; DMI, Denmark; ENEA, Italy; FMI, Finland; Geomar, Germany; ICHEC, Ireland; ICTP, Italy; IDL, Portugal; IMAU, The Netherlands; IPMA, Portugal; KIT, Karlsruhe, Germany; KNMI, The Netherlands; Lund University, Sweden; Met Eireann, Ireland; NLeSC, The Netherlands; NTNU, Norway; Oxford University, UK; surfSARA, The Netherlands; SMHI, Sweden; Stockholm University, Sweden; Unite ASTR, Belgium; University College Dublin, Ireland; University of Bergen, Norway; University of Copenhagen, Denmark; University of Helsinki, Finland; University of Santiago de Compostela, Spain; Uppsala University, Sweden; Utrecht University, The Netherlands; Vrije Universiteit Amsterdam, the Netherlands; Wageningen University, The Netherlands. Mailing address: EC-Earth consortium, Rossby Center, Swedish Meteorological and Hydrological Institute/SMHI, SE-601 76 Norrkoping, Sweden",
             "FIO-RONM":"FIO (First Institute of Oceanography, State Oceanic Administration, Qingdao 266061, China), RONM (Laboratory for Regional Oceanography and Numerical Modeling, Qingdao National Laboratory for Marine Science and Technology, Qingdao 266237, China)",
             "HAMMOZ-Consortium":"ETH Zurich, Switzerland; Max Planck Institut fur Meteorologie, Germany; Forschungszentrum Julich, Germany; University of Oxford, UK; Finnish Meteorological Institute, Finland; Leibniz Institute for Tropospheric Research, Germany; Center for Climate Systems Modeling (C2SM) at ETH Zurich, Switzerland",
             "IIASA":"International Institute for Applied Systems Analysis (IIASA), Schlossplatz 1 - A-2361 Laxenburg, Austria",
@@ -91,7 +91,7 @@
             "IPSL":"Institut Pierre Simon Laplace, Paris 75252, France",
             "KIOST":"Korea Institute of Ocean Science & Technology, Busan 49111, Republic of Korea",
             "MESSy-Consortium":"The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
-            "MIROC":"JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan), AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan), NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan), and AICS (RIKEN Advanced Institute for Computational Science, Hyogo 650-0047, Japan)",
+            "MIROC":"JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan), AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan), NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan), and R-CCS (RIKEN Center for Computational Science, Hyogo 650-0047, Japan)",
             "MOHC":"Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK",
             "MPI-M":"Max Planck Institute for Meteorology, Hamburg 20146, Germany",
             "MRI":"Meteorological Research Institute, Tsukuba, Ibaraki 305-0052, Japan",
@@ -248,10 +248,13 @@
             "BNU-ESM-1-1":{
                 "activity_participation":[
                     "C4MIP",
+                    "CDRMIP",
+                    "CFMIP",
                     "CMIP",
                     "GMMIP",
                     "GeoMIP",
                     "OMIP",
+                    "RFMIP",
                     "ScenarioMIP"
                 ],
                 "cohort":[
@@ -1121,11 +1124,12 @@
                     "MIROC"
                 ],
                 "source_id":"MIROC-ES2H",
-                "source":"MIROC-ES2H (2017): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
+                "source":"MIROC-ES2H (2018): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
             },
             "MIROC-ES2L":{
                 "activity_participation":[
                     "C4MIP",
+                    "CDRMIP",
                     "CMIP",
                     "DynVarMIP",
                     "GeoMIP",
@@ -1143,7 +1147,7 @@
                     "MIROC"
                 ],
                 "source_id":"MIROC-ES2L",
-                "source":"MIROC-ES2L (2017): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T42; 128 x 64 longitude/latitude; 40 levels; top level 3 hPa)\natmosChem: none\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
+                "source":"MIROC-ES2L (2018): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T42; 128 x 64 longitude/latitude; 40 levels; top level 3 hPa)\natmosChem: none\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
             },
             "MIROC6":{
                 "activity_participation":[
@@ -1157,6 +1161,7 @@
                     "HighResMIP",
                     "LS3MIP",
                     "OMIP",
+                    "PAMIP",
                     "RFMIP",
                     "SIMIP",
                     "ScenarioMIP",
@@ -1871,6 +1876,30 @@
                     "none"
                 ]
             },
+            "1pctCO2-cdr":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"1 percent per year decrease in CO2 from 4xCO2",
+                "experiment_id":"1pctCO2-cdr",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "1pctCO2"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "1pctCO2-rad":{
                 "activity_id":[
                     "C4MIP"
@@ -2476,6 +2505,54 @@
                 ],
                 "parent_experiment_id":[
                     "no parent"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "amip-climSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"AMIP with climatological SIC",
+                "experiment_id":"amip-climSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "amip-climSST":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"AMIP with climatological SST",
+                "experiment_id":"amip-climSST",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -3806,6 +3883,54 @@
                     "none"
                 ]
             },
+            "esm-pi-CO2pulse":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"pulse addition of 100 Gt carbon to pre-industrial atmosphere",
+                "experiment_id":"esm-pi-CO2pulse",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esm-pi-cdr-pulse":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"pulse removal of 100 Gt carbon from pre-industrial atmosphere",
+                "experiment_id":"esm-pi-cdr-pulse",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "esm-piControl":{
                 "activity_id":[
                     "CMIP"
@@ -3854,6 +3979,30 @@
                     "none"
                 ]
             },
+            "esm-ssp534-over":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"emission-driven SSP5-3.4-OS scenario",
+                "experiment_id":"esm-ssp534-over",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-hist"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "esm-ssp585":{
                 "activity_id":[
                     "C4MIP"
@@ -3878,6 +4027,54 @@
                     "none"
                 ]
             },
+            "esm-ssp585-ocn-alk":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"emission-driven SSP5-8.5 scenario but with ocean alkalinization from year 2020 onward",
+                "experiment_id":"esm-ssp585-ocn-alk",
+                "parent_activity_id":[
+                    "C4MIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-ssp585"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esm-ssp585-ocn-alk-stop":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"emission-driven SSP5-8.5 scenario with alkalinization terminated in year 2070",
+                "experiment_id":"esm-ssp585-ocn-alk-stop",
+                "parent_activity_id":[
+                    "CDRMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-ssp585-ocn-alk"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "esm-ssp585-ssp126Lu":{
                 "activity_id":[
                     "LUMIP"
@@ -3893,6 +4090,150 @@
                 ],
                 "parent_experiment_id":[
                     "esm-hist"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esm-ssp585-ssp126Lu-ext":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"extension of the LUMIP emissions-driven simulation following SSP5-8.5 with SSP1-2.6 land use",
+                "experiment_id":"esm-ssp585-ssp126Lu-ext",
+                "parent_activity_id":[
+                    "LUMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-ssp585-ssp126Lu"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esm-ssp585ext":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"emission-driven long-term extension of the SSP5-8.5 scenario",
+                "experiment_id":"esm-ssp585ext",
+                "parent_activity_id":[
+                    "C4MIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-ssp585"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esm-yr2010CO2-CO2pulse":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"instantaneous 100 Gt C addition to an industrial era atmosphere",
+                "experiment_id":"esm-yr2010CO2-CO2pulse",
+                "parent_activity_id":[
+                    "CDRMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-yr2010CO2-control"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esm-yr2010CO2-cdr-pulse":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"instantaneous 100 Gt C removal from industrial era atmosphere",
+                "experiment_id":"esm-yr2010CO2-cdr-pulse",
+                "parent_activity_id":[
+                    "CDRMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-yr2010CO2-control"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esm-yr2010CO2-control":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"historical emissions followed by fixed 2010 emissions (both model-diagnosed)",
+                "experiment_id":"esm-yr2010CO2-control",
+                "parent_activity_id":[
+                    "CDRMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esm-yr2010CO2-noemit":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"branches from esm-yr2010CO2-control with zero emissions",
+                "experiment_id":"esm-yr2010CO2-noemit",
+                "parent_activity_id":[
+                    "CDRMIP"
+                ],
+                "parent_experiment_id":[
+                    "esm-yr2010CO2-control"
                 ],
                 "required_model_components":[
                     "AOGCM",
@@ -4017,6 +4358,30 @@
                 ],
                 "required_model_components":[
                     "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "futSST-pdSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with future SST and present day SIC",
+                "experiment_id":"futSST-pdSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -5919,6 +6284,54 @@
                     "none"
                 ]
             },
+            "modelSST-futArcSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day coupled model SST and future Arctic SIC",
+                "experiment_id":"modelSST-futArcSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "modelSST-pdSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice present day control with coupled model SST",
+                "experiment_id":"modelSST-pdSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "omip1":{
                 "activity_id":[
                     "OMIP"
@@ -6007,6 +6420,198 @@
                     "none"
                 ]
             },
+            "pa-futAntSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Partially-coupled time slice constrained by future Antarctic SIC",
+                "experiment_id":"pa-futAntSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pa-futAntSIC-ext":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Partially-coupled extended simulation with future Antarctic SIC",
+                "experiment_id":"pa-futAntSIC-ext",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pa-futArcSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Partially-coupled time slice constrained by future Arctic SIC",
+                "experiment_id":"pa-futArcSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pa-futArcSIC-ext":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Partially-coupled extended simulation with future Arctic SIC",
+                "experiment_id":"pa-futArcSIC-ext",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pa-pdSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Partially-coupled time slice contrained by present day SIC",
+                "experiment_id":"pa-pdSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pa-pdSIC-ext":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Partially-coupled extended simulation constrained by present day SIC",
+                "experiment_id":"pa-pdSIC-ext",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pa-piAntSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Partially-coupled time slice with pre-industrial Antarctic SIC",
+                "experiment_id":"pa-piAntSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pa-piArcSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Partially-coupled time slice constrained by pre-industrial Arctic SIC",
+                "experiment_id":"pa-piArcSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "past1000":{
                 "activity_id":[
                     "PMIP"
@@ -6026,6 +6631,222 @@
                 ],
                 "required_model_components":[
                     "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-futAntSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day SST and future Antarctic SIC",
+                "experiment_id":"pdSST-futAntSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-futArcSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day SST and future Arctic SIC",
+                "experiment_id":"pdSST-futArcSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-futArcSICSIT":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day SST and future Arctic SIC and sea ice thickness",
+                "experiment_id":"pdSST-futArcSICSIT",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-futBKSeasSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day SST and future Barents and Kara Seas SIC",
+                "experiment_id":"pdSST-futBKSeasSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-futOkhotskSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day SST and future Sea of Okhotsk SIC",
+                "experiment_id":"pdSST-futOkhotskSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-pdSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day SST and SIC",
+                "experiment_id":"pdSST-pdSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-pdSICSIT":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice constrained by present day conditions including sea ice thickness",
+                "experiment_id":"pdSST-pdSICSIT",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-piAntSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day SST and pre-industrial Antarctic SIC",
+                "experiment_id":"pdSST-piAntSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "pdSST-piArcSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with present day SST and pre-industrial Arctic SIC",
+                "experiment_id":"pdSST-piArcSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
                 ],
                 "sub_experiment_id":[
                     "none"
@@ -6918,6 +7739,54 @@
                 ],
                 "parent_experiment_id":[
                     "piControl"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "piSST-pdSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with pre-industrial SST and present day SIC",
+                "experiment_id":"piSST-pdSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "piSST-piSIC":{
+                "activity_id":[
+                    "PAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"Atmosphere time slice with pre-industrial SST and SIC",
+                "experiment_id":"piSST-piSIC",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "amip"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -7830,6 +8699,30 @@
                 ],
                 "required_model_components":[
                     "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "yr2010CO2":{
+                "activity_id":[
+                    "CDRMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "experiment":"concentration-driven fixed 2010 forcing",
+                "experiment_id":"yr2010CO2",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AOGCM",
+                    "BGC"
                 ],
                 "sub_experiment_id":[
                     "none"
