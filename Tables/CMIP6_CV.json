@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu May  3 13:12:52 2018 -0700",
-            "CV_collection_version":"6.2.8.3",
+            "CV_collection_modified":"Mon May 21 07:54:20 2018 -0700",
+            "CV_collection_version":"6.2.8.5",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Apr 20 20:46:44 2018 -0700",
             "experiment_id_CV_note":"Add experiment_id values for CDRMIP and PAMIP",
             "institution_id":"PCMDI",
-            "previous_commit":"5cf596edb50836eea7c178409f61d1d31b9fcb2e",
+            "previous_commit":"2f1cf94b515c35b4da712ff718349198e3c69261",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1115,6 +1115,20 @@
                 "source_id":"IPSL-CM6A-LR",
                 "source":"IPSL-CM6A-LR (2017): \naerosol: none\natmos: LMDZ (NPv6, N96; 144 x 143 longitude/latitude; 79 levels; top level 40000 m)\natmosChem: none\nland: ORCHIDEE (v2.0, Water/Carbon/Energy mode)\nlandIce: none\nocean: NEMO-OPA (eORCA1.3, tripolar primarily 1deg; 362 x 332 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: NEMO-PISCES\nseaIce: NEMO-LIM3"
             },
+            "KACE-1-0-G":{
+                "activity_participation":[
+                    "CMIP",
+                    "ScenarioMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NIMS-KMA"
+                ],
+                "source_id":"KACE-1-0-G",
+                "source":"KACE1.0-G (2018): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: MOM4p1 (tripolar primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE-HadGEM3-GSI8 (tripolar primarily 1deg; 360 x 200 longitude/latitude)"
+            },
             "KIOST-ESM":{
                 "activity_participation":[
                     "C4MIP",
@@ -1554,6 +1568,7 @@
                 "institution_id":[
                     "MOHC",
                     "NERC",
+                    "NIMS-KMA",
                     "NIWA"
                 ],
                 "source_id":"UKESM1-0-LL",
