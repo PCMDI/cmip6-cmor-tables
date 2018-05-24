@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue May 22 19:29:10 2018 -0700",
-            "CV_collection_version":"6.2.8.14",
+            "CV_collection_modified":"Wed May 23 13:28:03 2018 -0700",
+            "CV_collection_version":"6.2.8.18",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Apr 20 20:46:44 2018 -0700",
             "experiment_id_CV_note":"Add experiment_id values for CDRMIP and PAMIP",
             "institution_id":"PCMDI",
-            "previous_commit":"24826ba94254b4563ab96e19778212f78545cc82",
+            "previous_commit":"9a6bfc34ea3acc415928e3f89c66aee209310e46",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -565,6 +565,20 @@
                 "source_id":"CNRM-ESM2-1-HR",
                 "source":"CNRM-ESM2-1-HR (2017): \naerosol: TACTIC_v2\natmos: Arpege 6.3 (T359; Gaussian Reduced with 181724 grid points in total distributed over 360 latitude circles (with 720 grid points per latitude circle between 32.2degN and 32.2degS reducing to 18 grid points per latitude circle at 89.6degN and 89.6degS); 91 levels; top level 78.4 km)\natmosChem: REPROBUS-C_v2\nland: Surfex 8.0c\nlandIce: none\nocean: Nemo 3.6 (eORCA025, tripolar primarily 1/4deg; 1442 x 1050 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: Pisces 2.s\nseaIce: Gelato 6.1"
             },
+            "CSIRO-Mk3L-1-3":{
+                "activity_participation":[
+                    "CMIP",
+                    "PMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "UTAS"
+                ],
+                "source_id":"CSIRO-Mk3L-1-3",
+                "source":"CSIRO Mk3L 1.3 (2006): \naerosol: none\natmos: unnamed (R21; 64 x 56 longitude/latitude; 18 levels; top level 36355 m)\natmosChem: none\nland: unnamed\nlandIce: none\nocean: MOM1.x (128 x 112 longitude/latitude; 31 levels; top grid cell 0-10 m; bottom grid cell 4600-5000 m)\nocnBgchem: none\nseaIce: unnamed"
+            },
             "CanESM5":{
                 "activity_participation":[
                     "C4MIP",
@@ -606,7 +620,7 @@
                     "E3SM-Project"
                 ],
                 "source_id":"E3SM-1-0",
-                "source":"E3SM 1.0 (2018): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 mesh, variable resolution 60 km to 30km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (v6.0, same grid as ocean)"
+                "source":"E3SM 1.0 (2018): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (v6.0, same grid as ocean)"
             },
             "EC-Earth3":{
                 "activity_participation":[
@@ -897,6 +911,20 @@
                 "source_id":"GFDL-ESM4",
                 "source":"GFDL-ESM4 (2017): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 49 levels; top level 1 Pa)\natmosChem: GFDL-ATMCHEM4.1 (full atmospheric chemistry)\nland: GFDL-LM4.1\nlandIce: GFDL-LM4.1\nocean: GFDL-MOM6 (tripolar - nominal 0.5 deg; 720 x 360 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: COBALT 2.0\nseaIce: SIS2"
             },
+            "GFDL-OM4p5B":{
+                "activity_participation":[
+                    "CMIP",
+                    "OMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NOAA-GFDL"
+                ],
+                "source_id":"GFDL-OM4p5B",
+                "source":"GFDL-OM4p5B (2018): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: GFDL-MOM6 (tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: GFDL BLING v2\nseaIce: SIS2"
+            },
             "GISS-E2-1-G":{
                 "activity_participation":[
                     "AerChemMIP",
@@ -1117,7 +1145,8 @@
             },
             "INM-CM4-8":{
                 "activity_participation":[
-                    "CMIP"
+                    "CMIP",
+                    "PMIP"
                 ],
                 "cohort":[
                     "Registered"
