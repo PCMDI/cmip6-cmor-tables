@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed May 23 13:28:03 2018 -0700",
-            "CV_collection_version":"6.2.8.18",
+            "CV_collection_modified":"Tue May 29 08:00:40 2018 -0700",
+            "CV_collection_version":"6.2.8.19",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Apr 20 20:46:44 2018 -0700",
             "experiment_id_CV_note":"Add experiment_id values for CDRMIP and PAMIP",
             "institution_id":"PCMDI",
-            "previous_commit":"9a6bfc34ea3acc415928e3f89c66aee209310e46",
+            "previous_commit":"597a6c53ee4115c4cbad2bbc51c4a3a991984b21",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -577,7 +577,7 @@
                     "UTAS"
                 ],
                 "source_id":"CSIRO-Mk3L-1-3",
-                "source":"CSIRO Mk3L 1.3 (2006): \naerosol: none\natmos: unnamed (R21; 64 x 56 longitude/latitude; 18 levels; top level 36355 m)\natmosChem: none\nland: unnamed\nlandIce: none\nocean: MOM1.x (128 x 112 longitude/latitude; 31 levels; top grid cell 0-10 m; bottom grid cell 4600-5000 m)\nocnBgchem: none\nseaIce: unnamed"
+                "source":"CSIRO Mk3L 1.3 (2006): \naerosol: none\natmos: unnamed (R21; 64 x 56 longitude/latitude; 18 levels; top level 36355 m)\natmosChem: none\nland: unnamed\nlandIce: none\nocean: MOM1.x (128 x 112 longitude/latitude; 31 levels; top grid cell 0-10 m; bottom grid cell 4600-5000 m)\nocnBgchem: none\nseaIce: unnamed (same grid as atmosphere)"
             },
             "CanESM5":{
                 "activity_participation":[
