@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue May 29 08:00:40 2018 -0700",
-            "CV_collection_version":"6.2.8.19",
+            "CV_collection_modified":"Wed Jun  6 16:59:50 2018 -0700",
+            "CV_collection_version":"6.2.8.20",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Apr 20 20:46:44 2018 -0700",
             "experiment_id_CV_note":"Add experiment_id values for CDRMIP and PAMIP",
             "institution_id":"PCMDI",
-            "previous_commit":"597a6c53ee4115c4cbad2bbc51c4a3a991984b21",
+            "previous_commit":"198a5a748a6589ba8fe48596db22bbb2a3af45cf",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -642,7 +642,7 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3",
-                "source":"EC-Earth3 (2017): \naerosol: none\natmos: IFS cy36r4 (TL255; linearly reduced Gaussian grid; 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1; tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+                "source":"EC-Earth3 (2018): \naerosol: none\natmos: IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
             "EC-Earth3-AerChem":{
                 "activity_participation":[
@@ -657,7 +657,7 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3-AerChem",
-                "source":"EC-Earth3-AerChem (2017): \naerosol: TM5 (3 x 2 degrees; 120 x 90 longitude/latitude; 34 levels; top level 0.1 hPa)\natmos: IFS cy36r4 (TL255; linearly reduced Gaussian grid; 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: TM5 (3 x 2 degrees; 120 x 90 longitude/latitude; 34 levels; top level 0.1 hPa)\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1; tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+                "source":"EC-Earth3-AerChem (2018): \naerosol: TM5 (3 x 2 degrees; 120 x 90 longitude/latitude; 34 levels; top level: 0.1 hPa)\natmos: IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: TM5 (3 x 2 degrees; 120 x 90 longitude/latitude; 34 levels; top level: 0.1 hPa)\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1 tripolar primarily 1 degree with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
             "EC-Earth3-CC":{
                 "activity_participation":[
@@ -672,7 +672,7 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3-CC",
-                "source":"EC-Earth3-CC (2017): \naerosol: none\natmos: IFS cy36r4 (TL255; linearly reduced Gaussian grid; 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: TM5 (3 x 2 degrees; 120 x 90 longitude/latitude; 34 levels; top level 0.1 hPa)\nland: HTESSEL (land surface scheme built in IFS) and LPJ-GUESS v4\nlandIce: none\nocean: NEMO3.6 (ORCA1; tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: PISCES v2\nseaIce: LIM3"
+                "source":"EC-Earth3-CC (2018): \naerosol: none\natmos: IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: TM5 (3 x 2 degrees; 120 x 90 longitude/latitude; 34 levels; top level: 0.1 hPa)\nland: HTESSEL (land surface scheme built in IFS) and LPJ-GUESS v4\nlandIce: none\nocean: NEMO3.6 (ORCA1 tripolar primarily 1 degree with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: PISCES v2\nseaIce: LIM3"
             },
             "EC-Earth3-GrIS":{
                 "activity_participation":[
@@ -687,11 +687,10 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3-GrIS",
-                "source":"EC-Earth3-GrIS (2017): \naerosol: none\natmos: IFS cy36r4 (TL255; linearly reduced Gaussian grid; 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: PISM 0.7 (5 x 5 km; 442 levels)\nocean: NEMO3.6 (ORCA1; tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+                "source":"EC-Earth3-GrIS (2018): \naerosol: none\natmos: IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: PISM 0.7 (5 km x 5 km, 442 levels)\nocean: NEMO3.6 (ORCA1 tripolar primarily 1 degree with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
             "EC-Earth3-HR":{
                 "activity_participation":[
-                    "CMIP",
                     "DCPP",
                     "HighResMIP"
                 ],
@@ -702,7 +701,7 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3-HR",
-                "source":"EC-Earth3-HR (2017): \naerosol: none\natmos: IFS cy36r4 (TL511; linearly reduced Gaussian grid; 1024 x 512 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA025; tripolar primarily 0.25 degrees; 1442 x 1921 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+                "source":"EC-Earth3-HR (2017): \naerosol: none\natmos: IFS cy36r4 (TL511, linearly reduced Gaussian grid equivalent to 1024 x 512 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA025 tripolar primarily 0.25 degrees; 1442 x 1921 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
             "EC-Earth3-LR":{
                 "activity_participation":[
@@ -716,7 +715,7 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3-LR",
-                "source":"EC-Earth3-LR (2017): \naerosol: none\natmos: IFS cy36r4 (TL159; linearly reduced Gaussian grid; 320 x 160 longitude/latitude; 62 levels; top level 5 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1; tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+                "source":"EC-Earth3-LR (2018): \naerosol: none\natmos: IFS cy36r4 (TL159, linearly reduced Gaussian grid equivalent to 320 x 160 longitude/latitude; 62 levels; top level 5 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1 tripolar primarily 1 degree with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
             "EC-Earth3-Veg":{
                 "activity_participation":[
@@ -732,7 +731,7 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3-Veg",
-                "source":"EC-Earth3-Veg (2017): \naerosol: none\natmos: IFS cy36r4 (TL255; linearly reduced Gaussian grid; 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1; tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+                "source":"EC-Earth3-Veg (2018): \naerosol: none\natmos: IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS) and LPJ-GUESS v4\nlandIce: none\nocean: NEMO3.6 (ORCA1 tripolar primarily 1 degree with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
             "EC-Earth3-Veg-LR":{
                 "activity_participation":[
@@ -747,7 +746,47 @@
                     "EC-Earth-Consortium"
                 ],
                 "source_id":"EC-Earth3-Veg-LR",
-                "source":"EC-Earth3-Veg-LR (2017): \naerosol: none\natmos: IFS cy36r4 (TL159; linearly reduced Gaussian grid; 320 x 160 longitude/latitude; 62 levels; top level 5 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS) and LPJ-GUESS v4\nlandIce: none\nocean: NEMO3.6 (ORCA1; tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+                "source":"EC-Earth3-Veg-LR (2018): \naerosol: none\natmos: IFS cy36r4 (TL159, linearly reduced Gaussian grid equivalent to 320 x 160 longitude/latitude; 62 levels; top level 5 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS) and LPJ-GUESS v4\nlandIce: none\nocean: NEMO3.6 (ORCA1 tripolar primarily 1 degree with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+            },
+            "EC-Earth3P":{
+                "activity_participation":[
+                    "CMIP",
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "source_id":"EC-Earth3P",
+                "source":"EC-Earth3P (2017): \naerosol: none\natmos: IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1 tripolar primarily 1 degree with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+            },
+            "EC-Earth3P-HR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "source_id":"EC-Earth3P-HR",
+                "source":"EC-Earth3P-HR (2017): \naerosol: none\natmos: IFS cy36r4 (TL511, linearly reduced Gaussian grid equivalent to 1024 x 512 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA1 tripolar; 1442 x 1921 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
+            },
+            "EC-Earth3P-VHR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "EC-Earth-Consortium"
+                ],
+                "source_id":"EC-Earth3P-VHR",
+                "source":"EC-Earth3P-VHR (2017): \naerosol: none\natmos: IFS cy36r4 (TL1279, linearly reduced Gaussian grid equivalent to 2560 x 1280 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA012 tripolar primarily 0.08 degrees; 4322 x 3059 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
             "EMAC-2-53-AerChem":{
                 "activity_participation":[
