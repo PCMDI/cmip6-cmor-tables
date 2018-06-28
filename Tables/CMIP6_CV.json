@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Mon Jun 25 21:51:49 2018 00800",
-            "CV_collection_version":"6.2.8.25",
+            "CV_collection_modified":"Wed Jun 27 23:19:43 2018 00800",
+            "CV_collection_version":"6.2.8.31",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Apr 20 20:46:44 2018 -0700",
             "experiment_id_CV_note":"Add experiment_id values for CDRMIP and PAMIP",
             "institution_id":"PCMDI",
-            "previous_commit":"a981eab89bac9180be55359d13405d36d92bfd40",
+            "previous_commit":"b6f24cd703c259f89e7a42f3c83a7175d6522f1a",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -86,9 +86,9 @@
             "DWD":"Deutscher Wetterdienst, Offenbach am Main 63067, Germany",
             "E3SM-Project":"LLNL (Lawrence Livermore National Laboratory, Livermore, CA 94550, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA); SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA). Mailing address: LLNL Climate Program, c/o David C. Bader, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA",
             "EC-Earth-Consortium":"AEMET, Spain; BSC, Spain; CNR-ISAC, Italy; DMI, Denmark; ENEA, Italy; FMI, Finland; Geomar, Germany; ICHEC, Ireland; ICTP, Italy; IDL, Portugal; IMAU, The Netherlands; IPMA, Portugal; KIT, Karlsruhe, Germany; KNMI, The Netherlands; Lund University, Sweden; Met Eireann, Ireland; NLeSC, The Netherlands; NTNU, Norway; Oxford University, UK; surfSARA, The Netherlands; SMHI, Sweden; Stockholm University, Sweden; Unite ASTR, Belgium; University College Dublin, Ireland; University of Bergen, Norway; University of Copenhagen, Denmark; University of Helsinki, Finland; University of Santiago de Compostela, Spain; Uppsala University, Sweden; Utrecht University, The Netherlands; Vrije Universiteit Amsterdam, the Netherlands; Wageningen University, The Netherlands. Mailing address: EC-Earth consortium, Rossby Center, Swedish Meteorological and Hydrological Institute/SMHI, SE-601 76 Norrkoping, Sweden",
+            "ECMWF":"European Centre for Medium-Range Weather Forecasts, Reading RG2 9AX, UK",
             "FIO-RONM":"FIO (First Institute of Oceanography, State Oceanic Administration, Qingdao 266061, China), RONM (Laboratory for Regional Oceanography and Numerical Modeling, Qingdao National Laboratory for Marine Science and Technology, Qingdao 266237, China)",
             "HAMMOZ-Consortium":"ETH Zurich, Switzerland; Max Planck Institut fur Meteorologie, Germany; Forschungszentrum Julich, Germany; University of Oxford, UK; Finnish Meteorological Institute, Finland; Leibniz Institute for Tropospheric Research, Germany; Center for Climate Systems Modeling (C2SM) at ETH Zurich, Switzerland",
-            "IIASA":"International Institute for Applied Systems Analysis (IIASA), Schlossplatz 1 - A-2361 Laxenburg, Austria",
             "INM":"Institute for Numerical Mathematics, Russian Academy of Science, Moscow 119991, Russia",
             "INPE":"National Institute for Space Research, Cachoeira Paulista, SP 12630-000, Brazil",
             "IPSL":"Institut Pierre Simon Laplace, Paris 75252, France",
@@ -790,6 +790,45 @@
                 "source_id":"EC-Earth3P-VHR",
                 "source":"EC-Earth3P-VHR (2017): \naerosol: none\natmos: IFS cy36r4 (TL1279, linearly reduced Gaussian grid equivalent to 2560 x 1280 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (land surface scheme built in IFS)\nlandIce: none\nocean: NEMO3.6 (ORCA012 tripolar primarily 0.08 degrees; 4322 x 3059 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM3"
             },
+            "ECMWF-IFS-HR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "ECMWF"
+                ],
+                "source_id":"ECMWF-IFS-HR",
+                "source":"ECMWF-IFS-HR (2017): \naerosol: none\natmos: IFS (IFS CY43R1, Tco399, cubic octahedral reduced Gaussian grid equivalent to 1600 x 800 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (as implemented in IFS CY43R1)\nlandIce: none\nocean: NEMO3.4 (NEMO v3.4; ORCA025 tripolar grid; 1442 x 1021 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM2 (LIM v2; ORCA025 tripolar grid; 1442 x 1021 longitude/latitude)"
+            },
+            "ECMWF-IFS-LR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "ECMWF"
+                ],
+                "source_id":"ECMWF-IFS-LR",
+                "source":"ECMWF-IFS-LR (2017): \naerosol: none\natmos: IFS (IFS CY43R1, Tco199, cubic octahedral reduced Gaussian grid equivalent to 800 x 400 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (as implemented in IFS CY43R1)\nlandIce: none\nocean: NEMO3.4 (NEMO v3.4; ORCA1 tripolar grid; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM2 (LIM v2; ORCA1 tripolar grid; 362 x 292 longitude/latitude)"
+            },
+            "ECMWF-IFS-MR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "ECMWF"
+                ],
+                "source_id":"ECMWF-IFS-MR",
+                "source":"ECMWF-IFS-MR (2017): \naerosol: none\natmos: IFS (IFS CY43R1, Tco199, cubic octahedral reduced Gaussian grid equivalent to 800 x 400 longitude/latitude; 91 levels; top level 0.01 hPa)\natmosChem: none\nland: HTESSEL (as implemented in IFS CY43R1)\nlandIce: none\nocean: NEMO3.4 (NEMO v3.4; ORCA025 tripolar grid; 1442 x 1021 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: LIM2 (LIM v2; ORCA025 tripolar grid; 1442 x 1021 longitude/latitude)"
+            },
             "EMAC-2-53-AerChem":{
                 "activity_participation":[
                     "AerChemMIP",
@@ -1418,7 +1457,8 @@
                 ],
                 "institution_id":[
                     "MPI-M",
-                    "DWD"
+                    "DWD",
+                    "DKRZ"
                 ],
                 "source_id":"MPI-ESM1-2-HR",
                 "source":"MPI-ESM1.2-HR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T127; 384 x 192 longitude/latitude; 95 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.20\nlandIce: none/prescribed\nocean: MPIOM1.63 (tripolar TP04, approximately 0.4deg; 802 x 404 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
