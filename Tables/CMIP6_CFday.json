@@ -161,7 +161,7 @@
         "clivi": {
             "frequency": "day", 
             "modeling_realm": "atmos", 
-            "standard_name": "atmosphere_cloud_ice_content", 
+            "standard_name": "atmosphere_mass_content_of_cloud_ice", 
             "units": "kg m-2", 
             "cell_methods": "area: time: mean", 
             "cell_measures": "area: areacella", 
@@ -269,7 +269,7 @@
         "clwvi": {
             "frequency": "day", 
             "modeling_realm": "atmos", 
-            "standard_name": "atmosphere_cloud_condensed_water_content", 
+            "standard_name": "atmosphere_mass_content_of_cloud_condensed_water", 
             "units": "kg m-2", 
             "cell_methods": "area: time: mean", 
             "cell_measures": "area: areacella", 

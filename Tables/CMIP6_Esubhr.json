@@ -161,7 +161,7 @@
         "prw": {
             "frequency": "subhrPt", 
             "modeling_realm": "atmos", 
-            "standard_name": "atmosphere_water_vapor_content", 
+            "standard_name": "atmosphere_mass_content_of_water_vapor", 
             "units": "kg m-2", 
             "cell_methods": "area: mean time: point", 
             "cell_measures": "area: areacella", 

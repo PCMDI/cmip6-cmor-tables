@@ -17,11 +17,11 @@
     }, 
     "axis_entry": {
         "grid_latitude": {
-            "long_name": "Grid Latitude", 
+            "long_name": "latitude in rotated pole grid", 
             "standard_name": "grid_latitude", 
             "out_name": "rlat", 
             "units": "degrees", 
-            "type": "double", 
+            "type": "", 
             "axis": "Y"
         }, 
         "y_deg": {
