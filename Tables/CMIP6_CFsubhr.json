@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "01.00.26", 
+        "data_specs_version": "01.00.27b1", 
         "cmor_version": "3.3", 
         "table_id": "Table CFsubhr", 
         "realm": "atmos", 
@@ -197,7 +197,7 @@
         "evspsbl": {
             "frequency": "subhrPt", 
             "modeling_realm": "atmos", 
-            "standard_name": "water_evaporation_flux", 
+            "standard_name": "water_evapotranspiration_flux", 
             "units": "kg m-2 s-1", 
             "cell_methods": "area: point time: point", 
             "cell_measures": "", 
