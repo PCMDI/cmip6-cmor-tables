@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "01.00.26", 
+        "data_specs_version": "01.00.27b1", 
         "cmor_version": "3.3", 
         "table_id": "Table Ofx", 
         "realm": "ocean", 
@@ -78,7 +78,7 @@
             "cell_methods": "area: mean where sea", 
             "cell_measures": "area: areacello", 
             "long_name": "Upward Geothermal Heat Flux at Sea Floor", 
-            "comment": "'Upward' indicates a vector component which is positive when directed upward (negative downward).  In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.", 
+            "comment": "Upward geothermal heat flux per unit area on the sea floor", 
             "dimensions": "longitude latitude", 
             "out_name": "hfgeou", 
             "type": "real", 
