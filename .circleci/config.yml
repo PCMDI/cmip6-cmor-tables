@@ -24,9 +24,9 @@ aliases:
        conda config --set anaconda_upload no
        conda create -q -n py2 -c cdat/label/nightly -c conda-forge -c cdat cmor python=2.7 testsrunner
 
+  - &setup_cmor
     name: setup_cmor
     command: |
-       echo "WE are in: "`pwd`
        export PATH=$WORKDIR/miniconda/bin:$PATH
        set +e
        source activate py2
