@@ -1,10 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "01.00.26", 
+        "data_specs_version": "01.00.27b1", 
         "cmor_version": "3.3", 
         "table_id": "Table Amon", 
         "realm": "atmos atmosChem", 
-        "table_date": "12 July 2018", 
+        "table_date": "20 July 2018", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -377,7 +377,7 @@
         "evspsbl": {
             "frequency": "mon", 
             "modeling_realm": "atmos", 
-            "standard_name": "water_evaporation_flux", 
+            "standard_name": "water_evapotranspiration_flux", 
             "units": "kg m-2 s-1", 
             "cell_methods": "area: time: mean", 
             "cell_measures": "area: areacella", 
