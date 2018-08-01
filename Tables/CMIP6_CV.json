@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Jul 17 18:23:10 2018 -0700",
-            "CV_collection_version":"6.2.10.0",
+            "CV_collection_modified":"Tue Jul 31 17:33:00 2018 -0700",
+            "CV_collection_version":"6.2.11.2",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Tue Jul 17 18:04:43 2018 -0700",
-            "experiment_id_CV_note":"Revise experiment_id land-future",
+            "experiment_id_CV_modified":"Wed Jul 25 07:56:41 2018 -0700",
+            "experiment_id_CV_note":"Revise LS3MIP experiment_ids, add land-ssp126",
             "institution_id":"PCMDI",
-            "previous_commit":"298e48f4476de3890752e8372813720d1b685f9c",
+            "previous_commit":"80f0f714fd30fee5fe9e41c58e60a6d520c0e0d2",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -941,7 +941,7 @@
                     "NOAA-GFDL"
                 ],
                 "source_id":"GFDL-AM4",
-                "source":"GFDL-AM4 (2017): \naerosol: interactive\natmos: GFDL-AM4.0 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)\natmosChem: fast chemistry, aerosol only\nland: GFDL-LM4.0\nlandIce: GFDL-LM4.0\nocean: none\nocnBgchem: none\nseaIce: none"
+                "source":"GFDL-AM4 (2018): \naerosol: interactive\natmos: GFDL-AM4.0 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)\natmosChem: fast chemistry, aerosol only\nland: GFDL-LM4.0\nlandIce: GFDL-LM4.0\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "GFDL-CM4":{
                 "activity_participation":[
@@ -958,7 +958,7 @@
                     "NOAA-GFDL"
                 ],
                 "source_id":"GFDL-CM4",
-                "source":"GFDL-CM4 (2017): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)\natmosChem: unnamed (fast chemistry, aerosol only)\nland: GFDL-LM4.0\nlandIce: GFDL-LM4.0\nocean: GFDL-MOM6 (tripolar - nominal 0.25 deg; 1440 x 720 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: GFDL BLING v2\nseaIce: SIS2"
+                "source":"GFDL-CM4 (2018): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)\natmosChem: unnamed (fast chemistry, aerosol only)\nland: GFDL-LM4.0\nlandIce: GFDL-LM4.0\nocean: GFDL-MOM6 (tripolar - nominal 0.25 deg; 1440 x 720 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: GFDL BLING v2\nseaIce: SIS2"
             },
             "GFDL-CM4C192":{
                 "activity_participation":[
@@ -1007,7 +1007,7 @@
                     "NOAA-GFDL"
                 ],
                 "source_id":"GFDL-ESM4",
-                "source":"GFDL-ESM4 (2017): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 49 levels; top level 1 Pa)\natmosChem: GFDL-ATMCHEM4.1 (full atmospheric chemistry)\nland: GFDL-LM4.1\nlandIce: GFDL-LM4.1\nocean: GFDL-MOM6 (tripolar - nominal 0.5 deg; 720 x 360 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: COBALT 2.0\nseaIce: SIS2"
+                "source":"GFDL-ESM4 (2018): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 49 levels; top level 1 Pa)\natmosChem: GFDL-ATMCHEM4.1 (full atmospheric chemistry)\nland: GFDL-LM4.1\nlandIce: GFDL-LM4.1\nocean: GFDL-MOM6 (tripolar - nominal 0.5 deg; 720 x 360 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: COBALT 2.0\nseaIce: SIS2"
             },
             "GFDL-OM4p5B":{
                 "activity_participation":[
@@ -1418,6 +1418,7 @@
             },
             "MIROC6":{
                 "activity_participation":[
+                    "AerChemMIP",
                     "CFMIP",
                     "CMIP",
                     "DAMIP",
@@ -6214,6 +6215,28 @@
                 "required_model_components":[
                     "LAND",
                     "BGC"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "land-ssp126":{
+                "activity_id":[
+                    "LS3MIP"
+                ],
+                "additional_allowed_model_components":[
+                    "BGC"
+                ],
+                "experiment":"future ssp1-2.6 land only",
+                "experiment_id":"land-ssp126",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "LAND"
                 ],
                 "sub_experiment_id":[
                     "none"
