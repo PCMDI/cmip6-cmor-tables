@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Fri Sep 14 17:22:09 2018 -0700",
-            "CV_collection_version":"6.2.13.2",
+            "CV_collection_modified":"Tue Sep 25 11:25:26 2018 -0700",
+            "CV_collection_version":"6.2.13.4",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Wed Aug 22 18:48:22 2018 -0700",
             "experiment_id_CV_note":"Revise CDRMIP experiment_id start_years and num years",
             "institution_id":"PCMDI",
-            "previous_commit":"682d730dd14327afa24877a464ca411788bc6845",
+            "previous_commit":"b60274155feb98bb65b335efed2668f62850ee7d",
             "specs_doc":"v6.2.6 (20th December 2017; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -187,7 +187,6 @@
                     "CORDEX",
                     "HighResMIP",
                     "OMIP",
-                    "PMIP",
                     "SIMIP",
                     "ScenarioMIP",
                     "VIACSAB"
@@ -218,6 +217,20 @@
                 ],
                 "source_id":"AWI-CM-1-1-MR",
                 "source":"AWI-CM 1.1 MR (2018): \naerosol: none\natmos: ECHAM6.3.04p1 (T127L95 native atmosphere T127 gaussian grid; 384 x 192 longitude/latitude; 95 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 830305 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 1.4"
+            },
+            "AWI-ESM-1-1-LR":{
+                "activity_participation":[
+                    "CMIP",
+                    "PMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AWI"
+                ],
+                "source_id":"AWI-ESM-1-1-LR",
+                "source":"AWI-ESM 1.1 LR (2018): \naerosol: none\natmos: ECHAM6.3.04p1 (T63L47 native atmosphere T63 gaussian grid; 192 x 96 longitude/latitude; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20 with dynamic vegetation\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 126859 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 1.4"
             },
             "BCC-CSM2-HR":{
                 "activity_participation":[
