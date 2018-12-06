@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Nov  7 11:55:05 2018 -0500",
-            "CV_collection_version":"6.2.14.3",
+            "CV_collection_modified":"Thu Nov 29 10:12:56 2018 -0800",
+            "CV_collection_version":"6.2.15.0",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Sep 28 11:32:31 2018 -0700",
-            "experiment_id_CV_note":"Revise experiment_id esm-ssp534-over",
+            "experiment_id_CV_note":"Revise experiment_id values, BGC as allowed component",
             "institution_id":"PCMDI",
-            "previous_commit":"d4ea02744848dd1b3153be6829cfcbf9d9f7c215",
+            "previous_commit":"970e50891f92b970949669d0ab73b1f6230142b7",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -70,6 +70,7 @@
         },
         "institution_id":{
             "AER":"Research and Climate Group, Atmospheric and Environmental Research, 131 Hartwell Avenue, Lexington, MA 02421, USA",
+            "AS-RCEC":"Research Center for Environmental Changes, Nankang, Taipei 11529, Taiwan",
             "AWI":"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Am Handelshafen 12, 27570 Bremerhaven, Germany",
             "BCC":"Beijing Climate Center, Beijing 100081, China",
             "BNU":"Beijing Normal University, Beijing 100875, China",
@@ -1786,6 +1787,25 @@
                 "source_id":"SAM0-UNICON",
                 "source":"SAM0-UNICON (2017): \naerosol: MAM3\natmos: CAM5.3 with UNICON (1deg; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)\natmosChem: none\nland: CLM4.0\nlandIce: none\nocean: POP2 (Displaced Pole; 320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4.0"
             },
+            "TaiESM1":{
+                "activity_participation":[
+                    "AerChemMIP",
+                    "CFMIP",
+                    "CMIP",
+                    "GMMIP",
+                    "LUMIP",
+                    "PMIP",
+                    "ScenarioMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AS-RCEC"
+                ],
+                "source_id":"TaiESM1",
+                "source":"TaiESM 1.0 (2018): \naerosol: SNAP (same grid as atmos)\natmos: TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)\natmosChem: SNAP (same grid as atmos)\nland: CLM4.0 (same grid as atmos)\nlandIce: none\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4"
+            },
             "UKESM1-0-LL":{
                 "activity_participation":[
                     "AerChemMIP",
@@ -2736,7 +2756,8 @@
                 ],
                 "additional_allowed_model_components":[
                     "AER",
-                    "CHEM"
+                    "CHEM",
+                    "BGC"
                 ],
                 "experiment":"same as \"amip\" run, but surface elevations of the Tibetan-Iranian Plateau and Himalayas reduced to 500m",
                 "experiment_id":"amip-TIP",
@@ -2759,7 +2780,8 @@
                 ],
                 "additional_allowed_model_components":[
                     "AER",
-                    "CHEM"
+                    "CHEM",
+                    "BGC"
                 ],
                 "experiment":"same as \"amip\" run, but sensible heat not allowed for elevations of the Tibetan-Iranian Plateau and Himalayas above 500m",
                 "experiment_id":"amip-TIP-nosh",
@@ -2876,7 +2898,8 @@
                 ],
                 "additional_allowed_model_components":[
                     "AER",
-                    "CHEM"
+                    "CHEM",
+                    "BGC"
                 ],
                 "experiment":"AMIP-style simulation covering the period 1870-2014",
                 "experiment_id":"amip-hist",
@@ -2899,7 +2922,8 @@
                 ],
                 "additional_allowed_model_components":[
                     "AER",
-                    "CHEM"
+                    "CHEM",
+                    "BGC"
                 ],
                 "experiment":"same as \"amip\" run, but surface elevations of the East African Highlands in Africa, Sierra Madre in N. America and Andes in S. America reduced to 500m",
                 "experiment_id":"amip-hld",
