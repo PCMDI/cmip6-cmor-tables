@@ -43,6 +43,7 @@ aliases:
        set +e
        source activate py2
        set -e
+       cp Tables/* cmor/Tables
        cd cmor
        python run_tests.py -v2 -H -n1 Test/test_python_CMIP6_CV*.py
 
