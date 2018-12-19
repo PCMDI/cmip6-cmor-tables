@@ -62,7 +62,6 @@ jobs:
       - run: *setup_cmor
       - run: *run_prepare_tests
 
-
   linux_cmip6:
     machine:
       image: circleci/classic:latest
