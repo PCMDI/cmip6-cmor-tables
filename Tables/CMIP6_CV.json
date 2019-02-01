@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Jan 16 16:46:27 2019 -0800",
-            "CV_collection_version":"6.2.17.0",
+            "CV_collection_modified":"Thu Jan 31 16:06:21 2019 -0800",
+            "CV_collection_version":"6.2.18.0",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Wed Jan 16 16:34:51 2019 -0800",
-            "experiment_id_CV_note":"Revise DCPP experiment_id values",
+            "experiment_id_CV_modified":"Wed Jan 16 16:46:27 2019 -0800",
+            "experiment_id_CV_note":"Revise experiment_id pa-futAntSIC-ext",
             "institution_id":"PCMDI",
-            "previous_commit":"e295f0b31bd26712fc3bacfc22b92e18fe9eb1e6",
+            "previous_commit":"ba732e8378f5c8029c49d079ef5ca180c6b370d5",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -398,6 +398,36 @@
                 ],
                 "source_id":"CESM2",
                 "source":"CESM2 (2018): \naerosol: MAM4 (same grid as atmos)\natmos: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 32 levels; top level 2.25 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
+            },
+            "CESM2-SE":{
+                "activity_participation":[
+                    "CMIP",
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NCAR"
+                ],
+                "source_id":"CESM2-SE",
+                "source":"CESM2-SE (2019): \naerosol: MAM4 (same grid as atmos)\natmos: CAM6 (0.25 degree spectral element; 777602 cells; 30 levels; top level 2.25 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
+            },
+            "CESM2-WACCM":{
+                "activity_participation":[
+                    "AerChemMIP",
+                    "CMIP",
+                    "GeoMIP",
+                    "ScenarioMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NCAR"
+                ],
+                "source_id":"CESM2-WACCM",
+                "source":"CESM2-WACCM (2018): \naerosol: MAM4 (same grid as atmos)\natmos: WACCM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-06 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
             },
             "CIESM":{
                 "activity_participation":[
@@ -1372,7 +1402,7 @@
                 "source_id":"KIOST-ESM",
                 "source":"KIOST-ESM (2018): \naerosol: none\natmos: GFDL-AM2.0 (cubed sphere (C48); 192 x 96 longitude/latitude; 32 vertical levels; top level 2 hPa)\natmosChem: Simple carbon aerosol model (emission type)\nland: NCAR-CLM4\nlandIce: NCAR-CLM4\nocean: GFDL-MOM5.0 (tripolar - nominal 1.0 deg; 360 x 200 longitude/latitude; 52 levels; top grid cell 0-2 m; NK mixed layer scheme)\nocnBgchem: TOPAZ2\nseaIce: GFDL-SIS"
             },
-            "LBLRTM":{
+            "LBLRTM-12-8":{
                 "activity_participation":[
                     "RFMIP"
                 ],
@@ -1382,8 +1412,8 @@
                 "institution_id":[
                     "AER"
                 ],
-                "source_id":"LBLRTM",
-                "source":"LBLRTM (2017): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+                "source_id":"LBLRTM-12-8",
+                "source":"LBLRTM 12.8 (2017): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "MCM-UA-1-0":{
                 "activity_participation":[
@@ -1777,6 +1807,32 @@
                 ],
                 "source_id":"PCMDI-test-1-0",
                 "source":"PCMDI-test 1.0 (1989): \naerosol: none\natmos: Earth1.0-gettingHotter (360 x 180 longitude/latitude; 50 levels; top level 0.1 mb)\natmosChem: none\nland: Earth1.0\nlandIce: none\nocean: BlueMarble1.0-warming (360 x 180 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: Declining1.0-warming (360 x 180 longitude/latitude)"
+            },
+            "RRTMG-LW-4-91":{
+                "activity_participation":[
+                    "RFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AER"
+                ],
+                "source_id":"RRTMG-LW-4-91",
+                "source":"RRTMG-LW 4.91 (2017): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "RRTMG-SW-4-02":{
+                "activity_participation":[
+                    "RFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AER"
+                ],
+                "source_id":"RRTMG-SW-4-02",
+                "source":"RRTMG-SW 4.02 (2017): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "SAM0-UNICON":{
                 "activity_participation":[
