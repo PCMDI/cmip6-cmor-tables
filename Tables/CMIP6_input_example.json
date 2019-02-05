@@ -1,8 +1,8 @@
 {
-    "#note":           "explanation of what source_type is goes here",
+    "#note_source_type":      "explanation of what source_type is goes here",
     "source_type":            "AOGCM ISM AER",
  
-    "#note":                  "CMIP6 valid experiment_ids are found in CMIP6_CV.json",
+    "#note_experiment_id":    "CMIP6 valid experiment_ids are found in CMIP6_CV.json",
     "experiment_id":          "piControl-withism",
     "activity_id":            "ISMIP6",
     "sub_experiment_id":      "none",
@@ -12,7 +12,7 @@
     "physics_index":          "1",
     "forcing_index":          "1",
  
-    "#note":                  "Text stored in attribute variant_info (recommended, not required description of run variant)",
+    "#note_run_variant":      "Text stored in attribute variant_info (recommended, not required description of run variant)",
     "run_variant":            "3rd realization",
  
     "parent_experiment_id":   "historical",
@@ -25,10 +25,10 @@
     "branch_time_in_child":   59400.0,
     "branch_time_in_parent":  59400.0,
  
-    "#note":                  "institution_id must be registered at https://github.com/WCRP-CMIP/CMIP6_CVs/issues/new ",
+    "#note_institution_id":   "institution_id must be registered at https://github.com/WCRP-CMIP/CMIP6_CVs/issues/new ",
     "institution_id":         "PCMDI",
  
-    "#note":                  "source_id (model name) must be registered at https://github.com/WCRP-CMIP/CMIP6_CVs/issues/new ",
+    "#note_source_id":        "source_id (model name) must be registered at https://github.com/WCRP-CMIP/CMIP6_CVs/issues/new ",
     "source_id":              "PCMDI-test-1-0",
  
     "calendar":               "360_day",
@@ -42,20 +42,20 @@
     "#output":                "Root directory for output (can be either a relative or full path)",
     "outpath":                "CMIP6",
  
-    "#note":                  " **** The following descriptors are optional and may be set to an empty string ",  
+    "#note_optional":         " **** The following descriptors are optional and may be set to an empty string ",  
  
     "contact ":               "Python Coder (coder@a.b.c.com)",
     "history":                "Output from archivcl_A1.nce/giccm_03_std_2xCO2_2256.",
     "comment":                "",
     "references":             "Model described by Koder and Tolkien (J. Geophys. Res., 2001, 576-591).  Also see http://www.GICC.su/giccm/doc/index.html.  The ssp245 simulation is described in Dorkey et al. '(Clim. Dyn., 2003, 323-357.)'",
  
-    "#note":                  " **** The following will be obtained from the CV and do not need to be defined here", 
+    "#note_CV":               " **** The following will be obtained from the CV and do not need to be defined here", 
  
     "sub_experiment":         "none",
     "institution":            "",
     "source":                 "PCMDI-test 1.0 (1989)",
  
-    "#note":                  " **** The following are set correctly for CMIP6 and should not normally need editing",  
+    "#note_CMIP6":            " **** The following are set correctly for CMIP6 and should not normally need editing",  
  
     "_control_vocabulary_file": "CMIP6_CV.json",
     "_AXIS_ENTRY_FILE":         "CMIP6_coordinate.json",
