@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Jan 31 16:06:21 2019 -0800",
-            "CV_collection_version":"6.2.18.0",
+            "CV_collection_modified":"Wed Feb  6 15:35:52 2019 -0800",
+            "CV_collection_version":"6.2.18.2",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Wed Jan 16 16:46:27 2019 -0800",
+            "experiment_id_CV_modified":"Thu Jan 31 16:06:21 2019 -0800",
             "experiment_id_CV_note":"Revise experiment_id pa-futAntSIC-ext",
             "institution_id":"PCMDI",
-            "previous_commit":"ba732e8378f5c8029c49d079ef5ca180c6b370d5",
+            "previous_commit":"6ca79aea085199e7402d8d678db853a9fa18c66e",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -108,6 +108,7 @@
             "NOAA-GFDL":"National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA",
             "NUIST":"Nanjing University of Information Science and Technology, Nanjing, 210044, China",
             "PCMDI":"Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA",
+            "RTE-RRTMGP-Consortium":"AER (Atmospheric and Environmental Research, Lexington, MA 02421, USA); UColorado (University of Colorado, Boulder, CO 80309, USA). Mailing address: AER c/o Eli Mlawer, 131 Hartwell Avenue, Lexington, MA 02421, USA",
             "SNU":"Seoul National University, Seoul 08826, Republic of Korea",
             "THU":"Department of Earth System Science, Tsinghua University, Beijing 100084, China",
             "UA":"Department of Geosciences, University of Arizona, Tucson, AZ 85721, USA",
@@ -1833,6 +1834,19 @@
                 ],
                 "source_id":"RRTMG-SW-4-02",
                 "source":"RRTMG-SW 4.02 (2017): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "RTE-RRTMGP-181204":{
+                "activity_participation":[
+                    "RFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AER"
+                ],
+                "source_id":"RTE-RRTMGP-181204",
+                "source":"RTE+RRTMGP (2018-12-04 full-resolution) (2019): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "SAM0-UNICON":{
                 "activity_participation":[
