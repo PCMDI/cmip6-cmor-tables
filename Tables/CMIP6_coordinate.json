@@ -422,7 +422,7 @@
             "stored_direction": "increasing", 
             "tolerance": "", 
             "type": "double", 
-            "valid_max": "2000", 
+            "valid_max": "2000.0", 
             "valid_min": "0.0", 
             "value": "1000.", 
             "z_bounds_factors": "", 

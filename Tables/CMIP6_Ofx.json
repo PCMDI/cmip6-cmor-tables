@@ -1,10 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "01.00.29", 
+        "data_specs_version": "01.00.30beta1", 
         "cmor_version": "3.4", 
         "table_id": "Table Ofx", 
         "realm": "ocean", 
-        "table_date": "14 December 2018", 
+        "table_date": "25 February 2019", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -114,7 +114,7 @@
             "cell_methods": "area: mean", 
             "cell_measures": "area: areacello", 
             "long_name": "Sea Area Percentage", 
-            "comment": "This is the area fraction at the ocean surface.", 
+            "comment": "Percentage of horizontal area occupied by ocean.", 
             "dimensions": "longitude latitude typesea", 
             "out_name": "sftof", 
             "type": "real", 
@@ -142,7 +142,7 @@
             "ok_min_mean_abs": "", 
             "ok_max_mean_abs": ""
         }, 
-        "ugrid": {
+        "ugrido": {
             "frequency": "fx", 
             "modeling_realm": "ocean", 
             "standard_name": "longitude", 
