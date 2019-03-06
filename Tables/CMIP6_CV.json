@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Feb 27 08:29:57 2019 -0800",
-            "CV_collection_version":"6.2.18.8",
+            "CV_collection_modified":"Tue Mar  5 14:27:11 2019 -0800",
+            "CV_collection_version":"6.2.19.0",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Thu Jan 31 16:06:21 2019 -0800",
-            "experiment_id_CV_note":"Revise experiment_id pa-futAntSIC-ext",
+            "experiment_id_CV_note":"Revise GeoMIP experiment_id values",
             "institution_id":"PCMDI",
-            "previous_commit":"6bd7176a47ee520d192de609807c6973bcd9e6d8",
+            "previous_commit":"8ff00a17c503ada9b8590e6f62c58618abcdd5a1",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1935,7 +1935,7 @@
                     "NIWA"
                 ],
                 "source_id":"UKESM1-0-LL",
-                "source":"UKESM1.0-LL (2018): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
+                "source":"UKESM1.0-LL (2018): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
             },
             "UKESM1-0-MMh":{
                 "activity_participation":[
@@ -1952,7 +1952,7 @@
                     "NERC"
                 ],
                 "source_id":"UKESM1-0-MMh",
-                "source":"UKESM1.0-MMh (2018): \naerosol: UKCA-GLOMAP-mode (horizontal resolution degraded relative to that used for atmosphere physics)\natmos: MetUM-HadGEM3-GA7.1 (N216; 432 x 324 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop (horizontal resolution degraded relative to that used for atmosphere physics)\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2 (horizontal resolution degraded relative to that used for ocean physics)\nseaIce: CICE-HadGEM3-GSI8 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude)"
+                "source":"UKESM1.0-MMh (2018): \naerosol: UKCA-GLOMAP-mode (horizontal resolution degraded relative to that used for atmosphere physics)\natmos: MetUM-HadGEM3-GA7.1 (N216; 432 x 324 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop (horizontal resolution degraded relative to that used for atmosphere physics)\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2 (horizontal resolution degraded relative to that used for ocean physics)\nseaIce: CICE-HadGEM3-GSI8 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude)"
             },
             "UofT-CCSM4":{
                 "activity_participation":[
@@ -2518,7 +2518,7 @@
                     "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "historical"
+                    "ssp585"
                 ],
                 "required_model_components":[
                     "AOGCM"
@@ -2542,7 +2542,7 @@
                     "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "historical"
+                    "ssp585"
                 ],
                 "required_model_components":[
                     "AOGCM"
@@ -2612,7 +2612,7 @@
                     "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "historical"
+                    "ssp585"
                 ],
                 "required_model_components":[
                     "AOGCM"
