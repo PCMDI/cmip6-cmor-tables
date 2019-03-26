@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Mar 21 14:19:42 2019 -0700",
-            "CV_collection_version":"6.2.20.0",
+            "CV_collection_modified":"Mon Mar 25 14:32:35 2019 -0700",
+            "CV_collection_version":"6.2.20.1",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Tue Mar  5 14:27:11 2019 -0800",
+            "experiment_id_CV_modified":"Thu Mar 21 14:19:42 2019 -0700",
             "experiment_id_CV_note":"Revise OMIP*-spunup experiment_id values",
             "institution_id":"PCMDI",
-            "previous_commit":"66210e6485dd59752db8882ac642574fde5cbb14",
+            "previous_commit":"690451863bfd7a92a6fa13d879a9df6af32e0379",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1084,6 +1084,32 @@
                 "source_id":"GFDL-ESM4",
                 "source":"GFDL-ESM4 (2018): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 49 levels; top level 1 Pa)\natmosChem: GFDL-ATMCHEM4.1 (full atmospheric chemistry)\nland: GFDL-LM4.1\nlandIce: GFDL-LM4.1\nocean: GFDL-OM4p5 (GFDL-MOM6, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: GFDL-COBALTv2\nseaIce: GFDL-SIM4p5 (GFDL-SIS2.0, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 5 layers; 5 thickness categories)"
             },
+            "GFDL-GLOBAL-LBL":{
+                "activity_participation":[
+                    "RFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NOAA-GFDL"
+                ],
+                "source_id":"GFDL-GLOBAL-LBL",
+                "source":"GFDL-GLOBAL-LBL (2019): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "GFDL-GRTCODE":{
+                "activity_participation":[
+                    "RFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NOAA-GFDL"
+                ],
+                "source_id":"GFDL-GRTCODE",
+                "source":"GFDL-GRTCODE (2019): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
             "GFDL-OM4p5B":{
                 "activity_participation":[
                     "OMIP"
@@ -1096,6 +1122,19 @@
                 ],
                 "source_id":"GFDL-OM4p5B",
                 "source":"GFDL-OM4p5B (2018): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: GFDL-OM4p5 (GFDL-MOM6, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: GFDL-BLINGv2\nseaIce: GFDL-SIM4p5 (GFDL-SIS2.0, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 5 layers; 5 thickness categories)"
+            },
+            "GFDL-RFM-DISORT":{
+                "activity_participation":[
+                    "RFMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NOAA-GFDL"
+                ],
+                "source_id":"GFDL-RFM-DISORT",
+                "source":"GFDL-RFM-DISORT (2019): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "GISS-E2-1-G":{
                 "activity_participation":[
