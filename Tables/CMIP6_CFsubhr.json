@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "01.00.29", 
+        "data_specs_version": "01.00.30", 
         "cmor_version": "3.4", 
         "table_id": "Table CFsubhr", 
         "realm": "atmos", 
@@ -132,7 +132,7 @@
             "cell_methods": "area: point time: point", 
             "cell_measures": "", 
             "long_name": "Total Cloud Cover Percentage", 
-            "comment": "Total cloud area fraction for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.", 
+            "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.", 
             "dimensions": "site time1", 
             "out_name": "clt", 
             "type": "real", 
