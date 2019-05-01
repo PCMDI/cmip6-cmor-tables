@@ -1005,7 +1005,7 @@
             "generic_level_name": "olevel"
         }, 
         "ocean_sigma_z": {
-            "standard_name": "ocean_sigma_z", 
+            "standard_name": "ocean_sigma_z_coordinate", 
             "units": "", 
             "axis": "Z", 
             "long_name": "ocean sigma over z coordinate", 
