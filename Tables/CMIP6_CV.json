@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Mon May 13 12:44:03 2019 -0700",
-            "CV_collection_version":"6.2.22.7",
+            "CV_collection_modified":"Wed Jun  5 16:44:49 2019 -0700",
+            "CV_collection_version":"6.2.24.1",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Wed Apr 24 14:09:47 2019 -0700",
-            "experiment_id_CV_note":"Register 8 new C4MIP experiments",
+            "experiment_id_CV_modified":"Wed Jun  5 16:35:41 2019 -0700",
+            "experiment_id_CV_note":"Revise numerous GeoMIP experiment_id values",
             "institution_id":"PCMDI",
-            "previous_commit":"5605d3abf86b99580be15c07858cbd026b19df20",
+            "previous_commit":"60fb3490c30c40cddf74dfb03b6ee73a17e40f49",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -285,11 +285,10 @@
                 "source_id":"BCC-ESM1",
                 "source":"BCC-ESM 1 (2017): \naerosol: none\natmos: BCC_AGCM3_LR (T42; 128 x 64 longitude/latitude; 26 levels; top level 2.19 hPa)\natmosChem: BCC-AGCM3-Chem\nland: BCC_AVIM2\nlandIce: none\nocean: MOM4 (1/3 deg 10S-10N, 1/3-1 deg 10-30 N/S, and 1 deg in high latitudes; 360 x 232 longitude/latitude; 40 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: SIS2"
             },
-            "BESM-2-7":{
+            "BESM-2-9":{
                 "activity_participation":[
                     "CMIP",
                     "DCPP",
-                    "HighResMIP",
                     "ScenarioMIP"
                 ],
                 "cohort":[
@@ -298,8 +297,8 @@
                 "institution_id":[
                     "INPE"
                 ],
-                "source_id":"BESM-2-7",
-                "source":"BESM 2.7 (2017): \naerosol: none\natmos: BAM (v1.0, T062L28; 192 x 96 longitude/latitude; 28 levels; top level 3 hPa)\natmosChem: none\nland: SSiB 2.0\nlandIce: none\nocean: MOM-5 (MOM5, tripolar primarily 1 deg, 1/4 deg between 10S-10N; 360 x 300 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: TOPAZ 2.0\nseaIce: SIS 1.0"
+                "source_id":"BESM-2-9",
+                "source":"BESM 2.9 (2019): \naerosol: none\natmos: BAM (v1.0, T062L42; 192 x 96 longitude/latitude; 42 levels; top level 3 hPa)\natmosChem: none\nland: SSiB 2.0\nlandIce: none\nocean: MOM-5 (MOM5, tripolar, primarily 1 deg, 1/4 deg between 22.5S-22.5N, downgrading from 1/4 deg at 22.5N(S) to 1 deg at 45N(S), 1 deg between 22.5N(S) and 45N(S), upgrading from 1 deg at 45N(S) to 0.5 deg at 90N(S) ; 360 x 192 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: TOPAZ 2.0\nseaIce: SIS 1.0"
             },
             "BNU-ESM-1-1":{
                 "activity_participation":[
@@ -1642,7 +1641,21 @@
                 "source_id":"MPI-ESM1-2-XR",
                 "source":"MPI-ESM1.2-XR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T255; 768 x 384 longitude/latitude; 95 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.20\nlandIce: none/prescribed\nocean: MPIOM1.63 (tripolar TP04, approximately 0.4deg; 802 x 404 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC6\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
-            "MRI-AGCM3-2":{
+            "MRI-AGCM3-2-H":{
+                "activity_participation":[
+                    "DynVarMIP",
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MRI"
+                ],
+                "source_id":"MRI-AGCM3-2-H",
+                "source":"MRI-AGCM3-2-H (2017): \naerosol: Prescribed from MRI-ESM2.0\natmos: MRI-AGCM3.2H (TL319; 640 x 320 longitude/latitude; 64 levels; top level 0.01 hPa)\natmosChem: none\nland: SIB0109\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "MRI-AGCM3-2-S":{
                 "activity_participation":[
                     "CMIP",
                     "DynVarMIP",
@@ -1654,8 +1667,8 @@
                 "institution_id":[
                     "MRI"
                 ],
-                "source_id":"MRI-AGCM3-2",
-                "source":"MRI-AGCM3-2 (2017): \naerosol: Prescribed from MRI-ESM2.0\natmos: MRI-AGCM3.2S (TL959; 1920 x 960 longitude/latitude; 64 levels; top level 0.01 hPa)\natmosChem: none\nland: SIB0109\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+                "source_id":"MRI-AGCM3-2-S",
+                "source":"MRI-AGCM3-2-S (2017): \naerosol: Prescribed from MRI-ESM2.0\natmos: MRI-AGCM3.2S (TL959; 1920 x 960 longitude/latitude; 64 levels; top level 0.01 hPa)\natmosChem: none\nland: SIB0109\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "MRI-ESM2-0":{
                 "activity_participation":[
@@ -2526,10 +2539,10 @@
                 "experiment":"SSTs from year 2020 of SSP5-8.5; forcings and other prescribed conditions from year 2100 of G6solar",
                 "experiment_id":"G6SST2-solar",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "GeoMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp585"
+                    "G6solar"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -2549,10 +2562,10 @@
                 "experiment":"SSTs from year 2020 of SSP5-8.5; forcings and other prescribed conditions from year 2100 of G6sulfur",
                 "experiment_id":"G6SST2-sulfur",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "GeoMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp585"
+                    "G6sulfur"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -2573,7 +2586,7 @@
                 "experiment":"total solar irradiance reduction to reduce net forcing from SSP585 to SSP245",
                 "experiment_id":"G6solar",
                 "parent_activity_id":[
-                    "CMIP"
+                    "ScenarioMIP"
                 ],
                 "parent_experiment_id":[
                     "ssp585"
@@ -2597,7 +2610,7 @@
                 "experiment":"stratospheric sulfate aerosol injection to reduce net forcing from SSP585 to SSP245",
                 "experiment_id":"G6sulfur",
                 "parent_activity_id":[
-                    "CMIP"
+                    "ScenarioMIP"
                 ],
                 "parent_experiment_id":[
                     "ssp585"
@@ -2643,10 +2656,10 @@
                 "experiment":"SSTs from year 2100 of SSP5-8.5; forcings and other prescribed conditions from year 2100 of G7cirrus",
                 "experiment_id":"G7SST2-cirrus",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "GeoMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp585"
+                    "G7cirrus"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -2667,7 +2680,7 @@
                 "experiment":"increase cirrus ice crystal fall speed to reduce net forcing in SSP585 by 1 W m-2",
                 "experiment_id":"G7cirrus",
                 "parent_activity_id":[
-                    "CMIP"
+                    "ScenarioMIP"
                 ],
                 "parent_experiment_id":[
                     "ssp585"
@@ -9074,7 +9087,7 @@
                     "C4MIP"
                 ],
                 "parent_experiment_id":[
-                    "hist-bgc"
+                    "ssp585-bgc"
                 ],
                 "required_model_components":[
                     "AOGCM",
