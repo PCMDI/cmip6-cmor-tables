@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Jun  5 16:44:49 2019 -0700",
-            "CV_collection_version":"6.2.24.1",
+            "CV_collection_modified":"Wed Jun 12 11:10:52 2019 -0700",
+            "CV_collection_version":"6.2.27.0",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Wed Jun  5 16:35:41 2019 -0700",
-            "experiment_id_CV_note":"Revise numerous GeoMIP experiment_id values",
+            "experiment_id_CV_modified":"Wed Jun 12 10:51:23 2019 -0700",
+            "experiment_id_CV_note":"Revise multiple DCPP experiment_id values",
             "institution_id":"PCMDI",
-            "previous_commit":"60fb3490c30c40cddf74dfb03b6ee73a17e40f49",
+            "previous_commit":"51d21bb9104b2b023c2149ffe3e3ce76fa2c811c",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -2703,10 +2703,10 @@
                 "experiment":"as piSST but with SSTs from abrupt-4xCO2",
                 "experiment_id":"a4SST",
                 "parent_activity_id":[
-                    "CMIP"
+                    "no parent"
                 ],
                 "parent_experiment_id":[
-                    "abrupt-4xCO2"
+                    "no parent"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -2726,10 +2726,10 @@
                 "experiment":"as piSST but with SSTs and sea ice from abrupt-4xCO2",
                 "experiment_id":"a4SSTice",
                 "parent_activity_id":[
-                    "CMIP"
+                    "no parent"
                 ],
                 "parent_experiment_id":[
-                    "abrupt-4xCO2"
+                    "no parent"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -2749,10 +2749,10 @@
                 "experiment":"as piSST but with SSTs and sea ice from abrupt-4xCO2, and 4xCO2 seen by radiation and vegetation",
                 "experiment_id":"a4SSTice-4xCO2",
                 "parent_activity_id":[
-                    "CMIP"
+                    "no parent"
                 ],
                 "parent_experiment_id":[
-                    "abrupt-4xCO2"
+                    "no parent"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -3570,7 +3570,10 @@
                     "s2013",
                     "s2014",
                     "s2015",
-                    "s2016"
+                    "s2016",
+                    "s2017",
+                    "s2018",
+                    "s2019"
                 ]
             },
             "dcppA-hindcast-niff":{
@@ -3652,7 +3655,10 @@
                     "s2013",
                     "s2014",
                     "s2015",
-                    "s2016"
+                    "s2016",
+                    "s2017",
+                    "s2018",
+                    "s2019"
                 ]
             },
             "dcppA-historical-niff":{
@@ -3732,7 +3738,10 @@
                     "s2013",
                     "s2014",
                     "s2015",
-                    "s2016"
+                    "s2016",
+                    "s2017",
+                    "s2018",
+                    "s2019"
                 ]
             },
             "dcppB-forecast":{
@@ -5687,10 +5696,10 @@
                 "experiment":"historical prescribed SSTs and historical forcing",
                 "experiment_id":"histSST",
                 "parent_activity_id":[
-                    "no parent"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "no parent"
+                    "piControl"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -5735,10 +5744,10 @@
                 "experiment":"historical SSTs and historical forcing, but with pre-industrial aerosol emissions",
                 "experiment_id":"histSST-piAer",
                 "parent_activity_id":[
-                    "no parent"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "no parent"
+                    "piControl"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -5758,10 +5767,10 @@
                 "experiment":"historical SSTs and historical forcing, but with pre-industrial methane concentrations",
                 "experiment_id":"histSST-piCH4",
                 "parent_activity_id":[
-                    "no parent"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "no parent"
+                    "piControl"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -5782,10 +5791,10 @@
                 "experiment":"historical SSTs and historical forcings, but with pre-industrial N2O concentrations",
                 "experiment_id":"histSST-piN2O",
                 "parent_activity_id":[
-                    "no parent"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "no parent"
+                    "piControl"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -5807,10 +5816,10 @@
                 "experiment":"historical SSTs and historical forcing, but with pre-industrial NTCF emissions",
                 "experiment_id":"histSST-piNTCF",
                 "parent_activity_id":[
-                    "no parent"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "no parent"
+                    "piControl"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -5830,10 +5839,10 @@
                 "experiment":"historical SSTs and historical forcing, but with pre-industrial ozone precursor emissions",
                 "experiment_id":"histSST-piO3",
                 "parent_activity_id":[
-                    "no parent"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "no parent"
+                    "piControl"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -8374,10 +8383,10 @@
                 "experiment":"experiment forced with pre-industrial SSTs, sea ice and atmospheric constituents",
                 "experiment_id":"piSST",
                 "parent_activity_id":[
-                    "CMIP"
+                    "no parent"
                 ],
                 "parent_experiment_id":[
-                    "piControl"
+                    "no parent"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -8397,10 +8406,10 @@
                 "experiment":"as piSST with radiation and vegetation seeing 4xCO2",
                 "experiment_id":"piSST-4xCO2",
                 "parent_activity_id":[
-                    "CMIP"
+                    "no parent"
                 ],
                 "parent_experiment_id":[
-                    "piControl"
+                    "no parent"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -8420,10 +8429,10 @@
                 "experiment":"as piSST with radiation-only seeing 4xCO2",
                 "experiment_id":"piSST-4xCO2-rad",
                 "parent_activity_id":[
-                    "CMIP"
+                    "no parent"
                 ],
                 "parent_experiment_id":[
-                    "piControl"
+                    "no parent"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -8514,10 +8523,10 @@
                 "experiment":"as piSST with uniform SST increase with magnitude based on abrupt-4xCO2 response",
                 "experiment_id":"piSST-pxK",
                 "parent_activity_id":[
-                    "CMIP"
+                    "no parent"
                 ],
                 "parent_experiment_id":[
-                    "piControl"
+                    "no parent"
                 ],
                 "required_model_components":[
                     "AGCM"
@@ -8844,10 +8853,10 @@
                 "experiment":"SSP3-7.0, with SSTs prescribed from ssp370",
                 "experiment_id":"ssp370SST",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp370"
+                    "historical"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -8868,10 +8877,10 @@
                 "experiment":"SSP3-7.0, prescribed SSTs, with low aerosol emissions",
                 "experiment_id":"ssp370SST-lowAer",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp370"
+                    "historical"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -8892,10 +8901,10 @@
                 "experiment":"SSP3-7.0, prescribed SSTs, with low black carbon emissions",
                 "experiment_id":"ssp370SST-lowBC",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp370"
+                    "historical"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -8915,10 +8924,10 @@
                 "experiment":"SSP3-7.0, prescribed SSTs, with low methane concentrations",
                 "experiment_id":"ssp370SST-lowCH4",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp370"
+                    "historical"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -8940,10 +8949,10 @@
                 "experiment":"SSP3-7.0, prescribed SSTs, with low NTCF emissions",
                 "experiment_id":"ssp370SST-lowNTCF",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp370"
+                    "historical"
                 ],
                 "required_model_components":[
                     "AGCM",
@@ -8963,10 +8972,10 @@
                 "experiment":"SSP3-7.0, prescribed SSTs, with low ozone precursor emissions",
                 "experiment_id":"ssp370SST-lowO3",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp370"
+                    "historical"
                 ],
                 "required_model_components":[
                     "AGCM",
