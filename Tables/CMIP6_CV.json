@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Mon Jul 15 15:28:00 2019 -0700",
-            "CV_collection_version":"6.2.32.1",
+            "CV_collection_modified":"Wed Jul 17 09:35:08 2019 -0700",
+            "CV_collection_version":"6.2.34.0",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Mon Jul  8 14:29:27 2019 -0700",
-            "experiment_id_CV_note":"Revise experiment_id omip2-spunup",
+            "experiment_id_CV_modified":"Wed Jul 17 09:26:24 2019 -0700",
+            "experiment_id_CV_note":"Add experiment_id histSST-noLu (AerChemMIP)",
             "institution_id":"PCMDI",
-            "previous_commit":"75b0adb94d8a22f3a208d532cf26be6f6534b607",
+            "previous_commit":"50f90dcb35ec96d495d5bb644e3856170e4ac703",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -5739,6 +5739,30 @@
                     "none"
                 ]
             },
+            "histSST-noLu":{
+                "activity_id":[
+                    "AerChemMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"historical SSTs and historical forcing, but with pre-industrial LULCC",
+                "experiment_id":"histSST-noLu",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "histSST-piAer":{
                 "activity_id":[
                     "AerChemMIP"
@@ -9003,10 +9027,10 @@
                 "experiment":"SSP3-7.0, prescribed SSTs, with SSP1-2.6 land use",
                 "experiment_id":"ssp370SST-ssp126Lu",
                 "parent_activity_id":[
-                    "ScenarioMIP"
+                    "CMIP"
                 ],
                 "parent_experiment_id":[
-                    "ssp370"
+                    "historical"
                 ],
                 "required_model_components":[
                     "AGCM",
