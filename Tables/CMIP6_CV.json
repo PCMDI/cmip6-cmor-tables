@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Sat Aug 17 10:16:10 2019 -0700",
-            "CV_collection_version":"6.2.35.6",
+            "CV_collection_modified":"Thu Aug 22 15:41:35 2019 -0700",
+            "CV_collection_version":"6.2.37.3",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Mon Jul 22 11:09:12 2019 -0700",
-            "experiment_id_CV_note":"Revise experiment_id esm-hist-ext",
+            "experiment_id_CV_modified":"Thu Aug 22 15:21:58 2019 -0700",
+            "experiment_id_CV_note":"Revise experiment_id ssp370SST",
             "institution_id":"PCMDI",
-            "previous_commit":"3fe84e76b18f042bdd04fb6062d7dca2e24a5ebc",
+            "previous_commit":"d0261dc94cdfba37af81e07b8ebc801aa47a7ae7",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -110,6 +110,7 @@
             "NUIST":"Nanjing University of Information Science and Technology, Nanjing, 210044, China",
             "PCMDI":"Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA",
             "RTE-RRTMGP-Consortium":"AER (Atmospheric and Environmental Research, Lexington, MA 02421, USA); UColorado (University of Colorado, Boulder, CO 80309, USA). Mailing address: AER c/o Eli Mlawer, 131 Hartwell Avenue, Lexington, MA 02421, USA",
+            "RUBISCO":"ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); NAU (Northern Arizona University, Flagstaff, AZ 86011, USA); NCAR (National Center for Atmospheric Research, Boulder, CO 80305, USA); UCI (University of California Irvine, Irvine, CA 92697, USA); UM (University of Michigan, Ann Arbor, MI 48109, USA). Mailing address: ORNL Climate Change Science Institute, c/o Forrest M. Hoffman, Laboratory Research Manager, Building 4500N Room F106, 1 Bethel Valley Road, Oak Ridge, TN 37831-6301, USA",
             "SNU":"Seoul National University, Seoul 08826, Republic of Korea",
             "THU":"Department of Earth System Science, Tsinghua University, Beijing 100084, China",
             "UA":"Department of Geosciences, University of Arizona, Tucson, AZ 85721, USA",
@@ -1068,6 +1069,7 @@
                 "activity_participation":[
                     "CFMIP",
                     "CMIP",
+                    "DAMIP",
                     "DynVarMIP",
                     "GMMIP",
                     "OMIP",
@@ -1479,6 +1481,32 @@
                 ],
                 "source_id":"IPSL-CM6A-LR",
                 "source":"IPSL-CM6A-LR (2017): \naerosol: none\natmos: LMDZ (NPv6, N96; 144 x 143 longitude/latitude; 79 levels; top level 40000 m)\natmosChem: none\nland: ORCHIDEE (v2.0, Water/Carbon/Energy mode)\nlandIce: none\nocean: NEMO-OPA (eORCA1.3, tripolar primarily 1deg; 362 x 332 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: NEMO-PISCES\nseaIce: NEMO-LIM3"
+            },
+            "IPSL-CM7A-ATM-HR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM7A-ATM-HR",
+                "source":"IPSL-CM7A-ATM-HR (2019): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 256000-point icosahedral-hexagonal; 79 levels; top level 40000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "IPSL-CM7A-ATM-LR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM7A-ATM-LR",
+                "source":"IPSL-CM7A-ATM-LR (2019): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 16000-point icosahedral-hexagonal; 79 levels; top level 40000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "KACE-1-0-G":{
                 "activity_participation":[
@@ -9068,6 +9096,30 @@
                 ],
                 "experiment":"SSP3-7.0, prescribed SSTs, with SSP1-2.6 land use",
                 "experiment_id":"ssp370SST-ssp126Lu",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "historical"
+                ],
+                "required_model_components":[
+                    "AGCM",
+                    "AER"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "ssp370pdSST":{
+                "activity_id":[
+                    "AerChemMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"SSP3-7.0, with SSTs prescribed as present day",
+                "experiment_id":"ssp370pdSST",
                 "parent_activity_id":[
                     "CMIP"
                 ],
