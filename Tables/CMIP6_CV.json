@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Sep  5 17:17:41 2019 -0700",
-            "CV_collection_version":"6.2.37.5",
+            "CV_collection_modified":"Tue Sep 10 17:18:02 2019 -0700",
+            "CV_collection_version":"6.2.37.7",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Thu Aug 22 15:21:58 2019 -0700",
             "experiment_id_CV_note":"Revise experiment_id ssp370SST",
             "institution_id":"PCMDI",
-            "previous_commit":"2a00db52be45f55e5b17745c0e78da9bd8d31889",
+            "previous_commit":"0573fd886d7ed8264b51612e00e67053830b0b12",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -739,6 +739,34 @@
                 ],
                 "source_id":"E3SM-1-0",
                 "source":"E3SM 1.0 (2018): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (v6.0, same grid as ocean)"
+            },
+            "E3SM-1-1":{
+                "activity_participation":[
+                    "C4MIP",
+                    "CMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "E3SM-Project"
+                ],
+                "source_id":"E3SM-1-1",
+                "source":"E3SM 1.1 (2019): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.1, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.1, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; active biogeochemistry using the Converging Trophic Cascade plant and soil carbon and nutrient mechanisms to represent carbon, nitrogen and phosphorus cycles), MOSART (v1.1, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (Biogeochemical Elemental Cycling model, NPZD-type with C/N/P/Fe/Si/O; same grid as ocean)\nseaIce: MPAS-Seaice (v6.0; same grid as ocean)"
+            },
+            "E3SM-1-1-ECA":{
+                "activity_participation":[
+                    "C4MIP",
+                    "CMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "E3SM-Project"
+                ],
+                "source_id":"E3SM-1-1-ECA",
+                "source":"E3SM 1.1 ECA (2019): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.1, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.1, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; active biogeochemistry using the Equilibrium Chemistry Approximation to represent plant and soil carbon and nutrient mechanisms especially carbon, nitrogen and phosphorus limitation), MOSART (v1.1, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (v6.0; same grid as ocean)"
             },
             "EC-Earth3":{
                 "activity_participation":[
