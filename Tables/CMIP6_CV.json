@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Sep 19 11:46:27 2019 -1000",
-            "CV_collection_version":"6.2.38.2",
+            "CV_collection_modified":"Wed Sep 25 16:30:20 2019 -0700",
+            "CV_collection_version":"6.2.38.5",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Sep 13 08:39:20 2019 -0700",
             "experiment_id_CV_note":"Revise experiment_id entries hist-spAer-aer and hist-spAer-all",
             "institution_id":"PCMDI",
-            "previous_commit":"71c0ddb7798d36e920fce2a8efc8e9104e35639a",
+            "previous_commit":"9d44353ab459f297183c72f754a08edc3fa0e929",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -383,6 +383,20 @@
                 ],
                 "source_id":"CAS-ESM1-0",
                 "source":"CAS-ESM 1.0 (2015): \naerosol: IAP AACM\natmos: IAP AGCM4.1 (Finite difference dynamical core; 256 x 128 longitude/latitude; 30 levels; top level 2.2 hPa)\natmosChem: IAP AACM\nland: CoLM\nlandIce: none\nocean: LICOM2.0 (LICOM2.0, primarily 1deg; 362 x 196 longitude/latitude; 30 levels; top grid cell 0-10 m)\nocnBgchem: IAP OBGCM\nseaIce: CICE4"
+            },
+            "CESM1-1-CAM5-CMIP5":{
+                "activity_participation":[
+                    "CMIP",
+                    "DCPP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NCAR"
+                ],
+                "source_id":"CESM1-1-CAM5-CMIP5",
+                "source":"CESM1-1-CAM5-CMIP5 (2011): \naerosol: MAM3 (same grid as atmos)\natmos: CAM5.2 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 32 levels; top level 2.25 mb)\natmosChem: MAM3 (same grid as atmos)\nland: CLM4 (same grid as atmos)\nlandIce: none\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (same grid as ocean)\nseaIce: CICE4 (same grid as ocean)"
             },
             "CESM2":{
                 "activity_participation":[
@@ -1895,6 +1909,20 @@
                 ],
                 "source_id":"NorCPM1",
                 "source":"NorCPM1 (2019): \naerosol: OsloAero4.1 (same grid as atmos)\natmos: CAM-OSLO4.1 (2 degree resolution; 144 x 96 longitude/latitude; 26 levels; top level ~2 hPa)\natmosChem: OsloChemSimp4.1 (same grid as atmos)\nland: CLM4 (same grid as atmos)\nlandIce: none\nocean: MICOM1.1 (1 degree resolution; 320 x 384 longitude/latitude; 53 levels; top grid cell 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])\nocnBgchem: HAMOCC5.1 (same grid as ocean)\nseaIce: CICE4 (same grid as ocean)"
+            },
+            "NorESM1-F":{
+                "activity_participation":[
+                    "CMIP",
+                    "PMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NCC"
+                ],
+                "source_id":"NorESM1-F",
+                "source":"NorESM1-F (2018): \naerosol: none\natmos: CAM4 (2 degree resolution; 144 x 96; 32 levels; top level 3 mb)\natmosChem: none\nland: CLM4\nlandIce: CISM\nocean: MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])\nocnBgchem: HAMOCC5.1\nseaIce: CICE4"
             },
             "NorESM2-HH":{
                 "activity_participation":[
