@@ -9,7 +9,7 @@ https://github.com/PCMDI/xml-cmor3-database/blob/master/README.md
 
 Essentially:
 
-Fisrt clone the cmip6-cmor-tables repo
+First clone the cmip6-cmor-tables repo
 ```bash
 git clone git://github.com/pcmdi/cmip6-cmor-tables
 cd cmip6-cmor-tables
