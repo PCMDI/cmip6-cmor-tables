@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Sep 25 16:30:20 2019 -0700",
-            "CV_collection_version":"6.2.38.5",
+            "CV_collection_modified":"Wed Oct  2 16:37:46 2019 -0700",
+            "CV_collection_version":"6.2.38.11",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Sep 13 08:39:20 2019 -0700",
             "experiment_id_CV_note":"Revise experiment_id entries hist-spAer-aer and hist-spAer-all",
             "institution_id":"PCMDI",
-            "previous_commit":"9d44353ab459f297183c72f754a08edc3fa0e929",
+            "previous_commit":"57a53b8ef48f77b2a8b4d85b4a6d760c4ccd4be4",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -757,13 +757,15 @@
             "E3SM-1-1":{
                 "activity_participation":[
                     "C4MIP",
-                    "CMIP"
+                    "CMIP",
+                    "LS3MIP"
                 ],
                 "cohort":[
                     "Registered"
                 ],
                 "institution_id":[
-                    "E3SM-Project"
+                    "E3SM-Project",
+                    "RUBISCO"
                 ],
                 "source_id":"E3SM-1-1",
                 "source":"E3SM 1.1 (2019): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.1, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.1, same grid as atmos; active biogeochemistry using the Converging Trophic Cascade plant and soil carbon and nutrient mechanisms to represent carbon, nitrogen and phosphorus cycles), MOSART (v1.1, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (Biogeochemical Elemental Cycling model, NPZD-type with C/N/P/Fe/Si/O; same grid as ocean)\nseaIce: MPAS-Seaice (v6.0; same grid as ocean)"
@@ -780,7 +782,7 @@
                     "E3SM-Project"
                 ],
                 "source_id":"E3SM-1-1-ECA",
-                "source":"E3SM 1.1 ECA (2019): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.1, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.1, same as atmos; active biogeochemistry using the Equilibrium Chemistry Approximation to represent plant and soil carbon and nutrient mechanisms especially carbon, nitrogen and phosphorus limitation), MOSART (v1.1, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (v6.0; same grid as ocean)"
+                "source":"E3SM 1.1 ECA (2019): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.1, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.1, same as atmos; active biogeochemistry using the Equilibrium Chemistry Approximation to represent plant and soil carbon and nutrient mechanisms especially carbon, nitrogen and phosphorus limitation), MOSART (v1.1, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (Biogeochemical Elemental Cycling model, NPZD-type with C/N/P/Fe/Si/O; same grid as ocean)\nseaIce: MPAS-Seaice (v6.0; same grid as ocean)"
             },
             "EC-Earth3":{
                 "activity_participation":[
@@ -1075,7 +1077,7 @@
                     "CAS"
                 ],
                 "source_id":"FGOALS-g3",
-                "source":"FGOALS-g3 (2017): \naerosol: none\natmos: GAMIL2 (180 x 90 longitude/latitude; 26 levels; top level 2.19hPa)\natmosChem: none\nland: CLM4.0\nlandIce: none\nocean: LICOM3.0 (LICOM3.0, tripolar primarily 1deg; 360 x 218 longitude/latitude; 30 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4.0"
+                "source":"FGOALS-g3 (2017): \naerosol: none\natmos: GAMIL3 (180 x 80 longitude/latitude; 26 levels; top level 2.19hPa)\natmosChem: none\nland: CAS-LSM\nlandIce: none\nocean: LICOM3.0 (LICOM3.0, tripolar primarily 1deg; 360 x 218 longitude/latitude; 30 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4.0"
             },
             "FIO-ESM-2-0":{
                 "activity_participation":[
@@ -1255,7 +1257,21 @@
                     "NASA-GISS"
                 ],
                 "source_id":"GISS-E2-1-G",
-                "source":"GISS-E2.1G (2016): \naerosol: Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E2.1 (2.5x2 degree; 144 x 90 longitude/latitude; 40 levels; top level 0.1 hPa)\natmosChem: Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: none\nocean: GISS Ocean (1 degree; 360 x 180 latitude/longitude; 32 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: GISS SI"
+                "source":"GISS-E2.1G (2019): \naerosol: Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E2.1 (2.5x2 degree; 144 x 90 longitude/latitude; 40 levels; top level 0.1 hPa)\natmosChem: Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: none\nocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: GISS SI"
+            },
+            "GISS-E2-1-G-CC":{
+                "activity_participation":[
+                    "C4MIP",
+                    "CMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NASA-GISS"
+                ],
+                "source_id":"GISS-E2-1-G-CC",
+                "source":"GISS-E2-1-G-CC (2019): \naerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E2.1 (2 x 2.5 degrees; 144 x 90 longitude/latitude; 40 levels; top level 0.1 hPa)\natmosChem: varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: Fixed\nocean: GISS Ocean (1 deg; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)\nocnBgchem: NOBM (NASA Ocean Biogeochemistry Model; same grid as ocean)\nseaIce: GISS SI (same grid as ocean)"
             },
             "GISS-E2-1-H":{
                 "activity_participation":[
@@ -1274,10 +1290,25 @@
                 "source_id":"GISS-E2-1-H",
                 "source":"GISS-E2.1H (2016): \naerosol: Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E2.1 (2.5x2 degree; 144 x 90 longitude/latitude; 40 levels; top level 0.1 hPa)\natmosChem: Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: none\nocean: HYCOM Ocean (~1 degree tripolar grid; 360 x 180 latitude/longitude; 26 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: GISS SI"
             },
-            "GISS-E2-1-MA-G":{
+            "GISS-E2-2-G":{
                 "activity_participation":[
+                    "AerChemMIP",
+                    "CFMIP",
                     "CMIP",
+                    "DAMIP",
+                    "DynVarMIP",
+                    "FAFMIP",
+                    "GMMIP",
+                    "ISMIP6",
+                    "LS3MIP",
+                    "LUMIP",
+                    "OMIP",
+                    "PAMIP",
+                    "PMIP",
                     "RFMIP",
+                    "SIMIP",
+                    "ScenarioMIP",
+                    "VIACSAB",
                     "VolMIP"
                 ],
                 "cohort":[
@@ -1286,8 +1317,8 @@
                 "institution_id":[
                     "NASA-GISS"
                 ],
-                "source_id":"GISS-E2-1-MA-G",
-                "source":"GISS-E2.1MA-G (2018): \naerosol: Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E2.1MA (2.5x2 degree; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)\natmosChem: Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: none\nocean: GISS Ocean (1 degree; 360 x 180 longitude/latitude; 32 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: GISS SI"
+                "source_id":"GISS-E2-2-G",
+                "source":"GISS-E2-2-G (2019): \naerosol: varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)\natmosChem: varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: Fixed\nocean: GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: GISS SI"
             },
             "GISS-E3-G":{
                 "activity_participation":[
