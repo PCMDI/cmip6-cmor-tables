@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Oct  2 16:37:46 2019 -0700",
-            "CV_collection_version":"6.2.38.11",
+            "CV_collection_modified":"Thu Oct  3 10:54:58 2019 -0700",
+            "CV_collection_version":"6.2.39.0",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Sep 13 08:39:20 2019 -0700",
-            "experiment_id_CV_note":"Revise experiment_id entries hist-spAer-aer and hist-spAer-all",
+            "experiment_id_CV_note":"Register 3 new FAFMIP experiment_ids",
             "institution_id":"PCMDI",
-            "previous_commit":"57a53b8ef48f77b2a8b4d85b4a6d760c4ccd4be4",
+            "previous_commit":"217b201e08c5fff8785f0535ee76eb5b3fd971f4",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -5103,6 +5103,30 @@
                     "none"
                 ]
             },
+            "faf-antwater-stress":{
+                "activity_id":[
+                    "FAFMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"control plus perturbative surface fluxes of momentum and freshwater into ocean, the latter around the coast of Antarctica only",
+                "experiment_id":"faf-antwater-stress",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "faf-heat":{
                 "activity_id":[
                     "FAFMIP"
@@ -5114,6 +5138,54 @@
                 ],
                 "experiment":"control plus perturbative surface flux of heat into ocean",
                 "experiment_id":"faf-heat",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "faf-heat-NA0pct":{
+                "activity_id":[
+                    "FAFMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"control plus perturbative surface flux of heat into ocean",
+                "experiment_id":"faf-heat-NA0pct",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "faf-heat-NA50pct":{
+                "activity_id":[
+                    "FAFMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"control plus perturbative surface flux of heat into ocean",
+                "experiment_id":"faf-heat-NA50pct",
                 "parent_activity_id":[
                     "CMIP"
                 ],
