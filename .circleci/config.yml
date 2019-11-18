@@ -22,7 +22,7 @@ aliases:
        conda config --set always_yes yes --set changeps1 no
        conda update -y -q conda
        conda config --set anaconda_upload no
-       conda create -q -n py2 -c cdat/label/nightly -c pcmdi/label/nightly -c conda-forge -c cdat lazy-object-proxy cmor python=2.7 testsrunner
+       conda create -q -n py2 -c cdat/label/nightly -c pcmdi/label/nightly -c conda-forge -c cdat lazy-object-proxy libnetcdf=4.6.2 cmor=3.5.0.2019.11.06 python=2.7 testsrunner
 
   - &setup_cmor
     name: setup_cmor
@@ -50,7 +50,7 @@ aliases:
 jobs:
   macos_cmip6:
     macos:
-      xcode: "9.2.0"
+      xcode: "11.1.0"
     environment:
       WORKDIR: "workspace/test_macos_cmor"
       UVCDAT_ANONYMOUS_LOG: "False"
