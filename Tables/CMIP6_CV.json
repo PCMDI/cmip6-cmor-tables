@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Nov 19 11:20:50 2019 -0800",
-            "CV_collection_version":"6.2.39.14",
+            "CV_collection_modified":"Wed Dec  4 16:09:47 2019 -0800",
+            "CV_collection_version":"6.2.42.1",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Thu Oct  3 10:54:58 2019 -0700",
-            "experiment_id_CV_note":"Register 3 new FAFMIP experiment_ids",
+            "experiment_id_CV_modified":"Wed Dec  4 12:51:01 2019 -0800",
+            "experiment_id_CV_note":"Cleanup experiment_id grammar inconsistencies",
             "institution_id":"PCMDI",
-            "previous_commit":"27155103722fd532bb99465f080f060d1a3e40a2",
+            "previous_commit":"d2cfd60adc3a85e4a0057c912a6425bf5b736551",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -917,6 +917,7 @@
                 "activity_participation":[
                     "CDRMIP",
                     "CMIP",
+                    "CORDEX",
                     "LS3MIP",
                     "LUMIP",
                     "ScenarioMIP"
@@ -5920,8 +5921,31 @@
                     "AER",
                     "BGC"
                 ],
-                "experiment":"historical stratospheric-ozone-only run",
+                "experiment":"historical stratospheric ozone-only run",
                 "experiment_id":"hist-stratO3",
+                "parent_activity_id":[
+                    "CMIP"
+                ],
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "hist-totalO3":{
+                "activity_id":[
+                    "DAMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "BGC"
+                ],
+                "experiment":"historical total ozone-only run",
+                "experiment_id":"hist-totalO3",
                 "parent_activity_id":[
                     "CMIP"
                 ],
@@ -9053,7 +9077,7 @@
                     "AER",
                     "BGC"
                 ],
-                "experiment":"stratospheric-ozone-only SSP2-4.5 run",
+                "experiment":"stratospheric ozone-only SSP2-4.5 (ssp245) run",
                 "experiment_id":"ssp245-stratO3",
                 "parent_activity_id":[
                     "DAMIP"
