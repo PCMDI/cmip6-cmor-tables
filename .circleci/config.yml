@@ -33,6 +33,11 @@ aliases:
        echo "ACTIVATE RETURN CODE $?"
        set -e
        git clone https://github.com/PCMDI/cmor
+       cd cmor
+       git submodule init
+       git submodule update
+       cd cmip6-cmor-tables
+       git checkout $(git rev-parse HEAD)
        exit 0
 
   - &run_prepare_tests
