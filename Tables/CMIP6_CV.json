@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Jan  2 11:58:27 2020 -0800",
-            "CV_collection_version":"6.2.45.3",
+            "CV_collection_modified":"Wed Jan 15 16:28:38 2020 -0800",
+            "CV_collection_version":"6.2.45.6",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Dec  6 16:33:14 2019 -0800",
             "experiment_id_CV_note":"Register CMIP5-era experiment_id entries",
             "institution_id":"PCMDI",
-            "previous_commit":"59b6eaaa02885cc21de330a393944c43e19c899b",
+            "previous_commit":"77894bf0441ae159e3698bd3d68de294ad1dbdf6",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1298,7 +1298,7 @@
                     "NASA-GISS"
                 ],
                 "source_id":"GISS-E2-1-H",
-                "source":"GISS-E2.1H (2016): \naerosol: Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E2.1 (2.5x2 degree; 144 x 90 longitude/latitude; 40 levels; top level 0.1 hPa)\natmosChem: Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: none\nocean: HYCOM Ocean (~1 degree tripolar grid; 360 x 180 longitude/latitude; 32 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: GISS SI"
+                "source":"GISS-E2.1H (2019): \naerosol: Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E2.1 (2.5x2 degree; 144 x 90 longitude/latitude; 40 levels; top level 0.1 hPa)\natmosChem: Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: none\nocean: HYCOM Ocean (~1 degree tripolar grid; 360 x 180 longitude/latitude; 32 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: GISS SI"
             },
             "GISS-E2-2-G":{
                 "activity_participation":[
@@ -1359,7 +1359,7 @@
                     "NASA-GISS"
                 ],
                 "source_id":"GISS-E3-G",
-                "source":"GISS-E3-G (2018): \naerosol: Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E3 (Cubed sphere, C90; 90 x 90 x 6 gridboxes/cubeface, grid resolution aligns with longitude/latitude along central lines for each cubeface; 102 levels; top level 0.002 hPa)\natmosChem: Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: none\nocean: GISS Ocean (1 degree; 360 x 180 longitude/latitude; 32 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: GISS SI"
+                "source":"GISS-E3-G (2020): \naerosol: Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)\natmos: GISS-E3 (Cubed sphere, C90; 90 x 90 x 6 gridboxes/cubeface, grid resolution aligns with longitude/latitude along central lines for each cubeface; 102 levels; top level 0.002 hPa)\natmosChem: Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)\nland: GISS LSM\nlandIce: none\nocean: GISS Ocean (1 degree; 360 x 180 longitude/latitude; 32 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: GISS SI"
             },
             "HadGEM3-GC31-HH":{
                 "activity_participation":[
@@ -1458,6 +1458,32 @@
                 ],
                 "source_id":"HadGEM3-GC31-MM",
                 "source":"HadGEM3-GC31-MM (2016): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N216; 432 x 324 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: CICE-HadGEM3-GSI8 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude)"
+            },
+            "HiRAM-SIT-HR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AS-RCEC"
+                ],
+                "source_id":"HiRAM-SIT-HR",
+                "source":"HiRAM-SIT-HR (2018): \naerosol: none\natmos: GFDL-HiRAM (Cubed-sphere (c384) - 0.25 degree nominal horizontal resolution; 1536 x 768 longitude/latitude; 32 levels; top level 1 hPa)\natmosChem: none\nland: GFDL-LM3 (same grid as atmos)\nlandIce: none\nocean: SIT (1-D, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 50 levels with skin layer and 1 m resolution for uppermost 10 m)\nocnBgchem: none\nseaIce: none"
+            },
+            "HiRAM-SIT-LR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AS-RCEC"
+                ],
+                "source_id":"HiRAM-SIT-LR",
+                "source":"HiRAM-SIT-LR (2018): \naerosol: none\natmos: GFDL-HiRAM (Cubed-sphere (c192) - 0.5 degree nominal horizontal resolution; 768 x 384 longitude/latitude; 32 levels; top level 1 hPa)\natmosChem: none\nland: GFDL-LM3 (same grid as atmos)\nlandIce: none\nocean: SIT (1-D, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 50 levels with skin layer and 1 m resolution for uppermost 10 m)\nocnBgchem: none\nseaIce: none"
             },
             "ICON-ESM-LR":{
                 "activity_participation":[
@@ -1668,6 +1694,20 @@
                 ],
                 "source_id":"MIROC-ES2H",
                 "source":"MIROC-ES2H (2018): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
+            },
+            "MIROC-ES2H-NB":{
+                "activity_participation":[
+                    "AerChemMIP",
+                    "CMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MIROC"
+                ],
+                "source_id":"MIROC-ES2H-NB",
+                "source":"MIROC-ES2H-NB (2019): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0\nland: MATSIRO6\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: COCO4.9"
             },
             "MIROC-ES2L":{
                 "activity_participation":[
