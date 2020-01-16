@@ -3,7 +3,7 @@
         "data_specs_version": "01.00.31", 
         "table_id": "Table grids", 
         "cmor_version": "3.5", 
-        "table_date": "07 October 2019", 
+        "table_date": "15 January 2020", 
         "missing_value": "1e20", 
         "product": "output", 
         "Conventions": "CF-1.7 CMIP-6.2"
@@ -36,7 +36,7 @@
             "standard_name": "", 
             "units": "1", 
             "axis": "", 
-            "long_name": "cell index along first dimension", 
+            "long_name": "first spatial index for variables stored on an unstructured grid", 
             "out_name": "i", 
             "type": "integer"
         }, 
@@ -44,7 +44,7 @@
             "standard_name": "", 
             "units": "1", 
             "axis": "", 
-            "long_name": "cell index along second dimension", 
+            "long_name": "second spatial index for variables stored on an unstructured grid", 
             "out_name": "j", 
             "type": "integer"
         }, 
@@ -52,7 +52,7 @@
             "standard_name": "", 
             "units": "1", 
             "axis": "", 
-            "long_name": "cell index along third dimension", 
+            "long_name": "third spatial index for variables stored on an unstructured grid", 
             "out_name": "k", 
             "type": "integer"
         }, 
@@ -60,7 +60,7 @@
             "standard_name": "", 
             "units": "1", 
             "axis": "", 
-            "long_name": "cell index along fourth dimension", 
+            "long_name": "fourth spatial index for variables stored on an unstructured grid", 
             "out_name": "l", 
             "type": "integer"
         }, 
@@ -68,7 +68,7 @@
             "standard_name": "", 
             "units": "1", 
             "axis": "", 
-            "long_name": "cell index along fifth dimension", 
+            "long_name": "fifth spatial index for variables stored on an unstructured grid", 
             "out_name": "m", 
             "type": "integer"
         }, 
