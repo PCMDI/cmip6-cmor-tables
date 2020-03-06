@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Mar  4 15:07:05 2020 -0800",
-            "CV_collection_version":"6.2.48.3",
+            "CV_collection_modified":"Thu Mar  5 15:50:04 2020 -0800",
+            "CV_collection_version":"6.2.48.4",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Sun Feb  2 17:09:44 2020 -0800",
             "experiment_id_CV_note":"Register AerChemMIP experiment_id values ssp370-lowNTCFCH4, ssp370SST-lowNTCFCH4",
             "institution_id":"PCMDI",
-            "previous_commit":"85ad73423edd7dc1fe87b57f4501703d2d4b5a46",
+            "previous_commit":"beb8eef9c9bab552efca5be2be6424dad49bcace",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1555,6 +1555,19 @@
                 ],
                 "source_id":"INM-CM5-H",
                 "source":"INM-CM5-H (2016): \naerosol: INM-AER1\natmos: INM-AM5-H (0.67x0.5; 540 x 360 longitude/latitude; 73 levels; top level sigma = 0.0002)\natmosChem: none\nland: INM-LND1\nlandIce: none\nocean: INM-OM5-H (North Pole shifted to 60N, 90E. 0.167x0.125; 2160x1440 longitude/latitude; 40 levels; vertical sigma coordinate)\nocnBgchem: none\nseaIce: INM-ICE1"
+            },
+            "IPSL-CM5A2-INCA":{
+                "activity_participation":[
+                    "AerChemMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM5A2-INCA",
+                "source":"IPSL-CM5A2-INCA (2019): \naerosol: INCA v6 NMHC-AER-S\natmos: LMDZ (APv5; 96 x 96 longitude/latitude; 39 levels; top level 80000 m)\natmosChem: INCA v6 NMHC-AER-S\nland: ORCHIDEE (IPSLCM5A2.1, Water/Carbon/Energy mode)\nlandIce: none\nocean: NEMO-OPA (v3.6, ORCA2 tripolar primarily 2deg; 182 x 149 longitude/latitude; 31 levels; top grid cell 0-10 m)\nocnBgchem: NEMO-PISCES\nseaIce: NEMO-LIM2"
             },
             "IPSL-CM6A-ATM-HR":{
                 "activity_participation":[
