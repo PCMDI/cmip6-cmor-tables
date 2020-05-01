@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Apr 28 14:53:53 2020 -0700",
-            "CV_collection_version":"6.2.50.7",
+            "CV_collection_modified":"Thu Apr 30 13:07:31 2020 -0700",
+            "CV_collection_version":"6.2.50.10",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Thu Mar 19 19:39:28 2020 -0700",
             "experiment_id_CV_note":"Revise *-cmip5 experiment_id values",
             "institution_id":"PCMDI",
-            "previous_commit":"76deae96a28aee0185af042bd05c7656d0862540",
+            "previous_commit":"cb7f26c87d43804c25b31223e0acde4eeb36c41b",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -109,6 +109,7 @@
             "NOAA-GFDL":"National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA",
             "NUIST":"Nanjing University of Information Science and Technology, Nanjing, 210044, China",
             "PCMDI":"Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA",
+            "PNNL-WACCEM":"PNNL (Pacific Northwest National Laboratory), Richland, WA 99352, USA",
             "RTE-RRTMGP-Consortium":"AER (Atmospheric and Environmental Research, Lexington, MA 02421, USA); UColorado (University of Colorado, Boulder, CO 80309, USA). Mailing address: AER c/o Eli Mlawer, 131 Hartwell Avenue, Lexington, MA 02421, USA",
             "RUBISCO":"ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA); ANL (Argonne National Laboratory, Argonne, IL 60439, USA); BNL (Brookhaven National Laboratory, Upton, NY 11973, USA); LANL (Los Alamos National Laboratory, Los Alamos, NM 87545); LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA); NAU (Northern Arizona University, Flagstaff, AZ 86011, USA); NCAR (National Center for Atmospheric Research, Boulder, CO 80305, USA); UCI (University of California Irvine, Irvine, CA 92697, USA); UM (University of Michigan, Ann Arbor, MI 48109, USA). Mailing address: ORNL Climate Change Science Institute, c/o Forrest M. Hoffman, Laboratory Research Manager, Building 4500N Room F106, 1 Bethel Valley Road, Oak Ridge, TN 37831-6301, USA",
             "SNU":"Seoul National University, Seoul 08826, Republic of Korea",
@@ -352,6 +353,19 @@
                 ],
                 "source_id":"BNU-ESM-1-1",
                 "source":"BNU-ESM 1.1 (2016): \naerosol: CAM-chem; semi-interactive\natmos: CAM4 (2deg; 144 x 96 longitude/latitude; 26 levels; top level 2.194 mb)\natmosChem: none\nland: CoLM version 2014 with carbon-nitrogen interactions\nlandIce: none\nocean: MOM4p1 (tripolar, primarily 1deg latitude/longitude, down to 1/3deg within 30deg of the equatorial tropics; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: Dynamic ecosystem-carbon model version 1\nseaIce: CICE4.1"
+            },
+            "CAM-MPAS-HR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "PNNL-WACCEM"
+                ],
+                "source_id":"CAM-MPAS-HR",
+                "source":"CAM-MPAS (2018): \naerosol: none, prescribed MACv2-SP\natmos: CAM-MPAS (CAMv5.4 with Grell-Freitas deep convection; MPASv4, C-grid staggered centroidal Voronoi tesselation atmosphere 30 km mesh with 655362 cells and 1966080 edges; 32 levels, top level 40363 m)\natmosChem: none\nland: CLM (v4.0, same grid as atmos), River Transport Model (v1.0)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "CAMS-CSM1-0":{
                 "activity_participation":[
