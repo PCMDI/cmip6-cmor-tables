@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu May  7 09:08:24 2020 -0700",
-            "CV_collection_version":"6.2.52.0",
+            "CV_collection_modified":"Mon May 11 10:40:58 2020 -0700",
+            "CV_collection_version":"6.2.52.2",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Wed May  6 16:54:45 2020 -0700",
+            "experiment_id_CV_modified":"Thu May  7 09:08:24 2020 -0700",
             "experiment_id_CV_note":"Revise PMIP experiment_id entries",
             "institution_id":"PCMDI",
-            "previous_commit":"5056f854780e32d8920f61f3d13beea5d3ece16d",
+            "previous_commit":"bd084727251f316c3f25f4c070f8da24ff72ddf0",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -428,6 +428,32 @@
                 ],
                 "source_id":"CESM1-1-CAM5-CMIP5",
                 "source":"CESM1-1-CAM5-CMIP5 (2011): \naerosol: MAM3 (same grid as atmos)\natmos: CAM5.2 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 32 levels; top level 2.25 mb)\natmosChem: MAM3 (same grid as atmos)\nland: CLM4 (same grid as atmos)\nlandIce: none\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (same grid as ocean)\nseaIce: CICE4 (same grid as ocean)"
+            },
+            "CESM1-CAM5-SE-HR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NCAR"
+                ],
+                "source_id":"CESM1-CAM5-SE-HR",
+                "source":"CESM1-CAM5-SE-HR (2012): \naerosol: MAM3 (same grid as atmos)\natmos: CAM5.2 (0.25 degree spectral element; 777602 cells; 30 levels; top level 2.25 mb)\natmosChem: MAM3 (same grid as atmos)\nland: CLM4 (same grid as atmos)\nlandIce: none\nocean: POP2 (3600x2400 longitude/latitude; 62 levels; top grid cell 0-10 m)\nocnBgchem: \"BEC (same grid as ocean)\nseaIce: CICE4 (same grid as ocean)"
+            },
+            "CESM1-CAM5-SE-LR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NCAR"
+                ],
+                "source_id":"CESM1-CAM5-SE-LR",
+                "source":"CESM1-CAM5-SE-LR (2012): \naerosol: MAM3 (same grid as atmos)\natmos: CAM5.2 (1 degree spectral element; 48602 cells; 30 levels; top level 2.25 mb)\natmosChem: MAM3 (same grid as atmos)\nland: CLM4 (same grid as atmos)\nlandIce: none\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: \"BEC (same grid as ocean)\nseaIce: CICE4 (same grid as ocean)"
             },
             "CESM1-WACCM-SC":{
                 "activity_participation":[
