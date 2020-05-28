@@ -523,7 +523,7 @@
             "generic_level_name": "olevhalf"
         }, 
         "effectRadIc": {
-            "standard_name": "effective_radius_of_convective_cloud_ice_particle", 
+            "standard_name": "effective_radius_of_convective_cloud_ice_particles", 
             "units": "micron", 
             "axis": "", 
             "long_name": "Effective Radius [Values to be specified]", 
@@ -566,7 +566,7 @@
             "generic_level_name": ""
         }, 
         "effectRadLi": {
-            "standard_name": "effective_radius_of_cloud_liquid_water_particle", 
+            "standard_name": "effective_radius_of_cloud_liquid_water_particles", 
             "units": "micron", 
             "axis": "", 
             "long_name": "Effective Radius [Values to be specified]", 
@@ -1693,7 +1693,7 @@
             "generic_level_name": ""
         }, 
         "scatratio": {
-            "standard_name": "backscattering_ratio", 
+            "standard_name": "backscattering_ratio_in_air", 
             "units": "1", 
             "axis": "", 
             "long_name": "lidar backscattering ratio", 
