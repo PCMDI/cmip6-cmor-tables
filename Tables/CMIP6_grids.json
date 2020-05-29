@@ -1,9 +1,9 @@
 {
     "Header": {
-        "data_specs_version": "01.00.31", 
+        "data_specs_version": "01.00.32", 
         "table_id": "Table grids", 
         "cmor_version": "3.5", 
-        "table_date": "05 February 2020", 
+        "table_date": "28 May 2020", 
         "missing_value": "1e20", 
         "product": "output", 
         "Conventions": "CF-1.7 CMIP-6.2"
