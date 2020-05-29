@@ -128,6 +128,14 @@
             "standard_name": "", 
             "type": "real"
         }, 
+        "orog2d": {
+            "long_name": "Surface Altitude", 
+            "units": "m", 
+            "dimensions": "latitude", 
+            "out_name": "orog", 
+            "standard_name": "", 
+            "type": "real"
+        }, 
         "p0": {
             "long_name": "vertical coordinate formula term: reference pressure", 
             "units": "Pa", 
@@ -156,6 +164,14 @@
             "long_name": "Surface Air Pressure", 
             "units": "Pa", 
             "dimensions": "longitude latitude time2", 
+            "out_name": "ps", 
+            "standard_name": "air_pressure", 
+            "type": "real"
+        }, 
+        "ps2d": {
+            "long_name": "Surface Air Pressure", 
+            "units": "Pa", 
+            "dimensions": "latitude time1", 
             "out_name": "ps", 
             "standard_name": "air_pressure", 
             "type": "real"
