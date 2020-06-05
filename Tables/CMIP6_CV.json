@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed May 20 16:39:54 2020 -0700",
-            "CV_collection_version":"6.2.53.0",
+            "CV_collection_modified":"Thu Jun  4 07:19:00 2020 -0700",
+            "CV_collection_version":"6.2.53.2",
             "author":"Paul J. Durack <durack1@llnl.gov>",
-            "experiment_id_CV_modified":"Thu May  7 09:08:24 2020 -0700",
+            "experiment_id_CV_modified":"Wed May 20 16:39:54 2020 -0700",
             "experiment_id_CV_note":"Revise experiment_id ssp370-lowNTCFCH4",
             "institution_id":"PCMDI",
-            "previous_commit":"284fc5e798e19f44d3c81682f1719c5fa462ad86",
+            "previous_commit":"d60b9d79f75f8ee3a79ced6a4965364a4deb6787",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -107,6 +107,7 @@
             "NIMS-KMA":"National Institute of Meteorological Sciences/Korea Meteorological Administration, Climate Research Division, Seoho-bukro 33, Seogwipo-si, Jejudo 63568, Republic of Korea",
             "NIWA":"National Institute of Water and Atmospheric Research, Hataitai, Wellington 6021, New Zealand",
             "NOAA-GFDL":"National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA",
+            "NTU":"National Taiwan University, Taipei 10650, Taiwan",
             "NUIST":"Nanjing University of Information Science and Technology, Nanjing, 210044, China",
             "PCMDI":"Program for Climate Model Diagnosis and Intercomparison, Lawrence Livermore National Laboratory, Livermore, CA 94550, USA",
             "PNNL-WACCEM":"PNNL (Pacific Northwest National Laboratory), Richland, WA 99352, USA",
@@ -2282,6 +2283,20 @@
                 ],
                 "source_id":"TaiESM1",
                 "source":"TaiESM 1.0 (2018): \naerosol: SNAP (same grid as atmos)\natmos: TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)\natmosChem: SNAP (same grid as atmos)\nland: CLM4.0 (same grid as atmos)\nlandIce: none\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4"
+            },
+            "TaiESM1-TIMCOM":{
+                "activity_participation":[
+                    "CMIP",
+                    "OMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NTU"
+                ],
+                "source_id":"TaiESM1-TIMCOM",
+                "source":"TaiESM1-TIMCOM (2020): \naerosol: SNAP (same grid as atmos)\natmos: TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)\natmosChem: SNAP (same grid as atmos)\nland: CLM4.0 (same grid as atmos)\nlandIce: none\nocean: TIMCOM (TIMCOMv1.7, primarily 1deg; 360 x 288 longitude/latitude; 45 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4"
             },
             "UKESM1-0-LL":{
                 "activity_participation":[
