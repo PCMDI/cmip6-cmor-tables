@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Oct 28 17:40:37 2020 -0700",
-            "CV_collection_version":"6.2.54.2",
+            "CV_collection_modified":"Mon Nov 16 11:34:20 2020 -0800",
+            "CV_collection_version":"6.2.54.5",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Fri Oct 23 15:16:35 2020 -0700",
             "experiment_id_CV_note":"Register experiment_ids for CovidMIP (#973)",
             "institution_id":"PCMDI",
-            "previous_commit":"e8152ae174f7f210963cd18c33acfa2c091e7296",
+            "previous_commit":"3f71d190105f7a210c2a9f4df86d1847f03dfb6f",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -94,7 +94,8 @@
             "INM":"Institute for Numerical Mathematics, Russian Academy of Science, Moscow 119991, Russia",
             "INPE":"National Institute for Space Research, Cachoeira Paulista, SP 12630-000, Brazil",
             "IPSL":"Institut Pierre Simon Laplace, Paris 75252, France",
-            "KIOST":"Korea Institute of Ocean Science & Technology, Busan 49111, Republic of Korea",
+            "KIOST":"Korea Institute of Ocean Science and Technology, Busan 49111, Republic of Korea",
+            "LLNL":"Lawrence Livermore National Laboratory, Livermore, CA 94550, USA. Mailing address: LLNL Climate Program, c/o Stephen A. Klein, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA",
             "MESSy-Consortium":"The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
             "MIROC":"JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan), AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan), NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan), and R-CCS (RIKEN Center for Computational Science, Hyogo 650-0047, Japan)",
             "MOHC":"Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK",
@@ -506,7 +507,8 @@
                     "Registered"
                 ],
                 "institution_id":[
-                    "UCI"
+                    "UCI",
+                    "NCAR"
                 ],
                 "source_id":"CESM1-WACCM-SC",
                 "source":"CESM1-WACCM-SC (2011): \naerosol: MOZART-specified (same grid as atmos)\natmos: WACCM4 (1.9x2.5 finite volume grid; 144 x 96 longitude/latitude; 66 levels; top level 5.9e-06 mb)\natmosChem: MOZART-specified (same grid as atmos)\nland: CLM4.0\nlandIce: none\nocean: POP2 (320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (same grid as ocean)\nseaIce: CICE4 (same as grid as ocean)"
@@ -838,13 +840,15 @@
             },
             "E3SM-1-0":{
                 "activity_participation":[
+                    "CFMIP",
                     "CMIP"
                 ],
                 "cohort":[
                     "Registered"
                 ],
                 "institution_id":[
-                    "E3SM-Project"
+                    "E3SM-Project",
+                    "LLNL"
                 ],
                 "source_id":"E3SM-1-0",
                 "source":"E3SM 1.0 (2018): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (v6.0, same grid as ocean)"
@@ -1807,7 +1811,7 @@
                     "UA"
                 ],
                 "source_id":"MCM-UA-1-0",
-                "source":"MCM-UA-1-0 (1991): \naerosol: Modifies surface albedoes (Haywood et al. 1997, doi: 10.1175/1520-0442(1997)010<1562:GCMCOT>2.0.CO;2)\natmos: R30L14 (3.75 X 2.5 degree (long-lat) configuration; 96 x 80 longitude/latitude; 14 levels; top level 0.015 sigma, 15 mb)\natmosChem: none\nland: Standard Manabe bucket hydrology scheme (Manabe 1969, doi: 10.1175/1520-0493(1969)097<0739:CATOC>2.3.CO;2)\nlandIce: Specified location - invariant in time, has high albedo and latent heat capacity\nocean: MOM1.0 (MOM1, 1.875 X 2.5 deg; 192 x 80 longitude/latitude; 18 levels; top grid cell 0-40 m)\nocnBgchem: none\nseaIce: Thermodynamic ice model (free drift dynamics)"
+                "source":"MCM-UA-1-0 (1991): \naerosol: Modifies surface albedoes (Haywood et al. 1997, doi: 10.1175/1520-0442(1997)010&lt;1562:GCMCOT&gt;2.0.CO;2)\natmos: R30L14 (3.75 X 2.5 degree (long-lat) configuration; 96 x 80 longitude/latitude; 14 levels; top level 0.015 sigma, 15 mb)\natmosChem: none\nland: Standard Manabe bucket hydrology scheme (Manabe 1969, doi: 10.1175/1520-0493(1969)097&lt;0739:CATOC&gt;2.3.CO;2)\nlandIce: Specified location - invariant in time, has high albedo and latent heat capacity\nocean: MOM1.0 (MOM1, 1.875 X 2.5 deg; 192 x 80 longitude/latitude; 18 levels; top grid cell 0-40 m)\nocnBgchem: none\nseaIce: Thermodynamic ice model (free drift dynamics)"
             },
             "MIROC-ES2H":{
                 "activity_participation":[
