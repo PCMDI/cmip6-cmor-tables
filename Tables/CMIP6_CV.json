@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Fri Jan 15 17:45:43 2021 00000",
-            "CV_collection_version":"6.2.55.2",
+            "CV_collection_modified":"Tue Jan 19 15:31:29 2021 -0800",
+            "CV_collection_version":"6.2.55.3",
             "author":"Matthew Mizielinski <matthew.mizielinski@metoffice.gov.uk>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"MOHC",
-            "previous_commit":"b1c65bc19f426e01c2a0596b2ffb811c503440e3",
+            "previous_commit":"e19a4832418c941d2872d158ec55a07bc2568e0f",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1967,7 +1967,8 @@
                 ],
                 "institution_id":[
                     "MPI-M",
-                    "AWI"
+                    "AWI",
+                    "DKRZ"
                 ],
                 "source_id":"MPI-ESM1-2-LR",
                 "source":"MPI-ESM1.2-LR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)\natmosChem: none\nland: JSBACH3.20\nlandIce: none/prescribed\nocean: MPIOM1.63 (bipolar GR1.5, approximately 1.5deg; 256 x 220 longitude/latitude; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC6\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
