@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Jan 19 15:31:29 2021 -0800",
-            "CV_collection_version":"6.2.55.3",
-            "author":"Matthew Mizielinski <matthew.mizielinski@metoffice.gov.uk>",
+            "CV_collection_modified":"Wed Jan 20 21:26:19 2021 -0800",
+            "CV_collection_version":"6.2.55.5",
+            "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
-            "institution_id":"MOHC",
-            "previous_commit":"e19a4832418c941d2872d158ec55a07bc2568e0f",
+            "institution_id":"PCMDI",
+            "previous_commit":"e2f5e4835ec19db23f5bb6c2628af1a24546f401",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -916,6 +916,7 @@
                 "activity_participation":[
                     "AerChemMIP",
                     "CMIP",
+                    "RFMIP",
                     "ScenarioMIP"
                 ],
                 "cohort":[
@@ -929,11 +930,12 @@
             },
             "EC-Earth3-CC":{
                 "activity_participation":[
+                    "C4MIP",
                     "CDRMIP",
                     "CMIP",
-                    "C4MIP",
                     "LUMIP",
-                    "OMIP"
+                    "OMIP",
+                    "ScenarioMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -1819,9 +1821,11 @@
             "MIROC-ES2H":{
                 "activity_participation":[
                     "AerChemMIP",
+                    "C4MIP",
                     "CMIP",
                     "DynVarMIP",
                     "GeoMIP",
+                    "ScenarioMIP",
                     "VIACSAB"
                 ],
                 "cohort":[
