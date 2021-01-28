@@ -100,7 +100,7 @@ def build_cv_file(cmip6_cv_dir, output_dir):
     f.close()
 
 def main():
-    parser = argparse.ArgumentParser(description="Create CMIP6_CV.json from the WCRP-CMIP/CMIP6_CVs repo at https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/master/")
+    parser = argparse.ArgumentParser(description="Create CMIP6_CV.json from the WCRP-CMIP/CMIP6_CVs repo at https://github.com/PCMDI/cmip6-cmor-tables")
     parser.add_argument("--cmip6_cv_dir", "-c", dest="cmip6_cv_dir", type=str, default='./CMIP6_CVs', help="WCRP CMIP6 CV directory (default is ./CMIP6_CVs)")
     parser.add_argument("--output_dir", "-o", dest="output_dir", type=str, default=os.path.curdir, help="Output directory (default is current directory)")
     args = parser.parse_args()
