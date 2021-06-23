@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Mon May 24 13:48:15 2021 00100",
-            "CV_collection_version":"6.2.56.0",
-            "author":"Matthew Mizielinski <matthew.mizielinski@metoffice.gov.uk>",
+            "CV_collection_modified":"Mon Jun 21 11:28:21 2021 -0700",
+            "CV_collection_version":"6.2.56.2",
+            "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
-            "institution_id":"MOHC",
-            "previous_commit":"ef9167f2b9517c2879be1835cf4dfcfb988e9669",
+            "institution_id":"PCMDI",
+            "previous_commit":"66344226746627e0b6c12db974666126c343ce27",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1753,6 +1753,32 @@
                 ],
                 "source_id":"IPSL-CM6A-LR-INCA",
                 "source":"IPSL-CM6A-LR-INCA (2019): \naerosol: INCA v6 AER\natmos: LMDZ (NPv6 ; 144 x 143 longitude/latitude; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.0, Water/Carbon/Energy mode)\nlandIce: none\nocean: NEMO-OPA (eORCA1.3, tripolar primarily 1deg; 362 x 332 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: NEMO-PISCES\nseaIce: NEMO-LIM3"
+            },
+            "IPSL-CM6A-MR025":{
+                "activity_participation":[
+                    "CMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM6A-MR025",
+                "source":"IPSL-CM6A-MR025 (2021): \naerosol: none\natmos: LMDZ (NPv6; 256 x 256 longitude/latitude; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode; same grid as atmos)\nlandIce: none\nocean: NEMO-OPA (eORCA025, tripolar primarily 0.25deg; 1442 x 1207 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: NEMO-LIM3 (same grid as ocean)"
+            },
+            "IPSL-CM6A-MR1":{
+                "activity_participation":[
+                    "CMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM6A-MR1",
+                "source":"IPSL-CM6A-MR1 (2021): \naerosol: none\natmos: LMDZ (NPv6; 256 x 256 longitude/latitude; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode; same grid as atmos)\nlandIce: none\nocean: NEMO-OPA (eORCA1.3, tripolar primarily 1deg; 362 x 332 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: NEMO-PISCES (same grid as ocean)\nseaIce: NEMO-LIM3 (same grid as ocean)"
             },
             "IPSL-CM7A-ATM-HR":{
                 "activity_participation":[
