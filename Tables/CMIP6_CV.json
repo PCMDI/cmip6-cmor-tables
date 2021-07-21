@@ -843,6 +843,7 @@
                 "activity_participation":[
                     "CFMIP",
                     "CMIP",
+                    "PAMIP",
                     "ScenarioMIP"
                 ],
                 "cohort":[
