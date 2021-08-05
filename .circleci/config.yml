@@ -118,11 +118,11 @@ workflows:
       - linux_cmip6
   cv_update:
     triggers:
-      - schedule:
-          cron: "*/10 * * * *"
-          filters:
-            branches:
-              only:
-                - cron_test
+      schedule:
+        cron: "*/10 * * * *"
+        filters:
+          branches:
+            only:
+              - cron_test
     jobs:
       - cmip6_cv_update
