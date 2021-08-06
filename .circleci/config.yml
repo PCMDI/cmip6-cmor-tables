@@ -57,10 +57,11 @@ aliases:
        python run_tests.py -v2 -H -n1 Test/test_python_CMIP6_CV*.py
 
   - &update_cv_json
-    name: run_prepare_tests
+    name: update_cv_json
     command: |
-      export PATH=$WORKDIR/miniconda/bin:$PATH
+      export PATH=$(pwd)/miniconda/bin:$PATH
       python -V
+      git branch
       git pull origin master
       cd scripts
       python createCMIP6CV.py
@@ -119,7 +120,7 @@ workflows:
   cv_update:
     triggers:
       - schedule:
-          cron: "0 0 * * *"
+          cron: "45 0 * * *"
           filters:
             branches:
               only:
