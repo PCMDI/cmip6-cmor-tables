@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-from __future__ import print_function
 import os
 import sys
 import json
 import pdb
-import requests
+import urllib.request
 from collections import OrderedDict
 
 
@@ -63,10 +62,11 @@ class readWCRP():
     def readGit(self):
         Dico = OrderedDict()
         for file in filelist:
-            url = githubRepo + file 
-            response = requests.get(url)
+            url = githubRepo + file
             print(url)
-            urlJson = response.content.decode('utf-8')
+            req = urllib.request.Request(url)
+            with urllib.request.urlopen(req) as response:
+                urlJson = response.read().decode()
             myjson = json.loads(urlJson, object_pairs_hook=OrderedDict)
             if(file == 'CMIP6_source_id.json'):
                 self.createSource(myjson)
