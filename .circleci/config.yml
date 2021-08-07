@@ -59,14 +59,12 @@ aliases:
   - &update_cv_json
     name: update_cv_json
     command: |
-      export PATH=$(pwd)/miniconda/bin:$PATH
+      export PATH=$WORKDIR/miniconda/bin:$PATH
       python -V
       git branch
       git pull origin master
-      cd scripts
-      python createCMIP6CV.py
-      cd ..
-      mv scripts/CMIP6_CV.json  Tables
+      python scripts/createCMIP6CV.py
+      mv CMIP6_CV.json  Tables
       msg="cron: update CMIP6_CV -- "`date +%Y-%m-%dT%H:%M`
       echo $msg
 
@@ -120,7 +118,7 @@ workflows:
   cv_update:
     triggers:
       - schedule:
-          cron: "45 0 * * *"
+          cron: "55 0 * * *"
           filters:
             branches:
               only:
