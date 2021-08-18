@@ -60,13 +60,15 @@ aliases:
     name: update_cv_json
     command: |
       export PATH=$WORKDIR/miniconda/bin:$PATH
-      python -V
-      git branch
+      git config user.email "$GITHUB_EMAIL"
+      git config user.name "$GITHUB_USERNAME"
       git pull origin master
       python scripts/createCMIP6CV.py
       mv CMIP6_CV.json  Tables
       msg="cron: update CMIP6_CV -- "`date +%Y-%m-%dT%H:%M`
       echo $msg
+      git commit -am "$msg"
+      git push
 
 jobs:
   macos_cmip6:
@@ -105,6 +107,9 @@ jobs:
       UVCDAT_ANONYMOUS_LOG: "False"
       OS: "linux-64"
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "e4:9d:bc:5c:12:0b:3c:84:3c:34:f3:18:6e:4d:ce:f2"
       - checkout
       - run: *setup_miniconda
       - run: *update_cv_json
