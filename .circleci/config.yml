@@ -107,9 +107,6 @@ jobs:
       UVCDAT_ANONYMOUS_LOG: "False"
       OS: "linux-64"
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "e4:9d:bc:5c:12:0b:3c:84:3c:34:f3:18:6e:4d:ce:f2"
       - checkout
       - run: *setup_miniconda
       - run: *update_cv_json
