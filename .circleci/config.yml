@@ -65,10 +65,15 @@ aliases:
       git pull origin master
       python scripts/createCMIP6CV.py
       mv CMIP6_CV.json  Tables
-      msg="cron: update CMIP6_CV -- "`date +%Y-%m-%dT%H:%M`
-      echo $msg
-      git commit -am "$msg"
-      git push
+      if [[ $(git status --porcelain -uno) ]]; then
+        msg="cron: update CMIP6_CV -- "`date +%Y-%m-%dT%H:%M`
+        echo $msg
+        git commit -am "$msg"
+        git push
+      else
+        echo "No changes to commit."
+      fi
+
 
 jobs:
   macos_cmip6:
@@ -120,7 +125,7 @@ workflows:
   cv_update:
     triggers:
       - schedule:
-          cron: "55 0 * * *"
+          cron: "30 23 * * *"
           filters:
             branches:
               only:
