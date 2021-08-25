@@ -128,7 +128,7 @@ workflows:
   cv_update:
     triggers:
       - schedule:
-          cron: "45 23 * * *"
+          cron: "48 0 * * *"
           filters:
             branches:
               only:
