@@ -112,6 +112,9 @@ jobs:
       UVCDAT_ANONYMOUS_LOG: "False"
       OS: "linux-64"
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - $GITHUB_SSH_KEY_FINGERPRINT
       - checkout
       - run: *setup_miniconda
       - run: *update_cv_json
@@ -125,7 +128,7 @@ workflows:
   cv_update:
     triggers:
       - schedule:
-          cron: "30 23 * * *"
+          cron: "45 23 * * *"
           filters:
             branches:
               only:
