@@ -114,7 +114,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - $GITHUB_SSH_KEY_FINGERPRINT
+            - "76:c6:e3:80:90:dd:61:cb:ec:9b:0b:41:24:bf:77:93"
       - checkout
       - run: *setup_miniconda
       - run: *update_cv_json
@@ -128,7 +128,7 @@ workflows:
   cv_update:
     triggers:
       - schedule:
-          cron: "48 0 * * *"
+          cron: "5 1 * * *"
           filters:
             branches:
               only:
