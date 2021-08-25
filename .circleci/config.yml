@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 
 checkout:
   post:
@@ -114,7 +114,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "76:c6:e3:80:90:dd:61:cb:ec:9b:0b:41:24:bf:77:93"
+            - "$GITHUB_SSH_KEY_FINGERPRINT"
       - checkout
       - run: *setup_miniconda
       - run: *update_cv_json
