@@ -69,7 +69,7 @@ aliases:
         msg="cron: update CMIP6_CV -- "`date +%Y-%m-%dT%H:%M`
         echo $msg
         git commit -am "$msg"
-        git push
+        git push --set-upstream origin cron_test
       else
         echo "No changes to commit."
       fi
