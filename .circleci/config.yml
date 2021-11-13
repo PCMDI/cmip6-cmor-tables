@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 
 checkout:
   post:
@@ -56,6 +56,25 @@ aliases:
        export PYTHONPATH=Test
        python run_tests.py -v2 -H -n1 Test/test_python_CMIP6_CV*.py
 
+  - &update_cv_json
+    name: update_cv_json
+    command: |
+      export PATH=$WORKDIR/miniconda/bin:$PATH
+      git config user.email "$GITHUB_EMAIL"
+      git config user.name "$GITHUB_USERNAME"
+      git pull origin master
+      python scripts/createCMIP6CV.py
+      mv CMIP6_CV.json  Tables
+      if [[ $(git status --porcelain -uno) ]]; then
+        msg="cron: update CMIP6_CV -- "`date +%Y-%m-%dT%H:%M`
+        echo $msg
+        git commit -am "$msg"
+        git push --set-upstream origin cron_test
+      else
+        echo "No changes to commit."
+      fi
+
+
 jobs:
   macos_cmip6:
     macos:
@@ -85,9 +104,34 @@ jobs:
       - run: *setup_cmor
       - run: *run_prepare_tests
 
+  cmip6_cv_update:
+    machine:
+      image: circleci/classic:latest
+    environment:
+      WORKDIR: "workspace/cv_update"
+      UVCDAT_ANONYMOUS_LOG: "False"
+      OS: "linux-64"
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "$GITHUB_SSH_KEY_FINGERPRINT"
+      - checkout
+      - run: *setup_miniconda
+      - run: *update_cv_json
+
 workflows:
   version: 2
   nightly:
     jobs:
       - macos_cmip6
       - linux_cmip6
+  cv_update:
+    triggers:
+      - schedule:
+          cron: "15 1 * * *"
+          filters:
+            branches:
+              only:
+                - cron_test
+    jobs:
+      - cmip6_cv_update
