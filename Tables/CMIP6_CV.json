@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Nov 11 08:36:03 2021 -0800",
-            "CV_collection_version":"6.2.56.5",
+            "CV_collection_modified":"Tue Dec  7 22:13:33 2021 -0800",
+            "CV_collection_version":"6.2.56.6",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"c76821b165b3dfa3e9021d8548832cf2f9256e31",
+            "previous_commit":"76d57018548b1e970e21d7426ff96d615b1569d3",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -2414,6 +2414,20 @@
                 ],
                 "source_id":"TaiESM1-TIMCOM",
                 "source":"TaiESM1-TIMCOM (2020): \naerosol: SNAP (same grid as atmos)\natmos: TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)\natmosChem: SNAP (same grid as atmos)\nland: CLM4.0 (same grid as atmos)\nlandIce: none\nocean: TIMCOM (TIMCOMv1.7, primarily 1deg; 360 x 288 longitude/latitude; 45 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4"
+            },
+            "TaiESM1-TIMCOM2":{
+                "activity_participation":[
+                    "CMIP",
+                    "OMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "NTU"
+                ],
+                "source_id":"TaiESM1-TIMCOM2",
+                "source":"TaiESM1-TIMCOM2 (2021): \naerosol: SNAP (same grid as atmos)\natmos: TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)\natmosChem: SNAP (same grid as atmos)\nland: CLM4.0 (same grid as atmos)\nlandIce: none\nocean: TIMCOM (TIMCOMv2.2, primarily 1deg; 320 x 288 longitude/latitude; 55 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4 (same grid as ocean)"
             },
             "UKESM1-0-LL":{
                 "activity_participation":[
