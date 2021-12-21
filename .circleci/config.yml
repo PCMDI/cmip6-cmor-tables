@@ -78,7 +78,7 @@ aliases:
 jobs:
   macos_cmip6:
     macos:
-      xcode: "11.1.0"
+      xcode: "13.2.0"
     environment:
       WORKDIR: "workspace/test_macos_cmor"
       UVCDAT_ANONYMOUS_LOG: "False"
