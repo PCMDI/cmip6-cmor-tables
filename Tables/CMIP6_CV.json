@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Dec  7 22:13:33 2021 -0800",
-            "CV_collection_version":"6.2.56.6",
-            "author":"Paul J. Durack <durack1@llnl.gov>",
+            "CV_collection_modified":"Wed Jan 19 16:48:00 2022 00000",
+            "CV_collection_version":"6.2.56.7",
+            "author":"Matthew Mizielinski <matthew.mizielinski@metoffice.gov.uk>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
-            "institution_id":"PCMDI",
-            "previous_commit":"76d57018548b1e970e21d7426ff96d615b1569d3",
+            "institution_id":"MOHC",
+            "previous_commit":"0d11ab0b5c745f9a6824f63ef317458d62d7df53",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1710,6 +1710,50 @@
                 ],
                 "source_id":"IPSL-CM6A-ATM-HR",
                 "source":"IPSL-CM6A-ATM-HR (2018): \naerosol: none\natmos: LMDZ (NPv6, N256; 512 x 360 longitude/latitude; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.0, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "IPSL-CM6A-ATM-ICO-HR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":"Registered",
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM6A-ATM-ICO-HR",
+                "source":"IPSL-CM6A-ATM-ICO-HR (2021): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 256000-point icosahedral-hexagonal; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "IPSL-CM6A-ATM-ICO-LR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":"Registered",
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM6A-ATM-ICO-LR",
+                "source":"IPSL-CM6A-ATM-ICO-LR (2021): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 16000-point icosahedral-hexagonal; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "IPSL-CM6A-ATM-ICO-MR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":"Registered",
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM6A-ATM-ICO-MR",
+                "source":"IPSL-CM6A-ATM-ICO-MR (2021): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 64000-point icosahedral-hexagonal; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
+            "IPSL-CM6A-ATM-ICO-VHR":{
+                "activity_participation":[
+                    "HighResMIP"
+                ],
+                "cohort":"Registered",
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM6A-ATM-ICO-VHR",
+                "source":"IPSL-CM6A-ATM-ICO-VHR (2021): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 1024000-point icosahedral-hexagonal; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "IPSL-CM6A-LR":{
                 "activity_participation":[
