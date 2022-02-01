@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Jan 19 16:48:00 2022 00000",
-            "CV_collection_version":"6.2.56.7",
-            "author":"Matthew Mizielinski <matthew.mizielinski@metoffice.gov.uk>",
+            "CV_collection_modified":"Mon Jan 31 17:40:32 2022 -0800",
+            "CV_collection_version":"6.2.56.8",
+            "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
-            "institution_id":"MOHC",
-            "previous_commit":"0d11ab0b5c745f9a6824f63ef317458d62d7df53",
+            "institution_id":"PCMDI",
+            "previous_commit":"d7f05719bd9199b2a1fe05f83aaeb39442895f5d",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -851,7 +851,8 @@
                 ],
                 "institution_id":[
                     "E3SM-Project",
-                    "LLNL"
+                    "LLNL",
+                    "UCI"
                 ],
                 "source_id":"E3SM-1-0",
                 "source":"E3SM 1.0 (2018): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (v6.0, same grid as ocean)"
