@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Mon Jan 31 17:40:32 2022 -0800",
-            "CV_collection_version":"6.2.56.8",
+            "CV_collection_modified":"Fri Feb 18 16:16:09 2022 -0800",
+            "CV_collection_version":"6.2.56.10",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"d7f05719bd9199b2a1fe05f83aaeb39442895f5d",
+            "previous_commit":"ba0173c3a83bb3df5034bf2c5739cc0eb3237622",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -843,6 +843,7 @@
                 "activity_participation":[
                     "CFMIP",
                     "CMIP",
+                    "DAMIP",
                     "PAMIP",
                     "ScenarioMIP"
                 ],
@@ -1756,6 +1757,19 @@
                 "source_id":"IPSL-CM6A-ATM-ICO-VHR",
                 "source":"IPSL-CM6A-ATM-ICO-VHR (2021): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 1024000-point icosahedral-hexagonal; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
+            "IPSL-CM6A-ATM-LR-REPROBUS":{
+                "activity_participation":[
+                    "AerChemMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "IPSL"
+                ],
+                "source_id":"IPSL-CM6A-ATM-LR-REPROBUS",
+                "source":"IPSL-CM6A-ATM-LR-REPROBUS (2021): \naerosol: LMDZ (NPv6 ; 144 x 143 longitude/latitude; 79 levels; top level 80000 m)\natmos: LMDZ (NPv6 ; 144 x 143 longitude/latitude; 79 levels; top level 80000 m)\natmosChem: REPROBUS v6 (same grid as atmos)\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
+            },
             "IPSL-CM6A-LR":{
                 "activity_participation":[
                     "C4MIP",
@@ -1825,32 +1839,6 @@
                 ],
                 "source_id":"IPSL-CM6A-MR1",
                 "source":"IPSL-CM6A-MR1 (2021): \naerosol: none\natmos: LMDZ (NPv6; 256 x 256 longitude/latitude; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode; same grid as atmos)\nlandIce: none\nocean: NEMO-OPA (eORCA1.3, tripolar primarily 1deg; 362 x 332 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: NEMO-PISCES (same grid as ocean)\nseaIce: NEMO-LIM3 (same grid as ocean)"
-            },
-            "IPSL-CM7A-ATM-HR":{
-                "activity_participation":[
-                    "HighResMIP"
-                ],
-                "cohort":[
-                    "Registered"
-                ],
-                "institution_id":[
-                    "IPSL"
-                ],
-                "source_id":"IPSL-CM7A-ATM-HR",
-                "source":"IPSL-CM7A-ATM-HR (2019): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 256000-point icosahedral-hexagonal; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
-            },
-            "IPSL-CM7A-ATM-LR":{
-                "activity_participation":[
-                    "HighResMIP"
-                ],
-                "cohort":[
-                    "Registered"
-                ],
-                "institution_id":[
-                    "IPSL"
-                ],
-                "source_id":"IPSL-CM7A-ATM-LR",
-                "source":"IPSL-CM7A-ATM-LR (2019): \naerosol: none\natmos: DYNAMICO-LMDZ (NPv6; 16000-point icosahedral-hexagonal; 79 levels; top level 80000 m)\natmosChem: none\nland: ORCHIDEE (v2.2, Water/Carbon/Energy mode)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "KACE-1-0-G":{
                 "activity_participation":[
