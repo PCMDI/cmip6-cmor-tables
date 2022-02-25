@@ -92,7 +92,7 @@ jobs:
 
   linux_cmip6:
     machine:
-      image: circleci/classic:latest
+      image: ubuntu-2004:202201-02
     environment:
       WORKDIR: "workspace/test_linux_cmor"
       UVCDAT_ANONYMOUS_LOG: "False"
@@ -106,7 +106,7 @@ jobs:
 
   cmip6_cv_update:
     machine:
-      image: circleci/classic:latest
+      image: ubuntu-2004:202201-02
     environment:
       WORKDIR: "workspace/cv_update"
       UVCDAT_ANONYMOUS_LOG: "False"
