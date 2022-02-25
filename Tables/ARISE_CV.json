@@ -9,7 +9,6 @@
             "experiment_id",
             "forcing_index",
             "frequency",
-            "further_info_url",
             "grid",
             "grid_label",
             "initialization_index",
@@ -2681,7 +2680,7 @@
             "fx"
         ],
         "license":[
-            "^ARISE data produced by .* is licensed under  Creative Commons Attribution 4.0 International License.$"
+            "^ARISE data produced by .* is licensed under the Creative Commons Attribution 4.0 International License.$"
         ],
         "mip_era":[
             "ARISE"
@@ -10624,10 +10623,7 @@
             "model-output"
         ],
         "tracking_id":[
-            ".*"
-        ],
-        "further_info_url":[
-            "https://furtherinfo.es-doc.org/.*"
+            "ARISE/.*"
         ],
         "realization_index":[
             "^\\[\\{0,\\}[[:digit:]]\\{1,\\}\\]\\{0,\\}$"
