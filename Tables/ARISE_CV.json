@@ -2680,7 +2680,7 @@
             "fx"
         ],
         "license":[
-            "^ARISE data produced by .* is licensed under the Creative Commons Attribution 4.0 International License.$"
+            "^ARISE data produced by MOHC is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$"
         ],
         "mip_era":[
             "ARISE"
