@@ -1,0 +1,191 @@
+{
+  "cycle_length": {
+    "ap4": "P5Y",
+    "ap5": "P5Y",
+    "apm": "P5Y",
+    "apu": "P5Y",
+    "ap6": "P1Y",
+    "ap7": "P3M",
+    "ap8": "P1Y",
+    "ap9": "P1Y",
+    "apt": "P3M",
+    "ind": "P1Y",
+    "inm": "P5Y",
+    "ond": "P1Y",
+    "onm": "P2Y"
+  },
+  "memory": {
+    "ap4": "12G",
+    "ap5": "8G",
+    "apm": "8G",
+    "apu": "8G",
+    "ap6": "30G",
+    "ap7": "32G",
+    "ap8": "24G",
+    "ap9": "64G",
+    "apt": "12G",
+    "ind": "8G",
+    "inm": "8G",
+    "ond": "32G",
+    "onm": "16G"
+  },
+  "temp_space": {
+    "ap4": 98304,
+    "ap5": 40960,
+    "apm": 8192,
+    "apu": 20480,
+    "ap6": 98304,
+    "ap7": 65536,
+    "ap8": 32768,
+    "ap9": 32768,
+    "apt": 32768,
+    "ind": 8192,
+    "inm": 8192,
+    "ond": 32768,
+    "onm": 32768
+  },
+  "sizing_info": {
+    "mon": {
+      "default": 100,
+      "85-144-192": 50,
+      "85-145-192": 50,
+      "86-144-192": 50,
+      "75-330-360": 50
+    },
+    "monPt": {
+      "default": 100,
+      "85-144-192": 50,
+      "85-145-192": 50,
+      "86-144-192": 50,
+      "75-330-360": 50
+    },
+    "yr": {
+      "default": 100
+    },
+    "yrPt": {
+      "default": 100
+    },
+    "day": {
+      "default": 20,
+      "144-192": 100,
+      "145-192": 100,
+      "19-144-192": 20,
+      "19-145-192": 20,
+      "8-144-192": 50,
+      "8-145-192": 50,
+      "27-144-192": 5,
+      "4-144-192": 10,
+      "5-144-192": 10,
+      "7-144-192": 20,
+      "7-7-144-192": 2,
+      "330-360": 50,
+      "40-144-192": 20,
+      "85-144-192": 10,
+      "85-145-192": 10,
+      "86-144-192": 10
+    },
+    "6hr": {
+      "default": 10,
+      "144-192": 50,
+      "145-192": 50,
+      "4-144-192": 10,
+      "4-145-192": 10,
+      "3-144-192": 20,
+      "3-145-192": 20,
+      "7-144-192": 10,
+      "7-145-192": 10,
+      "85-144-192": 1,
+      "85-145-192": 1
+    },
+    "6hrPt": {
+      "default": 10,
+      "144-192": 50,
+      "145-192": 50,
+      "4-144-192": 10,
+      "4-145-192": 10,
+      "3-144-192": 20,
+      "3-145-192": 20,
+      "7-144-192": 10,
+      "7-145-192": 10,
+      "85-144-192": 1,
+      "85-145-192": 1
+    },
+    "3hr": {
+      "default": 10,
+      "144-192": 50,
+      "145-192": 50,
+      "7-144-192": 10,
+      "7-145-192": 10,
+      "85-144-192": 1,
+      "85-145-192": 1
+    },
+    "3hrPt": {
+      "default": 10,
+      "144-192": 50,
+      "145-192": 50,
+      "7-144-192": 10,
+      "7-145-192": 10,
+      "85-144-192": 1,
+      "85-145-192": 1
+    },
+    "1hr": {
+      "default": 10
+    },
+    "1hrCM": {
+      "default": 10
+    },
+    "subhrPt": {
+      "default": 10
+    }
+  },
+  "subdaily_streams": ["ap6", "ap7", "ap8", "ap9", "apt"],
+  "grid_info": {
+    "atmos": {
+      "model_info": "N96 grid",
+      "nominal_resolution": "250 km",
+      "longitude": 192,
+      "latitude": 144,
+      "v_latitude": 145,
+      "levels": 85,
+      "ancil_filenames": [
+        "qrparm.landfrac.pp", "qrparm.soil.pp"
+      ],
+      "hybrid_heights_files": [
+        "atmosphere_theta_levels_85.txt",
+        "atmosphere_rho_levels_86.txt"
+      ]
+    },
+    "ocean": {
+      "model_info": "eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics",
+      "nominal_resolution": "100 km",
+      "longitude": 360,
+      "latitude": 330,
+      "levels": 75,
+      "replacement_coordinates_file": "cice_eORCA1_coords.nc",
+      "ancil_filenames": [
+        "ocean_constants.nc", "ocean_byte_masks.nc", "ocean_basin.nc", "diaptr_basin_masks.nc", "ocean_zostoga.nc"
+      ],
+      "hybrid_heights_files": [],
+      "masked": {
+        "grid-V": {
+          "slice_latitude": [-1, null, null],
+          "slice_longitude": [180, null, null]
+        },
+        "cice-U": {
+          "slice_latitude": [-1, null, null],
+          "slice_longitude": [180, null, null]
+        }
+      },
+      "halo_options": {
+        "grid-T": ["-dx,1,360", "-dy,1,330"],
+        "grid-U": ["-dx,1,360", "-dy,1,330"],
+        "grid-V": ["-dx,1,360", "-dy,1,330"],
+        "grid-W": ["-dx,1,360", "-dy,1,330"],
+        "diad-T": ["-dx,1,360", "-dy,1,330"],
+        "ptrc-T": ["-dx,1,360", "-dy,1,330"],
+        "ptrd-T": ["-dx,1,360", "-dy,1,330"],
+        "diaptr": ["-dy,1,330"]
+      }
+    }
+  }
+}
