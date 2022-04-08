@@ -1,5 +1,5 @@
 """
-A Sample module for Adding a new project to CDDS.
+A Sample module for Adding a new project to CDDS, updated for CDDS v2.2.3.
 
 This will require MIP tables and CVs and an appropriate request JSON file.
 
@@ -14,18 +14,15 @@ from typing import Type
 from cdds_common.cdds_plugins.grid import GridLabel
 from cdds_common.cdds_plugins.models import ModelParameters
 from cdds_common.cdds_plugins.plugins import CddsPlugin
-try:
-    from cdds_common.cdds_plugins.common import LoadResults
-except ModuleNotFoundError:
-    from cdds_common.cdds_plugins.cmip.common import LoadResults
+from cdds_common.cdds_plugins.common import LoadResults
 
-from cdds_common.cdds_plugins.cmip.cmip_models import CmipModelStore
+from cdds_common.cdds_plugins.base.base_models import BaseModelStore
 
-from cdds_common.cdds_plugins.cmip.cmip6.cmip6_models import (
+from cdds_common.cdds_plugins.cmip6.cmip6_models import (
     UKESM1_0_LL_Params, HadGEM3_GC31_LL_Params)
-from cdds_common.cdds_plugins.cmip.cmip6.cmip6_grid import Cmip6GridLabel
-from cdds_common.cdds_plugins.cmip.cmip6.cmip6_models import Cmip6ModelsStore
-import cdds_common.cdds_plugins.cmip.cmip6 as cmip6
+from cdds_common.cdds_plugins.cmip6.cmip6_grid import Cmip6GridLabel
+from cdds_common.cdds_plugins.cmip6.cmip6_models import Cmip6ModelsStore
+import cdds_common.cdds_plugins.cmip6 as cmip6
 
 
 class ArisePlugin(CddsPlugin):
@@ -46,7 +43,7 @@ class ArisePlugin(CddsPlugin):
         return Cmip6GridLabel
 
 
-class AriseModelStore(CmipModelStore):
+class AriseModelStore(BaseModelStore):
 
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
