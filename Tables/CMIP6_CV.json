@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue May 24 11:20:06 2022 -0700",
-            "CV_collection_version":"6.2.57.0",
-            "author":"Paul J. Durack <durack1@llnl.gov>",
+            "CV_collection_modified":"Thu May 26 11:27:09 2022 -0700",
+            "CV_collection_version":"6.2.57.1",
+            "author":"Matthew Mizielinski <matthew.mizielinski@metoffice.gov.uk>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
-            "institution_id":"PCMDI",
-            "previous_commit":"9d190e9404ae29cac4aed8e0d2fa62b85d6a1157",
+            "institution_id":"MOHC",
+            "previous_commit":"3c94649865cf3770f32a645212cfc8a6b946e434",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -3409,7 +3409,7 @@
                     "ScenarioMIP"
                 ],
                 "cohort":[
-                    "Registered"
+                    "Published"
                 ],
                 "institution_id":[
                     "MOHC",
@@ -3417,6 +3417,14 @@
                     "NIMS-KMA",
                     "NIWA"
                 ],
+                "license_info":{
+                    "exceptions_contact":"@metoffice.gov.uk <- cmip6.ukesm1",
+                    "history":"2022-05-04: initially published under CC BY-SA 4.0; 2022-05-04: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
+                    "source_specific_info":"https://ukesm.ac.uk/licensing-of-met-office-nerc-and-niwa-cmip6-data/",
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
+                },
                 "source_id":"UKESM1-1-LL",
                 "source":"UKESM1.1-LL (2021): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
             },
