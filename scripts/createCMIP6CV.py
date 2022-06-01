@@ -59,6 +59,14 @@ class readWCRP():
             del root[key]['description']
             del root[key]['min_number_yrs_per_sim']
 
+    def createLicense(self,myjson):
+        #
+        # Edit license template to be project-neutral
+        #
+        root = myjson['license']
+        root['license'] = root['license'].replace("<Your Institution; see CMIP6_institution_id.json>", 
+                                                  "<Your Institution's Name; see the institution_id section>")
+
     def readGit(self):
         Dico = OrderedDict()
         for file in filelist:
@@ -72,6 +80,8 @@ class readWCRP():
                 self.createSource(myjson)
             if(file == 'CMIP6_experiment_id.json'):
                 self.createExperimentID(myjson)
+            if(file == 'CMIP6_license.json'):
+                self.createLicense(myjson)
             Dico.update(myjson)
          
         finalDico = OrderedDict()
