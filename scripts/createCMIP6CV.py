@@ -21,6 +21,7 @@ filelist = [
         "CMIP6_realm.json",
         "CMIP6_table_id.json",
         "CMIP6_license.json",
+        "CMIP6_DRS.json",
         "mip_era.json",
         "CMIP6_sub_experiment_id.json",
         "CMIP6_experiment_id.json"
