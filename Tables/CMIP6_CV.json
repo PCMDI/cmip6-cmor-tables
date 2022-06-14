@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Fri Jun 10 12:11:44 2022 00100",
-            "CV_collection_version":"6.2.58.5",
-            "author":"Matthew Mizielinski <matthew.mizielinski@metoffice.gov.uk>",
+            "CV_collection_modified":"Mon Jun 13 14:57:00 2022 -0700",
+            "CV_collection_version":"6.2.58.6",
+            "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
-            "institution_id":"MOHC",
-            "previous_commit":"74e21fb23feb01085df4713363f7d5790cf8a379",
+            "institution_id":"PCMDI",
+            "previous_commit":"2789d65811260d4bc8faf7a5316bf67b9c6c13f9",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -2695,11 +2695,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@iis.u-tokyo.ac.jp <- onuma",
-                    "history":"2021-01-25: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2021-01-25: initially published under CC BY-SA 4.0; 2022-06-10: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"MIROC-ES2H",
                 "source":"MIROC-ES2H (2018): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0 (T42; 128 x 64 longitude/latitude; 81 levels; top level 0.004 hPa)\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
@@ -2717,11 +2717,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@iis.u-tokyo.ac.jp <- onuma",
-                    "history":"2020-04-28: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2020-04-28: initially published under CC BY-SA 4.0; 2022-06-10: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"MIROC-ES2H-NB",
                 "source":"MIROC-ES2H-NB (2019): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0 (T42; 128 x 64 longitude/latitude; 81 levels; top level 0.004 hPa)\nland: MATSIRO6\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: COCO4.9"
@@ -2749,11 +2749,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@iis.u-tokyo.ac.jp <- onuma",
-                    "history":"2019-08-23: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-08-23: initially published under CC BY-SA 4.0; 2022-06-10: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"MIROC-ES2L",
                 "source":"MIROC-ES2L (2018): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T42; 128 x 64 longitude/latitude; 40 levels; top level 3 hPa)\natmosChem: none\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
@@ -2785,11 +2785,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@iis.u-tokyo.ac.jp <- onuma",
-                    "history":"2018-12-12: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2018-12-12: initially published under CC BY-SA 4.0; 2022-06-10: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"MIROC6",
                 "source":"MIROC6 (2017): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: none\nland: MATSIRO6.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: COCO4.9"
@@ -3070,20 +3070,6 @@
                 },
                 "source_id":"NICAM16-8S",
                 "source":"NICAM16-8S (2017): \naerosol: Prescribed MACv2-SP\natmos: NICAM.16 (28km icosahedral grid; 655,362 grid cells (=10*4^8+2); 38 levels; top level 40 km)\natmosChem: none\nland: MATSIRO6 (w/o MOSAIC)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: Fixed"
-            },
-            "NICAM16-9D-L78":{
-                "activity_participation":[
-                    "CFMIP",
-                    "CMIP"
-                ],
-                "cohort":[
-                    "Registered"
-                ],
-                "institution_id":[
-                    "MIROC"
-                ],
-                "source_id":"NICAM16-9D-L78",
-                "source":"NICAM16-9D-L78 (2017): \naerosol: Prescribed MACv2-SP\natmos: NICAM.16 (14km icosahedral grid; 2,621,442 grid cells (=10*4^9+2); 78 levels; top level 40 km)\natmosChem: none\nland: MATSIRO6 (w/o MOSAIC)\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: Fixed"
             },
             "NICAM16-9S":{
                 "activity_participation":[
