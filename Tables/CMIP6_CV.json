@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Jun 15 16:47:10 2022 -0700",
-            "CV_collection_version":"6.2.58.8",
+            "CV_collection_modified":"Thu Jun 16 11:57:41 2022 -0700",
+            "CV_collection_version":"6.2.58.10",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"bfd3878ce4a72a51dd647583ae21edd24d6be474",
+            "previous_commit":"98ede0aa8b9151f18ec41388ab5a0c8c01d3a49e",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -73,7 +73,6 @@
             "AS-RCEC":"Research Center for Environmental Changes, Academia Sinica, Nankang, Taipei 11529, Taiwan",
             "AWI":"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Am Handelshafen 12, 27570 Bremerhaven, Germany",
             "BCC":"Beijing Climate Center, Beijing 100081, China",
-            "BNU":"Beijing Normal University, Beijing 100875, China",
             "CAMS":"Chinese Academy of Meteorological Sciences, Beijing 100081, China",
             "CAS":"Chinese Academy of Sciences, Beijing 100029, China",
             "CCCR-IITM":"Centre for Climate Change Research, Indian Institute of Tropical Meteorology Pune, Maharashtra 411 008, India",
@@ -469,27 +468,6 @@
                 "source_id":"BESM-2-9",
                 "source":"BESM 2.9 (2019): \naerosol: none\natmos: BAM (v1.0, T062L42; 192 x 96 longitude/latitude; 42 levels; top level 3 hPa)\natmosChem: none\nland: SSiB 2.0\nlandIce: none\nocean: MOM-5 (MOM5, tripolar, primarily 1 deg, 1/4 deg between 22.5S-22.5N, downgrading from 1/4 deg at 22.5N(S) to 1 deg at 45N(S), 1 deg between 22.5N(S) and 45N(S), upgrading from 1 deg at 45N(S) to 0.5 deg at 90N(S) ; 360 x 192 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: TOPAZ 2.0\nseaIce: SIS 1.0"
             },
-            "BNU-ESM-1-1":{
-                "activity_participation":[
-                    "C4MIP",
-                    "CDRMIP",
-                    "CFMIP",
-                    "CMIP",
-                    "GMMIP",
-                    "GeoMIP",
-                    "OMIP",
-                    "RFMIP",
-                    "ScenarioMIP"
-                ],
-                "cohort":[
-                    "Registered"
-                ],
-                "institution_id":[
-                    "BNU"
-                ],
-                "source_id":"BNU-ESM-1-1",
-                "source":"BNU-ESM 1.1 (2016): \naerosol: CAM-chem; semi-interactive\natmos: CAM4 (2deg; 144 x 96 longitude/latitude; 26 levels; top level 2.194 mb)\natmosChem: none\nland: CoLM version 2014 with carbon-nitrogen interactions\nlandIce: none\nocean: MOM4p1 (tripolar, primarily 1deg latitude/longitude, down to 1/3deg within 30deg of the equatorial tropics; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: Dynamic ecosystem-carbon model version 1\nseaIce: CICE4.1"
-            },
             "CAM-MPAS-HR":{
                 "activity_participation":[
                     "HighResMIP"
@@ -593,11 +571,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@ucar.edu <- cesm_cmip6",
-                    "history":"2019-10-07: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-10-07: initially published under CC BY-SA 4.0; 2022-06-16: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CESM1-1-CAM5-CMIP5",
                 "source":"CESM1-1-CAM5-CMIP5 (2011): \naerosol: MAM3 (same grid as atmos)\natmos: CAM5.2 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 32 levels; top level 2.25 mb)\natmosChem: MAM3 (same grid as atmos)\nland: CLM4 (same grid as atmos)\nlandIce: none\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (same grid as ocean)\nseaIce: CICE4 (same grid as ocean)"
@@ -614,11 +592,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@ucar.edu <- cesm_cmip6",
-                    "history":"2020-07-24: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2020-07-24: initially published under CC BY-SA 4.0; 2022-06-16: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CESM1-CAM5-SE-HR",
                 "source":"CESM1-CAM5-SE-HR (2012): \naerosol: MAM3 (same grid as atmos)\natmos: CAM5.2 (0.25 degree spectral element; 777602 cells; 30 levels; top level 2.25 mb)\natmosChem: MAM3 (same grid as atmos)\nland: CLM4 (same grid as atmos)\nlandIce: none\nocean: POP2 (3600x2400 longitude/latitude; 62 levels; top grid cell 0-10 m)\nocnBgchem: \"BEC (same grid as ocean)\nseaIce: CICE4 (same grid as ocean)"
@@ -635,11 +613,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@ucar.edu <- cesm_cmip6",
-                    "history":"2020-07-08: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2020-07-08: initially published under CC BY-SA 4.0; 2022-06-16: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CESM1-CAM5-SE-LR",
                 "source":"CESM1-CAM5-SE-LR (2012): \naerosol: MAM3 (same grid as atmos)\natmos: CAM5.2 (1 degree spectral element; 48602 cells; 30 levels; top level 2.25 mb)\natmosChem: MAM3 (same grid as atmos)\nland: CLM4 (same grid as atmos)\nlandIce: none\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: \"BEC (same grid as ocean)\nseaIce: CICE4 (same grid as ocean)"
@@ -657,11 +635,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@ucar.edu <- cesm_cmip6",
-                    "history":"2020-10-12: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2020-10-12: initially published under CC BY-SA 4.0; 2022-06-16: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CESM1-WACCM-SC",
                 "source":"CESM1-WACCM-SC (2011): \naerosol: MOZART-specified (same grid as atmos)\natmos: WACCM4 (1.9x2.5 finite volume grid; 144 x 96 longitude/latitude; 66 levels; top level 5.9e-06 mb)\natmosChem: MOZART-specified (same grid as atmos)\nland: CLM4.0\nlandIce: none\nocean: POP2 (320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (same grid as ocean)\nseaIce: CICE4 (same as grid as ocean)"
@@ -702,11 +680,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@ucar.edu <- cesm_cmip6",
-                    "history":"2019-02-18: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-02-18: initially published under CC BY-SA 4.0; 2022-06-16: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CESM2",
                 "source":"CESM2 (2018): \naerosol: MAM4 (same grid as atmos)\natmos: CAM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 32 levels; top level 2.25 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
@@ -723,28 +701,14 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@ucar.edu <- cesm_cmip6",
-                    "history":"2019-11-20: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-11-20: initially published under CC BY-SA 4.0; 2022-06-16: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CESM2-FV2",
                 "source":"CESM2-FV2 (2019): \naerosol: MAM4 (same grid as atmos)\natmos: CAM6 (1.9x2.5 finite volume grid; 144 x 96 longitude/latitude; 32 levels; top level 2.25 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
-            },
-            "CESM2-SE":{
-                "activity_participation":[
-                    "CMIP",
-                    "HighResMIP"
-                ],
-                "cohort":[
-                    "Registered"
-                ],
-                "institution_id":[
-                    "NCAR"
-                ],
-                "source_id":"CESM2-SE",
-                "source":"CESM2-SE (2019): \naerosol: MAM4 (same grid as atmos)\natmos: CAM6 (0.25 degree spectral element; 777602 cells; 30 levels; top level 2.25 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
             },
             "CESM2-WACCM":{
                 "activity_participation":[
@@ -762,11 +726,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@ucar.edu <- cesm_cmip6",
-                    "history":"2019-02-20: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-02-20: initially published under CC BY-SA 4.0; 2022-06-16: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CESM2-WACCM",
                 "source":"CESM2-WACCM (2018): \naerosol: MAM4 (same grid as atmos)\natmos: WACCM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-06 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
@@ -783,11 +747,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@ucar.edu <- cesm_cmip6",
-                    "history":"2019-11-20: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-11-20: initially published under CC BY-SA 4.0; 2022-06-16: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CESM2-WACCM-FV2",
                 "source":"CESM2-WACCM-FV2 (2019): \naerosol: MAM4 (same grid as atmos)\natmos: WACCM6 (1.9x2.5 finite volume grid; 144 x 96 longitude/latitude; 70 levels; top level 4.5e-06 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
