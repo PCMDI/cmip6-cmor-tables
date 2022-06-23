@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Jun 21 10:19:39 2022 -0700",
-            "CV_collection_version":"6.2.58.15",
+            "CV_collection_modified":"Wed Jun 22 14:54:07 2022 -0700",
+            "CV_collection_version":"6.2.58.16",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"9d3561be2ab0925a42fb40981d40948659d9be8b",
+            "previous_commit":"eea94af886a9fc3b0e8d98a35be9fb315418dedd",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -279,12 +279,12 @@
                     "AWI"
                 ],
                 "license_info":{
-                    "exceptions_contact":"@awi.de <- tido.semmler",
-                    "history":"2017-08-25: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "exceptions_contact":"@awi.de <- mip-contact",
+                    "history":"2017-08-25: initially published under CC BY-SA 4.0; 2022-06-22: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"AWI-CM-1-1-HR",
                 "source":"AWI-CM 1.1 HR (2018): \naerosol: none\natmos: ECHAM6.3.04p1 (T127L95 native atmosphere T127 gaussian grid; 384 x 192 longitude/latitude; 95 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 1306775 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 1.4"
@@ -306,12 +306,12 @@
                     "AWI"
                 ],
                 "license_info":{
-                    "exceptions_contact":"@awi.de <- tido.semmler",
-                    "history":"2017-08-25: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "exceptions_contact":"@awi.de <- mip-contact",
+                    "history":"2017-08-25: initially published under CC BY-SA 4.0; 2022-06-22: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"AWI-CM-1-1-LR",
                 "source":"AWI-CM 1.1 LR (2018): \naerosol: none\natmos: ECHAM6.3.04p1 (T63L47 native atmosphere T63 gaussian grid; 192 x 96 longitude/latitude; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 126859 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 1.4"
@@ -333,12 +333,12 @@
                     "AWI"
                 ],
                 "license_info":{
-                    "exceptions_contact":"@awi.de <- tido.semmler",
-                    "history":"2018-12-18: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "exceptions_contact":"@awi.de <- mip-contact",
+                    "history":"2018-12-18: initially published under CC BY-SA 4.0; 2022-06-22: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"AWI-CM-1-1-MR",
                 "source":"AWI-CM 1.1 MR (2018): \naerosol: none\natmos: ECHAM6.3.04p1 (T127L95 native atmosphere T127 gaussian grid; 384 x 192 longitude/latitude; 95 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 830305 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 1.4"
@@ -355,12 +355,12 @@
                     "AWI"
                 ],
                 "license_info":{
-                    "exceptions_contact":"@awi.de <- tido.semmler",
-                    "history":"2020-02-12: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "exceptions_contact":"@awi.de <- mip-contact",
+                    "history":"2020-02-12: initially published under CC BY-SA 4.0; 2022-06-22: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"AWI-ESM-1-1-LR",
                 "source":"AWI-ESM 1.1 LR (2018): \naerosol: none\natmos: ECHAM6.3.04p1 (T63L47 native atmosphere T63 gaussian grid; 192 x 96 longitude/latitude; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20 with dynamic vegetation\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 126859 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 1.4"
@@ -376,6 +376,14 @@
                 "institution_id":[
                     "AWI"
                 ],
+                "license_info":{
+                    "exceptions_contact":"@awi.de <- mip-contact",
+                    "history":"",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
+                    "source_specific_info":"",
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
+                },
                 "source_id":"AWI-ESM-2-1-LR",
                 "source":"AWI-ESM 2.1 LR (2019): \naerosol: none\natmos: ECHAM6.3.04p1 (T63L47 native atmosphere T63 gaussian grid; 192 x 96 longitude/latitude; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20 with dynamic vegetation\nlandIce: none\nocean: FESOM 2 (unstructured grid in the horizontal with 126858 wet nodes; 48 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 2"
             },
