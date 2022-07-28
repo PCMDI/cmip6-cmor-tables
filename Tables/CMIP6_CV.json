@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Fri Jul  1 12:28:04 2022 -0700",
-            "CV_collection_version":"6.2.58.21",
+            "CV_collection_modified":"Wed Jul 27 22:52:48 2022 -0700",
+            "CV_collection_version":"6.2.58.26",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"6026179381057edcb5166c78e06f07ac65b87523",
+            "previous_commit":"7ed82e9e718d43adf65dc7f003bf9ad21b396e1d",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1103,6 +1103,30 @@
                 "source_id":"E3SM-1-1-ECA",
                 "source":"E3SM 1.1 ECA (2019): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.1, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.1, same as atmos; active biogeochemistry using the Equilibrium Chemistry Approximation to represent plant and soil carbon and nutrient mechanisms especially carbon, nitrogen and phosphorus limitation), MOSART (v1.1, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: BEC (Biogeochemical Elemental Cycling model, NPZD-type with C/N/P/Fe/Si/O; same grid as ocean)\nseaIce: MPAS-Seaice (v6.0; same grid as ocean)"
             },
+            "E3SM-2-0":{
+                "activity_participation":[
+                    "CFMIP",
+                    "CMIP",
+                    "DAMIP",
+                    "RFMIP",
+                    "ScenarioMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "E3SM-Project"
+                ],
+                "license_info":{
+                    "exceptions_contact":"@llnl.gov <- e3sm-data-support",
+                    "history":"",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
+                },
+                "source_id":"E3SM-2-0",
+                "source":"E3SM 2.0 (2022): \naerosol: MAM4 with new resuspension, marine organics, secondary organics, and dust (atmos grid)\natmos: EAM (v2.0, cubed sphere spectral-element grid; 5400 elements, 30x30 per cube face. Dynamics: degree 3 (p=3) polynomials within each spectral element, 112 km average resolution. Physics: 2x2 finite volume cells within each spectral element, 1.5 degree (168 km) average grid spacing; 72 vertical layers; top level 60 km)\natmosChem: Troposphere specified oxidants (except passive ozone with the lower boundary sink) for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (atmos grid)\nland: ELM (v1.0, satellite phenology mode, atmos grid), MOSART (v1.0, 0.5 degree latitude/longitude)\nlandIce: none\nocean: MPAS-Ocean (E3SMv2.0, EC30to60E2r2 unstructured SVTs mesh with 236853 cells, 719506 edges, variable resolution 60 to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (E3SMv2.0, ocean grid; 5 ice categories; 7 ice, 5 snow layers)"
+            },
             "EC-Earth3":{
                 "activity_participation":[
                     "CMIP",
@@ -1662,27 +1686,6 @@
                 },
                 "source_id":"GFDL-ESM4",
                 "source":"GFDL-ESM4 (2018): \naerosol: interactive\natmos: GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 49 levels; top level 1 Pa)\natmosChem: GFDL-ATMCHEM4.1 (full atmospheric chemistry)\nland: GFDL-LM4.1\nlandIce: GFDL-LM4.1\nocean: GFDL-OM4p5 (GFDL-MOM6, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 75 levels; top grid cell 0-2 m)\nocnBgchem: GFDL-COBALTv2\nseaIce: GFDL-SIM4p5 (GFDL-SIS2.0, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 5 layers; 5 thickness categories)"
-            },
-            "GFDL-GLOBAL-LBL":{
-                "activity_participation":[
-                    "RFMIP"
-                ],
-                "cohort":[
-                    "Registered"
-                ],
-                "institution_id":[
-                    "NOAA-GFDL"
-                ],
-                "license_info":{
-                    "exceptions_contact":"@noaa.gov <- gfdl.climate.model.info",
-                    "history":"",
-                    "id":"CC BY 4.0",
-                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
-                    "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by/4.0/"
-                },
-                "source_id":"GFDL-GLOBAL-LBL",
-                "source":"GFDL-GLOBAL-LBL (2019): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
             },
             "GFDL-GRTCODE":{
                 "activity_participation":[
