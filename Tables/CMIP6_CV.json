@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Jul 19 10:32:16 2022 -0700",
-            "CV_collection_version":"6.2.58.22",
+            "CV_collection_modified":"Wed Jul 27 15:21:21 2022 -0700",
+            "CV_collection_version":"6.2.58.23",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"a7d53e856cfe729db213aa8bb915382a4434f8b6",
+            "previous_commit":"e60b4241a1261066f9d7952f9a7e20e4425ab80a",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "activity_id":{
@@ -1123,7 +1123,7 @@
                     "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"E3SM-2-0",
-                "source":"E3SM 2.0 (2022): \naerosol: MAM4 with new features in resuspension, marine organics, secondary organics, and dust (same grid as atmos physics)\natmos: EAM (v2.0, cubed sphere spectral-element grid; 5400 elements, 30x30 per cube face. Dynamics: degree 3 (p=3) polynomials within each spectral element, 112 km average resolution. Physics: 2x2 finite volume cells within each spectral element, 1.5 degree (168 km) average grid spacing)\natmosChem: Troposphere specified oxidants (except passive ozone with the lower boundary sink) for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos physics)\nland: ELM (v1.0, same grid as atmos physics, satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (E3SMv2.0, EC30to60E2r2 unstructured SVTs mesh with 236853 cells and 719506 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (E3SMv2.0, EC30to60E2r2 unstructured SVTs mesh with 236853 cells and 719506 edges, variable resolution 60 km to 30 km; 5 ice categories, 7 ice layers, 5 snow layers)"
+                "source":"E3SM 2.0 (2022): \naerosol: MAM4 with new resuspension, marine organics, secondary organics, and dust (atmos grid)\natmos: EAM (v2.0, cubed sphere spectral-element grid; 5400 elements, 30x30 per cube face. Dynamics: degree 3 (p=3) polynomials within each spectral element, 112 km average resolution. Physics: 2x2 finite volume cells within each spectral element, 1.5 degree (168 km) average grid spacing; 72 vertical layers with top at 60 km)\natmosChem: Troposphere specified oxidants (except passive ozone with the lower boundary sink) for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (atmos grid)\nland: ELM (v1.0, satellite phenology mode, atmos grid), MOSART (v1.0, 0.5 degree latitude/longitude)\nlandIce: none\nocean: MPAS-Ocean (E3SMv2.0, EC30to60E2r2 unstructured SVTs mesh with 236853 cells and 719506 edges, variable resolution 60 to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (E3SMv2.0, ocean grid, variable resolution 60 to 30 km; 5 ice categories, 7 ice, 5 snow layers)"
             },
             "EC-Earth3":{
                 "activity_participation":[
