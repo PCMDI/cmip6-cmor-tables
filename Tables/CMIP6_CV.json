@@ -33,15 +33,18 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Jul 28 11:29:09 2022 -0700",
-            "CV_collection_version":"6.2.58.27",
+            "CV_collection_modified":"Fri Jul 29 11:30:59 2022 -0700",
+            "CV_collection_version":"6.2.58.28",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"d77fb264c7c50b791cbeea07f0d964aa102d90cb",
+            "previous_commit":"4b4c6271938b5e00b5050564ad2ef5d42032c114",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
+        "license":[
+            "^CMIP6 model data produced by .* is licensed under a Creative Commons .* License (https://creativecommons\\.org/.*)\\. *Consult https://pcmdi\\.llnl\\.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$"
+        ],
         "activity_id":{
             "AerChemMIP":"Aerosols and Chemistry Model Intercomparison Project",
             "C4MIP":"Coupled Climate Carbon Cycle Model Intercomparison Project",
@@ -764,11 +767,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@tsinghua.edu.cn <- yanluan",
-                    "history":"2019-12-02: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-12-02: initially published under CC BY-SA 4.0; 2022-07-27: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CIESM",
                 "source":"CIESM (2017): \naerosol: MAM4\natmos: CIESM-AM (FV/FD; 288 x 192 longitude/latitude; 30 levels; top level 2.255 hPa)\natmosChem: trop_mam4\nland: CIESM-LM (modified CLM4.5)\nlandIce: none\nocean: CIESM-OM (FD, SCCGrid Displaced Pole; 720 x 560 longitude/latitude; 46 levels; top grid cell 0-6 m)\nocnBgchem: none\nseaIce: CICE4"
@@ -3527,12 +3530,6 @@
             "SImon",
             "day",
             "fx"
-        ],
-        "license":[
-            "^CMIP6 model data produced by .* is licensed under a Creative Commons Attribution 4\\.0 International License (https://creativecommons\\.org/licenses/by/4\\.0/)\\. *Consult https://pcmdi\\.llnl\\.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$",
-            "^CMIP6 model data produced by .* is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4\\.0 International License (https://creativecommons\\.org/licenses/by-nc-sa/4\\.0/)\\. *Consult https://pcmdi\\.llnl\\.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$",
-            "^CMIP6 model data produced by .* is licensed under a Creative Commons Attribution-ShareAlike 4\\.0 International License (https://creativecommons\\.org/licenses/by-sa/4\\.0/)\\. *Consult https://pcmdi\\.llnl\\.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$",
-            "^CMIP6 model data produced by .* is licensed under a Creative Commons CC0 1\\.0 Universal Public Domain Dedication License (https://creativecommons\\.org/publicdomain/zero/1\\.0/)\\. *Consult https://pcmdi\\.llnl\\.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$"
         ],
         "DRS":{
             "directory_path_example":"CMIP6/CMIP/MOHC/HadGEM3-GC31-MM/historical/r1i1p1f3/Amon/tas/gn/v20191207/",
