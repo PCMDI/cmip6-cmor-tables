@@ -79,13 +79,13 @@ class readWCRP():
         # myjson['license'] = license_templates
 
         myjson['license'] =  [
-                                "^CMIP6 model data produced by .* is licensed under a Creative Commons .* License (https://creativecommons\\.org/.*)\\. \
-                                *Consult https://pcmdi\\.llnl\\.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation \
-                                requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via \
-                                the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, \
-                                either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All \
-                                liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest \
-                                extent permitted by law\\.$"
+                                "^CMIP6 model data produced by .* is licensed under a Creative Commons .* License (https://creativecommons\\.org/.*)\\. " \
+                                "*Consult https://pcmdi\\.llnl\\.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation " \
+                                "requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via " \
+                                "the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, " \
+                                "either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All " \
+                                "liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest " \
+                                "extent permitted by law\\.$"
                             ]
 
     def readGit(self):
