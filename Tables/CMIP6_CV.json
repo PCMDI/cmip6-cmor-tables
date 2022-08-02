@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Fri Jul 29 11:30:59 2022 -0700",
-            "CV_collection_version":"6.2.58.28",
+            "CV_collection_modified":"Mon Aug  1 13:45:17 2022 -0700",
+            "CV_collection_version":"6.2.58.29",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"4b4c6271938b5e00b5050564ad2ef5d42032c114",
+            "previous_commit":"1387223498e374e09f120e2f0b15290e1f7e6e0f",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "license":[
@@ -253,11 +253,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@uni-hamburg.de <- oliver.lemke",
-                    "history":"2019-06-20: initially published under CC BY-NC-SA 4.0",
-                    "id":"CC BY-NC-SA 4.0",
-                    "license":"Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/)",
+                    "history":"2019-06-20: initially published under CC BY-NC-SA 4.0; 2022-07-31: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"ARTS-2-3",
                 "source":"ARTS 2.3 (2015): \naerosol: none\natmos: none\natmosChem: none\nland: none\nlandIce: none\nocean: none\nocnBgchem: none\nseaIce: none"
