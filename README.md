@@ -1,6 +1,6 @@
 # ARISE SAI project
 
-A project description and other details are available via the wiki in this repository.
+A project description and other details are available via the [wiki](https://github.com/MetOffice/arise-cmor-tables/wiki) in this repository.
 
 # CMOR tables for ARISE
 
