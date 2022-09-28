@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Tue Sep 27 16:59:28 2022 -0700",
-            "CV_collection_version":"6.2.58.39",
+            "CV_collection_modified":"Tue Sep 27 22:55:39 2022 -0700",
+            "CV_collection_version":"6.2.58.42",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"0048ecd216d31fc52afd0177788eeb0707a2289e",
+            "previous_commit":"c8ea4007a46a3c67d3414534312b628f34220660",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "license":[
@@ -400,11 +400,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@cma.gov.cn <- twwu",
-                    "history":"2020-07-21: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2020-07-21: initially published under CC BY-SA 4.0; 2022-09-28 relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"BCC-CSM2-HR",
                 "source":"BCC-CSM 2 HR (2017): \naerosol: none\natmos: BCC_AGCM3_HR (T266; 800 x 400 longitude/latitude; 56 levels; top level 0.1 hPa)\natmosChem: none\nland: BCC_AVIM2\nlandIce: none\nocean: MOM4 (1/3 deg 10S-10N, 1/3-1 deg 10-30 N/S, and 1 deg in high latitudes; 360 x 232 longitude/latitude; 40 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: SIS2"
@@ -430,11 +430,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@cma.gov.cn <- twwu",
-                    "history":"2018-10-09: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2018-10-09: initially published under CC BY-SA 4.0; 2022-09-28 relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"BCC-CSM2-MR",
                 "source":"BCC-CSM 2 MR (2017): \naerosol: none\natmos: BCC_AGCM3_MR (T106; 320 x 160 longitude/latitude; 46 levels; top level 1.46 hPa)\natmosChem: none\nland: BCC_AVIM2\nlandIce: none\nocean: MOM4 (1/3 deg 10S-10N, 1/3-1 deg 10-30 N/S, and 1 deg in high latitudes; 360 x 232 longitude/latitude; 40 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: SIS2"
@@ -452,11 +452,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@cma.gov.cn <- twwu",
-                    "history":"2018-11-14: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2018-11-14: initially published under CC BY-SA 4.0; 2022-09-28 relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"BCC-ESM1",
                 "source":"BCC-ESM 1 (2017): \naerosol: none\natmos: BCC_AGCM3_LR (T42; 128 x 64 longitude/latitude; 26 levels; top level 2.19 hPa)\natmosChem: BCC-AGCM3-Chem\nland: BCC_AVIM2\nlandIce: none\nocean: MOM4 (1/3 deg 10S-10N, 1/3-1 deg 10-30 N/S, and 1 deg in high latitudes; 360 x 232 longitude/latitude; 40 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: SIS2"
@@ -2509,12 +2509,12 @@
                     "NIMS-KMA"
                 ],
                 "license_info":{
-                    "exceptions_contact":"@korea.kr <- yoonjin.lim",
-                    "history":"2019-08-13: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "exceptions_contact":"@korea.kr <- sunghm122",
+                    "history":"2019-08-13: initially published under CC BY-SA 4.0; 2022-09-28 relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"KACE-1-0-G",
                 "source":"KACE1.0-G (2018): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: MOM4p1 (tripolar primarily 1deg; 360 x 200 longitude/latitude; 50 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE-HadGEM3-GSI8 (tripolar primarily 1deg; 360 x 200 longitude/latitude)"
@@ -2535,11 +2535,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@pknu.ac.kr <- yhokim",
-                    "history":"2019-11-04: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-11-04: initially published under CC BY-SA 4.0; 2022-09-28 relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"KIOST-ESM",
                 "source":"KIOST-ESM (2018): \naerosol: none\natmos: GFDL-AM2.0 (cubed sphere (C48); 192 x 96 longitude/latitude; 32 vertical levels; top level 2 hPa)\natmosChem: Simple carbon aerosol model (emission type)\nland: NCAR-CLM4\nlandIce: NCAR-CLM4\nocean: GFDL-MOM5.0 (tripolar - nominal 1.0 deg; 360 x 200 longitude/latitude; 52 levels; top grid cell 0-2 m; NK mixed layer scheme)\nocnBgchem: TOPAZ2\nseaIce: GFDL-SIS"
