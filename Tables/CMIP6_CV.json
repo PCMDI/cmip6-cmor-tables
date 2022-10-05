@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Thu Sep 29 16:36:20 2022 -0700",
-            "CV_collection_version":"6.2.58.44",
+            "CV_collection_modified":"Tue Oct  4 16:30:34 2022 -0700",
+            "CV_collection_version":"6.2.58.45",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"1a2291f6b77cbe34308d1502a44bcfa7b8483142",
+            "previous_commit":"f3ca8e9e89e0a3ab5b525839c9d58dc3ce871588",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "license":[
@@ -542,11 +542,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@mail.iap.ac.cn <- zhanghe",
-                    "history":"2020-03-01: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2020-03-01: initially published under CC BY-SA 4.0; 2022-10-04: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"CAS-ESM2-0",
                 "source":"CAS-ESM 2.0 (2019): \naerosol: IAP AACM\natmos: IAP AGCM 5.0 (Finite difference dynamical core; 256 x 128 longitude/latitude; 35 levels; top level 2.2 hPa)\natmosChem: IAP AACM\nland: CoLM\nlandIce: none\nocean: LICOM2.0 (LICOM2.0, primarily 1deg; 362 x 196 longitude/latitude; 30 levels; top grid cell 0-10 m)\nocnBgchem: IAP OBGCM\nseaIce: CICE4"
@@ -1515,11 +1515,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@mail.iap.ac.cn <- linpf",
-                    "history":"2019-08-16: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-08-16: initially published under CC BY-SA 4.0; 2022-10-04: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"FGOALS-f3-H",
                 "source":"FGOALS-f3-H (2017): \naerosol: none\natmos: FAMIL2.2 (Cubed-sphere, c384; 1440 x 720 longitude/latitude; 32 levels; top level 2.16 hPa)\natmosChem: none\nland: CLM4.0\nlandIce: none\nocean: LICOM3.0 (LICOM3.0, tripolar primarily 0.1deg; 3600 x 2302 longitude/latitude; 55 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: CICE4.0"
@@ -1544,11 +1544,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@mail.iap.ac.cn <- linpf",
-                    "history":"2018-11-08: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2018-11-08: initially published under CC BY-SA 4.0; 2022-10-04: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"FGOALS-f3-L",
                 "source":"FGOALS-f3-L (2017): \naerosol: none\natmos: FAMIL2.2 (Cubed-sphere, c96; 360 x 180 longitude/latitude; 32 levels; top level 2.16 hPa)\natmosChem: none\nland: CLM4.0\nlandIce: none\nocean: LICOM3.0 (LICOM3.0, tripolar primarily 1deg; 360 x 218 longitude/latitude; 30 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4.0"
@@ -1575,11 +1575,11 @@
                 ],
                 "license_info":{
                     "exceptions_contact":"@mail.iap.ac.cn <- linpf",
-                    "history":"2019-08-18: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "history":"2019-08-18: initially published under CC BY-SA 4.0; 2022-10-04: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"FGOALS-g3",
                 "source":"FGOALS-g3 (2017): \naerosol: none\natmos: GAMIL3 (180 x 80 longitude/latitude; 26 levels; top level 2.19hPa)\natmosChem: none\nland: CAS-LSM\nlandIce: none\nocean: LICOM3.0 (LICOM3.0, tripolar primarily 1deg; 360 x 218 longitude/latitude; 30 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4.0"
