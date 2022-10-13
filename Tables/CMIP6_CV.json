@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Mon Oct 10 14:00:56 2022 -0700",
-            "CV_collection_version":"6.2.58.47",
+            "CV_collection_modified":"Wed Oct 12 12:16:47 2022 -0700",
+            "CV_collection_version":"6.2.58.48",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"e5fd7deadf1bb3df689df485c711efed8446efdd",
+            "previous_commit":"13b36d83cb9ec4b807e0e7db98d628d33b07d784",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "license":[
@@ -3266,12 +3266,12 @@
                     "SNU"
                 ],
                 "license_info":{
-                    "exceptions_contact":"@snu.ac.kr <- sjh11556",
-                    "history":"2019-03-23: initially published under CC BY-SA 4.0",
-                    "id":"CC BY-SA 4.0",
-                    "license":"Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/)",
+                    "exceptions_contact":"@snu.ac.kr <- sungsup",
+                    "history":"2019-03-23: initially published under CC BY-SA 4.0; 2022-10-12: relaxed to CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
                     "source_specific_info":"",
-                    "url":"https://creativecommons.org/licenses/by-sa/4.0/"
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
                 },
                 "source_id":"SAM0-UNICON",
                 "source":"SAM0-UNICON (2017): \naerosol: MAM3\natmos: CAM5.3 with UNICON (1deg; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)\natmosChem: none\nland: CLM4.0\nlandIce: none\nocean: POP2 (Displaced Pole; 320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: CICE4.0"
