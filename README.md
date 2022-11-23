@@ -4,8 +4,9 @@ A project description and other details are available via the [wiki](https://git
 
 # UKESM1 ARISE-SAI data
 
-CMORised data from the UKESM1 ARISE-SAI simulations is now available for download from the [CEDA archive](https://catalogue.ceda.ac.uk/uuid/26b89d8d76bd40bfbaf9fedfa383e9cf).
+CMOR standardised data from the UKESM1 ARISE-SAI simulations is now available for download from the [CEDA archive](https://catalogue.ceda.ac.uk/uuid/26b89d8d76bd40bfbaf9fedfa383e9cf).
 
+A searchable table describing all possible variables is available [here](https://metoffice.github.io/arise-cmor-tables/), but note that only a subset of these were produced. A list of all variables produced can be found [here](https://github.com/MetOffice/arise-cmor-tables/wiki/List-of-variables-prepared-for-ARISE).
 
 # CMOR tables for ARISE
 
