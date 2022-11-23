@@ -1,8 +1,8 @@
-# ARISE-SAI project
+# UKESM1 ARISE-SAI project
 
 A project description and other details are available via the [wiki](https://github.com/MetOffice/arise-cmor-tables/wiki) in this repository.
 
-# ARISE-SAI UKESM1 data
+# UKESM1 ARISE-SAI data
 
 CMORised data from the UKESM1 ARISE-SAI simulations is now available for download from the [CEDA archive](https://catalogue.ceda.ac.uk/uuid/26b89d8d76bd40bfbaf9fedfa383e9cf).
 
