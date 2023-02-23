@@ -24,7 +24,7 @@ aliases:
        conda config --set always_yes yes --set changeps1 no
        conda update -y -q conda
        conda config --set anaconda_upload no
-       conda create -q -n py3 -c cdat/label/nightly -c pcmdi/label/nightly -c conda-forge -c cdat lazy-object-proxy cmor=3.7.1 python=3.9 testsrunner
+       conda create -q -n py3 -c pcmdi/label/nightly -c conda-forge cmor=3.7.1 python=3.11
 
   - &setup_cmor
     name: setup_cmor
@@ -54,7 +54,7 @@ aliases:
        cp Tables/* cmor/Tables
        cd cmor
        export PYTHONPATH=Test
-       python run_tests.py -v2 -H -n1 Test/test_python_CMIP6_CV*.py
+       for file in `ls -1 Test/test_python_CMIP6_CV*.py`; do echo $file; python $file; mystatus=$?; if [[ "$mystatus" != "0" ]]; then return ${mystatus}; fi; done
 
   - &update_cv_json
     name: update_cv_json
