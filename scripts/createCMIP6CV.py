@@ -19,6 +19,7 @@ filelist = [
         "CMIP6_realm.json",
         "CMIP6_table_id.json",
         "CMIP6_license.json",
+        "CMIP6_DRS.json",
         "mip_era.json",
         "CMIP6_sub_experiment_id.json",
         "CMIP6_experiment_id.json"
@@ -54,6 +55,34 @@ class readWCRP():
             del root[key]['description']
             del root[key]['min_number_yrs_per_sim']
 
+    def createLicense(self,myjson):
+        #
+        # Create regex templates for validating license values in CMOR
+        #
+        # root = myjson['license']
+        # base_template = root['license']
+        # license_templates = []
+        # for key, value in root['license_options'].items():
+        #     tmp = base_template.replace(". ", ". *")
+        #     tmp = tmp.replace("<Creative Commons; select and insert a license_id; see below>", value['license_id'])
+        #     tmp = tmp.replace("<insert the matching license_url; see below>", value['license_url'])
+        #     tmp = tmp.replace(".", "\\.")
+        #     tmp = tmp.replace("<Your Institution; see CMIP6_institution_id\\.json>", ".*")
+        #     tmp = tmp.replace("[ and at <some URL maintained by modeling group>]", ".*")
+        #     license_template = "^{}$".format(tmp)
+        #     license_templates.append(license_template)
+        # myjson['license'] = license_templates
+
+        myjson['license'] =  [
+                                "^CMIP6 model data produced by .* is licensed under a Creative Commons .* License (https://creativecommons\\.org/.*)\\. " \
+                                "*Consult https://pcmdi\\.llnl\\.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation " \
+                                "requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via " \
+                                "the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, " \
+                                "either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All " \
+                                "liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest " \
+                                "extent permitted by law\\.$"
+                            ]
+
     def readCVFiles(self, cmip6_cv_dir):
         Dico = OrderedDict()
         for file_name in filelist:
@@ -77,7 +106,6 @@ def build_cv_file(cmip6_cv_dir, output_dir):
     gather = readWCRP()
     CV = gather.readCVFiles(cmip6_cv_dir)
     regexp = OrderedDict()
-    regexp["license"] = [ "^CMIP6 model data produced by .* is licensed under a Creative Commons Attribution.*ShareAlike 4.0 International License .https://creativecommons.org/licenses.* *Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment\\. *Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file).*\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$" ]
     regexp["mip_era"] = [ "CMIP6" ]
     regexp["product"] = [ "model-output" ]
     regexp["tracking_id"] = [ "hdl:21.14100/.*" ]  
