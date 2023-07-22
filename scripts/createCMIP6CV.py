@@ -93,6 +93,7 @@ class readWCRP():
                     self.createSource(myjson)
                 if(file_name == 'CMIP6_experiment_id.json'):
                     self.createExperimentID(myjson)
+                self.createLicense(myjson)
                 Dico.update(myjson)
          
         finalDico = OrderedDict()
