@@ -63,7 +63,7 @@ aliases:
       export PATH=$WORKDIR/miniconda/bin:$PATH
       git config user.email "$GITHUB_EMAIL"
       git config user.name "$GITHUB_USERNAME"
-      git pull origin master
+      git pull origin main
       python scripts/createCMIP6CV.py
       mv CMIP6_CV.json  Tables
       if [[ $(git status --porcelain -uno) ]]; then
