@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Mon Nov 27 14:15:15 2023 -0800",
-            "CV_collection_version":"6.2.58.61",
+            "CV_collection_modified":"Thu Jan 25 12:02:59 2024 -0800",
+            "CV_collection_version":"6.2.58.62",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"a4bd0d38e958aef3da5bdbe6212f2ca7afdf9a56",
+            "previous_commit":"14cec5fc2dd6e5ce805c7ce17cbd7d7231d3dc57",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "license":[
@@ -364,6 +364,29 @@
                 },
                 "source_id":"AWI-ESM-1-1-LR",
                 "source":"AWI-ESM 1.1 LR (2018): \naerosol: none\natmos: ECHAM6.3.04p1 (T63L47 native atmosphere T63 gaussian grid; 192 x 96 longitude/latitude; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20 with dynamic vegetation\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 126859 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 1.4"
+            },
+            "AWI-ESM-1-REcoM":{
+                "activity_participation":[
+                    "C4MIP",
+                    "CMIP",
+                    "ScenarioMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AWI"
+                ],
+                "license_info":{
+                    "exceptions_contact":"@awi.de <- mip-contact",
+                    "history":"2024-01-25: initially published under CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
+                    "source_specific_info":"",
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
+                },
+                "source_id":"AWI-ESM-1-REcoM",
+                "source":"AWI-ESM 1 REcoM (2024): \naerosol: none\natmos: ECHAM6.3.04p1 (T63L47 native atmosphere T63 gaussian grid; 192 x 96 longitude/latitude; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20 with dynamic vegetation\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 126859 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: REcoM2 (same grid as ocean component)\nseaIce: FESOM 1.4 (same grid as ocean component)"
             },
             "AWI-ESM-2-1-LR":{
                 "activity_participation":[
