@@ -33,13 +33,13 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_modified":"Wed Jul 26 09:52:24 2023 -0700",
-            "CV_collection_version":"6.2.58.56",
+            "CV_collection_modified":"Thu Jan 25 12:02:59 2024 -0800",
+            "CV_collection_version":"6.2.58.62",
             "author":"Paul J. Durack <durack1@llnl.gov>",
             "experiment_id_CV_modified":"Tue Dec 15 12:25:59 2020 -0800",
             "experiment_id_CV_note":"Revise experiment_id historical parent experiments",
             "institution_id":"PCMDI",
-            "previous_commit":"dc50b3750eeb7ecf5b942ce7c439137fc2b9e5d5",
+            "previous_commit":"14cec5fc2dd6e5ce805c7ce17cbd7d7231d3dc57",
             "specs_doc":"v6.2.7 (10th September 2018; https://goo.gl/v1drZl)"
         },
         "license":[
@@ -365,6 +365,29 @@
                 "source_id":"AWI-ESM-1-1-LR",
                 "source":"AWI-ESM 1.1 LR (2018): \naerosol: none\natmos: ECHAM6.3.04p1 (T63L47 native atmosphere T63 gaussian grid; 192 x 96 longitude/latitude; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20 with dynamic vegetation\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 126859 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: none\nseaIce: FESOM 1.4"
             },
+            "AWI-ESM-1-REcoM":{
+                "activity_participation":[
+                    "C4MIP",
+                    "CMIP",
+                    "ScenarioMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AWI"
+                ],
+                "license_info":{
+                    "exceptions_contact":"@awi.de <- mip-contact",
+                    "history":"2024-01-25: initially published under CC BY 4.0",
+                    "id":"CC BY 4.0",
+                    "license":"Creative Commons Attribution 4.0 International (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/)",
+                    "source_specific_info":"",
+                    "url":"https://creativecommons.org/licenses/by/4.0/"
+                },
+                "source_id":"AWI-ESM-1-REcoM",
+                "source":"AWI-ESM 1 REcoM (2024): \naerosol: none\natmos: ECHAM6.3.04p1 (T63L47 native atmosphere T63 gaussian grid; 192 x 96 longitude/latitude; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH 3.20 with dynamic vegetation\nlandIce: none\nocean: FESOM 1.4 (unstructured grid in the horizontal with 126859 wet nodes; 46 levels; top grid cell 0-5 m)\nocnBgchem: REcoM2 (same grid as ocean component)\nseaIce: FESOM 1.4 (same grid as ocean component)"
+            },
             "AWI-ESM-2-1-LR":{
                 "activity_participation":[
                     "CMIP",
@@ -516,6 +539,7 @@
                 "activity_participation":[
                     "AerChemMIP",
                     "C4MIP",
+                    "CDRMIP",
                     "CFMIP",
                     "CMIP",
                     "CORDEX",
@@ -684,7 +708,9 @@
             },
             "CESM2-FV2":{
                 "activity_participation":[
-                    "CMIP"
+                    "CMIP",
+                    "PMIP",
+                    "ScenarioMIP"
                 ],
                 "cohort":[
                     "Published"
@@ -730,7 +756,8 @@
             },
             "CESM2-WACCM-FV2":{
                 "activity_participation":[
-                    "CMIP"
+                    "CMIP",
+                    "PMIP"
                 ],
                 "cohort":[
                     "Published"
@@ -940,6 +967,7 @@
                     "CDRMIP",
                     "CMIP",
                     "CORDEX",
+                    "DCPP",
                     "GMMIP",
                     "GeoMIP",
                     "LS3MIP",
@@ -1860,7 +1888,8 @@
             "GISS-E2-1-G-CC":{
                 "activity_participation":[
                     "C4MIP",
-                    "CMIP"
+                    "CMIP",
+                    "ScenarioMIP"
                 ],
                 "cohort":[
                     "Published"
@@ -1945,6 +1974,7 @@
             },
             "GISS-E2-2-H":{
                 "activity_participation":[
+                    "CFMIP",
                     "CMIP",
                     "SIMIP",
                     "ScenarioMIP"
@@ -3260,6 +3290,7 @@
                     "LUMIP",
                     "PAMIP",
                     "PMIP",
+                    "RFMIP",
                     "ScenarioMIP"
                 ],
                 "cohort":[
