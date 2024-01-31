@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
-import sys
 import json
-import pdb
-import urllib.request
+import argparse
 from collections import OrderedDict
 
 
@@ -26,15 +24,12 @@ filelist = [
         "CMIP6_sub_experiment_id.json",
         "CMIP6_experiment_id.json"
         ]
-# Github repository with CMIP6 related Control Vocabulary files
-# -------------------------------------------------------------
-githubRepo = "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/master/"
 
 class readWCRP():
     def __init__(self):
         pass
 
-    def createSource(self,myjson):
+    def createSource(self, myjson):
         root = myjson['source_id']
         for key in root.keys():
             root[key]['source']=root[key]['label'] + ' (' + root[key]['release_year'] + '): ' + chr(10)
@@ -48,7 +43,7 @@ class readWCRP():
             del root[key]['label_extended']
             del root[key]['model_component']
 
-    def createExperimentID(self,myjson):
+    def createExperimentID(self, myjson):
         #
         # Delete undesirable attribute for experiement_id
         #
@@ -88,30 +83,29 @@ class readWCRP():
                                 "extent permitted by law\\.$"
                             ]
 
-    def readGit(self):
+    def readCVFiles(self, cmip6_cv_dir):
         Dico = OrderedDict()
-        for file in filelist:
-            url = githubRepo + file
-            print(url)
-            req = urllib.request.Request(url)
-            with urllib.request.urlopen(req) as response:
-                urlJson = response.read().decode()
-            myjson = json.loads(urlJson, object_pairs_hook=OrderedDict)
-            if(file == 'CMIP6_source_id.json'):
-                self.createSource(myjson)
-            if(file == 'CMIP6_experiment_id.json'):
-                self.createExperimentID(myjson)
-            self.createLicense(myjson)
-            Dico.update(myjson)
+        for file_name in filelist:
+            file_path = os.path.join(cmip6_cv_dir, file_name)
+            with open(file_path, "r") as f:
+                myjson = json.load(f, object_pairs_hook=OrderedDict)
+                if(file_name == 'CMIP6_source_id.json'):
+                    self.createSource(myjson)
+                if(file_name == 'CMIP6_experiment_id.json'):
+                    self.createExperimentID(myjson)
+                self.createLicense(myjson)
+                Dico.update(myjson)
          
         finalDico = OrderedDict()
         finalDico['CV'] = Dico
         return finalDico
 
-def run():
-    f = open("CMIP6_CV.json", "w")
+def build_cv_file(cmip6_cv_dir, output_dir):
+
+    cv_filepath = os.path.join(output_dir, "CMIP6_CV.json")
+    f = open(cv_filepath, "w")
     gather = readWCRP()
-    CV = gather.readGit()
+    CV = gather.readCVFiles(cmip6_cv_dir)
     regexp = OrderedDict()
     regexp["mip_era"] = [ "CMIP6" ]
     regexp["product"] = [ "model-output" ]
@@ -134,5 +128,21 @@ def run():
 
     f.close()
 
+def main():
+    parser = argparse.ArgumentParser(description="Create CMIP6_CV.json from the WCRP-CMIP/CMIP6_CVs repo at https://github.com/PCMDI/cmip6-cmor-tables")
+    parser.add_argument("--cmip6_cv_dir", "-c", dest="cmip6_cv_dir", type=str, default='./CMIP6_CVs', help="WCRP CMIP6 CV directory (default is ./CMIP6_CVs)")
+    parser.add_argument("--output_dir", "-o", dest="output_dir", type=str, default=os.path.curdir, help="Output directory (default is current directory)")
+    args = parser.parse_args()
+
+    if not os.path.isdir(args.cmip6_cv_dir):
+        print("{} is not a directory. Exiting.".format(args.cmip6_cv_dir))
+        return
+
+    if not os.path.isdir(args.output_dir):
+        print("{} is not a directory. Exiting.".format(args.output_dir))
+        return
+
+    build_cv_file(args.cmip6_cv_dir, args.output_dir)
+
 if __name__ == '__main__':
-    run()
+    main()

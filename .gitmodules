@@ -1,0 +1,3 @@
+[submodule "CMIP6_CVs"]
+	path = CMIP6_CVs
+	url = https://github.com/WCRP-CMIP/CMIP6_CVs.git

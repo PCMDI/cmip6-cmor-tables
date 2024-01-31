@@ -64,6 +64,9 @@ aliases:
       git config user.email "$GITHUB_EMAIL"
       git config user.name "$GITHUB_USERNAME"
       git pull origin main
+      git submodule init
+      git submodule update
+      git submodule foreach git pull origin main
       python scripts/createCMIP6CV.py
       mv CMIP6_CV.json  Tables
       if [[ $(git status --porcelain -uno) ]]; then
