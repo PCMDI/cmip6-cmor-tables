@@ -10,8 +10,8 @@ aliases:
     name: setup_miniconda
     command: |
       mkdir -p $WORKDIR
-      if [[ $OS == 'osx-64' ]]; then
-        curl -L https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh
+      if [[ $OS == 'osx-64arm' ]]; then
+        curl -L https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o miniconda.sh
       else
         curl -L https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh
       fi
@@ -24,7 +24,7 @@ aliases:
        conda config --set always_yes yes --set changeps1 no
        conda update -y -q conda
        conda config --set anaconda_upload no
-       conda create -q -n py3 -c pcmdi/label/nightly -c conda-forge cmor=3.7.1 python=3.11
+       conda create -q -n py3 -c pcmdi/label/nightly -c conda-forge cmor=3.8.0 python=3.11
 
   - &setup_cmor
     name: setup_cmor
@@ -82,12 +82,12 @@ aliases:
 jobs:
   macos_cmip6:
     macos:
-      xcode: "13.4.1"
-    resource_class: macos.x86.medium.gen2
+      xcode: "15.4.0"
+    resource_class: macos.m1.medium.gen1
     environment:
       WORKDIR: "workspace/test_macos_cmor"
       UVCDAT_ANONYMOUS_LOG: "False"
-      OS: "osx-64"
+      OS: "osx-64arm"
     steps:
       - checkout
       - run: *setup_miniconda
