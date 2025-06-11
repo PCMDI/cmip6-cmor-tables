@@ -6,37 +6,35 @@ checkout:
         
 aliases:
 
-  - &setup_miniconda
-    name: setup_miniconda
+  - &setup_miniforge3
+    name: setup_miniforge3
     command: |
-      mkdir -p $WORKDIR
-      if [[ $OS == 'osx-64arm' ]]; then
-        curl -L https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o miniconda.sh
-      else
-        curl -L https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh
-      fi
-      bash miniconda.sh -b -p $WORKDIR/miniconda
+       if [[ $OS == 'osx-arm64' ]]; then
+          curl -L https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh -o miniforge3.sh
+       else
+          curl -L https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh -o miniforge3.sh
+       fi
+       bash miniforge3.sh -b -p $WORKDIR/miniforge3
       
-  - &create_conda_env
-    name: create_conda_env
+  - &create_mamba_env
+    name: create_mamba_env
     command: |
-       export PATH=$WORKDIR/miniconda/bin:$PATH
-       conda config --set always_yes yes --set changeps1 no
-       conda update -y -q conda
-       conda config --set anaconda_upload no
-       conda create -q -n py3 -c pcmdi/label/nightly -c conda-forge cmor=3.8.0 python=3.11
+       export PATH=$WORKDIR/miniforge3/bin:$PATH
+       source $WORKDIR/miniforge3/etc/profile.d/conda.sh
+       eval "$(mamba shell hook --shell bash)"
+       mamba create -y -n py3 -c pcmdi/label/nightly -c conda-forge cmor=3.10.0 python=3.12
 
   - &setup_cmor
     name: setup_cmor
     command: |
-       export PATH=$WORKDIR/miniconda/bin:$PATH
-       set +e
+       export PATH=$WORKDIR/miniforge3/bin:$PATH
+       source $WORKDIR/miniforge3/etc/profile.d/conda.sh
+       eval "$(mamba shell hook --shell bash)"
        source activate py3
        echo "ACTIVATE RETURN CODE $?"
-       set -e
        git clone https://github.com/PCMDI/cmor
        cd cmor
-       git checkout 3.7.2
+       git checkout main
        # update cmip6-cmor-tables submodule with the current branch
        git submodule init
        git submodule update
@@ -47,11 +45,10 @@ aliases:
   - &run_prepare_tests
     name: run_prepare_tests
     command: |
-       export PATH=$WORKDIR/miniconda/bin:$PATH
-       export UVCDAT_ANONYMOUS_LOG=False
-       set +e
+       export PATH=$WORKDIR/miniforge3/bin:$PATH
+       source $WORKDIR/miniforge3/etc/profile.d/conda.sh
+       eval "$(mamba shell hook --shell bash)"
        source activate py3
-       set -e
        cp Tables/* cmor/Tables
        cd cmor
        export PYTHONPATH=Test
@@ -60,7 +57,9 @@ aliases:
   - &update_cv_json
     name: update_cv_json
     command: |
-      export PATH=$WORKDIR/miniconda/bin:$PATH
+      export PATH=$WORKDIR/miniforge3/bin:$PATH
+      source $WORKDIR/miniforge3/etc/profile.d/conda.sh
+      eval "$(mamba shell hook --shell bash)"
       git config user.email "$GITHUB_EMAIL"
       git config user.name "$GITHUB_USERNAME"
       git pull origin main
@@ -86,12 +85,11 @@ jobs:
     resource_class: macos.m1.medium.gen1
     environment:
       WORKDIR: "workspace/test_macos_cmor"
-      UVCDAT_ANONYMOUS_LOG: "False"
-      OS: "osx-64arm"
+      OS: "osx-arm64"
     steps:
       - checkout
-      - run: *setup_miniconda
-      - run: *create_conda_env
+      - run: *setup_miniforge3
+      - run: *create_mamba_env
       - run: *setup_cmor
       - run: *run_prepare_tests
 
@@ -100,12 +98,11 @@ jobs:
       image: ubuntu-2204:2024.01.2
     environment:
       WORKDIR: "workspace/test_linux_cmor"
-      UVCDAT_ANONYMOUS_LOG: "False"
       OS: "linux-64"
     steps:
       - checkout
-      - run: *setup_miniconda
-      - run: *create_conda_env
+      - run: *setup_miniforge3
+      - run: *create_mamba_env
       - run: *setup_cmor
       - run: *run_prepare_tests
 
@@ -114,14 +111,13 @@ jobs:
       image: ubuntu-2204:2024.01.2
     environment:
       WORKDIR: "workspace/cv_update"
-      UVCDAT_ANONYMOUS_LOG: "False"
       OS: "linux-64"
     steps:
       - add_ssh_keys:
           fingerprints:
             - "$GITHUB_SSH_KEY_FINGERPRINT"
       - checkout
-      - run: *setup_miniconda
+      - run: *setup_miniforge3
       - run: *update_cv_json
 
 workflows:
