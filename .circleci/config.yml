@@ -9,8 +9,8 @@ aliases:
   - &setup_miniforge3
     name: setup_miniforge3
     command: |
-       if [[ $OS == 'osx-64' ]]; then
-          curl -L https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh -o miniforge3.sh
+       if [[ $OS == 'osx-arm64' ]]; then
+          curl -L https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh -o miniforge3.sh
        else
           curl -L https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh -o miniforge3.sh
        fi
@@ -85,8 +85,7 @@ jobs:
     resource_class: macos.m1.medium.gen1
     environment:
       WORKDIR: "workspace/test_macos_cmor"
-      UVCDAT_ANONYMOUS_LOG: "False"
-      OS: "osx-64arm"
+      OS: "osx-arm64"
     steps:
       - checkout
       - run: *setup_miniforge3
@@ -99,7 +98,6 @@ jobs:
       image: ubuntu-2204:2024.01.2
     environment:
       WORKDIR: "workspace/test_linux_cmor"
-      UVCDAT_ANONYMOUS_LOG: "False"
       OS: "linux-64"
     steps:
       - checkout
@@ -113,7 +111,6 @@ jobs:
       image: ubuntu-2204:2024.01.2
     environment:
       WORKDIR: "workspace/cv_update"
-      UVCDAT_ANONYMOUS_LOG: "False"
       OS: "linux-64"
     steps:
       - add_ssh_keys:
