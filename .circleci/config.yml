@@ -34,7 +34,7 @@ aliases:
        echo "ACTIVATE RETURN CODE $?"
        git clone https://github.com/PCMDI/cmor
        cd cmor
-       git checkout 3.7.2
+       git checkout main
        # update cmip6-cmor-tables submodule with the current branch
        git submodule init
        git submodule update
