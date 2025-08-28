@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table Amon", 
         "realm": "atmos atmosChem", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "alevel alevhalf", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "e9e78dcfa8d7d019f7e66cbb472be4de"
+        "checksum": "34c19e88d3a75b0ed1942121801866dd"
     }, 
     "variable_entry": {
         "ccb": {

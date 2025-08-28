@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table Lmon", 
         "realm": "land", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "6e5a17c71cc9a57a54182272fbf894c3"
+        "checksum": "0c7bada55d133e755006e23ad853cbad"
     }, 
     "variable_entry": {
         "baresoilFrac": {

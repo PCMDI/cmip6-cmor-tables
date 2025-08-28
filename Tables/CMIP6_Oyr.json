@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table Oyr", 
         "realm": "ocnBgchem", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "olevel", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "fdce101cce144c4457b59d92c9d6f817"
+        "checksum": "c65c351c8045b37bea044cdf1243fcda"
     }, 
     "variable_entry": {
         "arag": {

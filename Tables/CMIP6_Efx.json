@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table Efx", 
         "realm": "land", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "alevhalf", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "b5bf26fb383116698ddaf16fc07cc429"
+        "checksum": "2129a89b2c43192db5c47bf121c41d4b"
     }, 
     "variable_entry": {
         "clayfrac": {

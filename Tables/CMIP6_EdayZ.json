@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table EdayZ", 
         "realm": "atmos", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "77bb2829ebacf05e055afe0aeb9d4f2f"
+        "checksum": "f52bf7f3d5845b0e5a3c32156821952d"
     }, 
     "variable_entry": {
         "epfy": {

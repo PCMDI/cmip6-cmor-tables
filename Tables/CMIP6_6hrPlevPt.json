@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table 6hrPlevPt", 
         "realm": "atmos", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "78c5bc45cc969cb00456efd7617e5513"
+        "checksum": "a59c39be358995ae02ba62f4681d97d6"
     }, 
     "variable_entry": {
         "cldicemxrat27": {

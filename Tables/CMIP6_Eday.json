@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table Eday", 
         "realm": "land", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "c40b0a4a0eeff885282a7d7dee65f281"
+        "checksum": "85ca57792b30e20f6abcba470a306166"
     }, 
     "variable_entry": {
         "agesno": {

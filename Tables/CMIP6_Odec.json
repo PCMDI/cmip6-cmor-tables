@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table Odec", 
         "realm": "ocean", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "olevel", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "c3d7f5336eae6b88392eeee1c809d98b"
+        "checksum": "d6db51fcf23e8cfea0e2f7252c5d9636"
     }, 
     "variable_entry": {
         "agessc": {

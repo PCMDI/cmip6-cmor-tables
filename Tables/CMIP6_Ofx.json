@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table Ofx", 
         "realm": "ocean", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "olevel", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "aef14bf6f98e0bd0927fcd8b6b8b00a8"
+        "checksum": "1cd85eb7d8c31ea1714a966164091943"
     }, 
     "variable_entry": {
         "areacello": {

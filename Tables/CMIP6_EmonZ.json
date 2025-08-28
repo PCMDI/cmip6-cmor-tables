@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table EmonZ", 
         "realm": "atmos", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "alevel olevel", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "b3e430c6ec836a2ef42288c727df9c6d"
+        "checksum": "c02cbb35c58abc0b1332416e002c171a"
     }, 
     "variable_entry": {
         "epfy": {

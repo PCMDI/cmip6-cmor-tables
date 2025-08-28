@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table IyrAnt", 
         "realm": "landIce", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "e16e3739a6cb2a8db27ece138b7f2956"
+        "checksum": "14a5ce36f7255d30fc922cbaad6f8824"
     }, 
     "variable_entry": {
         "acabf": {

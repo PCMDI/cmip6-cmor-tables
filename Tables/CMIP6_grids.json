@@ -3,11 +3,11 @@
         "data_specs_version": "01.00.33", 
         "table_id": "Table grids", 
         "cmor_version": "3.12", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "product": "model-output", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "cd6516d421e3c35bc94f2f252500215b"
+        "checksum": "e8a1015ecaf6d52454dfc50c0bf2779c"
     }, 
     "mapping_entry": {
         "sample_user_mapping": {

@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table 6hrLev", 
         "realm": "atmos", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "alevel alevhalf", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "01df1bb2d177e0ec8b8b94ca26d6f086"
+        "checksum": "b18ee2326e4e8f3985bdcee92427146f"
     }, 
     "variable_entry": {
         "bs550aer": {

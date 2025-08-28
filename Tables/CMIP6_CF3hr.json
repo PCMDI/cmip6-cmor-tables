@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table CF3hr", 
         "realm": "atmos", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "alevel alevhalf", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "d2e72a9a15c6d961c3bd1a4420ffba81"
+        "checksum": "57d6c76a0866fd60d4d91aefd457bbb8"
     }, 
     "variable_entry": {
         "ci": {

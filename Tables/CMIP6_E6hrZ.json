@@ -4,7 +4,7 @@
         "cmor_version": "3.12", 
         "table_id": "Table E6hrZ", 
         "realm": "atmos", 
-        "table_date": "27 August 2025", 
+        "table_date": "28 August 2025", 
         "missing_value": "1e20", 
         "int_missing_value": "-999", 
         "product": "model-output", 
@@ -12,7 +12,7 @@
         "generic_levels": "alevel alevhalf", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.7 CMIP-6.2", 
-        "checksum": "88894fcd888b345f7a544b70e04ae53e"
+        "checksum": "fa58f7ed8f1360706e2273bf8c0344c4"
     }, 
     "variable_entry": {
         "zmlwaero": {
