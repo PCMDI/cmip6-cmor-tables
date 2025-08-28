@@ -11,7 +11,8 @@
         "approx_interval": "1.0", 
         "generic_levels": "", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "77a90ee127de396c4c3f6e3745983bf8"
     }, 
     "variable_entry": {
         "cod": {

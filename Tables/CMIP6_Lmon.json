@@ -11,7 +11,8 @@
         "approx_interval": "30.00000", 
         "generic_levels": "", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "6e5a17c71cc9a57a54182272fbf894c3"
     }, 
     "variable_entry": {
         "baresoilFrac": {

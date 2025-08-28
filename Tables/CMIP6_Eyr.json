@@ -11,7 +11,8 @@
         "approx_interval": "365", 
         "generic_levels": "alevel olevel", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "15160e1cf27e27dff30cb76de46dc470"
     }, 
     "variable_entry": {
         "baresoilFrac": {

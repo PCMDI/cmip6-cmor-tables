@@ -11,7 +11,8 @@
         "approx_interval": "30.00000", 
         "generic_levels": "alevel alevhalf", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "21dca699c6b4adb55f3c79d5244f3dfc"
     }, 
     "variable_entry": {
         "albisccp": {

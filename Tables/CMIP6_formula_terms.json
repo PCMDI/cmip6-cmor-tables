@@ -3,7 +3,8 @@
         "cmor_version": "3.12", 
         "table_date": "27 August 2025", 
         "table_id": "Table formula_terms", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "7e8eb5b12d62b193a0a72a1971b9a00d"
     }, 
     "formula_entry": {
         "a": {

@@ -11,7 +11,8 @@
         "approx_interval": "365.00", 
         "generic_levels": "", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "e16e3739a6cb2a8db27ece138b7f2956"
     }, 
     "variable_entry": {
         "acabf": {

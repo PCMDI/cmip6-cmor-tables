@@ -11,7 +11,8 @@
         "approx_interval": "30.00000", 
         "generic_levels": "alevel olevel", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "b3e430c6ec836a2ef42288c727df9c6d"
     }, 
     "variable_entry": {
         "epfy": {

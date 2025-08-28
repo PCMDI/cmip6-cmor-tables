@@ -13,7 +13,8 @@
         "approx_interval_warning": "0.5", 
         "generic_levels": "alevel alevhalf", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "e52a800b3c13a06f2a45c3454e80074e"
     }, 
     "variable_entry": {
         "ccb": {

@@ -11,7 +11,8 @@
         "approx_interval": "0.00000", 
         "generic_levels": "olevel", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "aef14bf6f98e0bd0927fcd8b6b8b00a8"
     }, 
     "variable_entry": {
         "areacello": {

@@ -3,7 +3,8 @@
         "cmor_version": "3.12", 
         "table_date": "27 August 2025", 
         "table_id": "Table coordinate", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "21e0d05d58cb9031fb2f35ff39459c91"
     }, 
     "axis_entry": {
         "alt16": {

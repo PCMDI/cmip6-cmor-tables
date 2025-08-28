@@ -11,7 +11,8 @@
         "approx_interval": "3650.00000", 
         "generic_levels": "olevel", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "c3d7f5336eae6b88392eeee1c809d98b"
     }, 
     "variable_entry": {
         "agessc": {

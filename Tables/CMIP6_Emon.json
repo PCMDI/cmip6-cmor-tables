@@ -11,7 +11,8 @@
         "approx_interval": "30.00000", 
         "generic_levels": "alevel olevel", 
         "mip_era": "CMIP6", 
-        "Conventions": "CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "825d09a828fe64db71d7588e27b14731"
     }, 
     "variable_entry": {
         "c13Land": {
