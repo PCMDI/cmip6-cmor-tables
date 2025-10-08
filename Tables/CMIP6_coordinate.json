@@ -1,4 +1,11 @@
 {
+    "Header": {
+        "cmor_version": "3.12", 
+        "table_date": "28 August 2025", 
+        "table_id": "Table coordinate", 
+        "Conventions": "CF-1.7 CMIP-6.2", 
+        "checksum": "dbdad24dff75115b20f0df70f72f42fa"
+    }, 
     "axis_entry": {
         "alt16": {
             "standard_name": "altitude", 
